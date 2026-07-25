@@ -1,0 +1,74 @@
+[
+  {
+    "slug": "sela",
+    "client": "SELA",
+    "event_type": { "en": "Exhibition Stand", "ar": "جناح معرض" },
+    "area": null,
+    "featured": true,
+    "media": ["/assets/img/project-sela.jpg"]
+  },
+  {
+    "slug": "summit",
+    "client": "Summit",
+    "event_type": { "en": "Conference Stage", "ar": "منصة مؤتمر" },
+    "area": null,
+    "featured": false,
+    "media": ["/assets/img/project-summit.jpg"]
+  },
+  {
+    "slug": "kingabdulaziz",
+    "client": "King Abdulaziz Foundation",
+    "event_type": { "en": "Exhibition Stand", "ar": "جناح معرض" },
+    "area": null,
+    "featured": false,
+    "media": ["/assets/img/project-kingabdulaziz.jpg"]
+  },
+  {
+    "slug": "jazan",
+    "client": "Jazan",
+    "event_type": { "en": "Exhibition Stand", "ar": "جناح معرض" },
+    "area": null,
+    "featured": false,
+    "media": ["/assets/img/project-jazan.jpg"]
+  },
+  {
+    "slug": "giftedness",
+    "client": "Giftedness Foundation",
+    "event_type": { "en": "Exhibition Stand", "ar": "جناح معرض" },
+    "area": null,
+    "featured": false,
+    "media": ["/assets/img/project-giftedness.jpg"]
+  },
+  {
+    "slug": "dental",
+    "client": "Dental",
+    "event_type": { "en": "Medical Exhibition Stand", "ar": "جناح معرض طبي" },
+    "area": null,
+    "featured": false,
+    "media": ["/assets/img/project-dental.jpg"]
+  },
+  {
+    "slug": "simildiet",
+    "client": "Simildiet",
+    "event_type": { "en": "Exhibition Stand", "ar": "جناح معرض" },
+    "area": null,
+    "featured": false,
+    "media": ["/assets/img/project-simildiet.jpg"]
+  },
+  {
+    "slug": "freshly",
+    "client": "Freshly",
+    "event_type": { "en": "Exhibition Stand", "ar": "جناح معرض" },
+    "area": null,
+    "featured": false,
+    "media": ["/assets/img/project-freshly.jpg"]
+  },
+  {
+    "slug": "sedam",
+    "client": "Sedam",
+    "event_type": { "en": "Exhibition Stand", "ar": "جناح معرض" },
+    "area": null,
+    "featured": false,
+    "media": ["/assets/img/project-sedam.jpg"]
+  }
+]

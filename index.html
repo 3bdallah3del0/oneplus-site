@@ -1,460 +1,164 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>ONE+ Events — Render to Reality. No Compromise.</title>
-<link rel="stylesheet" href="./colors_and_type.css">
-<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
-<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
-<style>
-/* ============================================================
-   ONE+ Marketing Site — page-specific styles
-   ============================================================ */
-html, body { background: var(--bg-1); min-height: 100vh; }
-body { font-family: var(--font-body-en); color: var(--fg-1); }
-a { color: inherit; }
-
-/* ===== LOGO LOCKUP (used by Nav + Footer) ===== */
-.op-logo {
-  display: inline-flex; align-items: baseline; gap: 4px;
-  font-family: var(--font-display-en);
-  font-weight: 800; font-size: 22px;
-  font-style: italic; letter-spacing: -0.03em;
-  color: var(--op-white-pure);
-  text-decoration: none;
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>ONE+ Events — Render to Reality</title>
+<meta name="description" content="Turnkey exhibition stands, event production and projection mapping — engineered in Riyadh. What we render is what we build." />
+<meta name="theme-color" content="#0a0f1a" />
+<link rel="canonical" href="https://oneplusevents.com/" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="ONE+ Events — Render to Reality" />
+<meta property="og:description" content="Turnkey exhibition stands, engineered in Riyadh. What we render is what we build." />
+<meta property="og:image" content="https://oneplusevents.com/assets/img/hero.jpg" />
+<meta property="og:url" content="https://oneplusevents.com/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:locale:alternate" content="ar_SA" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="icon" href="/assets/img/logo.png" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif:ital@1&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet"></noscript>
+<link rel="stylesheet" href="/assets/css/site.css">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "ONE+ Events",
+  "description": "Turnkey exhibition stand design, fabrication and event production in Riyadh.",
+  "image": "https://oneplusevents.com/assets/img/hero.jpg",
+  "url": "https://oneplusevents.com/",
+  "telephone": "+966566369163",
+  "email": "info@oneplusevents.com",
+  "address": { "@type": "PostalAddress", "addressLocality": "Riyadh", "addressCountry": "SA" },
+  "areaServed": "SA",
+  "sameAs": ["https://instagram.com/oneplus_event"]
 }
-.op-logo .plus { color: var(--op-red); font-size: 26px; line-height: 1; transform: translateY(2px); }
-.op-logo .logo-tag {
-  font-family: var(--font-mono); font-size: 9px; font-style: normal;
-  font-weight: 600; letter-spacing: 0.28em;
-  color: var(--op-cyan); margin-left: 8px; padding-left: 8px;
-  border-left: 1px solid rgba(255,255,255,0.18); align-self: stretch;
-  display: flex; align-items: center;
-}
-
-/* ===== NAV ===== */
-.op-nav {
-  position: sticky; top: 0; z-index: 50;
-  display: flex; align-items: center; gap: 32px;
-  padding: 16px 48px;
-  background: rgba(15, 23, 42, 0.72);
-  backdrop-filter: blur(20px); -webkit-backdrop-filter: blur(20px);
-  border-bottom: 1px solid rgba(40, 50, 74, 0.6);
-}
-.op-nav-links { display: flex; gap: 28px; margin-left: 16px; }
-.op-nav-links a {
-  font-family: var(--font-display-en); font-size: 14px; font-weight: 500;
-  color: rgba(241, 245, 251, 0.75); text-decoration: none;
-  position: relative; padding: 18px 0;
-  transition: color var(--dur-base) var(--ease-out);
-}
-.op-nav-links a:hover { color: var(--op-cyan-bright); }
-.op-nav-links a.active { color: var(--op-cyan); }
-.op-nav-links a.active::after {
-  content: ""; position: absolute; left: 0; right: 0; bottom: -1px;
-  height: 2px; background: var(--op-cyan);
-}
-.op-nav-right { margin-left: auto; display: flex; gap: 14px; align-items: center; }
-.op-lang-toggle {
-  font-family: var(--font-mono); font-size: 11px; font-weight: 600;
-  letter-spacing: 0.18em;
-  background: transparent; border: 1px solid rgba(40, 50, 74, 0.8);
-  color: rgba(241, 245, 251, 0.6); padding: 8px 12px;
-  border-radius: var(--r-2); cursor: pointer;
-  display: flex; gap: 6px;
-}
-.op-lang-toggle .active { color: var(--op-cyan); }
-.op-lang-toggle .sep { color: var(--op-steel-muted); }
-.op-lang-toggle:hover { border-color: var(--op-cyan); }
-
-/* ===== CTAs ===== */
-.op-cta-primary {
-  display: inline-flex; align-items: center; gap: 8px;
-  font-family: var(--font-display-en); font-weight: 600; font-size: 14px;
-  background: var(--op-red); color: white;
-  padding: 10px 18px; border-radius: var(--r-2); border: none;
-  cursor: pointer; text-decoration: none;
-  box-shadow: var(--shadow-2);
-  transition: all var(--dur-base) var(--ease-out);
-}
-.op-cta-primary:hover { background: var(--op-red-bright); box-shadow: var(--shadow-red); transform: translateY(-1px); }
-.op-cta-primary:active { background: var(--op-red-dim); transform: translateY(0); }
-.op-cta-primary.lg { padding: 14px 24px; font-size: 15px; }
-.op-cta-primary.full { width: 100%; justify-content: center; }
-.op-cta-primary .arr { font-family: var(--font-mono); font-weight: 500; font-size: 16px; }
-
-.op-cta-ghost {
-  display: inline-flex; align-items: center; gap: 8px;
-  font-family: var(--font-display-en); font-weight: 600; font-size: 15px;
-  background: transparent; color: var(--op-white-pure);
-  padding: 14px 24px; border-radius: var(--r-2);
-  border: 1px solid rgba(241, 245, 251, 0.18);
-  cursor: pointer; text-decoration: none;
-  transition: all var(--dur-base) var(--ease-out);
-}
-.op-cta-ghost:hover { border-color: var(--op-cyan); color: var(--op-cyan); }
-
-/* ===== HERO ===== */
-.op-hero {
-  position: relative; background: var(--op-slate); overflow: hidden;
-  min-height: 760px;
-  border-bottom: 1px solid #28324A;
-}
-.op-hero-spotlight { position: absolute; inset: 0; background: var(--grad-spotlight); pointer-events: none; }
-.op-hero-grid {
-  position: absolute; inset: 0; pointer-events: none; opacity: 0.18;
-  background-image:
-    linear-gradient(to right, rgba(45,156,219,0.12) 1px, transparent 1px),
-    linear-gradient(to bottom, rgba(45,156,219,0.08) 1px, transparent 1px);
-  background-size: 80px 80px;
-  mask-image: radial-gradient(ellipse at 50% 30%, black 30%, transparent 80%);
-  -webkit-mask-image: radial-gradient(ellipse at 50% 30%, black 30%, transparent 80%);
-}
-.op-hero-inner { position: relative; max-width: 1400px; margin: 0 auto; padding: 80px 48px 56px; }
-
-.op-eyebrow {
-  display: inline-flex; align-items: center; gap: 8px;
-  font-family: var(--font-mono); font-size: 11px; font-weight: 600;
-  letter-spacing: 0.22em; text-transform: uppercase;
-  color: var(--op-cyan);
-}
-.op-eyebrow .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--op-red); box-shadow: 0 0 0 4px rgba(209,26,42,0.18); }
-
-.op-hero-eyebrow { margin-bottom: 28px; }
-
-.op-hero-claim {
-  font-family: var(--font-display-en);
-  font-size: clamp(56px, 7vw, 96px);
-  line-height: 0.96; font-weight: 800;
-  letter-spacing: -0.035em; color: var(--op-white-pure);
-  margin: 0 0 28px; max-width: 14ch;
-  position: relative;
-}
-.op-hero-claim .plus-accent {
-  color: var(--op-red); font-style: normal;
-  text-shadow: 0 0 32px rgba(209, 26, 42, 0.4);
-}
-
-.op-hero-sub {
-  font-family: var(--font-body-en); font-size: 20px; line-height: 1.5;
-  font-weight: 400; color: rgba(241, 245, 251, 0.78);
-  max-width: 56ch; margin: 0 0 36px;
-}
-
-.op-hero-actions { display: flex; gap: 14px; margin-bottom: 72px; }
-
-.op-hero-metrics {
-  display: grid; grid-template-columns: repeat(4, 1fr); gap: 0;
-  border-top: 1px solid #28324A; padding-top: 28px;
-}
-.m-stat { padding-right: 24px; border-right: 1px solid #28324A; }
-.m-stat:last-child { border-right: none; }
-.m-num {
-  font-family: var(--font-display-en); font-size: 56px; line-height: 1;
-  font-weight: 800; letter-spacing: -0.03em; color: var(--op-white-pure);
-}
-.m-num .grad { background: var(--grad-cyan-bright); -webkit-background-clip: text; background-clip: text; color: transparent; }
-.m-num .red { color: var(--op-red); }
-.m-num .m-unit { font-size: 28px; font-weight: 600; color: rgba(241,245,251,0.5); margin-left: 2px; }
-.m-label {
-  font-family: var(--font-mono); font-size: 11px; font-weight: 500;
-  letter-spacing: 0.14em; text-transform: uppercase; color: rgba(183, 194, 210, 0.7);
-  margin-top: 10px; line-height: 1.4;
-}
-
-.op-hero-blueprint {
-  position: absolute; bottom: 18px; left: 48px; right: 48px;
-  display: flex; align-items: center; gap: 12px;
-  font-family: var(--font-mono); font-size: 9px; font-weight: 600;
-  letter-spacing: 0.22em; text-transform: uppercase;
-  color: rgba(107, 122, 141, 0.7);
-}
-.op-hero-blueprint .line { flex: 1; height: 1px; background: rgba(40, 50, 74, 0.8); }
-
-/* ===== SECTION HEAD (shared) ===== */
-.op-section-head { max-width: 800px; margin: 0 0 56px; }
-.op-section-title {
-  font-family: var(--font-display-en);
-  font-size: clamp(40px, 5vw, 64px); line-height: 1.02;
-  font-weight: 800; letter-spacing: -0.025em;
-  margin: 16px 0 20px; color: var(--op-ink);
-}
-.op-section-sub { font-size: 19px; line-height: 1.5; color: var(--op-ink-soft); max-width: 60ch; }
-
-/* ===== CAPABILITIES ===== */
-.op-capabilities { padding: 120px 48px; max-width: 1400px; margin: 0 auto; }
-.op-cap-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 16px; }
-.op-cap {
-  background: var(--op-white-pure);
-  border: 1px solid var(--op-steel-border);
-  border-radius: var(--r-4); padding: 28px 24px;
-  transition: all var(--dur-base) var(--ease-out);
-  position: relative; overflow: hidden;
-}
-.op-cap:hover { box-shadow: var(--shadow-3); transform: translateY(-2px); border-color: var(--border-2); }
-.op-cap:hover::before { transform: scaleX(1); }
-.op-cap::before {
-  content: ""; position: absolute; top: 0; left: 0; right: 0; height: 3px;
-  background: var(--grad-cyan-to-navy); transform: scaleX(0); transform-origin: left;
-  transition: transform var(--dur-slow) var(--ease-out);
-}
-.op-cap-icon {
-  width: 48px; height: 48px; border-radius: var(--r-2);
-  background: linear-gradient(135deg, rgba(45,156,219,0.08), rgba(31,64,104,0.08));
-  border: 1px solid rgba(45,156,219,0.18);
-  display: flex; align-items: center; justify-content: center;
-  color: var(--op-cyan); margin-bottom: 20px;
-}
-.op-cap-icon svg { width: 22px; height: 22px; stroke-width: 1.5; }
-.op-cap-tag {
-  font-family: var(--font-mono); font-size: 10px; font-weight: 600;
-  letter-spacing: 0.18em; text-transform: uppercase;
-  color: var(--op-red); margin-bottom: 6px;
-}
-.op-cap-title {
-  font-family: var(--font-display-en); font-size: 22px; font-weight: 700;
-  letter-spacing: -0.01em; color: var(--op-ink); margin: 0 0 10px;
-}
-.op-cap-body { font-size: 14px; line-height: 1.55; color: var(--op-ink-soft); margin: 0 0 20px; }
-.op-cap-meta {
-  font-family: var(--font-mono); font-size: 11px; color: var(--op-steel-muted);
-  padding-top: 14px; border-top: 1px dashed var(--op-steel-border);
-}
-
-/* ===== PORTFOLIO ===== */
-.op-portfolio {
-  background: var(--bg-3); padding: 120px 48px;
-  border-top: 1px solid var(--border-1); border-bottom: 1px solid var(--border-1);
-}
-.op-portfolio .op-section-head { max-width: 1400px; margin: 0 auto 48px; }
-.op-filter-row { display: flex; align-items: center; gap: 8px; margin-top: 32px; flex-wrap: wrap; }
-.op-chip-btn {
-  font-family: var(--font-mono); font-size: 11px; font-weight: 600;
-  letter-spacing: 0.12em; text-transform: uppercase;
-  background: var(--op-white-pure); border: 1px solid var(--op-steel-border);
-  color: var(--op-ink-soft); padding: 8px 14px;
-  border-radius: var(--r-2); cursor: pointer;
-  transition: all var(--dur-base) var(--ease-out);
-}
-.op-chip-btn:hover { border-color: var(--op-cyan); color: var(--op-cyan); }
-.op-chip-btn.active { background: var(--op-ink); color: var(--op-white-pure); border-color: var(--op-ink); }
-.op-filter-count {
-  font-family: var(--font-mono); font-size: 11px; color: var(--op-steel-muted);
-  letter-spacing: 0.08em; margin-left: auto;
-}
-
-.op-portfolio-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; max-width: 1400px; margin: 0 auto; }
-.op-case {
-  background: var(--op-white-pure); border: 1px solid var(--op-steel-border);
-  border-radius: var(--r-4); overflow: hidden;
-  transition: all var(--dur-base) var(--ease-out); cursor: pointer;
-  box-shadow: var(--shadow-1);
-}
-.op-case:hover { box-shadow: var(--shadow-3); transform: translateY(-2px); }
-.op-case-image {
-  aspect-ratio: 16/10; position: relative; overflow: hidden;
-}
-.op-case-grid-overlay {
-  position: absolute; inset: 0; pointer-events: none; opacity: 0.4;
-  background-image: linear-gradient(to right, rgba(45,156,219,0.12) 1px, transparent 1px),
-                    linear-gradient(to bottom, rgba(45,156,219,0.08) 1px, transparent 1px);
-  background-size: 40px 40px;
-}
-.op-case-corner {
-  position: absolute; top: 12px; left: 14px;
-  font-family: var(--font-mono); font-size: 9px; font-weight: 600;
-  letter-spacing: 0.18em; text-transform: uppercase; color: rgba(255,255,255,0.75);
-}
-.op-case-featured {
-  position: absolute; top: 12px; right: 12px;
-  background: var(--op-red); color: white;
-  font: 700 9px/1 var(--font-mono); letter-spacing: 0.14em;
-  padding: 5px 8px; text-transform: uppercase;
-}
-.op-case-triangle {
-  position: absolute; bottom: 18px; left: 18px;
-  width: 0; height: 0;
-  border-left: 9px solid transparent; border-right: 9px solid transparent;
-  border-bottom: 16px solid var(--op-red);
-  filter: drop-shadow(0 4px 8px rgba(209,26,42,0.4));
-}
-.op-case-body { padding: 16px 18px 0; }
-.op-case-sector {
-  font-family: var(--font-mono); font-size: 10px; font-weight: 600;
-  letter-spacing: 0.18em; color: var(--op-cyan);
-}
-.op-case-title {
-  font-family: var(--font-display-en); font-size: 18px; font-weight: 700;
-  letter-spacing: -0.01em; color: var(--op-ink); margin: 4px 0 0;
-  line-height: 1.25;
-}
-.op-case-specs {
-  display: flex; margin: 16px -18px 0;
-  border-top: 1px solid var(--op-steel-border);
-  padding: 12px 18px;
-}
-.op-case-specs .spec { flex: 1; }
-.op-case-specs .lbl {
-  font-family: var(--font-mono); font-size: 9px; font-weight: 600;
-  letter-spacing: 0.18em; text-transform: uppercase; color: var(--op-steel-muted);
-}
-.op-case-specs .val {
-  font-family: var(--font-mono); font-size: 13px; font-weight: 600;
-  color: var(--op-ink); margin-top: 2px;
-}
-
-/* ===== PROCESS TIMELINE ===== */
-.op-process { padding: 120px 48px; max-width: 1200px; margin: 0 auto; }
-.op-timeline { list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 0; }
-.op-tl-step { display: grid; grid-template-columns: 120px 1fr; gap: 32px; padding: 28px 0; border-bottom: 1px dashed var(--op-steel-border); }
-.op-tl-step:last-child { border-bottom: none; }
-.op-tl-rail { position: relative; display: flex; flex-direction: column; align-items: flex-start; gap: 8px; }
-.op-tl-num {
-  font-family: var(--font-mono); font-size: 28px; font-weight: 700;
-  color: var(--op-steel-muted); letter-spacing: -0.02em;
-}
-.op-tl-code {
-  width: 44px; height: 44px; border-radius: var(--r-2);
-  background: var(--grad-cyan-to-navy); color: white;
-  font-family: var(--font-display-en); font-size: 22px; font-weight: 800;
-  display: flex; align-items: center; justify-content: center;
-  box-shadow: var(--shadow-cyan);
-}
-.op-tl-line {
-  position: absolute; left: 22px; top: 88px; bottom: -28px;
-  width: 1px; background: var(--op-steel-border);
-}
-.op-tl-content h3 {
-  font-family: var(--font-display-en); font-size: 32px; font-weight: 700;
-  letter-spacing: -0.02em; color: var(--op-ink); margin: 0 0 10px;
-}
-.op-tl-content p { font-size: 17px; line-height: 1.55; color: var(--op-ink-soft); margin: 0 0 14px; max-width: 60ch; }
-.op-tl-meta { font-family: var(--font-mono); font-size: 11px; font-weight: 500; letter-spacing: 0.14em; text-transform: uppercase; color: var(--op-red); }
-
-/* ===== CONTACT ===== */
-.op-contact { padding: 120px 48px; max-width: 1400px; margin: 0 auto; }
-.op-contact-card {
-  background: var(--op-slate); border-radius: var(--r-4);
-  display: grid; grid-template-columns: 1fr 1.1fr;
-  overflow: hidden; position: relative;
-  box-shadow: var(--shadow-4);
-}
-.op-contact-card::before {
-  content: ""; position: absolute; inset: 0; background: var(--grad-spotlight); pointer-events: none;
-}
-.op-contact-left { padding: 56px 48px; color: var(--op-white-pure); position: relative; }
-.op-contact-left .op-eyebrow { color: var(--op-cyan); margin-bottom: 16px; }
-.op-contact-title {
-  font-family: var(--font-display-en); font-size: 52px; font-weight: 800;
-  letter-spacing: -0.025em; line-height: 1; margin: 0 0 18px;
-}
-.op-contact-sub { font-size: 17px; line-height: 1.55; color: rgba(241,245,251,0.75); margin: 0 0 40px; max-width: 40ch; }
-.op-contact-facts { display: grid; grid-template-columns: 1fr 1fr; gap: 24px 32px; }
-.fact .lbl { font-family: var(--font-mono); font-size: 10px; font-weight: 600; letter-spacing: 0.18em; color: var(--op-cyan); }
-.fact .val { font-family: var(--font-display-en); font-size: 15px; font-weight: 600; color: var(--op-white-pure); margin-top: 4px; }
-.fact .val.highlight { color: var(--op-red-bright); }
-
-.op-contact-form { background: var(--op-white-pure); padding: 56px 48px; display: flex; flex-direction: column; gap: 18px; position: relative; }
-.op-contact-form .field { display: flex; flex-direction: column; gap: 6px; }
-.op-contact-form label {
-  font-family: var(--font-mono); font-size: 10px; font-weight: 600;
-  letter-spacing: 0.18em; text-transform: uppercase; color: var(--op-steel-muted);
-}
-.op-contact-form input, .op-contact-form textarea, .op-contact-form select {
-  background: var(--op-white-pure); border: 1px solid var(--op-steel-border);
-  border-radius: var(--r-2); padding: 12px 14px;
-  font: 400 15px/22px var(--font-body-en); color: var(--op-ink);
-  outline: none; transition: all var(--dur-base) var(--ease-out);
-  appearance: none; -webkit-appearance: none;
-}
-.op-contact-form input:focus, .op-contact-form textarea:focus, .op-contact-form select:focus {
-  border-color: var(--op-cyan); box-shadow: 0 0 0 3px rgba(45,156,219,0.18);
-}
-.op-contact-form textarea { resize: vertical; font-family: var(--font-body-en); }
-.op-select { position: relative; }
-.op-select select { width: 100%; padding-right: 32px; cursor: pointer; }
-.op-select .chev { position: absolute; right: 14px; top: 50%; transform: translateY(-50%); color: var(--op-steel-muted); font-family: var(--font-mono); pointer-events: none; }
-.op-form-foot { font-size: 11px; color: var(--op-steel-muted); margin-top: 4px; }
-
-/* ===== FOOTER ===== */
-.op-footer { background: var(--op-slate); color: rgba(241,245,251,0.75); padding: 80px 48px 32px; }
-.op-footer-top { max-width: 1400px; margin: 0 auto; display: grid; grid-template-columns: 1.4fr 2fr; gap: 80px; padding-bottom: 56px; border-bottom: 1px solid #28324A; }
-.op-footer-mission { font-size: 15px; line-height: 1.55; max-width: 36ch; color: rgba(183,194,210,0.85); margin: 20px 0 28px; }
-.op-cert-row { display: flex; gap: 8px; flex-wrap: wrap; }
-.cert {
-  font-family: var(--font-mono); font-size: 10px; font-weight: 600;
-  letter-spacing: 0.14em; text-transform: uppercase;
-  border: 1px solid #28324A; padding: 5px 10px; border-radius: var(--r-1);
-  color: var(--op-cyan);
-}
-.op-footer-cols { display: grid; grid-template-columns: repeat(3, 1fr); gap: 32px; }
-.op-footer-cols .col h4 {
-  font-family: var(--font-mono); font-size: 10px; font-weight: 600;
-  letter-spacing: 0.22em; text-transform: uppercase;
-  color: var(--op-steel-muted); margin: 0 0 16px;
-}
-.op-footer-cols .col a {
-  display: block; padding: 6px 0; text-decoration: none;
-  font-size: 14px; color: rgba(241,245,251,0.7);
-  transition: color var(--dur-base) var(--ease-out);
-}
-.op-footer-cols .col a:hover { color: var(--op-cyan); }
-.op-footer-bot {
-  max-width: 1400px; margin: 32px auto 0; display: flex; justify-content: space-between; align-items: center;
-}
-.op-footer-bot .op-meta { color: rgba(107,122,141,0.6); font-family: var(--font-mono); font-size: 10px; letter-spacing: 0.18em; }
-
-/* responsive */
-@media (max-width: 980px) {
-  .op-nav-links { display: none; }
-  .op-cap-grid, .op-portfolio-grid { grid-template-columns: 1fr 1fr; }
-  .op-hero-metrics { grid-template-columns: 1fr 1fr; gap: 24px 0; }
-  .m-stat { border-right: none; }
-  .op-contact-card, .op-footer-top { grid-template-columns: 1fr; }
-}
-</style>
+</script>
 </head>
-<body data-screen-label="ONE+ Events Marketing Site">
-  <div id="root"></div>
+<body>
 
-  <script type="text/babel" src="./Nav.jsx"></script>
-  <script type="text/babel" src="./Hero.jsx"></script>
-  <script type="text/babel" src="./Capabilities.jsx"></script>
-  <script type="text/babel" src="./PortfolioGrid.jsx"></script>
-  <script type="text/babel" src="./ProcessTimeline.jsx"></script>
-  <script type="text/babel" src="./ContactPanel.jsx"></script>
-  <script type="text/babel" src="./Footer.jsx"></script>
+<nav class="nav">
+  <a href="/" class="nav-logo">ONE<span>+</span></a>
+  <div class="nav-right">
+    <div class="nav-links" style="display:flex; gap:clamp(16px,3vw,38px);">
+      <a href="#work" class="nav-link" data-en="Work" data-ar="الأعمال">Work</a>
+      <a href="#method" class="nav-link" data-en="Method" data-ar="المنهجية">Method</a>
+      <a href="#boothcraft" class="nav-link" data-en="BoothCraft" data-ar="بوث كرافت">BoothCraft</a>
+      <a href="#contact" class="nav-link" data-en="Contact" data-ar="تواصل">Contact</a>
+    </div>
+    <span class="nav-clock" id="clock">—</span>
+    <button class="lang-btn" id="lang" onclick="toggleLang()">ع</button>
+  </div>
+</nav>
 
-  <script type="text/babel">
-    const { useState, useEffect } = React;
+<!-- HERO -->
+<header class="hero">
+  <canvas id="hero-canvas"></canvas>
+  <div class="hero-veil"></div>
+  <div class="hero-inner">
+    <div class="hero-eyebrow" data-en="TURNKEY EXHIBITION STANDS · RIYADH" data-ar="أجنحة معارض متكاملة · الرياض">TURNKEY EXHIBITION STANDS · RIYADH</div>
+    <h1>
+      <span class="line"><span data-en="What we render" data-ar="ما نصمّمه">What we render</span></span>
+      <span class="line"><span data-en="is what we" data-ar="هو ما">is what we</span></span>
+      <span class="line"><span data-en="&lt;em&gt;build.&lt;/em&gt;" data-ar="&lt;em&gt;ننفّذه.&lt;/em&gt;"><em>build.</em></span></span>
+    </h1>
+    <div class="hero-foot">
+      <p class="hero-sub" data-en="A Riyadh studio designing and fabricating exhibition stands for the brands that define Saudi Arabia's biggest stages." data-ar="استوديو في الرياض يصمّم وينفّذ أجنحة المعارض للعلامات التي تتصدّر أكبر منصّات السعودية.">A Riyadh studio designing and fabricating exhibition stands for the brands that define Saudi Arabia's biggest stages.</p>
+      <a href="#contact" class="hero-cta"><span data-en="Start a brief" data-ar="ابدأ مشروعك">Start a brief</span> <span class="arr">→</span></a>
+    </div>
+  </div>
+</header>
 
-    function App() {
-      const [lang, setLang] = useState('EN');
+<!-- PROOF / CLIENTS -->
+<section class="proof">
+  <div class="proof-label" data-en="TRUSTED TO BUILD FOR" data-ar="نفّذنا لعملاء منهم">TRUSTED TO BUILD FOR</div>
+  <div class="marquee" id="marquee">
+    <span>STC</span><span>SABIC</span><span>HUBLOT</span><span>Jarir</span><span>Ministry of Sports</span><span>Heritage Commission</span><span>MODON</span><span>SELA</span><span>Al-Ittihad</span>
+    <span>STC</span><span>SABIC</span><span>HUBLOT</span><span>Jarir</span><span>Ministry of Sports</span><span>Heritage Commission</span><span>MODON</span><span>SELA</span><span>Al-Ittihad</span>
+  </div>
+</section>
 
-      useEffect(() => {
-        // Lucide icons render once components mount
-        const t = setTimeout(() => window.lucide && window.lucide.createIcons(), 50);
-        return () => clearTimeout(t);
-      });
+<!-- WORK -->
+<section class="section" id="work">
+  <div class="sec-head reveal">
+    <h2 class="sec-title" data-en="Selected &lt;em&gt;work.&lt;/em&gt;" data-ar="أعمال &lt;em&gt;مختارة.&lt;/em&gt;">Selected <em>work.</em></h2>
+    <span class="sec-index">01 / PORTFOLIO</span>
+  </div>
+  <div class="work-grid" id="work-grid"></div>
+</section>
 
-      return (
-        <>
-          <Nav lang={lang} setLang={setLang} />
-          <Hero lang={lang} />
-          <Capabilities />
-          <PortfolioGrid />
-          <ProcessTimeline />
-          <ContactPanel />
-          <Footer />
-        </>
-      );
-    }
+<!-- R2R METHOD -->
+<section class="method">
+  <div class="section" id="method">
+    <div class="sec-head reveal">
+      <h2 class="sec-title" data-en="The R2R &lt;em&gt;Method.&lt;/em&gt;" data-ar="منهجية &lt;em&gt;R2R.&lt;/em&gt;">The R2R <em>Method.</em></h2>
+      <span class="sec-index">02 / HOW WE WORK</span>
+    </div>
+    <div class="method-rail reveal">
+      <div class="method-step"><div class="method-num">01</div><div><div class="method-name" data-en="Discover" data-ar="الاستكشاف">Discover</div><div class="method-desc" data-en="Brief intake, site survey, objectives locked." data-ar="استلام المتطلبات، معاينة الموقع، تثبيت الأهداف.">Brief intake, site survey, objectives locked.</div></div></div>
+      <div class="method-step"><div class="method-num">02</div><div><div class="method-name" data-en="Design" data-ar="التصميم">Design</div><div class="method-desc" data-en="3D concept and render. What you approve is what ships." data-ar="تصوّر ورندر ثلاثي الأبعاد. ما تعتمده هو ما يُنفَّذ.">3D concept and render. What you approve is what ships.</div></div></div>
+      <div class="method-step"><div class="method-num">03</div><div><div class="method-name" data-en="Detail" data-ar="الهندسة">Detail</div><div class="method-desc" data-en="Engineering drawings, BOQ, material specs." data-ar="مخططات هندسية، جدول كميات، مواصفات المواد.">Engineering drawings, BOQ, material specs.</div></div></div>
+      <div class="method-step"><div class="method-num">04</div><div><div class="method-name" data-en="Deliver" data-ar="التنفيذ">Deliver</div><div class="method-desc" data-en="Fabrication and on-site installation." data-ar="التصنيع والتركيب في الموقع.">Fabrication and on-site installation.</div></div></div>
+      <div class="method-step"><div class="method-num">05</div><div><div class="method-name" data-en="Dismantle" data-ar="التفكيك">Dismantle</div><div class="method-desc" data-en="Teardown, logistics, storage for next time." data-ar="التفكيك، اللوجستيات، التخزين للمرة القادمة.">Teardown, logistics, storage for next time.</div></div></div>
+    </div>
+  </div>
+</section>
 
-    const root = ReactDOM.createRoot(document.getElementById('root'));
-    root.render(<App />);
-  </script>
+<!-- BOOTHCRAFT -->
+<div class="bc" id="boothcraft">
+  <div class="bc-card reveal">
+    <svg class="bc-wire" viewBox="0 0 400 400" fill="none" stroke="var(--cyan)" stroke-width="0.75">
+      <path d="M50 250 L200 180 L350 250 L200 320 Z"/><path d="M50 250 L50 150 L200 80 L200 180"/><path d="M350 250 L350 150 L200 80"/><path d="M200 180 L200 320"/><path d="M50 150 L200 220 L350 150"/><path d="M200 220 L200 80"/>
+    </svg>
+    <div class="bc-badge"><span class="pulse"></span><span data-en="In development" data-ar="تحت التطوير">In development</span></div>
+    <h3 data-en="Design your stand in 3D. &lt;em&gt;Live.&lt;/em&gt;" data-ar="صمّم جناحك ثلاثي الأبعاد. &lt;em&gt;مباشرةً.&lt;/em&gt;">Design your stand in 3D. <em>Live.</em></h3>
+    <p data-en="BoothCraft lets you configure a booth, see it render in real time, and get an instant fixed-price estimate. We're putting the final touches on it." data-ar="بوث كرافت يتيح لك تكوين الجناح ومشاهدته يُرسم فوريًّا مع تقدير سعر ثابت لحظي. نضع عليه اللمسات الأخيرة.">BoothCraft lets you configure a booth, see it render in real time, and get an instant fixed-price estimate. We're putting the final touches on it.</p>
+    <a class="bc-cta" aria-disabled="true"><span data-en="Launching soon" data-ar="قريبًا">Launching soon</span></a>
+  </div>
+</div>
+
+<!-- CONTACT -->
+<section class="contact" id="contact">
+  <div class="contact-grid">
+    <div class="contact-l reveal">
+      <h2 data-en="Ready when &lt;em&gt;you are.&lt;/em&gt;" data-ar="جاهزون &lt;em&gt;حين تكون.&lt;/em&gt;">Ready when <em>you are.</em></h2>
+      <p data-en="Tell us about your event. We reply within 24 hours with a 3D concept and a fixed-price commission." data-ar="أخبرنا عن فعاليتك. نردّ خلال ٢٤ ساعة بتصوّر ثلاثي الأبعاد وعرض سعر ثابت.">Tell us about your event. We reply within 24 hours with a 3D concept and a fixed-price commission.</p>
+      <div class="contact-facts">
+        <div class="fact"><div class="lbl" data-en="Direct line" data-ar="تواصل مباشر">Direct line</div><div class="val"><a href="tel:+966566369163"><bdi class="ltr-num">+966 566 369 163</bdi></a></div></div>
+        <div class="fact"><div class="lbl" data-en="Email" data-ar="البريد">Email</div><div class="val"><a href="mailto:info@oneplusevents.com"><bdi class="ltr-num">info@oneplusevents.com</bdi></a></div></div>
+        <div class="fact"><div class="lbl" data-en="Studio" data-ar="الاستوديو">Studio</div><div class="val" data-en="Riyadh, Saudi Arabia" data-ar="الرياض، السعودية">Riyadh, Saudi Arabia</div></div>
+        <div class="fact"><div class="lbl" data-en="Response" data-ar="وقت الرد">Response</div><div class="val" data-en="Within 24 hours" data-ar="خلال ٢٤ ساعة">Within 24 hours</div></div>
+      </div>
+    </div>
+    <div class="contact-r reveal">
+      <form class="form" onsubmit="return submitForm(event)">
+        <div class="field"><label for="f-co" data-en="Company / Ministry" data-ar="الجهة / الوزارة">Company / Ministry</label><input id="f-co" name="company" required placeholder="Saudi Telecom Company"/></div>
+        <div class="field"><label for="f-em" data-en="Decision-maker email" data-ar="بريد صاحب القرار">Decision-maker email</label><input id="f-em" name="email" type="email" required placeholder="you@brand.com"/></div>
+        <div class="field"><label for="f-ev" data-en="Target event" data-ar="الفعالية المستهدفة">Target event</label>
+          <select id="f-ev" name="target_event"><option value="">—</option><option>LEAP</option><option>Black Hat MEA</option><option>Cityscape Global</option><option>Riyadh Season</option><option data-en="Other" data-ar="أخرى">Other</option></select>
+        </div>
+        <div class="field"><label for="f-br" data-en="Project brief" data-ar="نبذة عن المشروع">Project brief</label><textarea id="f-br" name="brief" placeholder="Stand size, materials, budget window…"></textarea></div>
+        <button class="submit" type="submit" data-en="Send brief →" data-ar="إرسال ←">Send brief →</button>
+        <div class="form-note" role="status" aria-live="polite"></div>
+      </form>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-big" aria-hidden="true">ONE<span>+</span></div>
+  <div class="footer-bar">
+    <span>© 2026 ONE+ EVENTS · RIYADH</span>
+    <span data-en="RENDER TO REALITY" data-ar="من الرندر إلى الواقع">RENDER TO REALITY</span>
+    <span>@oneplus_event</span>
+  </div>
+</footer>
+
+<!-- Assistant: informational widget, ships in Phase P2 (WEBSITE_V5_BUILD_PLAN.md §2A). Disabled placeholder only. -->
+<!-- <button class="assistant-fab" data-webhook="https://n8n.oneplusevents.com/webhook/web-assistant" disabled aria-disabled="true" onclick="assistantPlaceholder()"><span class="dot"></span><span data-en="Ask ONE+" data-ar="اسأل ONE+">Ask ONE+</span></button> -->
+
+<script src="/assets/js/site.js" defer></script>
 </body>
 </html>
