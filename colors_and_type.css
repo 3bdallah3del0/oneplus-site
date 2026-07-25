@@ -1,0 +1,306 @@
+/* =========================================================
+   ONE+ EVENTS · DESIGN SYSTEM TOKENS
+   Premium exhibition booth design · Riyadh, KSA
+   ========================================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=Cairo:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600&display=swap');
+
+:root {
+  /* -----------------------------------------------------
+     COLOR TOKENS — strict palette from brand concept
+     ----------------------------------------------------- */
+
+  /* Primary — Engineering Blues */
+  --op-cyan:           #2D9CDB;  /* Electric Cyan — primary brand blue */
+  --op-cyan-bright:    #4FB6F0;  /* hover / highlight */
+  --op-cyan-dim:       #1E7BB0;  /* pressed */
+  --op-navy:           #1F4068;  /* Deep Tech Navy — depth & authority */
+  --op-navy-deep:      #0F2942;  /* deepest tier */
+
+  /* Accent — Signal Reds */
+  --op-red:            #D11A2A;  /* Signal Red — primary CTA */
+  --op-red-bright:     #EB5757;  /* hover / highlight */
+  --op-red-dim:        #A1101D;  /* pressed */
+
+  /* Surfaces & Neutrals */
+  --op-slate:          #0F172A;  /* Slate Dark — premium dark surface */
+  --op-slate-2:        #1A2332;  /* elevated dark surface */
+  --op-slate-3:        #28324A;  /* dark border / dim */
+  --op-white:          #F8F9FA;  /* Gallery White — primary light surface */
+  --op-white-pure:     #FFFFFF;
+  --op-steel-border:   #DDE3EC;  /* Structural Lines */
+  --op-steel-muted:    #6B7A8D;  /* Secondary text */
+  --op-ink:            #1A2332;  /* Primary text on light */
+  --op-ink-soft:       #364152;  /* Body text on light */
+
+  /* -----------------------------------------------------
+     SEMANTIC COLOR ROLES
+     ----------------------------------------------------- */
+
+  /* Light theme (default) */
+  --bg-1:              var(--op-white);
+  --bg-2:              var(--op-white-pure);
+  --bg-3:              #EEF1F5;
+  --fg-1:              var(--op-ink);
+  --fg-2:              var(--op-ink-soft);
+  --fg-3:              var(--op-steel-muted);
+  --border-1:          var(--op-steel-border);
+  --border-2:          #C7CFDB;
+
+  --brand-primary:     var(--op-cyan);
+  --brand-deep:        var(--op-navy);
+  --brand-accent:      var(--op-red);
+  --brand-on-primary:  var(--op-white-pure);
+
+  /* -----------------------------------------------------
+     GRADIENTS — metallic / glassmorphism brand signatures
+     ----------------------------------------------------- */
+  --grad-cyan-to-navy:   linear-gradient(135deg, var(--op-cyan) 0%, var(--op-navy) 100%);
+  --grad-cyan-bright:    linear-gradient(135deg, #5BC0EF 0%, var(--op-cyan) 50%, var(--op-navy) 100%);
+  --grad-red-signal:     linear-gradient(135deg, #EB5757 0%, var(--op-red) 60%, #8A0E1C 100%);
+  --grad-slate-depth:    linear-gradient(180deg, #1A2332 0%, var(--op-slate) 100%);
+  --grad-steel:          linear-gradient(180deg, #FFFFFF 0%, #E6EBF2 100%);
+  --grad-spotlight:      radial-gradient(ellipse at 50% 0%, rgba(45,156,219,0.18), transparent 60%);
+
+  /* -----------------------------------------------------
+     TYPOGRAPHY
+     ----------------------------------------------------- */
+  --font-display-en:   'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --font-body-en:      'Plus Jakarta Sans', 'Inter', -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+  --font-display-ar:   'Cairo', 'Tajawal', system-ui, sans-serif;
+  --font-body-ar:      'Cairo', 'Tajawal', system-ui, sans-serif;
+  --font-mono:         'JetBrains Mono', 'SF Mono', Menlo, Consolas, monospace;
+
+  /* Modular scale — high-contrast, cinematic */
+  --fs-12: 12px;   --lh-12: 16px;
+  --fs-14: 14px;   --lh-14: 20px;
+  --fs-16: 16px;   --lh-16: 24px;
+  --fs-18: 18px;   --lh-18: 28px;
+  --fs-22: 22px;   --lh-22: 32px;   /* body */
+  --fs-26: 26px;   --lh-26: 34px;   /* H3 */
+  --fs-32: 32px;   --lh-32: 40px;
+  --fs-36: 36px;   --lh-36: 44px;   /* H2 */
+  --fs-44: 44px;   --lh-44: 52px;
+  --fs-52: 52px;   --lh-52: 60px;   /* H1 */
+  --fs-72: 72px;   --lh-72: 76px;   /* hero display */
+  --fs-96: 96px;   --lh-96: 96px;   /* mega display */
+
+  --tracking-tight:   -0.02em;
+  --tracking-normal:  -0.005em;
+  --tracking-wide:    0.04em;
+  --tracking-mega:    0.18em;   /* eyebrow / technical labels */
+
+  /* -----------------------------------------------------
+     SPACING — 8pt base grid
+     ----------------------------------------------------- */
+  --s-1:  4px;   --s-2:  8px;   --s-3: 12px;   --s-4: 16px;
+  --s-5: 20px;   --s-6: 24px;   --s-8: 32px;   --s-10: 40px;
+  --s-12: 48px;  --s-16: 64px;  --s-20: 80px;  --s-24: 96px;
+  --s-32: 128px; --s-40: 160px;
+
+  /* -----------------------------------------------------
+     RADII — sharp, chamfered (NEVER bubbly)
+     ----------------------------------------------------- */
+  --r-0:  0px;
+  --r-1:  2px;
+  --r-2:  4px;   /* default — inputs, small buttons */
+  --r-3:  6px;
+  --r-4:  8px;   /* cards, large buttons */
+  --r-pill: 999px; /* only for badges / pills */
+
+  /* -----------------------------------------------------
+     ELEVATION / SHADOWS — 3D spatial system
+     mimicking booth depth layers
+     ----------------------------------------------------- */
+  --shadow-flat:   0 0 0 1px var(--border-1);
+  --shadow-1:      0 1px 2px rgba(15,23,42,0.06), 0 1px 1px rgba(15,23,42,0.04);
+  --shadow-2:      0 4px 12px rgba(15,23,42,0.08), 0 1px 2px rgba(15,23,42,0.04);
+  --shadow-3:      0 12px 32px rgba(15,23,42,0.12), 0 4px 8px rgba(15,23,42,0.06);
+  --shadow-4:      0 24px 64px rgba(15,23,42,0.18), 0 8px 16px rgba(15,23,42,0.08);
+  --shadow-cyan:   0 12px 32px rgba(45,156,219,0.28), 0 0 0 1px rgba(45,156,219,0.20);
+  --shadow-red:    0 12px 32px rgba(209,26,42,0.30), 0 0 0 1px rgba(209,26,42,0.20);
+  --shadow-inset:  inset 0 1px 0 rgba(255,255,255,0.6);
+
+  /* -----------------------------------------------------
+     MOTION
+     ----------------------------------------------------- */
+  --ease-out:   cubic-bezier(0.2, 0.8, 0.2, 1);
+  --ease-in:    cubic-bezier(0.6, 0, 0.8, 0.2);
+  --ease-inout: cubic-bezier(0.4, 0, 0.2, 1);
+  --dur-fast:   140ms;
+  --dur-base:   220ms;
+  --dur-slow:   400ms;
+}
+
+/* =========================================================
+   DARK THEME — premium cinematic backgrounds
+   ========================================================= */
+[data-theme="dark"] {
+  --bg-1:      var(--op-slate);
+  --bg-2:      var(--op-slate-2);
+  --bg-3:      var(--op-slate-3);
+  --fg-1:      #F1F5FB;
+  --fg-2:      #B7C2D2;
+  --fg-3:      #6B7A8D;
+  --border-1:  #28324A;
+  --border-2:  #3A4868;
+
+  --shadow-1:  0 1px 2px rgba(0,0,0,0.40), 0 1px 1px rgba(0,0,0,0.30);
+  --shadow-2:  0 6px 16px rgba(0,0,0,0.50), 0 1px 2px rgba(0,0,0,0.30);
+  --shadow-3:  0 16px 40px rgba(0,0,0,0.55), 0 4px 8px rgba(0,0,0,0.30);
+  --shadow-inset: inset 0 1px 0 rgba(255,255,255,0.06);
+}
+
+/* =========================================================
+   SEMANTIC TEXT STYLES
+   ========================================================= */
+
+.op-eyebrow {
+  font-family: var(--font-display-en);
+  font-size: var(--fs-12);
+  line-height: var(--lh-12);
+  font-weight: 600;
+  letter-spacing: var(--tracking-mega);
+  text-transform: uppercase;
+  color: var(--op-cyan);
+}
+
+.op-display, h1.op {
+  font-family: var(--font-display-en);
+  font-size: var(--fs-72);
+  line-height: var(--lh-72);
+  font-weight: 800;
+  letter-spacing: var(--tracking-tight);
+  color: var(--fg-1);
+}
+
+.op-mega {
+  font-family: var(--font-display-en);
+  font-size: var(--fs-96);
+  line-height: var(--lh-96);
+  font-weight: 800;
+  letter-spacing: -0.03em;
+}
+
+.op-h1, h1 {
+  font-family: var(--font-display-en);
+  font-size: var(--fs-52);
+  line-height: var(--lh-52);
+  font-weight: 800;
+  letter-spacing: var(--tracking-tight);
+  color: var(--fg-1);
+}
+
+.op-h2, h2 {
+  font-family: var(--font-display-en);
+  font-size: var(--fs-36);
+  line-height: var(--lh-36);
+  font-weight: 700;
+  letter-spacing: var(--tracking-tight);
+  color: var(--fg-1);
+}
+
+.op-h3, h3 {
+  font-family: var(--font-display-en);
+  font-size: var(--fs-26);
+  line-height: var(--lh-26);
+  font-weight: 600;
+  letter-spacing: var(--tracking-normal);
+  color: var(--fg-1);
+}
+
+.op-h4, h4 {
+  font-family: var(--font-display-en);
+  font-size: var(--fs-18);
+  line-height: var(--lh-18);
+  font-weight: 600;
+  letter-spacing: 0;
+  color: var(--fg-1);
+}
+
+.op-body, p {
+  font-family: var(--font-body-en);
+  font-size: var(--fs-16);
+  line-height: var(--lh-16);
+  font-weight: 400;
+  color: var(--fg-2);
+}
+
+.op-body-lg {
+  font-family: var(--font-body-en);
+  font-size: var(--fs-22);
+  line-height: var(--lh-22);
+  font-weight: 400;
+  color: var(--fg-2);
+}
+
+.op-caption {
+  font-family: var(--font-body-en);
+  font-size: var(--fs-12);
+  line-height: var(--lh-12);
+  font-weight: 500;
+  color: var(--fg-3);
+}
+
+.op-meta {
+  font-family: var(--font-mono);
+  font-size: var(--fs-12);
+  line-height: var(--lh-12);
+  font-weight: 500;
+  letter-spacing: var(--tracking-wide);
+  text-transform: uppercase;
+  color: var(--fg-3);
+}
+
+.op-tech {
+  font-family: var(--font-mono);
+  font-size: var(--fs-14);
+  line-height: var(--lh-14);
+  font-weight: 500;
+  color: var(--fg-2);
+}
+
+/* Arabic text variants */
+[lang="ar"], .op-ar {
+  font-family: var(--font-body-ar);
+  direction: rtl;
+  text-align: right;
+}
+[lang="ar"] h1, [lang="ar"] h2, [lang="ar"] h3,
+.op-ar.op-h1, .op-ar.op-h2, .op-ar.op-h3 {
+  font-family: var(--font-display-ar);
+  font-weight: 800;
+}
+
+/* Gradient text utilities */
+.op-text-grad-cyan {
+  background: var(--grad-cyan-bright);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.op-text-grad-red {
+  background: var(--grad-red-signal);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Selection */
+::selection {
+  background: var(--op-cyan);
+  color: var(--op-white-pure);
+}
+
+/* Base reset for previews / kits */
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--bg-1);
+  color: var(--fg-1);
+  font-family: var(--font-body-en);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+* { box-sizing: border-box; }
