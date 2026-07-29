@@ -51,8 +51,13 @@ function renderProjects(){
   if (!grid || !PROJECTS.length) return;
   grid.innerHTML = PROJECTS.map((p, i) => {
     const wide = p.featured ? ' wide' : '';
-    const img = p.media && p.media[0] ? p.media[0] : '';
-    const evType = p.event_type ? (isAR ? p.event_type.ar : p.event_type.en) : '';
+    // media[0] is a plain URL string for the 9 hand-built launch projects, or a richer
+    // {type, role, url, poster_url} object for anything synced later by WEB_Project_Sync.
+    const first = p.media && p.media[0];
+    const img = typeof first === 'string' ? first : (first ? (first.poster_url || first.url || '') : '');
+    // event_type is a bilingual {en, ar} object for the launch projects, or a single
+    // inferred string for synced projects (folder-name inference has no language split yet).
+    const evType = p.event_type ? (typeof p.event_type === 'object' ? (isAR ? p.event_type.ar : p.event_type.en) : p.event_type) : '';
     return `<a class="work-item${wide} reveal" href="/work/${p.slug}/">
       <img class="work-media" alt="${p.client}" src="${img}" loading="${i < 2 ? 'eager' : 'lazy'}" width="800" height="550"/>
       <div class="work-grad"></div>
