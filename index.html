@@ -136,9 +136,11 @@
       <form class="form" onsubmit="return submitForm(event)">
         <div class="field"><label for="f-co" data-en="Company / Ministry" data-ar="الجهة / الوزارة">Company / Ministry</label><input id="f-co" name="company" required placeholder="Saudi Telecom Company"/></div>
         <div class="field"><label for="f-em" data-en="Decision-maker email" data-ar="بريد صاحب القرار">Decision-maker email</label><input id="f-em" name="email" type="email" required placeholder="you@brand.com"/></div>
+        <div class="field"><label for="f-ph" data-en="Contact number" data-ar="رقم التواصل">Contact number</label><input id="f-ph" name="phone" type="tel" required placeholder="+966 5XX XXX XXX"/></div>
         <div class="field"><label for="f-ev" data-en="Target event" data-ar="الفعالية المستهدفة">Target event</label>
           <select id="f-ev" name="target_event"><option value="">—</option><option>LEAP</option><option>Black Hat MEA</option><option>Cityscape Global</option><option>Riyadh Season</option><option data-en="Other" data-ar="أخرى">Other</option></select>
         </div>
+        <div class="field"><label for="f-ar" data-en="Stand area (approx.)" data-ar="مساحة الجناح (تقريبية)">Stand area (approx.)</label><input id="f-ar" name="area" required placeholder="e.g. 50 sqm"/></div>
         <div class="field"><label for="f-br" data-en="Project brief" data-ar="نبذة عن المشروع">Project brief</label><textarea id="f-br" name="brief" placeholder="Stand size, materials, budget window…"></textarea></div>
         <button class="submit" type="submit" data-en="Send brief →" data-ar="إرسال ←">Send brief →</button>
         <div class="form-note" role="status" aria-live="polite"></div>
@@ -156,8 +158,9 @@
   </div>
 </footer>
 
-<!-- Assistant: informational widget, ships in Phase P2 (WEBSITE_V5_BUILD_PLAN.md §2A). Disabled placeholder only. -->
-<!-- <button class="assistant-fab" data-webhook="https://n8n.oneplusevents.com/webhook/web-assistant" disabled aria-disabled="true" onclick="assistantPlaceholder()"><span class="dot"></span><span data-en="Ask ONE+" data-ar="اسأل ONE+">Ask ONE+</span></button> -->
+<!-- Assistant widget (P2, WEBSITE_V5_BUILD_PLAN.md §2A) -- DOM is built entirely by site.js
+     so it appears on every page that loads that script (homepage + all /work/{slug}/ pages)
+     without duplicating markup. See assets/js/site.js's "ASSISTANT WIDGET" section. -->
 
 <script src="/assets/js/site.js" defer></script>
 </body>

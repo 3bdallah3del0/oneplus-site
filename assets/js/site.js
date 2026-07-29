@@ -14,7 +14,7 @@ function applyLang(){
     if (val != null) el.innerHTML = val;
   });
 }
-function toggleLang(){ isAR = !isAR; applyLang(); renderProjects(); }
+function toggleLang(){ isAR = !isAR; applyLang(); renderProjects(); if (window.updateAssistantLang) window.updateAssistantLang(); }
 applyLang();
 
 /* ---------- RIYADH CLOCK ---------- */
@@ -85,9 +85,21 @@ async function submitForm(e){
     from_name: 'ONE+ Events site',
     company: form.querySelector('#f-co').value,
     email: form.querySelector('#f-em').value,
+    phone: form.querySelector('#f-ph').value,
     target_event: form.querySelector('#f-ev').value,
+    area: form.querySelector('#f-ar').value,
     brief: form.querySelector('#f-br').value
   };
+
+  // Best-effort lead qualification -- never blocks or affects the real Web3Forms
+  // submission below. A failure here (webhook down, network) is silently ignored.
+  fetch('https://n8n.oneplusevents.com/webhook/web-lead-qualify', {
+    method: 'POST', headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      company: payload.company, event: payload.target_event, phone: payload.phone,
+      area: payload.area, email: payload.email, channel: 'form'
+    })
+  }).catch(() => {});
 
   try {
     const res = await fetch('https://api.web3forms.com/submit', {
@@ -112,10 +124,180 @@ async function submitForm(e){
   return false;
 }
 
-/* ---------- ASSISTANT PLACEHOLDER (disabled — activates in Phase P2) ---------- */
-/* WEB_Assistant webhook is not built yet (see WEBSITE_V5_BUILD_PLAN.md §2A).
-   This control is intentionally non-functional until P2. */
-function assistantPlaceholder(){ /* no-op by design in P0 */ }
+/* ---------- ASSISTANT WIDGET (P2, WEBSITE_V5_BUILD_PLAN.md §2A) ---------- */
+(function () {
+  const WEBHOOK_URL = 'https://n8n.oneplusevents.com/webhook/web-assistant';
+  const SESSION_KEY = 'oneplus_chat_session';
+
+  function getSessionId() {
+    let id = sessionStorage.getItem(SESSION_KEY);
+    if (!id) {
+      id = 'web-' + Date.now() + '-' + Math.random().toString(36).slice(2, 10);
+      sessionStorage.setItem(SESSION_KEY, id);
+    }
+    return id;
+  }
+
+  const T = {
+    title: { en: 'ONE+ Assistant', ar: 'مساعد ONE+' },
+    subtitle: { en: 'Online', ar: 'متصل' },
+    welcome: {
+      en: "Hi! I'm the ONE+ Events assistant. Ask me about our services, process, or how to request a proposal.",
+      ar: 'مرحبًا! أنا مساعد ONE+ Events. اسألني عن خدماتنا أو منهجيتنا أو كيفية طلب عرض.'
+    },
+    placeholder: { en: 'Type a message…', ar: 'اكتب رسالتك…' },
+    waLabel: { en: 'Prefer WhatsApp?', ar: 'تفضّل واتساب؟' },
+    genericError: {
+      en: 'Something went wrong. Please try again or reach us on WhatsApp.',
+      ar: 'حدث خلل ما. برجاء المحاولة مرة أخرى أو التواصل عبر واتساب.'
+    }
+  };
+  function tr(key) { return isAR ? T[key].ar : T[key].en; }
+
+  let fab, panel, body, input, sendBtn, headTitle, headSub, waLabel;
+  let isOpen = false;
+  let hasWelcomed = false;
+  let userHasSent = false;
+  let welcomeEl = null;
+  let sending = false;
+
+  function build() {
+    fab = document.createElement('button');
+    fab.className = 'chat-fab';
+    fab.setAttribute('aria-label', 'ONE+ Assistant');
+    fab.innerHTML =
+      '<svg class="chat-fab-chat" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>' +
+      '<svg class="chat-fab-x" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18M6 6l12 12"/></svg>';
+
+    panel = document.createElement('div');
+    panel.className = 'chat-panel';
+    panel.setAttribute('role', 'dialog');
+    panel.setAttribute('aria-label', 'ONE+ Assistant chat');
+    panel.innerHTML =
+      '<div class="chat-head">' +
+        '<div><div class="chat-head-title"></div><div class="chat-head-sub"><span class="dot"></span><span></span></div></div>' +
+        '<button class="chat-close" aria-label="Close">×</button>' +
+      '</div>' +
+      '<div class="chat-body"></div>' +
+      '<div class="chat-foot">' +
+        '<div class="chat-inputrow">' +
+          '<textarea class="chat-input" rows="1" maxlength="1000"></textarea>' +
+          '<input type="text" class="chat-honeypot" name="website" tabindex="-1" autocomplete="off" />' +
+          '<button class="chat-send" aria-label="Send"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2 11 13M22 2 15 22l-4-9-9-4 20-7z"/></svg></button>' +
+        '</div>' +
+        '<a class="chat-wa" href="https://wa.me/966566369163" target="_blank" rel="noopener"><span class="wa-label"></span> <bdi class="ltr-num">+966 566 369 163</bdi></a>' +
+      '</div>';
+
+    document.body.appendChild(fab);
+    document.body.appendChild(panel);
+
+    body = panel.querySelector('.chat-body');
+    input = panel.querySelector('.chat-input');
+    sendBtn = panel.querySelector('.chat-send');
+    headTitle = panel.querySelector('.chat-head-title');
+    headSub = panel.querySelector('.chat-head-sub span:last-child');
+    waLabel = panel.querySelector('.wa-label');
+
+    fab.addEventListener('click', toggle);
+    panel.querySelector('.chat-close').addEventListener('click', () => setOpen(false));
+    sendBtn.addEventListener('click', send);
+    input.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); send(); }
+    });
+    input.addEventListener('input', () => {
+      input.style.height = 'auto';
+      input.style.height = Math.min(input.scrollHeight, 88) + 'px';
+    });
+
+    updateAssistantLang();
+  }
+
+  function toggle() { setOpen(!isOpen); }
+  function setOpen(open) {
+    isOpen = open;
+    fab.classList.toggle('open', open);
+    panel.classList.toggle('open', open);
+    if (open) {
+      if (!hasWelcomed) { welcomeEl = addMessage('assistant', tr('welcome')); hasWelcomed = true; }
+      setTimeout(() => input.focus(), 320);
+    }
+  }
+
+  function addMessage(role, text) {
+    const el = document.createElement('div');
+    el.className = 'chat-msg ' + role;
+    el.textContent = text;
+    body.appendChild(el);
+    body.scrollTop = body.scrollHeight;
+    return el;
+  }
+
+  function showTyping() {
+    const el = document.createElement('div');
+    el.className = 'chat-typing';
+    el.innerHTML = '<span></span><span></span><span></span>';
+    body.appendChild(el);
+    body.scrollTop = body.scrollHeight;
+    return el;
+  }
+
+  async function send() {
+    if (sending) return;
+    const text = input.value.trim();
+    if (!text) return;
+    sending = true;
+    userHasSent = true;
+    sendBtn.disabled = true;
+    addMessage('user', text);
+    input.value = '';
+    input.style.height = 'auto';
+    const typingEl = showTyping();
+
+    try {
+      const res = await fetch(WEBHOOK_URL, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          message: text,
+          session_id: getSessionId(),
+          lang: isAR ? 'ar' : 'en',
+          website: panel.querySelector('.chat-honeypot').value
+        })
+      });
+      const data = await res.json().catch(() => ({}));
+      typingEl.remove();
+      if (res.status === 429) {
+        addMessage('error', data.reply || tr('genericError'));
+      } else if (data && data.reply) {
+        addMessage('assistant', data.reply);
+      } else {
+        addMessage('error', tr('genericError'));
+      }
+    } catch (err) {
+      typingEl.remove();
+      addMessage('error', tr('genericError'));
+    } finally {
+      sending = false;
+      sendBtn.disabled = false;
+    }
+  }
+
+  function updateAssistantLang() {
+    if (!panel) return;
+    headTitle.textContent = tr('title');
+    headSub.textContent = tr('subtitle');
+    input.placeholder = tr('placeholder');
+    waLabel.textContent = tr('waLabel');
+    if (welcomeEl && !userHasSent) welcomeEl.textContent = tr('welcome');
+  }
+  window.updateAssistantLang = updateAssistantLang;
+
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', build);
+  } else {
+    build();
+  }
+})();
 
 /* ---------- LIGHTWEIGHT CANVAS HERO (no Three.js — P0/P1 scope) ---------- */
 (function(){
