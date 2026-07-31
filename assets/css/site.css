@@ -48,8 +48,9 @@ body::after{
   padding:22px clamp(20px,5vw,64px);
   mix-blend-mode:difference;
 }
-.nav-logo{ font-family:var(--font-display); font-weight:700; font-size:19px; letter-spacing:-0.03em; color:#fff; text-decoration:none; }
+.nav-logo{ font-family:var(--font-display); font-weight:700; font-size:19px; letter-spacing:-0.03em; color:#fff; text-decoration:none; display:flex; align-items:center; }
 .nav-logo span{ color:var(--cyan); }
+.nav-logo-img{ height:22px; width:auto; display:block; isolation:isolate; filter:drop-shadow(0 1px 3px rgba(0,0,0,.45)); }
 .nav-right{ display:flex; align-items:center; gap:clamp(16px,3vw,38px); }
 .nav-link{ color:#fff; text-decoration:none; font-size:13px; font-weight:500; letter-spacing:0.01em; opacity:0.85; transition:opacity .3s var(--ease); }
 .nav-link:hover{ opacity:1; }
