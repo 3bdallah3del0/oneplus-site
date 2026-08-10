@@ -61,6 +61,9 @@ function renderProjects(){
     return `<a class="work-item${wide} reveal" href="/work/${p.slug}/">
       <img class="work-media" alt="${p.client}" src="${img}" loading="${i < 2 ? 'eager' : 'lazy'}" width="800" height="550"/>
       <div class="work-grad"></div>
+      <svg class="work-wire" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="0.75" aria-hidden="true">
+        <path d="M40 240 L200 160 L360 240 L200 300 Z"/><path d="M40 240 L40 80 L200 20 L200 160"/><path d="M360 240 L360 80 L200 20"/><path d="M200 160 L200 300"/><path d="M40 80 L200 140 L360 80"/><path d="M200 140 L200 20"/>
+      </svg>
       ${p.featured ? `<div class="work-tag" data-en="Featured" data-ar="مميّز">${isAR ? 'مميّز' : 'Featured'}</div>` : ''}
       <div class="work-meta">
         <div class="work-client">${p.client}</div>
@@ -159,12 +162,49 @@ async function submitForm(e){
   };
   function tr(key) { return isAR ? T[key].ar : T[key].en; }
 
-  let fab, panel, body, input, sendBtn, headTitle, headSub, waLabel;
+  let fab, panel, body, input, sendBtn, headTitle, headSub, waLabel, attachBtn, fileInput, previewBar, previewThumb, previewRemove;
   let isOpen = false;
   let hasWelcomed = false;
   let userHasSent = false;
   let welcomeEl = null;
   let sending = false;
+  let pendingImage = null; // { base64, mime } -- ephemeral, cleared after send
+
+  const IMAGE_MAX_DIM = 1280;
+  const IMAGE_JPEG_QUALITY = 0.72;
+
+  function loadImageFile(file) {
+    return new Promise((resolve, reject) => {
+      if (!file || !/^image\/(jpeg|png|webp|gif)$/.test(file.type)) { reject(new Error('unsupported_type')); return; }
+      const img = new Image();
+      const url = URL.createObjectURL(file);
+      img.onload = () => {
+        URL.revokeObjectURL(url);
+        const scale = Math.min(1, IMAGE_MAX_DIM / Math.max(img.width, img.height));
+        const w = Math.max(1, Math.round(img.width * scale));
+        const h = Math.max(1, Math.round(img.height * scale));
+        const canvas = document.createElement('canvas');
+        canvas.width = w; canvas.height = h;
+        canvas.getContext('2d').drawImage(img, 0, 0, w, h);
+        const dataUrl = canvas.toDataURL('image/jpeg', IMAGE_JPEG_QUALITY);
+        resolve({ base64: dataUrl.split(',')[1], mime: 'image/jpeg', previewUrl: dataUrl });
+      };
+      img.onerror = () => { URL.revokeObjectURL(url); reject(new Error('decode_failed')); };
+      img.src = url;
+    });
+  }
+
+  function setPendingImage(data) {
+    pendingImage = data ? { base64: data.base64, mime: data.mime } : null;
+    if (!previewBar) return;
+    if (data) {
+      previewThumb.src = data.previewUrl;
+      previewBar.classList.add('show');
+    } else {
+      previewBar.classList.remove('show');
+      previewThumb.src = '';
+    }
+  }
 
   function build() {
     fab = document.createElement('button');
@@ -185,7 +225,10 @@ async function submitForm(e){
       '</div>' +
       '<div class="chat-body"></div>' +
       '<div class="chat-foot">' +
+        '<div class="chat-preview"><img class="chat-preview-img" alt="" /><button class="chat-preview-remove" type="button" aria-label="Remove image">×</button></div>' +
         '<div class="chat-inputrow">' +
+          '<button class="chat-attach" type="button" aria-label="Attach image"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21.44 11.05l-9.19 9.19a6 6 0 0 1-8.49-8.49l9.19-9.19a4 4 0 0 1 5.66 5.66l-9.2 9.19a2 2 0 0 1-2.83-2.83l8.49-8.48"/></svg></button>' +
+          '<input type="file" class="chat-file-input" accept="image/jpeg,image/png,image/webp,image/gif" hidden />' +
           '<textarea class="chat-input" rows="1" maxlength="1000"></textarea>' +
           '<input type="text" class="chat-honeypot" name="website" tabindex="-1" autocomplete="off" />' +
           '<button class="chat-send" aria-label="Send"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2 11 13M22 2 15 22l-4-9-9-4 20-7z"/></svg></button>' +
@@ -202,6 +245,11 @@ async function submitForm(e){
     headTitle = panel.querySelector('.chat-head-title');
     headSub = panel.querySelector('.chat-head-sub span:last-child');
     waLabel = panel.querySelector('.wa-label');
+    attachBtn = panel.querySelector('.chat-attach');
+    fileInput = panel.querySelector('.chat-file-input');
+    previewBar = panel.querySelector('.chat-preview');
+    previewThumb = panel.querySelector('.chat-preview-img');
+    previewRemove = panel.querySelector('.chat-preview-remove');
 
     fab.addEventListener('click', toggle);
     panel.querySelector('.chat-close').addEventListener('click', () => setOpen(false));
@@ -213,6 +261,19 @@ async function submitForm(e){
       input.style.height = 'auto';
       input.style.height = Math.min(input.scrollHeight, 88) + 'px';
     });
+    attachBtn.addEventListener('click', () => fileInput.click());
+    fileInput.addEventListener('change', async () => {
+      const file = fileInput.files && fileInput.files[0];
+      fileInput.value = '';
+      if (!file) return;
+      try {
+        const data = await loadImageFile(file);
+        setPendingImage(data);
+      } catch (e) {
+        addMessage('error', tr('genericError'));
+      }
+    });
+    previewRemove.addEventListener('click', () => setPendingImage(null));
 
     updateAssistantLang();
   }
@@ -228,10 +289,23 @@ async function submitForm(e){
     }
   }
 
+  // Wraps LTR runs (phone numbers, emails, URLs) in <bdi> so Arabic replies don't
+  // scramble embedded numbers/links (site-wide bdi.ltr-num pattern, see site.css FIX-1).
+  // Escapes everything else first -- reply text is model-generated, never trust it as HTML.
+  function escapeHtml(s) {
+    return s.replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  }
+  const LTR_RUN_RE = /(\+?\d[\d\s\-()]{5,}\d|[\w.+-]+@[\w-]+\.[a-zA-Z]{2,}|https?:\/\/[^\s]+|www\.[^\s]+)/g;
+  function renderMessageHtml(text) {
+    return escapeHtml(text).split(LTR_RUN_RE).map((part, i) =>
+      i % 2 === 1 ? '<bdi class="ltr-num">' + part + '</bdi>' : part
+    ).join('');
+  }
+
   function addMessage(role, text) {
     const el = document.createElement('div');
     el.className = 'chat-msg ' + role;
-    el.textContent = text;
+    el.innerHTML = renderMessageHtml(text);
     body.appendChild(el);
     body.scrollTop = body.scrollHeight;
     return el;
@@ -249,25 +323,29 @@ async function submitForm(e){
   async function send() {
     if (sending) return;
     const text = input.value.trim();
-    if (!text) return;
+    const image = pendingImage;
+    if (!text && !image) return;
     sending = true;
     userHasSent = true;
     sendBtn.disabled = true;
-    addMessage('user', text);
+    addMessage('user', text || (isAR ? '(صورة مرفقة)' : '(Image attached)'));
     input.value = '';
     input.style.height = 'auto';
+    setPendingImage(null);
     const typingEl = showTyping();
 
     try {
+      const payload = {
+        message: text,
+        session_id: getSessionId(),
+        lang: isAR ? 'ar' : 'en',
+        website: panel.querySelector('.chat-honeypot').value
+      };
+      if (image) { payload.image_base64 = image.base64; payload.image_mime = image.mime; }
       const res = await fetch(WEBHOOK_URL, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          message: text,
-          session_id: getSessionId(),
-          lang: isAR ? 'ar' : 'en',
-          website: panel.querySelector('.chat-honeypot').value
-        })
+        body: JSON.stringify(payload)
       });
       const data = await res.json().catch(() => ({}));
       typingEl.remove();
