@@ -53,8 +53,17 @@
     </div>
     <span class="nav-clock" id="clock">—</span>
     <button class="lang-btn" id="lang" onclick="toggleLang()">ع</button>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
   </div>
 </nav>
+<div class="mobile-menu" id="mobile-menu">
+  <a href="#work" class="mobile-link" data-en="Work" data-ar="الأعمال">Work</a>
+  <a href="#method" class="mobile-link" data-en="Method" data-ar="المنهجية">Method</a>
+  <a href="#boothcraft" class="mobile-link" data-en="BoothCraft" data-ar="بوث كرافت">BoothCraft</a>
+  <a href="#contact" class="mobile-link" data-en="Contact" data-ar="تواصل">Contact</a>
+</div>
 
 <!-- HERO -->
 <header class="hero">
@@ -89,6 +98,7 @@
     <h2 class="sec-title" data-en="Selected &lt;em&gt;work.&lt;/em&gt;" data-ar="أعمال &lt;em&gt;مختارة.&lt;/em&gt;">Selected <em>work.</em></h2>
     <span class="sec-index">01 / PORTFOLIO</span>
   </div>
+  <div class="work-filters reveal" id="work-filters"></div>
   <div class="work-grid" id="work-grid"></div>
 </section>
 

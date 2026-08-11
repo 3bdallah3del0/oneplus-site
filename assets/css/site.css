@@ -61,7 +61,24 @@ body::after{
   padding:5px 11px; border-radius:100px; cursor:pointer; transition:all .3s var(--ease);
 }
 .lang-btn:hover{ background:#fff; color:#000; }
-@media(max-width:720px){ .nav-links,.nav-clock{ display:none; } }
+.nav-toggle{ display:none; flex-direction:column; justify-content:center; gap:5px; width:34px; height:34px; background:none; border:none; cursor:pointer; padding:0; }
+.nav-toggle span{ display:block; width:100%; height:2px; background:#fff; transition:transform .3s var(--ease), opacity .3s var(--ease); }
+.nav-toggle[aria-expanded="true"] span:nth-child(1){ transform:translateY(7px) rotate(45deg); }
+.nav-toggle[aria-expanded="true"] span:nth-child(2){ opacity:0; }
+.nav-toggle[aria-expanded="true"] span:nth-child(3){ transform:translateY(-7px) rotate(-45deg); }
+.mobile-menu{
+  position:fixed; inset:0; z-index:99; background:var(--ink);
+  display:flex; flex-direction:column; align-items:center; justify-content:center; gap:32px;
+  opacity:0; pointer-events:none; transform:translateY(-12px); transition:opacity .35s var(--ease), transform .35s var(--ease);
+}
+.mobile-menu.open{ opacity:1; pointer-events:auto; transform:none; }
+.mobile-link{ font-family:var(--font-display); font-weight:600; font-size:clamp(28px,8vw,44px); letter-spacing:-0.02em; color:var(--paper); text-decoration:none; }
+.mobile-link:hover{ color:var(--cyan); }
+@media(max-width:720px){
+  .nav-links,.nav-clock{ display:none; }
+  .nav-toggle{ display:flex; }
+}
+@media(min-width:721px){ .mobile-menu{ display:none; } }
 
 /* ---------- HERO ---------- */
 .hero{ position:relative; min-height:100svh; display:flex; flex-direction:column; justify-content:flex-end; padding:0 clamp(20px,5vw,64px) clamp(40px,7vh,80px); overflow:hidden; }
@@ -114,7 +131,16 @@ body::after{
 .sec-index{ font-family:var(--font-mono); font-size:12px; color:var(--paper-faint); letter-spacing:0.1em; }
 
 /* ---------- PORTFOLIO ---------- */
+.work-filters{ display:flex; flex-wrap:wrap; gap:10px; margin-bottom:32px; }
+.work-filter{
+  font-family:var(--font-mono); font-size:12px; letter-spacing:0.06em; color:var(--paper-dim);
+  background:none; border:1px solid var(--line); border-radius:100px; padding:8px 16px; cursor:pointer;
+  transition:all .3s var(--ease); white-space:nowrap;
+}
+.work-filter:hover{ color:var(--paper); border-color:var(--paper-dim); }
+.work-filter.active{ color:var(--ink); background:var(--cyan); border-color:var(--cyan); }
 .work-grid{ display:grid; grid-template-columns:1fr 1fr; gap:clamp(16px,2vw,28px); }
+.work-item.filtered-out{ display:none; }
 .work-item{ position:relative; cursor:pointer; overflow:hidden; border-radius:6px; background:var(--ink-2); aspect-ratio:16/11; display:block; text-decoration:none; color:inherit; }
 .work-item.wide{ grid-column:span 2; aspect-ratio:16/8; }
 .work-media{ position:absolute; inset:0; width:100%; height:100%; object-fit:cover; transition:transform 1.2s var(--ease), filter .6s; filter:saturate(0.9) brightness(0.82); }
@@ -267,6 +293,19 @@ body::after{
 .chat-honeypot{ position:absolute; opacity:0; height:0; width:0; overflow:hidden; pointer-events:none; }
 
 @media(max-width:480px){ .chat-panel{ inset-inline:12px; bottom:88px; width:auto; } .chat-fab{ inset-inline-end:16px; bottom:16px; } }
+
+/* ---------- CUSTOM CURSOR (desktop pointer only) ---------- */
+@media(hover:hover) and (pointer:fine){
+  .work-cursor{
+    position:fixed; top:0; left:0; z-index:120; width:88px; height:88px; border-radius:50%;
+    background:var(--cyan); color:var(--ink); display:flex; align-items:center; justify-content:center;
+    font-family:var(--font-mono); font-size:11px; letter-spacing:0.08em; text-transform:uppercase;
+    pointer-events:none; opacity:0; transform:translate(-50%,-50%) scale(0.6);
+    transition:opacity .3s var(--ease), transform .3s var(--ease); will-change:transform;
+  }
+  .work-cursor.show{ opacity:1; transform:translate(-50%,-50%) scale(1); }
+  .work-item{ cursor:none; }
+}
 
 /* ---------- REVEAL ON SCROLL ---------- */
 .reveal{ opacity:0; transform:translateY(30px); transition:opacity 1s var(--ease), transform 1s var(--ease); }

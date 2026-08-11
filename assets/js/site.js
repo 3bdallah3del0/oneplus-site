@@ -14,8 +14,21 @@ function applyLang(){
     if (val != null) el.innerHTML = val;
   });
 }
-function toggleLang(){ isAR = !isAR; applyLang(); renderProjects(); if (window.updateAssistantLang) window.updateAssistantLang(); }
+function toggleLang(){ isAR = !isAR; applyLang(); renderFilters(); renderProjects(); if (window.updateAssistantLang) window.updateAssistantLang(); }
 applyLang();
+
+/* ---------- MOBILE NAV ---------- */
+(function(){
+  const toggle = document.getElementById('nav-toggle');
+  const menu = document.getElementById('mobile-menu');
+  if (!toggle || !menu) return;
+  function close(){ menu.classList.remove('open'); toggle.setAttribute('aria-expanded', 'false'); }
+  toggle.addEventListener('click', () => {
+    const open = menu.classList.toggle('open');
+    toggle.setAttribute('aria-expanded', String(open));
+  });
+  menu.querySelectorAll('.mobile-link').forEach(a => a.addEventListener('click', close));
+})();
 
 /* ---------- RIYADH CLOCK ---------- */
 function tick(){
@@ -35,16 +48,44 @@ observeReveals();
 
 /* ---------- PORTFOLIO GRID (data/projects.json → work-grid) ---------- */
 let PROJECTS = [];
+let activeFilter = 'all';
+// event_type is a bilingual {en, ar} object for the launch projects, or a single
+// inferred string for synced projects (folder-name inference has no language split yet).
+function projectEvType(p){
+  return p.event_type ? (typeof p.event_type === 'object' ? (isAR ? p.event_type.ar : p.event_type.en) : p.event_type) : '';
+}
 async function loadProjects(){
   const grid = document.getElementById('work-grid');
   if (!grid) return;
   try {
     const res = await fetch('/data/projects.json');
     PROJECTS = await res.json();
+    renderFilters();
     renderProjects();
   } catch (e) {
     grid.innerHTML = '';
   }
+}
+function renderFilters(){
+  const bar = document.getElementById('work-filters');
+  if (!bar || !PROJECTS.length) return;
+  const types = [...new Set(PROJECTS.map(projectEvType).filter(Boolean))];
+  if (types.length < 2) { bar.innerHTML = ''; return; }
+  const allLabel = isAR ? 'الكل' : 'All';
+  bar.innerHTML = [allLabel === allLabel ? `<button class="work-filter${activeFilter==='all'?' active':''}" data-filter="all">${allLabel}</button>` : '']
+    .concat(types.map(t => `<button class="work-filter${activeFilter===t?' active':''}" data-filter="${t.replace(/"/g,'&quot;')}">${t}</button>`))
+    .join('');
+  bar.querySelectorAll('.work-filter').forEach(btn => btn.addEventListener('click', () => {
+    activeFilter = btn.dataset.filter;
+    renderFilters();
+    applyFilter();
+  }));
+}
+function applyFilter(){
+  document.querySelectorAll('#work-grid .work-item').forEach(item => {
+    const match = activeFilter === 'all' || item.dataset.evtype === activeFilter;
+    item.classList.toggle('filtered-out', !match);
+  });
 }
 function renderProjects(){
   const grid = document.getElementById('work-grid');
@@ -55,10 +96,8 @@ function renderProjects(){
     // {type, role, url, poster_url} object for anything synced later by WEB_Project_Sync.
     const first = p.media && p.media[0];
     const img = typeof first === 'string' ? first : (first ? (first.poster_url || first.url || '') : '');
-    // event_type is a bilingual {en, ar} object for the launch projects, or a single
-    // inferred string for synced projects (folder-name inference has no language split yet).
-    const evType = p.event_type ? (typeof p.event_type === 'object' ? (isAR ? p.event_type.ar : p.event_type.en) : p.event_type) : '';
-    return `<a class="work-item${wide} reveal" href="/work/${p.slug}/">
+    const evType = projectEvType(p);
+    return `<a class="work-item${wide} reveal" href="/work/${p.slug}/" data-evtype="${evType.replace(/"/g,'&quot;')}">
       <img class="work-media" alt="${p.client}" src="${img}" loading="${i < 2 ? 'eager' : 'lazy'}" width="800" height="550"/>
       <div class="work-grad"></div>
       <svg class="work-wire" viewBox="0 0 400 300" fill="none" stroke="currentColor" stroke-width="0.75" aria-hidden="true">
@@ -72,8 +111,29 @@ function renderProjects(){
     </a>`;
   }).join('');
   observeReveals(grid);
+  applyFilter();
 }
 loadProjects();
+
+/* ---------- CUSTOM CURSOR OVER PORTFOLIO CARDS (desktop pointer only) ---------- */
+(function(){
+  if (!window.matchMedia('(hover:hover) and (pointer:fine)').matches) return;
+  const grid = document.getElementById('work-grid');
+  if (!grid) return;
+  const cursor = document.createElement('div');
+  cursor.className = 'work-cursor';
+  cursor.textContent = isAR ? 'عرض' : 'View';
+  document.body.appendChild(cursor);
+  let raf = null, x = 0, y = 0;
+  function move(e){
+    x = e.clientX; y = e.clientY;
+    if (raf) return;
+    raf = requestAnimationFrame(() => { cursor.style.transform = `translate(${x}px, ${y}px) translate(-50%,-50%)`; raf = null; });
+  }
+  document.addEventListener('mousemove', move);
+  grid.addEventListener('mouseover', (e) => { if (e.target.closest('.work-item')) cursor.classList.add('show'); });
+  grid.addEventListener('mouseout', (e) => { if (e.target.closest('.work-item') && !e.relatedTarget?.closest?.('.work-item')) cursor.classList.remove('show'); });
+})();
 
 /* ---------- WEB3FORMS CONTACT SUBMISSION ---------- */
 const WEB3FORMS_KEY = '6ad498c4-171c-4e81-9cb8-3c7c0ccff212';
