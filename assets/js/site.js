@@ -14,7 +14,15 @@ function applyLang(){
     if (val != null) el.innerHTML = val;
   });
 }
-function toggleLang(){ isAR = !isAR; applyLang(); renderFilters(); renderProjects(); if (window.updateAssistantLang) window.updateAssistantLang(); }
+function toggleLang(){
+  isAR = !isAR;
+  // Filter labels are re-translated below, so a filter selected in the old language
+  // (e.g. "Conference") can never match any item's newly-rendered dataset.evtype
+  // (e.g. "مؤتمر") -- every project silently got marked filtered-out (display:none),
+  // which read as "switching to Arabic makes the project images disappear."
+  activeFilter = 'all';
+  applyLang(); renderFilters(); renderProjects(); if (window.updateAssistantLang) window.updateAssistantLang();
+}
 applyLang();
 
 /* ---------- MOBILE NAV ---------- */
