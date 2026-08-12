@@ -123,6 +123,45 @@ function renderProjects(){
 }
 loadProjects();
 
+/* ---------- INSIGHTS (data/articles.json → insights-list, P4) ---------- */
+let ARTICLES = [];
+async function loadArticles(){
+  const section = document.getElementById('insights');
+  const list = document.getElementById('insights-list');
+  if (!section || !list) return;
+  try {
+    const res = await fetch('/data/articles.json');
+    ARTICLES = await res.json();
+  } catch (e) {
+    ARTICLES = [];
+  }
+  if (!Array.isArray(ARTICLES) || ARTICLES.length === 0) { section.style.display = 'none'; return; }
+  section.style.display = '';
+  list.innerHTML = ARTICLES.slice(0, 6).map(a => `<a class="insight-item reveal" href="/articles/${a.slug}/">
+    <div class="insight-title">${a.title}</div>
+    <div class="insight-desc">${a.meta_description || ''}</div>
+  </a>`).join('');
+  observeReveals(list);
+}
+loadArticles();
+
+/* ---------- PAGEVIEW BEACON (P4/S77 exception, anonymous, no PII) ---------- */
+(function(){
+  try {
+    let sid = sessionStorage.getItem('op_sid');
+    if (!sid) {
+      sid = 'sid-' + Math.random().toString(36).slice(2) + Date.now().toString(36);
+      sessionStorage.setItem('op_sid', sid);
+    }
+    fetch('https://n8n.oneplusevents.com/webhook/web-pageview', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ path: location.pathname, referrer: document.referrer || '', session_id: sid }),
+      keepalive: true
+    }).catch(() => {});
+  } catch (e) { /* tracking must never break the page */ }
+})();
+
 /* ---------- CUSTOM CURSOR OVER PORTFOLIO CARDS (desktop pointer only) ---------- */
 (function(){
   if (!window.matchMedia('(hover:hover) and (pointer:fine)').matches) return;
