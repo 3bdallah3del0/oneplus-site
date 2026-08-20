@@ -1,74 +1,134 @@
 [
   {
-    "slug": "sela",
-    "client": "SELA",
-    "event_type": { "en": "Exhibition Stand", "ar": "جناح معرض" },
-    "area": null,
-    "featured": true,
-    "media": ["/assets/img/project-sela.jpg"]
-  },
-  {
-    "slug": "summit",
-    "client": "Summit",
-    "event_type": { "en": "Conference Stage", "ar": "منصة مؤتمر" },
-    "area": null,
-    "featured": false,
-    "media": ["/assets/img/project-summit.jpg"]
-  },
-  {
-    "slug": "kingabdulaziz",
-    "client": "King Abdulaziz Foundation",
-    "event_type": { "en": "Exhibition Stand", "ar": "جناح معرض" },
-    "area": null,
-    "featured": false,
-    "media": ["/assets/img/project-kingabdulaziz.jpg"]
-  },
-  {
-    "slug": "jazan",
-    "client": "Jazan",
-    "event_type": { "en": "Exhibition Stand", "ar": "جناح معرض" },
-    "area": null,
-    "featured": false,
-    "media": ["/assets/img/project-jazan.jpg"]
-  },
-  {
-    "slug": "giftedness",
-    "client": "Giftedness Foundation",
-    "event_type": { "en": "Exhibition Stand", "ar": "جناح معرض" },
-    "area": null,
-    "featured": false,
-    "media": ["/assets/img/project-giftedness.jpg"]
-  },
-  {
-    "slug": "dental",
-    "client": "Dental",
-    "event_type": { "en": "Medical Exhibition Stand", "ar": "جناح معرض طبي" },
-    "area": null,
-    "featured": false,
-    "media": ["/assets/img/project-dental.jpg"]
-  },
-  {
-    "slug": "simildiet",
-    "client": "Simildiet",
-    "event_type": { "en": "Exhibition Stand", "ar": "جناح معرض" },
-    "area": null,
-    "featured": false,
-    "media": ["/assets/img/project-simildiet.jpg"]
-  },
-  {
-    "slug": "freshly",
+    "slug": "freshly-10uqea",
     "client": "Freshly",
-    "event_type": { "en": "Exhibition Stand", "ar": "جناح معرض" },
-    "area": null,
-    "featured": false,
-    "media": ["/assets/img/project-freshly.jpg"]
+    "event_type": "coffe & chocolate",
+    "area": "8m*6m",
+    "media": [
+      {
+        "url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/1qiGwyaSY-vV9Ffov5JOhVLQPhWtBcGDT.webp",
+        "role": "gallery",
+        "type": "image"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/1xagxJAnme0jPR8E2tBuiXqcv3YEB_HyF.webp",
+        "role": "gallery",
+        "type": "image"
+      }
+    ]
   },
   {
-    "slug": "sedam",
-    "client": "Sedam",
-    "event_type": { "en": "Exhibition Stand", "ar": "جناح معرض" },
-    "area": null,
-    "featured": false,
-    "media": ["/assets/img/project-sedam.jpg"]
+    "slug": "sela-1oedd4",
+    "client": "SELA",
+    "event_type": "seamless exhibition",
+    "area": "36sqm",
+    "media": [
+      {
+        "url": "https://media.oneplusevents.com/projects/1OEdd437wQCneJdBnxauX_K4fVvTdhZ28/1Tavsu-hSFmToa1FP-H8v8iQLFfth73X7.webp",
+        "role": "gallery",
+        "type": "image"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/1OEdd437wQCneJdBnxauX_K4fVvTdhZ28/1KhVm0arfGstvBN0n8cU6Acn75gHkoY9O.webp",
+        "role": "gallery",
+        "type": "image"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/1OEdd437wQCneJdBnxauX_K4fVvTdhZ28/1rfKSn_n0m4Yd-vxG29RUNbn-aWuzB6gu.webp",
+        "role": "gallery",
+        "type": "image"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/1OEdd437wQCneJdBnxauX_K4fVvTdhZ28/1m11H6jTxQ0P1OW8zqtiPnR0qnpOmfKlx.webp",
+        "role": "gallery",
+        "type": "image"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/1OEdd437wQCneJdBnxauX_K4fVvTdhZ28/1BYCJq7sxoAN6uW7g05WH3-sxXkPwIsIj.webp",
+        "role": "gallery",
+        "type": "image"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/1OEdd437wQCneJdBnxauX_K4fVvTdhZ28/1N76H0zQ_Dm64F5eKBFMuPDB0jOvooALG.webp",
+        "role": "gallery",
+        "type": "image"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/1OEdd437wQCneJdBnxauX_K4fVvTdhZ28/1OsuODJUA7PVG_a5q1UGb0pP8VPNPnYnT.webp",
+        "role": "gallery",
+        "type": "image"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/1OEdd437wQCneJdBnxauX_K4fVvTdhZ28/1GJ5cN334FLaK35HbsZKc_6s1lHQ_a18W.webp",
+        "role": "gallery",
+        "type": "image"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/1OEdd437wQCneJdBnxauX_K4fVvTdhZ28/10mchoS0ykJDDE4xuSR2RZE1gE0nS3z3o.webp",
+        "role": "gallery",
+        "type": "image"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/1OEdd437wQCneJdBnxauX_K4fVvTdhZ28/1t6VP7rYCTfklSkaWi3MmXlSgWqAFyPho.webp",
+        "role": "gallery",
+        "type": "image"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/1OEdd437wQCneJdBnxauX_K4fVvTdhZ28/1MMDsBOl9T-C9BnthsZjsUqLoGnH4Fxky.webp",
+        "role": "gallery",
+        "type": "image"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/1OEdd437wQCneJdBnxauX_K4fVvTdhZ28/1ZMDnjCSEuNcsmFeQR0tcbt-_ZT3eP_fa.webp",
+        "role": "gallery",
+        "type": "image"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/1OEdd437wQCneJdBnxauX_K4fVvTdhZ28/1tI_WxH17aVMHuHX4x-WssQtBB3B2j-BJ.webp",
+        "role": "gallery",
+        "type": "image"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/1OEdd437wQCneJdBnxauX_K4fVvTdhZ28/1HqbI5dRh9qvee-8He6fB-n3Jy-FY-odB.webp",
+        "role": "gallery",
+        "type": "image"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/1OEdd437wQCneJdBnxauX_K4fVvTdhZ28/1mNGT1hYbbXy8MvaLbpK-V-SDgHpj8-GF.mp4",
+        "type": "video",
+        "webm_url": null,
+        "poster_url": "https://media.oneplusevents.com/projects/1OEdd437wQCneJdBnxauX_K4fVvTdhZ28/1mNGT1hYbbXy8MvaLbpK-V-SDgHpj8-GF.jpg"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/1OEdd437wQCneJdBnxauX_K4fVvTdhZ28/1eGyNDoAcfAF9Z7UEgt2gQJ3VB-MUPW8H.mp4",
+        "type": "video",
+        "webm_url": null,
+        "poster_url": "https://media.oneplusevents.com/projects/1OEdd437wQCneJdBnxauX_K4fVvTdhZ28/1eGyNDoAcfAF9Z7UEgt2gQJ3VB-MUPW8H.jpg"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/1OEdd437wQCneJdBnxauX_K4fVvTdhZ28/1ULDbGwWp9GgY45PygbLSk1qhqLjSXlii.mp4",
+        "type": "video",
+        "webm_url": null,
+        "poster_url": "https://media.oneplusevents.com/projects/1OEdd437wQCneJdBnxauX_K4fVvTdhZ28/1ULDbGwWp9GgY45PygbLSk1qhqLjSXlii.jpg"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/1OEdd437wQCneJdBnxauX_K4fVvTdhZ28/1YXfBUXdG6pwBzUllJwqoIVUpi649u3MJ.mp4",
+        "type": "video",
+        "webm_url": null,
+        "poster_url": "https://media.oneplusevents.com/projects/1OEdd437wQCneJdBnxauX_K4fVvTdhZ28/1YXfBUXdG6pwBzUllJwqoIVUpi649u3MJ.jpg"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/1OEdd437wQCneJdBnxauX_K4fVvTdhZ28/1vD48SzPaPFaR1y20QbLWYOI_IVPO22zn.mp4",
+        "type": "video",
+        "webm_url": null,
+        "poster_url": "https://media.oneplusevents.com/projects/1OEdd437wQCneJdBnxauX_K4fVvTdhZ28/1vD48SzPaPFaR1y20QbLWYOI_IVPO22zn.jpg"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/1OEdd437wQCneJdBnxauX_K4fVvTdhZ28/1OLnxgDaXkDPsBJtKA8iv9Vep1fO3G98-.mp4",
+        "type": "video",
+        "webm_url": null,
+        "poster_url": "https://media.oneplusevents.com/projects/1OEdd437wQCneJdBnxauX_K4fVvTdhZ28/1OLnxgDaXkDPsBJtKA8iv9Vep1fO3G98-.jpg"
+      }
+    ]
   }
 ]
