@@ -21,7 +21,7 @@ function toggleLang(){
   // (e.g. "مؤتمر") -- every project silently got marked filtered-out (display:none),
   // which read as "switching to Arabic makes the project images disappear."
   activeFilter = 'all';
-  applyLang(); renderFilters(); renderProjects(); renderArticles(); renderNews(); if (window.updateAssistantLang) window.updateAssistantLang();
+  applyLang(); renderFilters(); renderProjects(); renderArticles(); renderArticlesArchive(); renderNews(); if (window.updateAssistantLang) window.updateAssistantLang();
 }
 applyLang();
 
@@ -66,7 +66,7 @@ async function loadProjects(){
   const grid = document.getElementById('work-grid');
   if (!grid) return;
   try {
-    const res = await fetch('/data/projects.json');
+    const res = await fetch('/data/projects.json', { cache: 'no-store' });
     PROJECTS = await res.json();
     renderFilters();
     renderProjects();
@@ -123,18 +123,29 @@ function renderProjects(){
 }
 loadProjects();
 
-/* ---------- INSIGHTS (data/articles.json → insights-list, P4 + P4-B bilingual) ---------- */
+/* ---------- INSIGHTS (data/articles.json → insights-list / articles-archive-list, P4 + P4-B) ---------- */
 // title/meta_description are a plain string for articles published before P4-B (Arabic-only,
 // no /en/ page exists yet) or a bilingual {ar,en} object for anything published since.
 let ARTICLES = [];
+function articleCardHtml(a){
+  const bilingual = a.title && typeof a.title === 'object';
+  const title = bilingual ? ((isAR ? a.title.ar : a.title.en) || a.title.ar || a.title.en) : a.title;
+  const desc = bilingual ? ((isAR ? a.meta_description.ar : a.meta_description.en) || '') : (a.meta_description || '');
+  const href = '/articles/' + a.slug + '/' + (bilingual && !isAR ? 'en/' : '');
+  return `<a class="insight-item reveal" href="${href}">
+    <div class="insight-title">${title}</div>
+    <div class="insight-desc">${desc}</div>
+  </a>`;
+}
 async function loadArticles(){
   try {
-    const res = await fetch('/data/articles.json');
+    const res = await fetch('/data/articles.json', { cache: 'no-store' });
     ARTICLES = await res.json();
   } catch (e) {
     ARTICLES = [];
   }
   renderArticles();
+  renderArticlesArchive();
 }
 function renderArticles(){
   const section = document.getElementById('insights');
@@ -142,16 +153,17 @@ function renderArticles(){
   if (!section || !list) return;
   if (!Array.isArray(ARTICLES) || ARTICLES.length === 0) { section.style.display = 'none'; return; }
   section.style.display = '';
-  list.innerHTML = ARTICLES.slice(0, 6).map(a => {
-    const bilingual = a.title && typeof a.title === 'object';
-    const title = bilingual ? ((isAR ? a.title.ar : a.title.en) || a.title.ar || a.title.en) : a.title;
-    const desc = bilingual ? ((isAR ? a.meta_description.ar : a.meta_description.en) || '') : (a.meta_description || '');
-    const href = '/articles/' + a.slug + '/' + (bilingual && !isAR ? 'en/' : '');
-    return `<a class="insight-item reveal" href="${href}">
-    <div class="insight-title">${title}</div>
-    <div class="insight-desc">${desc}</div>
-  </a>`;
-  }).join('');
+  list.innerHTML = ARTICLES.slice(0, 6).map(articleCardHtml).join('');
+  observeReveals(list);
+}
+// Full archive at /articles/ -- only that page has #articles-archive-list, so this is a
+// no-op everywhere else.
+function renderArticlesArchive(){
+  const list = document.getElementById('articles-archive-list');
+  if (!list) return;
+  const count = document.getElementById('articles-archive-count');
+  if (count) count.textContent = Array.isArray(ARTICLES) ? String(ARTICLES.length) : '0';
+  list.innerHTML = Array.isArray(ARTICLES) ? ARTICLES.map(articleCardHtml).join('') : '';
   observeReveals(list);
 }
 loadArticles();
@@ -160,7 +172,7 @@ loadArticles();
 let NEWS_ITEMS = [];
 async function loadNews(){
   try {
-    const res = await fetch('/data/news.json');
+    const res = await fetch('/data/news.json', { cache: 'no-store' });
     NEWS_ITEMS = await res.json();
   } catch (e) {
     NEWS_ITEMS = [];
