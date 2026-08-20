@@ -1,15 +1,1 @@
-[
-  {
-    "title": {
-      "ar": "خبر تجريبي",
-      "en": "Test exhibition news item"
-    },
-    "summary": {
-      "ar": "ملخص تجريبي",
-      "en": "Test summary for verification"
-    },
-    "source": "Test Source",
-    "url": "https://example.com/test-news-item",
-    "date": "2026-08-19T21:00:00.000Z"
-  }
-]
+[]
