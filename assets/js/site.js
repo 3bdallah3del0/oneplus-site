@@ -21,7 +21,7 @@ function toggleLang(){
   // (e.g. "مؤتمر") -- every project silently got marked filtered-out (display:none),
   // which read as "switching to Arabic makes the project images disappear."
   activeFilter = 'all';
-  applyLang(); renderFilters(); renderProjects(); if (window.updateAssistantLang) window.updateAssistantLang();
+  applyLang(); renderFilters(); renderProjects(); renderNews(); if (window.updateAssistantLang) window.updateAssistantLang();
 }
 applyLang();
 
@@ -144,6 +144,36 @@ async function loadArticles(){
   observeReveals(list);
 }
 loadArticles();
+
+/* ---------- NEWS (data/news.json -> news-list, P5, WEB-08 auto-updating) ---------- */
+let NEWS_ITEMS = [];
+async function loadNews(){
+  try {
+    const res = await fetch('/data/news.json');
+    NEWS_ITEMS = await res.json();
+  } catch (e) {
+    NEWS_ITEMS = [];
+  }
+  renderNews();
+}
+function renderNews(){
+  const section = document.getElementById('news');
+  const list = document.getElementById('news-list');
+  if (!section || !list) return;
+  if (!Array.isArray(NEWS_ITEMS) || NEWS_ITEMS.length === 0) { section.style.display = 'none'; return; }
+  section.style.display = '';
+  list.innerHTML = NEWS_ITEMS.slice(0, 6).map(n => {
+    const title = (isAR ? n.title.ar : n.title.en) || n.title.en || n.title.ar || '';
+    const summary = (isAR ? n.summary.ar : n.summary.en) || n.summary.en || n.summary.ar || '';
+    return `<a class="insight-item reveal" href="${n.url}" target="_blank" rel="noopener noreferrer">
+    <div class="insight-title">${title}</div>
+    <div class="insight-desc">${summary}</div>
+    <div class="insight-desc" style="opacity:.6;margin-top:8px">${n.source}${n.date ? ' &middot; ' + n.date : ''}</div>
+  </a>`;
+  }).join('');
+  observeReveals(list);
+}
+loadNews();
 
 /* ---------- PAGEVIEW BEACON (P4/S77 exception, anonymous, no PII) ---------- */
 (function(){
