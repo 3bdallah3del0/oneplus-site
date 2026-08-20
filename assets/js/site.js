@@ -21,7 +21,7 @@ function toggleLang(){
   // (e.g. "مؤتمر") -- every project silently got marked filtered-out (display:none),
   // which read as "switching to Arabic makes the project images disappear."
   activeFilter = 'all';
-  applyLang(); renderFilters(); renderProjects(); renderNews(); if (window.updateAssistantLang) window.updateAssistantLang();
+  applyLang(); renderFilters(); renderProjects(); renderArticles(); renderNews(); if (window.updateAssistantLang) window.updateAssistantLang();
 }
 applyLang();
 
@@ -123,24 +123,35 @@ function renderProjects(){
 }
 loadProjects();
 
-/* ---------- INSIGHTS (data/articles.json → insights-list, P4) ---------- */
+/* ---------- INSIGHTS (data/articles.json → insights-list, P4 + P4-B bilingual) ---------- */
+// title/meta_description are a plain string for articles published before P4-B (Arabic-only,
+// no /en/ page exists yet) or a bilingual {ar,en} object for anything published since.
 let ARTICLES = [];
 async function loadArticles(){
-  const section = document.getElementById('insights');
-  const list = document.getElementById('insights-list');
-  if (!section || !list) return;
   try {
     const res = await fetch('/data/articles.json');
     ARTICLES = await res.json();
   } catch (e) {
     ARTICLES = [];
   }
+  renderArticles();
+}
+function renderArticles(){
+  const section = document.getElementById('insights');
+  const list = document.getElementById('insights-list');
+  if (!section || !list) return;
   if (!Array.isArray(ARTICLES) || ARTICLES.length === 0) { section.style.display = 'none'; return; }
   section.style.display = '';
-  list.innerHTML = ARTICLES.slice(0, 6).map(a => `<a class="insight-item reveal" href="/articles/${a.slug}/">
-    <div class="insight-title">${a.title}</div>
-    <div class="insight-desc">${a.meta_description || ''}</div>
-  </a>`).join('');
+  list.innerHTML = ARTICLES.slice(0, 6).map(a => {
+    const bilingual = a.title && typeof a.title === 'object';
+    const title = bilingual ? ((isAR ? a.title.ar : a.title.en) || a.title.ar || a.title.en) : a.title;
+    const desc = bilingual ? ((isAR ? a.meta_description.ar : a.meta_description.en) || '') : (a.meta_description || '');
+    const href = '/articles/' + a.slug + '/' + (bilingual && !isAR ? 'en/' : '');
+    return `<a class="insight-item reveal" href="${href}">
+    <div class="insight-title">${title}</div>
+    <div class="insight-desc">${desc}</div>
+  </a>`;
+  }).join('');
   observeReveals(list);
 }
 loadArticles();
