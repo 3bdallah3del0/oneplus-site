@@ -1,5 +1,17 @@
 [
   {
+    "slug": "leap-exhibition-booth-guide",
+    "title": {
+      "ar": "دليل تصميم جناح معرض LEAP: ما الذي يحتاجه جناحك للنجاح؟",
+      "en": "LEAP exhibition booth guide: what does your booth need?"
+    },
+    "meta_description": {
+      "ar": "دليلك الشامل لتجهيز جناح معرض LEAP في السعودية؛ تعرف على متطلبات التصميم، التقنيات التفاعلية، ومراحل التنفيذ مع ون بلس للفعاليات لضمان حضور استثنائي.",
+      "en": "Discover what your LEAP exhibition booth needs to succeed in Saudi Arabia. Learn about design, tech integration, and compliance with local regulations."
+    },
+    "published_at": "2026-08-20T15:26:39.158Z"
+  },
+  {
     "slug": "rented-vs-owned-booth",
     "title": {
       "ar": "ما الفرق بين الجناح المؤجر والمملوك في المعارض؟",
@@ -70,11 +82,5 @@
     "title": "كم تستغرق مدة تصميم جناح معرض؟ دليلك الشامل",
     "meta_description": "تعرف على مدة تصميم جناح معرض والجدول الزمني للإنتاج والتركيب في معارض السعودية مع ون بلس للفعاليات لضمان تسليم جناحك باحترافية.",
     "published_at": "2026-08-20T11:51:17.558Z"
-  },
-  {
-    "slug": "leap-exhibition-booth-guide",
-    "title": "دليل تصميم جناح معرض LEAP: ما الذي يحتاجه جناحك للنجاح؟",
-    "meta_description": "دليلك الشامل لتجهيز جناح معرض LEAP في السعودية؛ تعرف على متطلبات التصميم، التقنيات التفاعلية، ومراحل التنفيذ مع ون بلس للفعاليات لضمان حضور استثنائي.",
-    "published_at": "2026-08-20T11:51:12.246Z"
   }
 ]
