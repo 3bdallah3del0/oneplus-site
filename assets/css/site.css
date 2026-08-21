@@ -122,6 +122,10 @@ body::after{
 .marquee:hover{ animation-play-state:paused; }
 .marquee span{ font-family:var(--font-display); font-weight:600; font-size:clamp(20px,2.6vw,30px); color:var(--paper-faint); white-space:nowrap; transition:color .3s; letter-spacing:-0.02em; }
 .marquee span:hover{ color:var(--paper); }
+.events-strip{ display:flex; flex-wrap:wrap; align-items:center; justify-content:center; gap:10px 14px; margin-top:20px; }
+.events-strip-label{ font-family:var(--font-mono); font-size:10px; letter-spacing:0.1em; text-transform:uppercase; color:var(--paper-faint); }
+.events-strip a{ font-family:var(--font-mono); font-size:11px; letter-spacing:0.03em; color:var(--paper-dim); text-decoration:none; padding:5px 12px; border:1px solid var(--line); border-radius:999px; transition:color .3s, border-color .3s; }
+.events-strip a:hover{ color:var(--cyan); border-color:var(--cyan); }
 
 /* ---------- SECTION SHELL ---------- */
 .section{ max-width:var(--maxw); margin:0 auto; padding:clamp(80px,12vh,160px) clamp(20px,5vw,64px); }
