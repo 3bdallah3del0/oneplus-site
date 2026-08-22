@@ -1,5 +1,17 @@
 [
   {
+    "slug": "black-hat-mea-booth-guide",
+    "title": {
+      "ar": "دليل جناح معرض Black Hat MEA: التصميم والتنفيذ",
+      "en": "Black Hat MEA exhibition booth guide"
+    },
+    "meta_description": {
+      "ar": "دليلك الشامل لتصميم وتنفيذ جناح Black Hat MEA في السعودية. تعرف على معايير النجاح، الخطوات الزمنية، ونصائح بناء أجنحة المعارض التقنية مع ون بلس.",
+      "en": "Plan your Black Hat MEA exhibition booth with our technical guide covering design trends, compliance, and execution in Saudi Arabia."
+    },
+    "published_at": "2026-08-22T09:32:53.740Z"
+  },
+  {
     "slug": "rented-vs-owned-booth",
     "title": {
       "ar": "ما الفرق بين الجناح المؤجر والمملوك في المعارض؟",
@@ -106,17 +118,5 @@
       "en": "Learn what determines exhibition booth cost in Riyadh. Understand design, materials, size, and build timelines for events in Saudi Arabia."
     },
     "published_at": "2026-08-22T08:31:13.815Z"
-  },
-  {
-    "slug": "black-hat-mea-booth-guide",
-    "title": {
-      "ar": "دليل جناح معرض Black Hat MEA: التصميم والتنفيذ",
-      "en": "Black Hat MEA exhibition booth guide"
-    },
-    "meta_description": {
-      "ar": "دليلك الشامل لتصميم وتنفيذ جناح Black Hat MEA في السعودية. تعرف على معايير النجاح، الخطوات الزمنية، ونصائح بناء أجنحة المعارض التقنية مع ون بلس.",
-      "en": "Plan your Black Hat MEA exhibition booth with our technical guide covering design trends, compliance, and execution in Saudi Arabia."
-    },
-    "published_at": "2026-08-22T08:29:27.772Z"
   }
 ]
