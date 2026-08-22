@@ -1,5 +1,17 @@
 [
   {
+    "slug": "leap-exhibition-booth-guide",
+    "title": {
+      "ar": "دليل تصميم جناح معرض LEAP: ما الذي يحتاجه جناحك للنجاح؟",
+      "en": "LEAP exhibition booth guide: what does your booth need?"
+    },
+    "meta_description": {
+      "ar": "دليلك الشامل لتجهيز جناح معرض LEAP في السعودية؛ تعرف على متطلبات التصميم، التقنيات التفاعلية، ومراحل التنفيذ مع ون بلس للفعاليات لضمان حضور استثنائي.",
+      "en": "Discover what your LEAP exhibition booth needs to succeed in Saudi Arabia. Learn about design, tech integration, and compliance with local regulations."
+    },
+    "published_at": "2026-08-22T08:33:13.748Z"
+  },
+  {
     "slug": "exhibition-booth-mistakes",
     "title": {
       "ar": "أخطاء تصميم جناح معرض: تجنبها لنجاح مشاركتك",
@@ -106,17 +118,5 @@
       "en": "Compare a rented vs owned exhibition booth in Saudi Arabia. Learn costs, customization limits, and logistics to choose the right stand for your brand."
     },
     "published_at": "2026-08-21T17:31:48.737Z"
-  },
-  {
-    "slug": "leap-exhibition-booth-guide",
-    "title": {
-      "ar": "دليل تصميم جناح معرض LEAP: ما الذي يحتاجه جناحك للنجاح؟",
-      "en": "LEAP exhibition booth guide: what does your booth need?"
-    },
-    "meta_description": {
-      "ar": "دليلك الشامل لتجهيز جناح معرض LEAP في السعودية؛ تعرف على متطلبات التصميم، التقنيات التفاعلية، ومراحل التنفيذ مع ون بلس للفعاليات لضمان حضور استثنائي.",
-      "en": "Discover what your LEAP exhibition booth needs to succeed in Saudi Arabia. Learn about design, tech integration, and compliance with local regulations."
-    },
-    "published_at": "2026-08-21T17:31:41.415Z"
   }
 ]
