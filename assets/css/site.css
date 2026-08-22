@@ -277,7 +277,7 @@ body::after{
   display:grid; grid-template-columns:repeat(2,1fr); gap:clamp(14px,2vw,22px);
 }
 .project-gallery img, .project-gallery video{
-  width:100%; height:100%; aspect-ratio:4/3; object-fit:cover; display:block;
+  width:100%; height:100%; aspect-ratio:4/3; object-fit:contain; display:block;
   border-radius:10px; border:1px solid var(--line); background:var(--ink-2);
   box-shadow:0 4px 20px oklch(0.1 0.01 250/0.25);
   transition:transform .5s var(--ease), box-shadow .5s var(--ease), border-color .5s var(--ease);
