@@ -1,5 +1,24 @@
 /* ONE+ Events — shared site behavior (lang toggle, reveal, hero canvas, portfolio, form) */
 
+/* ---------- MEDIA PROTECTION (deter casual saving of project photos/videos) ---------- */
+// Not a real DRM barrier -- nothing client-side can fully stop a determined visitor
+// (devtools, screenshots, view-source). This just removes the one-click paths (right-click
+// save, drag-to-desktop, the video player's native "Download" menu item) so casual
+// copying/misattribution takes real effort instead of one click. Delegated on `document`
+// so it also covers the homepage's #work-grid cards, which are injected by JS after this
+// script runs (loadProjects() below), not present in the initial DOM.
+const MEDIA_PROTECT_SELECTOR = '.project-gallery, .project-hero-img, .work-media, .work-grid';
+document.addEventListener('contextmenu', e => {
+  if (e.target.closest(MEDIA_PROTECT_SELECTOR)) e.preventDefault();
+});
+document.addEventListener('dragstart', e => {
+  if (e.target.closest(MEDIA_PROTECT_SELECTOR)) e.preventDefault();
+});
+document.querySelectorAll('.project-gallery video, .project-hero video').forEach(v => {
+  v.setAttribute('controlsList', 'nodownload noremoteplayback');
+  v.disablePictureInPicture = true;
+});
+
 /* ---------- LANGUAGE TOGGLE ---------- */
 let isAR = document.documentElement.getAttribute('lang') === 'ar';
 function applyLang(){
