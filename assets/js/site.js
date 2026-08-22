@@ -38,6 +38,15 @@ applyLang();
   menu.querySelectorAll('.mobile-link').forEach(a => a.addEventListener('click', close));
 })();
 
+/* ---------- NAV SCROLL STATE (transparent-over-hero -> glass bar once scrolled) ---------- */
+(function(){
+  const nav = document.querySelector('.nav');
+  if (!nav) return;
+  function update(){ nav.classList.toggle('scrolled', window.scrollY > 40); }
+  update();
+  addEventListener('scroll', update, { passive: true });
+})();
+
 /* ---------- RIYADH CLOCK ---------- */
 function tick(){
   const el = document.getElementById('clock');
@@ -222,7 +231,11 @@ loadNews();
   if (!grid) return;
   const cursor = document.createElement('div');
   cursor.className = 'work-cursor';
-  cursor.textContent = isAR ? 'عرض' : 'View';
+  // data-en/data-ar so a later toggleLang() (which re-runs applyLang() over every
+  // [data-en] element in the document) keeps this in sync -- see LANGUAGE TOGGLE above.
+  cursor.innerHTML =
+    '<svg class="work-cursor-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M17 7H8M17 7v9"/></svg>' +
+    '<span data-en="View" data-ar="عرض">' + (isAR ? 'عرض' : 'View') + '</span>';
   document.body.appendChild(cursor);
   let raf = null, x = 0, y = 0;
   function move(e){
