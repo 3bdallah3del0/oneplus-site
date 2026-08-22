@@ -69,17 +69,7 @@
         "type": "image"
       },
       {
-        "url": "https://media.oneplusevents.com/projects/1-EqWvn9hZTTNaye1DaLwZIKHcnwZRkm5/1Z_-fmdiS26LWUnk9YqezWgP-8kgQkebZ.webp",
-        "role": "gallery",
-        "type": "image"
-      },
-      {
         "url": "https://media.oneplusevents.com/projects/1-EqWvn9hZTTNaye1DaLwZIKHcnwZRkm5/1GcyfdQhkgY1-XBbp-D6c646vyX6m8Org.webp",
-        "role": "gallery",
-        "type": "image"
-      },
-      {
-        "url": "https://media.oneplusevents.com/projects/1-EqWvn9hZTTNaye1DaLwZIKHcnwZRkm5/1KzFD_lcfQ7U-0BQYdUtCAyn6F69qC3kB.webp",
         "role": "gallery",
         "type": "image"
       },
@@ -124,17 +114,7 @@
         "type": "image"
       },
       {
-        "url": "https://media.oneplusevents.com/projects/1-EqWvn9hZTTNaye1DaLwZIKHcnwZRkm5/1nmXKztJ0BiE4CVQISwMfUS2MqURehoYt.webp",
-        "role": "gallery",
-        "type": "image"
-      },
-      {
         "url": "https://media.oneplusevents.com/projects/1-EqWvn9hZTTNaye1DaLwZIKHcnwZRkm5/18VQT-n4YpkG54JWtq4pgYfxQxrw68l5O.webp",
-        "role": "gallery",
-        "type": "image"
-      },
-      {
-        "url": "https://media.oneplusevents.com/projects/1-EqWvn9hZTTNaye1DaLwZIKHcnwZRkm5/1wmVA7VaYGFgDR5fAyugsUm2yV6tYo-9W.webp",
         "role": "gallery",
         "type": "image"
       },
@@ -187,12 +167,6 @@
         "url": "https://media.oneplusevents.com/projects/1-EqWvn9hZTTNaye1DaLwZIKHcnwZRkm5/1rir4IOmMa-4bFnUEOFF8BWGZ0SpmX1Yd.webp",
         "role": "gallery",
         "type": "image"
-      },
-      {
-        "url": "https://media.oneplusevents.com/projects/1-EqWvn9hZTTNaye1DaLwZIKHcnwZRkm5/1HIIMGMzUnH9uAofYcMYSBrOSrCUvIx4x.mp4",
-        "type": "video",
-        "webm_url": null,
-        "poster_url": "https://media.oneplusevents.com/projects/1-EqWvn9hZTTNaye1DaLwZIKHcnwZRkm5/1HIIMGMzUnH9uAofYcMYSBrOSrCUvIx4x.jpg"
       }
     ]
   },
