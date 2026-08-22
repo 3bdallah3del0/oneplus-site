@@ -542,6 +542,31 @@ async function submitForm(e){
   }
 })();
 
+/* ---------- SHARE BUTTON (Web Share API + copy-link fallback, UX-4) ---------- */
+document.querySelectorAll('.share-btn').forEach(btn => {
+  const label = btn.querySelector('span');
+  const defaultHtml = label ? label.innerHTML : '';
+  let resetTimer = null;
+  btn.addEventListener('click', async () => {
+    const title = btn.dataset.shareTitle || document.title;
+    const text = btn.dataset.shareText || '';
+    const url = location.href;
+    if (navigator.share) {
+      try { await navigator.share({ title, text, url }); return; }
+      catch (e) { if (e.name === 'AbortError') return; } // fall through to copy-link on real errors
+    }
+    try {
+      await navigator.clipboard.writeText(url);
+      if (label) {
+        clearTimeout(resetTimer);
+        label.textContent = isAR ? 'تم النسخ ✓' : 'Copied ✓';
+        btn.classList.add('copied');
+        resetTimer = setTimeout(() => { label.innerHTML = defaultHtml; btn.classList.remove('copied'); }, 2200);
+      }
+    } catch (e) { /* clipboard blocked (insecure context/permission) -- button stays clickable, no-op */ }
+  });
+});
+
 /* ---------- LIGHTWEIGHT CANVAS HERO (no Three.js — P0/P1 scope) ---------- */
 (function(){
   const c = document.getElementById('hero-canvas'); if (!c) return;

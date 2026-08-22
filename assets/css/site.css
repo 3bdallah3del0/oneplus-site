@@ -340,6 +340,17 @@ body::after{
   .work-item{ cursor:none; }
 }
 
+/* ---------- SHARE BUTTON (UX-4, articles/projects/events) ---------- */
+.share-row{ display:flex; }
+.share-btn{
+  display:inline-flex; align-items:center; gap:9px; font-family:var(--font-mono); font-size:12px;
+  letter-spacing:0.06em; color:var(--paper-dim); background:none; border:1px solid var(--line);
+  border-radius:100px; padding:9px 18px; cursor:pointer; transition:all .3s var(--ease);
+}
+.share-btn:hover{ color:var(--cyan); border-color:var(--cyan); }
+.share-btn.copied{ color:var(--cyan); border-color:var(--cyan); }
+.share-icon{ width:15px; height:15px; flex-shrink:0; }
+
 /* ---------- REVEAL ON SCROLL ---------- */
 .reveal{ opacity:0; transform:translateY(30px); transition:opacity 1s var(--ease), transform 1s var(--ease); }
 .reveal.in{ opacity:1; transform:none; }
