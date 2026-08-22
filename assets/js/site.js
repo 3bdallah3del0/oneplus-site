@@ -574,6 +574,23 @@ async function submitForm(e){
   }
 })();
 
+/* ---------- RENDER-TO-REALITY SLIDER (UX-1) ---------- */
+// Generic: works for any .rtr-frame on the page, driven purely by pointer position along
+// the frame's own width. RTL-aware -- the CSS itself decides which side the reveal starts
+// from, this only ever reports "how far across the frame, 0-100%", never a direction.
+document.querySelectorAll('.rtr-frame').forEach(frame => {
+  function setPos(clientX){
+    const rect = frame.getBoundingClientRect();
+    const pct = Math.min(100, Math.max(0, ((clientX - rect.left) / rect.width) * 100));
+    frame.style.setProperty('--rtr-pos', pct + '%');
+  }
+  let dragging = false;
+  frame.addEventListener('pointerdown', e => { dragging = true; frame.setPointerCapture(e.pointerId); setPos(e.clientX); });
+  frame.addEventListener('pointermove', e => { if (dragging) setPos(e.clientX); });
+  frame.addEventListener('pointerup', () => { dragging = false; });
+  frame.addEventListener('pointercancel', () => { dragging = false; });
+});
+
 /* ---------- SHARE BUTTON (Web Share API + copy-link fallback, UX-4) ---------- */
 document.querySelectorAll('.share-btn').forEach(btn => {
   const label = btn.querySelector('span');
