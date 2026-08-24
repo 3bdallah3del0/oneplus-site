@@ -6,6 +6,11 @@
     "area": "Jeddah Hilton",
     "media": [
       {
+        "url": "https://media.oneplusevents.com/projects/1-EqWvn9hZTTNaye1DaLwZIKHcnwZRkm5/1D6tC8tZfVlfX1hkPFEnA3zxDKk9xxOWH.webp",
+        "role": "hero",
+        "type": "image"
+      },
+      {
         "url": "https://media.oneplusevents.com/projects/1-EqWvn9hZTTNaye1DaLwZIKHcnwZRkm5/15qUQOGsBiEZPOVj3vneUaNXiW9UcuIJl.webp",
         "role": "gallery",
         "type": "image"
@@ -72,11 +77,6 @@
       },
       {
         "url": "https://media.oneplusevents.com/projects/1-EqWvn9hZTTNaye1DaLwZIKHcnwZRkm5/1SH3-xD67oDIlvqLYUUCicgj44Ug35dUN.webp",
-        "role": "gallery",
-        "type": "image"
-      },
-      {
-        "url": "https://media.oneplusevents.com/projects/1-EqWvn9hZTTNaye1DaLwZIKHcnwZRkm5/1D6tC8tZfVlfX1hkPFEnA3zxDKk9xxOWH.webp",
         "role": "gallery",
         "type": "image"
       },
