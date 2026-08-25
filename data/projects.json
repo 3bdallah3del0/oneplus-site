@@ -1,5 +1,58 @@
 [
   {
+    "slug": "hublot-1-fb8b",
+    "client": "HUBLOT",
+    "event_type": "Event",
+    "area": "Riyadh",
+    "media": [
+      {
+        "url": "https://media.oneplusevents.com/projects/1-FB8B4ZLpP52Z2Szs9Wv6SrnQLL6ZXnv/1nfccwlOZHRTe6psVXSri3oWsP7nA8xWI.webp",
+        "role": "gallery",
+        "type": "image"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/1-FB8B4ZLpP52Z2Szs9Wv6SrnQLL6ZXnv/1M3vF1Fb56HSAsDjtI_UzihxtGYvocb8E.webp",
+        "role": "gallery",
+        "type": "image"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/1-FB8B4ZLpP52Z2Szs9Wv6SrnQLL6ZXnv/1QdqrpuXnRILTuf-8eqxBkAWoxiH_fZPf.webp",
+        "role": "gallery",
+        "type": "image"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/1-FB8B4ZLpP52Z2Szs9Wv6SrnQLL6ZXnv/1LrYhOJzHwIMN-rMBi5iCNYWiPTbZ2_6a.webp",
+        "role": "gallery",
+        "type": "image"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/1-FB8B4ZLpP52Z2Szs9Wv6SrnQLL6ZXnv/1EYeX2uNeuAgi-Bx3VpE8kC8FGN_uh7It.webp",
+        "role": "gallery",
+        "type": "image"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/1-FB8B4ZLpP52Z2Szs9Wv6SrnQLL6ZXnv/1De1LmyF8uSgmmaTnHF28DS0KhwFMhMr5.webp",
+        "role": "gallery",
+        "type": "image"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/1-FB8B4ZLpP52Z2Szs9Wv6SrnQLL6ZXnv/13fQdTvVNcDy-JByqfevIO_41KD16u578.webp",
+        "role": "gallery",
+        "type": "image"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/1-FB8B4ZLpP52Z2Szs9Wv6SrnQLL6ZXnv/10oZ8Kzv5VHrWtF_QwZrPWc6FIVibcZa1.webp",
+        "role": "gallery",
+        "type": "image"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/1-FB8B4ZLpP52Z2Szs9Wv6SrnQLL6ZXnv/1JiDCshw7oLNrPVUNyK4mKL-F6OyenUEn.webp",
+        "role": "gallery",
+        "type": "image"
+      }
+    ]
+  },
+  {
     "slug": "arma-booth-1-kvzf",
     "client": "ARMA booth",
     "event_type": "SIDC conference",
@@ -71,81 +124,15 @@
         "type": "image"
       },
       {
+        "url": "https://media.oneplusevents.com/projects/1-KVZfE-ZYf_VXOKv0ufLID_aMXdkLrK-/1TpTgTHMwgl-KaPswzZP-YhvnctP5nNPX.webp",
+        "role": "gallery",
+        "type": "image"
+      },
+      {
         "url": "https://media.oneplusevents.com/projects/1-KVZfE-ZYf_VXOKv0ufLID_aMXdkLrK-/1MnpBhPOi1rQBU_4CCXYmx5LCuJc2kfWK.mp4",
         "type": "video",
         "webm_url": null,
         "poster_url": "https://media.oneplusevents.com/projects/1-KVZfE-ZYf_VXOKv0ufLID_aMXdkLrK-/1MnpBhPOi1rQBU_4CCXYmx5LCuJc2kfWK.jpg"
-      }
-    ]
-  },
-  {
-    "slug": "freshly-10uqea",
-    "client": "Freshly",
-    "event_type": "coffe & chocolate exhibition",
-    "area": "Riyadh",
-    "media": [
-      {
-        "url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/1qiGwyaSY-vV9Ffov5JOhVLQPhWtBcGDT.webp",
-        "role": "gallery",
-        "type": "image"
-      },
-      {
-        "url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/1xagxJAnme0jPR8E2tBuiXqcv3YEB_HyF.webp",
-        "role": "gallery",
-        "type": "image"
-      }
-    ]
-  },
-  {
-    "slug": "hublot-1-fb8b",
-    "client": "HUBLOT",
-    "event_type": "Event",
-    "area": "Riyadh",
-    "media": [
-      {
-        "url": "https://media.oneplusevents.com/projects/1-FB8B4ZLpP52Z2Szs9Wv6SrnQLL6ZXnv/1nfccwlOZHRTe6psVXSri3oWsP7nA8xWI.webp",
-        "role": "gallery",
-        "type": "image"
-      },
-      {
-        "url": "https://media.oneplusevents.com/projects/1-FB8B4ZLpP52Z2Szs9Wv6SrnQLL6ZXnv/1M3vF1Fb56HSAsDjtI_UzihxtGYvocb8E.webp",
-        "role": "gallery",
-        "type": "image"
-      },
-      {
-        "url": "https://media.oneplusevents.com/projects/1-FB8B4ZLpP52Z2Szs9Wv6SrnQLL6ZXnv/1QdqrpuXnRILTuf-8eqxBkAWoxiH_fZPf.webp",
-        "role": "gallery",
-        "type": "image"
-      },
-      {
-        "url": "https://media.oneplusevents.com/projects/1-FB8B4ZLpP52Z2Szs9Wv6SrnQLL6ZXnv/1LrYhOJzHwIMN-rMBi5iCNYWiPTbZ2_6a.webp",
-        "role": "gallery",
-        "type": "image"
-      },
-      {
-        "url": "https://media.oneplusevents.com/projects/1-FB8B4ZLpP52Z2Szs9Wv6SrnQLL6ZXnv/1EYeX2uNeuAgi-Bx3VpE8kC8FGN_uh7It.webp",
-        "role": "gallery",
-        "type": "image"
-      },
-      {
-        "url": "https://media.oneplusevents.com/projects/1-FB8B4ZLpP52Z2Szs9Wv6SrnQLL6ZXnv/1De1LmyF8uSgmmaTnHF28DS0KhwFMhMr5.webp",
-        "role": "gallery",
-        "type": "image"
-      },
-      {
-        "url": "https://media.oneplusevents.com/projects/1-FB8B4ZLpP52Z2Szs9Wv6SrnQLL6ZXnv/13fQdTvVNcDy-JByqfevIO_41KD16u578.webp",
-        "role": "gallery",
-        "type": "image"
-      },
-      {
-        "url": "https://media.oneplusevents.com/projects/1-FB8B4ZLpP52Z2Szs9Wv6SrnQLL6ZXnv/10oZ8Kzv5VHrWtF_QwZrPWc6FIVibcZa1.webp",
-        "role": "gallery",
-        "type": "image"
-      },
-      {
-        "url": "https://media.oneplusevents.com/projects/1-FB8B4ZLpP52Z2Szs9Wv6SrnQLL6ZXnv/1JiDCshw7oLNrPVUNyK4mKL-F6OyenUEn.webp",
-        "role": "gallery",
-        "type": "image"
       }
     ]
   },
@@ -504,6 +491,24 @@
       },
       {
         "url": "https://media.oneplusevents.com/projects/1-EqWvn9hZTTNaye1DaLwZIKHcnwZRkm5/1rir4IOmMa-4bFnUEOFF8BWGZ0SpmX1Yd.webp",
+        "role": "gallery",
+        "type": "image"
+      }
+    ]
+  },
+  {
+    "slug": "freshly-10uqea",
+    "client": "Freshly",
+    "event_type": "coffe & chocolate exhibition",
+    "area": "Riyadh",
+    "media": [
+      {
+        "url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/1qiGwyaSY-vV9Ffov5JOhVLQPhWtBcGDT.webp",
+        "role": "gallery",
+        "type": "image"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/1xagxJAnme0jPR8E2tBuiXqcv3YEB_HyF.webp",
         "role": "gallery",
         "type": "image"
       }
