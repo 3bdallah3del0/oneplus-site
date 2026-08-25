@@ -79,6 +79,24 @@
     ]
   },
   {
+    "slug": "freshly-10uqea",
+    "client": "Freshly",
+    "event_type": "coffe & chocolate exhibition",
+    "area": "Riyadh",
+    "media": [
+      {
+        "url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/1qiGwyaSY-vV9Ffov5JOhVLQPhWtBcGDT.webp",
+        "role": "gallery",
+        "type": "image"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/1xagxJAnme0jPR8E2tBuiXqcv3YEB_HyF.webp",
+        "role": "gallery",
+        "type": "image"
+      }
+    ]
+  },
+  {
     "slug": "hublot-1-fb8b",
     "client": "HUBLOT",
     "event_type": "Event",
@@ -335,24 +353,6 @@
         "type": "video",
         "webm_url": null,
         "poster_url": "https://media.oneplusevents.com/projects/1-WuAL5KjFLkCaLPzzEXz-uM7nw2JZuug/1CSuunvP20zbHkbTYAub1jV5w3YOHmZGv.jpg"
-      }
-    ]
-  },
-  {
-    "slug": "freshly-10uqea",
-    "client": "Freshly",
-    "event_type": "coffe & chocolate exhibition",
-    "area": "Riyadh",
-    "media": [
-      {
-        "url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/1qiGwyaSY-vV9Ffov5JOhVLQPhWtBcGDT.webp",
-        "role": "gallery",
-        "type": "image"
-      },
-      {
-        "url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/1xagxJAnme0jPR8E2tBuiXqcv3YEB_HyF.webp",
-        "role": "gallery",
-        "type": "image"
       }
     ]
   },
