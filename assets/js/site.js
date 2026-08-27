@@ -226,20 +226,64 @@ function renderNews(){
 }
 loadNews();
 
-/* ---------- PAGEVIEW BEACON (P4/S77 exception, anonymous, no PII) ---------- */
+/* ---------- PAGEVIEW + ENGAGEMENT BEACON (P4/S77, enriched S82 — anonymous, no PII) ----------
+   Sends: a "view" on load, then an "engage" (time-on-page + max scroll depth) on the way out.
+   No IP, no raw User-Agent, no cookie — session id is an ephemeral sessionStorage value shared
+   with the assistant widget so a visit's pages+chat can be tied together (anonymously). */
 (function(){
   try {
-    let sid = sessionStorage.getItem('op_sid');
+    var EP = 'https://n8n.oneplusevents.com/webhook/web-pageview';
+    var sid = sessionStorage.getItem('op_sid');
     if (!sid) {
       sid = 'sid-' + Math.random().toString(36).slice(2) + Date.now().toString(36);
       sessionStorage.setItem('op_sid', sid);
     }
-    fetch('https://n8n.oneplusevents.com/webhook/web-pageview', {
+    var pvid = 'pv-' + Math.random().toString(36).slice(2) + Date.now().toString(36);
+    var t0 = Date.now(), maxScroll = 0, engageSent = false;
+
+    function trackScroll(){
+      var el = document.documentElement, b = document.body;
+      var st = window.pageYOffset || el.scrollTop || b.scrollTop || 0;
+      var h = (el.scrollHeight || b.scrollHeight || 0) - window.innerHeight;
+      var pct = h > 0 ? Math.round((st / h) * 100) : 100;
+      if (pct < 0) pct = 0; if (pct > 100) pct = 100;
+      if (pct > maxScroll) maxScroll = pct;
+    }
+    window.addEventListener('scroll', trackScroll, { passive: true });
+    trackScroll();
+
+    // text/plain keeps this a CORS "simple" request (no preflight) — the body is still JSON,
+    // parsed server-side. We never read the response, so cross-origin is a non-issue.
+    fetch(EP, {
       method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ path: location.pathname, referrer: document.referrer || '', session_id: sid }),
+      headers: { 'Content-Type': 'text/plain' },
+      body: JSON.stringify({
+        event: 'view', path: location.pathname, query: location.search || '',
+        referrer: document.referrer || '', session_id: sid, client_pv_id: pvid
+      }),
       keepalive: true
-    }).catch(() => {});
+    }).catch(function(){});
+
+    function sendEngage(){
+      if (engageSent) return;
+      engageSent = true;
+      trackScroll();
+      var payload = JSON.stringify({
+        event: 'engage', client_pv_id: pvid, session_id: sid,
+        duration_ms: Date.now() - t0, max_scroll: maxScroll
+      });
+      try {
+        if (navigator.sendBeacon) {
+          navigator.sendBeacon(EP, new Blob([payload], { type: 'text/plain' }));
+        } else {
+          fetch(EP, { method: 'POST', headers: { 'Content-Type': 'text/plain' }, body: payload, keepalive: true }).catch(function(){});
+        }
+      } catch (e) {
+        try { fetch(EP, { method: 'POST', headers: { 'Content-Type': 'text/plain' }, body: payload, keepalive: true }).catch(function(){}); } catch (e2) {}
+      }
+    }
+    document.addEventListener('visibilitychange', function(){ if (document.visibilityState === 'hidden') sendEngage(); });
+    window.addEventListener('pagehide', sendEngage);
   } catch (e) { /* tracking must never break the page */ }
 })();
 
@@ -327,12 +371,13 @@ async function submitForm(e){
 /* ---------- ASSISTANT WIDGET (P2, WEBSITE_V5_BUILD_PLAN.md §2A) ---------- */
 (function () {
   const WEBHOOK_URL = 'https://n8n.oneplusevents.com/webhook/web-assistant';
-  const SESSION_KEY = 'oneplus_chat_session';
+  // S82: share the pageview beacon's session id so a visit's pages + chat correlate (anonymously)
+  const SESSION_KEY = 'op_sid';
 
   function getSessionId() {
     let id = sessionStorage.getItem(SESSION_KEY);
     if (!id) {
-      id = 'web-' + Date.now() + '-' + Math.random().toString(36).slice(2, 10);
+      id = 'sid-' + Math.random().toString(36).slice(2) + Date.now().toString(36);
       sessionStorage.setItem(SESSION_KEY, id);
     }
     return id;
