@@ -1,5 +1,17 @@
 [
   {
+    "slug": "black-hat-mea-booth-guide",
+    "title": {
+      "ar": "دليل جناح معرض Black Hat MEA: التصميم والتنفيذ",
+      "en": "Black Hat MEA exhibition booth guide"
+    },
+    "meta_description": {
+      "ar": "دليلك الشامل لتصميم وتنفيذ جناح Black Hat MEA في السعودية. تعرف على معايير النجاح، الخطوات الزمنية، ونصائح بناء أجنحة المعارض التقنية مع ون بلس.",
+      "en": "Plan your Black Hat MEA exhibition booth with our technical guide covering design trends, compliance, and execution in Saudi Arabia."
+    },
+    "published_at": "2026-08-28T01:37:37.947Z"
+  },
+  {
     "slug": "booth-vs-conference-stage",
     "title": {
       "ar": "جناح معرض أم منصة مؤتمر؟ تعرف على الفرق في فعاليات السعودية",
@@ -178,17 +190,5 @@
       "en": "Learn how to choose a reliable exhibition booth contractor in Saudi Arabia by evaluating local experience, fabrication capabilities, and compliance."
     },
     "published_at": "2026-08-22T10:47:38.415Z"
-  },
-  {
-    "slug": "black-hat-mea-booth-guide",
-    "title": {
-      "ar": "دليل جناح معرض Black Hat MEA: التصميم والتنفيذ",
-      "en": "Black Hat MEA exhibition booth guide"
-    },
-    "meta_description": {
-      "ar": "دليلك الشامل لتصميم وتنفيذ جناح Black Hat MEA في السعودية. تعرف على معايير النجاح، الخطوات الزمنية، ونصائح بناء أجنحة المعارض التقنية مع ون بلس.",
-      "en": "Plan your Black Hat MEA exhibition booth with our technical guide covering design trends, compliance, and execution in Saudi Arabia."
-    },
-    "published_at": "2026-08-22T10:47:33.298Z"
   }
 ]
