@@ -322,6 +322,18 @@ body::after{
 .project-cta{ text-align:center; padding:0 clamp(20px,5vw,64px) clamp(80px,10vh,120px); }
 .project-cta a{ display:inline-flex; align-items:center; gap:12px; font-family:var(--font-display); font-weight:600; font-size:15px; background:var(--cyan); color:var(--ink); text-decoration:none; padding:16px 26px; border-radius:100px; }
 
+/* ---------- CASE STUDY (S85 — AI-written from a per-project Drive brief) ---------- */
+.case-study{ max-width:74ch; margin:clamp(48px,7vh,88px) auto clamp(40px,6vh,64px); padding:0 clamp(20px,5vw,64px); }
+.cs-eyebrow{ font-family:var(--font-mono); font-size:11px; letter-spacing:0.12em; text-transform:uppercase; color:var(--cyan); margin-bottom:18px; }
+.cs-summary{ font-family:var(--font-serif); font-size:clamp(20px,2.6vw,27px); line-height:1.4; color:var(--paper); margin-bottom:34px; }
+.cs-block{ margin-bottom:26px; }
+.cs-block h3{ font-family:var(--font-mono); font-size:12px; letter-spacing:0.08em; text-transform:uppercase; color:var(--paper-faint); margin-bottom:8px; }
+.cs-block p{ font-size:16px; line-height:1.7; color:var(--paper-dim); }
+.cs-en, .cs-ar{ display:block; }
+:root:not([dir="rtl"]) .cs-ar{ display:none; }
+:root[dir="rtl"] .cs-en{ display:none; }
+:root[dir="rtl"] .case-study{ text-align:right; }
+
 /* ---------- ASSISTANT WIDGET (P2) ---------- */
 .chat-fab{
   position:fixed; bottom:24px; inset-inline-end:24px; z-index:95;
