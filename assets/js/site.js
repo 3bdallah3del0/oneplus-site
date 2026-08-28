@@ -233,9 +233,10 @@ function renderNews(){
   if (!section || !list) return;
   if (!NEWS_ITEMS.length) { section.style.display = 'none'; return; }
   section.style.display = '';
+  // homepage news links go to /news/ first — the source link lives on the /news/ page cards.
   list.innerHTML = NEWS_ITEMS.slice(0, 5).map(raw => {
     const n = newsFields(raw);
-    return `<a class="insight-item reveal" href="${n.url}" target="_blank" rel="noopener noreferrer">
+    return `<a class="insight-item reveal" href="/news/">
     <div class="insight-title">${n.title}</div>
     <div class="insight-desc">${n.summary}</div>
     <div class="insight-desc" style="opacity:.6;margin-top:8px">${n.source}${n.date ? ' &middot; ' + n.date : ''}</div>
@@ -255,7 +256,8 @@ function renderNewsTicker(){
   if (!items.length) { bar.hidden = true; return; }
   const chip = n => {
     const src = (n.source.split('—')[0].split('·')[0]).trim() || n.source;
-    return `<a class="newsbar-item" href="${esc(n.url)}" target="_blank" rel="noopener noreferrer">`
+    // ticker headlines go to /news/ (not the source) — the source link is on the /news/ page.
+    return `<a class="newsbar-item" href="/news/">`
       + `<span class="newsbar-src">${esc(src)}</span>`
       + `<span class="newsbar-headline">${esc(n.title)}</span></a>`
       + `<span class="newsbar-sep" aria-hidden="true">&#9670;</span>`;
@@ -369,21 +371,37 @@ loadNews();
   if (!grid) return;
   const cursor = document.createElement('div');
   cursor.className = 'work-cursor';
-  // data-en/data-ar so a later toggleLang() (which re-runs applyLang() over every
-  // [data-en] element in the document) keeps this in sync -- see LANGUAGE TOGGLE above.
+  // outer div = position only (no CSS transition); inner div = the circle that pops in.
+  // data-en/data-ar so a later toggleLang() (re-runs applyLang() over every [data-en]) keeps the label synced.
   cursor.innerHTML =
+    '<div class="work-cursor-inner">' +
     '<svg class="work-cursor-arrow" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M17 7H8M17 7v9"/></svg>' +
-    '<span data-en="View" data-ar="عرض">' + (isAR ? 'عرض' : 'View') + '</span>';
+    '<span data-en="View" data-ar="عرض">' + (isAR ? 'عرض' : 'View') + '</span>' +
+    '</div>';
   document.body.appendChild(cursor);
-  let raf = null, x = 0, y = 0;
-  function move(e){
-    x = e.clientX; y = e.clientY;
-    if (raf) return;
-    raf = requestAnimationFrame(() => { cursor.style.transform = `translate(${x}px, ${y}px) translate(-50%,-50%)`; raf = null; });
+
+  // light lerp toward the pointer: smooth, but catches up in ~3 frames (no perceptible lag,
+  // no spring overshoot). The rAF loop only runs while the cursor is visible and still moving.
+  const reduce = window.matchMedia('(prefers-reduced-motion:reduce)').matches;
+  const EASE = reduce ? 1 : 0.45;   // snappy follow — barely a trail, no spring/overshoot
+  let tx = -200, ty = -200, cx = -200, cy = -200, raf = null;
+  function draw(){ cursor.style.transform = 'translate3d(' + cx + 'px,' + cy + 'px,0)'; }
+  function loop(){
+    cx += (tx - cx) * EASE; cy += (ty - cy) * EASE;
+    draw();
+    if (Math.abs(tx - cx) > 0.2 || Math.abs(ty - cy) > 0.2) { raf = requestAnimationFrame(loop); }
+    else { cx = tx; cy = ty; draw(); raf = null; }
   }
-  document.addEventListener('mousemove', move);
-  grid.addEventListener('mouseover', (e) => { if (e.target.closest('.work-item')) cursor.classList.add('show'); });
-  grid.addEventListener('mouseout', (e) => { if (e.target.closest('.work-item') && !e.relatedTarget?.closest?.('.work-item')) cursor.classList.remove('show'); });
+  function kick(){ if (!raf && cursor.classList.contains('show')) raf = requestAnimationFrame(loop); }
+  document.addEventListener('mousemove', (e) => { tx = e.clientX; ty = e.clientY; kick(); }, { passive: true });
+  grid.addEventListener('mouseover', (e) => {
+    if (!e.target.closest('.work-item')) return;
+    tx = e.clientX; ty = e.clientY; cx = tx; cy = ty; draw();   // appear exactly under the pointer
+    cursor.classList.add('show');
+  });
+  grid.addEventListener('mouseout', (e) => {
+    if (e.target.closest('.work-item') && !e.relatedTarget?.closest?.('.work-item')) cursor.classList.remove('show');
+  });
 })();
 
 /* ---------- WEB3FORMS CONTACT SUBMISSION ---------- */
