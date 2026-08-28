@@ -1,1 +1,182 @@
-[]
+[
+  {
+    "id": 3,
+    "geo": "saudi",
+    "url": "https://saudigazette.com.sa/article/664095/saudi-arabia/expo-2030-riyadh-and-atout-france-sign-mou-to-promote-strategic-collaboration-and-strengthen-knowledge-exchange",
+    "date": "2026-08-26",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/08/26/2756432.webp",
+    "title": {
+      "ar": "مذكرة تفاهم بين إكسبو 2030 الرياض وأتو فرنس",
+      "en": "Expo 2030 Riyadh & Atout France Sign MoU"
+    },
+    "topic": "exhibition",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "وقعت إكسبو 2030 الرياض وأتو فرنس مذكرة تفاهم لتعزيز التعاون الاستراتيجي وتبادل المعرفة.",
+      "en": "Expo 2030 Riyadh and Atout France signed an MoU to promote strategic collaboration and knowledge exchange."
+    },
+    "priority": "P1"
+  },
+  {
+    "id": 5,
+    "geo": "saudi",
+    "url": "https://saudigazette.com.sa/article/664067/saudi-arabia/france-becomes-first-official-participant-at-expo-2030-riyadh",
+    "date": "2026-08-25",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/08/25/2756071.webp",
+    "title": {
+      "ar": "فرنسا أول مشارك رسمي في إكسبو 2030 الرياض",
+      "en": "France First Official Participant at Expo 2030 Riyadh"
+    },
+    "topic": "exhibition",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "فرنسا توقّعت عقد المشاركة الرسمي في إكسبو 2030 الرياض، مما يعزز الزخم الدولي للمعرض.",
+      "en": "France signed the official participation contract for Expo 2030 Riyadh, boosting the event’s international momentum."
+    },
+    "priority": "P1"
+  },
+  {
+    "id": 4,
+    "geo": "saudi",
+    "url": "https://saudigazette.com.sa/article/664068/saudi-arabia/saudi-arabia-bureau-international-des-expositions-sign-see-agreement-for-expo-2030-riyadh",
+    "date": "2026-08-25",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/08/25/2756083.webp",
+    "title": {
+      "ar": "السعودية ومكتب المعارض الدولي يوقعان اتفاقية SEE لإكسبو 2030",
+      "en": "Saudi Arabia & BIE Sign SEE Agreement for Expo 2030"
+    },
+    "topic": "exhibition",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "وقعت السعودية ومكتب المعارض الدولي اتفاقية SEE لتحديد الإطار القانوني لإكسبو 2030 الرياض.",
+      "en": "Saudi Arabia and the BIE signed the SEE Agreement establishing the legal framework for Expo 2030 Riyadh."
+    },
+    "priority": "P1"
+  },
+  {
+    "id": 12,
+    "geo": "global",
+    "url": "https://exhibitionnews.uk/interprefy-launches-media-hub-for-post-event-multilingual-content/",
+    "date": "2026-08-26",
+    "image": null,
+    "title": {
+      "ar": "Interprefy تطلق Media Hub للمحتوى متعدد اللغات بعد الفعاليات",
+      "en": "Interprefy Launches Media Hub for Post-Event Multilingual Content"
+    },
+    "topic": "technology",
+    "source": "Exhibition World",
+    "summary": {
+      "ar": "أطلقت Interprefy منصة Media Hub لتمكين فرق الفعاليات من الوصول وتحرير المحتوى متعدد اللغات بعد الحدث.",
+      "en": "Interprefy launched Media Hub enabling event teams to access, edit, and reuse multilingual recordings and transcripts post‑event."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 6,
+    "geo": "saudi",
+    "url": "https://saudigazette.com.sa/article/664042/business/the-infrastructure-behind-saudi-arabias-next-phase-of-ai",
+    "date": "2026-08-25",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/08/25/2755560.webp",
+    "title": {
+      "ar": "البنية التحتية للذكاء الاصطناعي في السعودية",
+      "en": "Saudi Arabia's Next AI Infrastructure Phase"
+    },
+    "topic": "technology",
+    "source": "Saudi Gazette — Business",
+    "summary": {
+      "ar": "تستعرض المقالة التحولات في بنية الذكاء الاصطناعي بالمملكة مع إشارة إلى مؤتمر LEAP كمنصة لتجمع القادة.",
+      "en": "The article outlines Saudi AI infrastructure shifts, noting LEAP as a gathering for tech leaders."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 8,
+    "geo": "saudi",
+    "url": "https://saudigazette.com.sa/article/664013/business/honor-announces-participation-at-leap-2026-showcasing-the-worlds-first-robot-phone-and-its-ai-ecosystem-vision",
+    "date": "2026-08-24",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/08/24/2755193.webp",
+    "title": {
+      "ar": "HONOR تشارك في معرض LEAP 2026",
+      "en": "HONOR to Showcase at LEAP 2026"
+    },
+    "topic": "technology",
+    "source": "Saudi Gazette — Business",
+    "summary": {
+      "ar": "تعلن شركة HONOR عن مشاركتها في LEAP 2026 في الرياض لتقديم أول هاتف روبوتي ورؤيتها للذكاء الاصطناعي.",
+      "en": "HONOR announced its participation at LEAP 2026 in Riyadh to unveil the world’s first robot phone and its AI ecosystem."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 7,
+    "geo": "saudi",
+    "url": "https://saudigazette.com.sa/article/664015/business/big-5-construct-saudi-to-open-in-riyadh-next-week-under-the-patronage-of-ministry-of-industry-and-mineral-resources",
+    "date": "2026-08-24",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/08/24/2755246.webp",
+    "title": {
+      "ar": "افتتاح معرض بيغ 5 كونسْتراكت السعودية بالرياض",
+      "en": "Big 5 Construct Saudi Opens in Riyadh"
+    },
+    "topic": "exhibition",
+    "source": "Saudi Gazette — Business",
+    "summary": {
+      "ar": "يُفتتح معرض بيغ 5 كونسْتراكت السعودية في الرياض، يضم فعاليات متخصصة في البناء والهندسة.",
+      "en": "Big 5 Construct Saudi opens in Riyadh, featuring specialized events for construction and engineering."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 9,
+    "geo": "saudi",
+    "url": "https://saudigazette.com.sa/article/663960/business/yasser-al-hazimi-launches-51talks-new-saudi-focused-english-courseware-at-the-2026-back-to-school-exhibition",
+    "date": "2026-08-23",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/08/23/2754490.webp",
+    "title": {
+      "ar": "إطلاق 51Talk لمقرر إنجليزي في معرض العودة للمدرسة 2026",
+      "en": "51Talk Launches Saudi English Courseware at Back-to-School 2026"
+    },
+    "topic": "exhibition",
+    "source": "Saudi Gazette — Business",
+    "summary": {
+      "ar": "أطلق ياسر الحزيمي من 51Talk برنامجًا تعليميًا جديدًا للإنجليزية في معرض العودة للمدرسة 2026 بالمملكة.",
+      "en": "Yasser Al-Hazimi launched 51Talk’s new Saudi-focused English courseware at the 2026 Back-to-School exhibition."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 11,
+    "geo": "global",
+    "url": "https://www.tsnn.com/sustainability/diversified-rolls-out-green-strategy-at-accountex-london",
+    "date": "2026-08-25",
+    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/bltb2f676f2452c8a7d/6a60dcd1169f6ba0bb707397/Accountex_London_Better_Stands_edit.jpeg?width=720&amp;quality=80&amp;disable=upscale",
+    "title": {
+      "ar": "ديفرسيفايد تطلق استراتيجية خضراء في Accountex لندن",
+      "en": "Diversified Unveils Green Strategy at Accountex London"
+    },
+    "topic": "industry",
+    "source": "TSNN — Trade Show News",
+    "summary": {
+      "ar": "أعلنت شركة Diversified عن استراتيجيتها البيئية خلال مشاركتها في معرض Accountex بلندن.",
+      "en": "Diversified announced its green strategy during its participation at Accountex London."
+    },
+    "priority": "P3"
+  },
+  {
+    "id": 10,
+    "geo": "global",
+    "url": "https://www.ufi.org/is-exhibition-success-still-about-size/",
+    "date": "2026-08-25",
+    "image": null,
+    "title": {
+      "ar": "هل نجاح المعرض لا يزال يعتمد على الحجم؟",
+      "en": "Is Exhibition Success Still About Size?"
+    },
+    "topic": "industry",
+    "source": "UFI",
+    "summary": {
+      "ar": "تناقش المقالة عوامل نجاح المعارض الحديثة بعيدًا عن التركيز على عدد الزوار أو المساحة.",
+      "en": "The article discusses evolving factors of exhibition success beyond visitor numbers or size."
+    },
+    "priority": "P3"
+  }
+]
