@@ -40,7 +40,7 @@ function toggleLang(){
   // (e.g. "مؤتمر") -- every project silently got marked filtered-out (display:none),
   // which read as "switching to Arabic makes the project images disappear."
   activeFilter = 'all';
-  applyLang(); renderFilters(); renderProjects(); renderArticles(); renderArticlesArchive(); renderNews(); renderNewsPage(); if (window.updateAssistantLang) window.updateAssistantLang();
+  applyLang(); renderFilters(); renderProjects(); renderArticles(); renderArticlesArchive(); renderNews(); renderNewsTicker(); renderNewsPage(); if (window.updateAssistantLang) window.updateAssistantLang();
 }
 applyLang();
 
@@ -206,6 +206,7 @@ async function loadNews(){
     NEWS_ITEMS = Array.isArray(j) ? j : [];
   } catch (e) { NEWS_ITEMS = []; }
   renderNews();
+  renderNewsTicker();
   renderNewsPage();
   wireNewsFilters();
 }
@@ -241,6 +242,31 @@ function renderNews(){
   </a>`;
   }).join('') + `<a class="insights-more-link reveal" href="/news/" data-en="All exhibition news &rarr;" data-ar="&larr; كل أخبار المعارض">${isAR ? '← كل أخبار المعارض' : 'All exhibition news →'}</a>`;
   observeReveals(list);
+}
+/* homepage: scrolling industry-wire ticker (same data, sits above #work) */
+function renderNewsTicker(){
+  const bar = document.getElementById('newsbar');
+  const track = document.getElementById('newsbar-track');
+  if (!bar || !track) return;
+  if (!NEWS_ITEMS.length) { bar.hidden = true; return; }
+  bar.hidden = false;
+  const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const items = NEWS_ITEMS.slice(0, 10).map(newsFields).filter(n => n.title);
+  if (!items.length) { bar.hidden = true; return; }
+  const chip = n => {
+    const src = (n.source.split('—')[0].split('·')[0]).trim() || n.source;
+    return `<a class="newsbar-item" href="${esc(n.url)}" target="_blank" rel="noopener noreferrer">`
+      + `<span class="newsbar-src">${esc(src)}</span>`
+      + `<span class="newsbar-headline">${esc(n.title)}</span></a>`
+      + `<span class="newsbar-sep" aria-hidden="true">&#9670;</span>`;
+  };
+  const seq = items.map(chip).join('');
+  track.innerHTML = `<div class="newsbar-seq">${seq}</div><div class="newsbar-seq" aria-hidden="true">${seq}</div>`;
+  // keep scroll speed consistent (~60px/s) regardless of how many headlines there are.
+  // read synchronously (forces one cheap reflow) — rAF is throttled in background tabs.
+  const first = track.firstElementChild;
+  const w = first && first.scrollWidth;
+  if (w) track.style.setProperty('--newsbar-dur', Math.max(28, Math.round(w / 60)) + 's');
 }
 /* /news/ page: filterable grid with images */
 function renderNewsPage(){

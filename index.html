@@ -95,9 +95,11 @@
 <!-- PROOF / CLIENTS -->
 <section class="proof">
   <div class="proof-label" data-en="TRUSTED TO BUILD FOR" data-ar="نفّذنا لعملاء منهم">TRUSTED TO BUILD FOR</div>
-  <div class="marquee" id="marquee">
-    <span>STC</span><span>SABIC</span><span>HUBLOT</span><span>Jarir</span><span>Ministry of Sports</span><span>Heritage Commission</span><span>MODON</span><span>SELA</span><span>Al-Ittihad</span>
-    <span>STC</span><span>SABIC</span><span>HUBLOT</span><span>Jarir</span><span>Ministry of Sports</span><span>Heritage Commission</span><span>MODON</span><span>SELA</span><span>Al-Ittihad</span>
+  <div class="marquee-viewport">
+    <div class="marquee" id="marquee">
+      <span>STC</span><span>SABIC</span><span>HUBLOT</span><span>Jarir</span><span>Ministry of Sports</span><span>Heritage Commission</span><span>MODON</span><span>SELA</span><span>Al-Ittihad</span>
+      <span>STC</span><span>SABIC</span><span>HUBLOT</span><span>Jarir</span><span>Ministry of Sports</span><span>Heritage Commission</span><span>MODON</span><span>SELA</span><span>Al-Ittihad</span>
+    </div>
   </div>
   <div class="events-strip">
     <span class="events-strip-label" data-en="WE BUILD FOR EXHIBITORS AT" data-ar="ننفّذ لعارضي">WE BUILD FOR EXHIBITORS AT</span>
@@ -107,6 +109,19 @@
     <a href="/events/riyadh-season/" data-en="Riyadh Season" data-ar="موسم الرياض">Riyadh Season</a>
   </div>
 </section>
+
+<!-- NEWS TICKER — fed by the same data/news.json as the #news section (auto-updated by WEB_News);
+     site.js renderNewsTicker() unhides it only when there is news. -->
+<aside class="newsbar" id="newsbar" hidden aria-label="Latest exhibition and events news">
+  <a class="newsbar-tag" href="/news/">
+    <span class="newsbar-live" aria-hidden="true"></span>
+    <span data-en="INDUSTRY WIRE" data-ar="نبض القطاع">INDUSTRY WIRE</span>
+  </a>
+  <div class="newsbar-viewport">
+    <div class="newsbar-track" id="newsbar-track"></div>
+  </div>
+  <a class="newsbar-all" href="/news/" data-en="All news &rarr;" data-ar="&larr; كل الأخبار">All news &rarr;</a>
+</aside>
 
 <!-- WORK -->
 <section class="section" id="work">
