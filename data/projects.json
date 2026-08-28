@@ -140,11 +140,6 @@
         "type": "image"
       },
       {
-        "url": "https://media.oneplusevents.com/projects/1-Vr87X6S6-2I1iuoAS7xkBrukRoNywHI/1vuVhQbk8LNYe0bTyUxfJWC8EvKx-TUZC.webp",
-        "role": "gallery",
-        "type": "image"
-      },
-      {
         "url": "https://media.oneplusevents.com/projects/1-Vr87X6S6-2I1iuoAS7xkBrukRoNywHI/1TVtrbgJvypvMPXohv2a-azwGTj5E6Z67.webp",
         "role": "gallery",
         "type": "image"
@@ -170,6 +165,11 @@
         "type": "image"
       },
       {
+        "url": "https://media.oneplusevents.com/projects/1-Vr87X6S6-2I1iuoAS7xkBrukRoNywHI/1vuVhQbk8LNYe0bTyUxfJWC8EvKx-TUZC.webp",
+        "role": "reality",
+        "type": "image"
+      },
+      {
         "url": "https://media.oneplusevents.com/projects/1-Vr87X6S6-2I1iuoAS7xkBrukRoNywHI/1dDHyvHOYHdVf0SKb2cmwUyIFEbp-KfEM.mp4",
         "type": "video",
         "webm_url": null,
@@ -177,7 +177,11 @@
       }
     ],
     "header": "https://media.oneplusevents.com/projects/1-Vr87X6S6-2I1iuoAS7xkBrukRoNywHI/16hjC1Dp9dyXNx0vgB82Ywmb91p5Lo1eQ.webp",
-    "render_pair": null
+    "render_pair": {
+      "auto": true,
+      "render": "https://media.oneplusevents.com/projects/1-Vr87X6S6-2I1iuoAS7xkBrukRoNywHI/1mBhzIG5J_f1jcU-Filuv9Sqc8jhUK2cw.webp",
+      "reality": "https://media.oneplusevents.com/projects/1-Vr87X6S6-2I1iuoAS7xkBrukRoNywHI/1vuVhQbk8LNYe0bTyUxfJWC8EvKx-TUZC.webp"
+    }
   },
   {
     "slug": "hublot-1-fb8b",
@@ -280,56 +284,6 @@
       }
     ],
     "header": "https://media.oneplusevents.com/projects/101DfOXzCfnUARHGrLmTnd4NfWv9zdXvB/1bKGamjeSF0Z8G93v03jWabMvti8POSKA.webp",
-    "render_pair": null
-  },
-  {
-    "slug": "freshly-10uqea",
-    "client": "Freshly",
-    "event_type": "coffe & chocolate exhibition",
-    "area": "Riyadh",
-    "media": [
-      {
-        "url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/1qiGwyaSY-vV9Ffov5JOhVLQPhWtBcGDT.webp",
-        "role": "gallery",
-        "type": "image"
-      },
-      {
-        "url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/1xagxJAnme0jPR8E2tBuiXqcv3YEB_HyF.webp",
-        "role": "gallery",
-        "type": "image"
-      },
-      {
-        "url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/1ShS_KOPjjYoyArSTh4SLMRhu0eZogCIj.mp4",
-        "type": "video",
-        "webm_url": null,
-        "poster_url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/1ShS_KOPjjYoyArSTh4SLMRhu0eZogCIj.jpg"
-      },
-      {
-        "url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/1hnZbk7ZpLl8uqfS3QC9xEjo3cjK65zL_.mp4",
-        "type": "video",
-        "webm_url": null,
-        "poster_url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/1hnZbk7ZpLl8uqfS3QC9xEjo3cjK65zL_.jpg"
-      },
-      {
-        "url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/1o1VJ4y6Lw7nPscK6S3mO6TAcajWU7XIM.mp4",
-        "type": "video",
-        "webm_url": null,
-        "poster_url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/1o1VJ4y6Lw7nPscK6S3mO6TAcajWU7XIM.jpg"
-      },
-      {
-        "url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/11GuEbxGJtvTyJgL7HzIT2PTJcjCiD5Mz.mp4",
-        "type": "video",
-        "webm_url": null,
-        "poster_url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/11GuEbxGJtvTyJgL7HzIT2PTJcjCiD5Mz.jpg"
-      },
-      {
-        "url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/1Kkxl_dn1LYD74yb3Vx3-pg0v7I73hNck.mp4",
-        "type": "video",
-        "webm_url": null,
-        "poster_url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/1Kkxl_dn1LYD74yb3Vx3-pg0v7I73hNck.jpg"
-      }
-    ],
-    "header": null,
     "render_pair": null
   },
   {
@@ -497,6 +451,56 @@
       }
     ],
     "header": "https://media.oneplusevents.com/projects/1-WuAL5KjFLkCaLPzzEXz-uM7nw2JZuug/1XEXOipJJlvsCWdqJLBRovU4susfnf6Jg.webp",
+    "render_pair": null
+  },
+  {
+    "slug": "freshly-10uqea",
+    "client": "Freshly",
+    "event_type": "coffe & chocolate exhibition",
+    "area": "Riyadh",
+    "media": [
+      {
+        "url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/1qiGwyaSY-vV9Ffov5JOhVLQPhWtBcGDT.webp",
+        "role": "gallery",
+        "type": "image"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/1xagxJAnme0jPR8E2tBuiXqcv3YEB_HyF.webp",
+        "role": "gallery",
+        "type": "image"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/1ShS_KOPjjYoyArSTh4SLMRhu0eZogCIj.mp4",
+        "type": "video",
+        "webm_url": null,
+        "poster_url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/1ShS_KOPjjYoyArSTh4SLMRhu0eZogCIj.jpg"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/1hnZbk7ZpLl8uqfS3QC9xEjo3cjK65zL_.mp4",
+        "type": "video",
+        "webm_url": null,
+        "poster_url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/1hnZbk7ZpLl8uqfS3QC9xEjo3cjK65zL_.jpg"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/1o1VJ4y6Lw7nPscK6S3mO6TAcajWU7XIM.mp4",
+        "type": "video",
+        "webm_url": null,
+        "poster_url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/1o1VJ4y6Lw7nPscK6S3mO6TAcajWU7XIM.jpg"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/11GuEbxGJtvTyJgL7HzIT2PTJcjCiD5Mz.mp4",
+        "type": "video",
+        "webm_url": null,
+        "poster_url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/11GuEbxGJtvTyJgL7HzIT2PTJcjCiD5Mz.jpg"
+      },
+      {
+        "url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/1Kkxl_dn1LYD74yb3Vx3-pg0v7I73hNck.mp4",
+        "type": "video",
+        "webm_url": null,
+        "poster_url": "https://media.oneplusevents.com/projects/10uQeAFTqWrZ0p0kf76N-PP60Jmt1ArTW/1Kkxl_dn1LYD74yb3Vx3-pg0v7I73hNck.jpg"
+      }
+    ],
+    "header": null,
     "render_pair": null
   },
   {
