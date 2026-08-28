@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>Exhibition &amp; Events News | ONE+ Events</title>
+<meta name="description" content="Exhibition, trade show, conference and events industry news — Saudi Arabia, Riyadh, Jeddah, the Gulf and worldwide — curated by ONE+ Events with links to every original source." />
+<meta name="theme-color" content="#0a0f1a" />
+<link rel="canonical" href="https://oneplusevents.com/news/" />
+<meta property="og:type" content="website" />
+<meta property="og:title" content="Exhibition &amp; Events News | ONE+ Events" />
+<meta property="og:description" content="Exhibition, trade show and events industry news for Saudi Arabia and the Gulf, curated by ONE+ Events." />
+<meta property="og:image" content="https://oneplusevents.com/assets/img/hero.jpg" />
+<meta property="og:url" content="https://oneplusevents.com/news/" />
+<meta property="og:locale" content="en_US" />
+<meta property="og:locale:alternate" content="ar_SA" />
+<meta name="twitter:card" content="summary_large_image" />
+<link rel="alternate" hreflang="ar" href="https://oneplusevents.com/news/" />
+<link rel="alternate" hreflang="en" href="https://oneplusevents.com/news/" />
+<link rel="icon" href="/assets/img/favicon.ico?v=da1c5d6d" sizes="any" />
+<link rel="icon" type="image/png" href="/assets/img/logo-icon-32.png?v=ce9a32fd" sizes="32x32" />
+<link rel="apple-touch-icon" href="/assets/img/logo-icon-180.png?v=46221b5d" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif:ital@1&display=swap" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet"></noscript>
+<link rel="stylesheet" href="/assets/css/site.css">
+<script type="application/ld+json" id="news-jsonld">{"@context":"https://schema.org","@type":"CollectionPage","name":"Exhibition & Events News","url":"https://oneplusevents.com/news/","isPartOf":{"@type":"WebSite","name":"ONE+ Events","url":"https://oneplusevents.com/"},"about":"Exhibition, trade show and events industry news for Saudi Arabia and the Gulf"}</script>
+</head>
+<body>
+
+<nav class="nav">
+  <a href="/" class="nav-logo"><img src="/assets/img/logo-header.png?v=5e35033f" alt="ONE+ Events" class="nav-logo-img" /></a>
+  <div class="nav-right">
+    <div class="nav-links" style="display:flex; gap:clamp(16px,3vw,38px);">
+      <a href="/#work" class="nav-link" data-en="Work" data-ar="الأعمال">Work</a>
+      <a href="/#method" class="nav-link" data-en="Method" data-ar="المنهجية">Method</a>
+      <a href="/articles/" class="nav-link" data-en="Insights" data-ar="مقالات">Insights</a>
+      <a href="/#contact" class="nav-link" data-en="Contact" data-ar="تواصل">Contact</a>
+    </div>
+    <span class="nav-clock" id="clock">—</span>
+    <button class="lang-btn" id="lang" onclick="toggleLang()">ع</button>
+    <button class="nav-toggle" id="nav-toggle" aria-label="Menu" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobile-menu">
+  <a href="/#work" class="mobile-link" data-en="Work" data-ar="الأعمال">Work</a>
+  <a href="/#method" class="mobile-link" data-en="Method" data-ar="المنهجية">Method</a>
+  <a href="/articles/" class="mobile-link" data-en="Insights" data-ar="مقالات">Insights</a>
+  <a href="/#contact" class="mobile-link" data-en="Contact" data-ar="تواصل">Contact</a>
+</div>
+
+<section class="section" style="padding-top:clamp(120px,18vh,190px)">
+  <a class="back-link" href="/" data-en="&larr; Back to home" data-ar="&rarr; العودة للرئيسية">&larr; Back to home</a>
+  <div class="sec-head reveal" style="margin-top:20px">
+    <h2 class="sec-title" data-en="Exhibition &amp; events &lt;em&gt;news.&lt;/em&gt;" data-ar="أخبار المعارض &lt;em&gt;والفعاليات.&lt;/em&gt;">Exhibition &amp; events <em>news.</em></h2>
+    <span class="sec-index" id="news-page-count"></span>
+  </div>
+  <p class="reveal" style="max-width:60ch;color:var(--muted);margin:-6px 0 22px"
+     data-en="Curated from reputable industry and Saudi sources. Every item links to its original publisher — we only summarise."
+     data-ar="مختارة من مصادر صناعية وسعودية موثوقة. كل خبر يقودك إلى مصدره الأصلي — نحن نلخّص فقط.">Curated from reputable industry and Saudi sources. Every item links to its original publisher — we only summarise.</p>
+
+  <div class="news-filters reveal" id="news-filters" role="tablist">
+    <button class="news-chip is-active" data-filter="all"     data-en="Latest"   data-ar="الأحدث">Latest</button>
+    <button class="news-chip" data-filter="saudi"    data-en="Saudi"    data-ar="السعودية">Saudi</button>
+    <button class="news-chip" data-filter="riyadh"   data-en="Riyadh"   data-ar="الرياض">Riyadh</button>
+    <button class="news-chip" data-filter="global"   data-en="Global"   data-ar="عالمي">Global</button>
+    <button class="news-chip" data-filter="exhibition" data-en="Exhibitions" data-ar="معارض">Exhibitions</button>
+    <button class="news-chip" data-filter="conference" data-en="Conferences" data-ar="مؤتمرات">Conferences</button>
+    <button class="news-chip" data-filter="industry" data-en="Industry" data-ar="صناعة">Industry</button>
+  </div>
+
+  <div class="news-grid reveal" id="news-page-list"></div>
+  <p id="news-page-empty" style="display:none;color:var(--muted)"
+     data-en="No news yet — check back soon." data-ar="لا توجد أخبار بعد — تابعنا قريبًا.">No news yet — check back soon.</p>
+</section>
+
+<footer class="footer">
+  <div class="footer-top">
+    <div class="footer-brand-col">
+      <a href="/" class="footer-logo-mark">ONE<span>+</span></a>
+      <p class="footer-tagline" data-en="A Riyadh studio designing and fabricating exhibition stands, events and projection mapping for Saudi Arabia's biggest stages." data-ar="استوديو في الرياض يصمّم وينفّذ أجنحة المعارض والفعاليات والإسقاط الضوئي لأكبر منصّات السعودية.">A Riyadh studio designing and fabricating exhibition stands, events and projection mapping for Saudi Arabia's biggest stages.</p>
+    </div>
+    <div class="footer-col">
+      <div class="footer-col-title" data-en="Explore" data-ar="روابط">Explore</div>
+      <a href="/#work" data-en="Work" data-ar="الأعمال">Work</a>
+      <a href="/#method" data-en="Method" data-ar="المنهجية">Method</a>
+      <a href="/articles/" data-en="Insights" data-ar="مقالات">Insights</a>
+      <a href="/news/" data-en="News" data-ar="الأخبار">News</a>
+      <a href="/#contact" data-en="Contact" data-ar="تواصل">Contact</a>
+    </div>
+    <div class="footer-col">
+      <div class="footer-col-title" data-en="Get in touch" data-ar="تواصل مباشر">Get in touch</div>
+      <a href="tel:+966566369163"><bdi class="ltr-num">+966 566 369 163</bdi></a>
+      <a href="mailto:info@oneplusevents.com"><bdi class="ltr-num">info@oneplusevents.com</bdi></a>
+      <span data-en="Riyadh, Saudi Arabia" data-ar="الرياض، السعودية">Riyadh, Saudi Arabia</span>
+    </div>
+  </div>
+  <img src="/assets/img/logo-footer.png?v=5e35033f" alt="ONE+ Events" class="footer-big-img" aria-hidden="true" />
+  <div class="footer-bar">
+    <span data-en="RENDER TO REALITY" data-ar="من الرندر إلى الواقع">RENDER TO REALITY</span>
+    <span>© 2026 ONE+ EVENTS · RIYADH</span>
+  </div>
+</footer>
+
+<script src="/assets/js/site.js" defer></script>
+</body>
+</html>

@@ -40,7 +40,7 @@ function toggleLang(){
   // (e.g. "مؤتمر") -- every project silently got marked filtered-out (display:none),
   // which read as "switching to Arabic makes the project images disappear."
   activeFilter = 'all';
-  applyLang(); renderFilters(); renderProjects(); renderArticles(); renderArticlesArchive(); renderNews(); if (window.updateAssistantLang) window.updateAssistantLang();
+  applyLang(); renderFilters(); renderProjects(); renderArticles(); renderArticlesArchive(); renderNews(); renderNewsPage(); if (window.updateAssistantLang) window.updateAssistantLang();
 }
 applyLang();
 
@@ -196,33 +196,82 @@ function renderArticlesArchive(){
 }
 loadArticles();
 
-/* ---------- NEWS (data/news.json -> news-list, P5, WEB-08 auto-updating) ---------- */
+/* ---------- NEWS (data/news.json — Exhibition & Events News Intelligence, S84) ---------- */
 let NEWS_ITEMS = [];
+let NEWS_FILTER = 'all';
 async function loadNews(){
   try {
     const res = await fetch('/data/news.json', { cache: 'no-store' });
-    NEWS_ITEMS = await res.json();
-  } catch (e) {
-    NEWS_ITEMS = [];
-  }
+    const j = await res.json();
+    NEWS_ITEMS = Array.isArray(j) ? j : [];
+  } catch (e) { NEWS_ITEMS = []; }
   renderNews();
+  renderNewsPage();
+  wireNewsFilters();
 }
+function newsFields(n){
+  const t = n.title || {}, s = n.summary || {};
+  return {
+    title: (isAR ? t.ar : t.en) || t.en || t.ar || (typeof n.title === 'string' ? n.title : ''),
+    summary: (isAR ? s.ar : s.en) || s.en || s.ar || '',
+    url: n.url || '#', source: n.source || '', date: n.date && n.date !== 'null' ? n.date : '',
+    geo: n.geo || '', topic: n.topic || '', priority: n.priority || '', image: n.image || ''
+  };
+}
+function newsMatches(n, f){
+  if (f === 'all') return true;
+  if (f === 'saudi')  return ['saudi','riyadh','jeddah'].indexOf(n.geo) >= 0;
+  if (f === 'riyadh') return n.geo === 'riyadh';
+  if (f === 'global') return ['global','mena'].indexOf(n.geo) >= 0;
+  return n.topic === f; // exhibition | conference | industry
+}
+/* homepage: compact section, top 5 (hidden when empty) */
 function renderNews(){
   const section = document.getElementById('news');
   const list = document.getElementById('news-list');
   if (!section || !list) return;
-  if (!Array.isArray(NEWS_ITEMS) || NEWS_ITEMS.length === 0) { section.style.display = 'none'; return; }
+  if (!NEWS_ITEMS.length) { section.style.display = 'none'; return; }
   section.style.display = '';
-  list.innerHTML = NEWS_ITEMS.slice(0, 6).map(n => {
-    const title = (isAR ? n.title.ar : n.title.en) || n.title.en || n.title.ar || '';
-    const summary = (isAR ? n.summary.ar : n.summary.en) || n.summary.en || n.summary.ar || '';
+  list.innerHTML = NEWS_ITEMS.slice(0, 5).map(raw => {
+    const n = newsFields(raw);
     return `<a class="insight-item reveal" href="${n.url}" target="_blank" rel="noopener noreferrer">
-    <div class="insight-title">${title}</div>
-    <div class="insight-desc">${summary}</div>
+    <div class="insight-title">${n.title}</div>
+    <div class="insight-desc">${n.summary}</div>
     <div class="insight-desc" style="opacity:.6;margin-top:8px">${n.source}${n.date ? ' &middot; ' + n.date : ''}</div>
   </a>`;
-  }).join('');
+  }).join('') + `<a class="insights-more-link reveal" href="/news/" data-en="All exhibition news &rarr;" data-ar="&larr; كل أخبار المعارض">${isAR ? '← كل أخبار المعارض' : 'All exhibition news →'}</a>`;
   observeReveals(list);
+}
+/* /news/ page: filterable grid with images */
+function renderNewsPage(){
+  const grid = document.getElementById('news-page-list');
+  if (!grid) return;
+  const empty = document.getElementById('news-page-empty');
+  const count = document.getElementById('news-page-count');
+  const items = NEWS_ITEMS.map(newsFields).filter(n => newsMatches(n, NEWS_FILTER));
+  if (count) count.textContent = String(items.length);
+  if (!items.length) { grid.innerHTML = ''; if (empty) empty.style.display = ''; return; }
+  if (empty) empty.style.display = 'none';
+  grid.innerHTML = items.map(n => `<a class="news-card reveal" href="${n.url}" target="_blank" rel="noopener noreferrer">
+    ${n.image ? `<div class="news-card-img" style="background-image:url('${n.image.replace(/'/g, "%27")}')"></div>` : '<div class="news-card-img news-card-img--none"></div>'}
+    <div class="news-card-body">
+      ${n.priority === 'P1' ? '<span class="news-tag" data-en="Key" data-ar="مهم">' + (isAR ? 'مهم' : 'Key') + '</span>' : ''}
+      <div class="news-card-title">${n.title}</div>
+      <div class="news-card-summary">${n.summary}</div>
+      <div class="news-card-meta">${n.source}${n.date ? ' &middot; ' + n.date : ''}<span class="news-card-more" data-en="Read more &rarr;" data-ar="&larr; اقرأ المزيد">${isAR ? '← اقرأ المزيد' : 'Read more →'}</span></div>
+    </div>
+  </a>`).join('');
+  observeReveals(grid);
+}
+function wireNewsFilters(){
+  const bar = document.getElementById('news-filters');
+  if (!bar || bar.dataset.wired) return;
+  bar.dataset.wired = '1';
+  bar.querySelectorAll('.news-chip').forEach(chip => chip.addEventListener('click', () => {
+    NEWS_FILTER = chip.dataset.filter || 'all';
+    bar.querySelectorAll('.news-chip').forEach(c => c.classList.toggle('is-active', c === chip));
+    renderNewsPage();
+  }));
 }
 loadNews();
 
