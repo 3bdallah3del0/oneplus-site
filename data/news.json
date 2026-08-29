@@ -72,6 +72,24 @@
     "priority": "P2"
   },
   {
+    "id": 13,
+    "geo": "global",
+    "url": "https://saudigazette.com.sa/article/664045/business/aimoga-brings-real-world-robot-operations-to-wrc-2026",
+    "date": "2026-08-25",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/08/25/2755561.webp",
+    "title": {
+      "ar": "AiMOGA تعرض عمليات الروبوتات الحقيقية في مؤتمر الروبوتات العالمي 2026",
+      "en": "AiMOGA brings real‑world robot operations to WRC 2026"
+    },
+    "topic": "conference",
+    "source": "Saudi Gazette — Business",
+    "summary": {
+      "ar": "ستُعرض عمليات الروبوتات الواقعية في مؤتمر الروبوتات العالمي 2026 في بكين، تحت شعار \"التكامل بين الإنسان والروبوت\".",
+      "en": "Real‑world robot operations will be showcased at the World Robot Conference 2026 in Beijing, themed \"Human‑Robot Symbiosis\"."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 6,
     "geo": "saudi",
     "url": "https://saudigazette.com.sa/article/664042/business/the-infrastructure-behind-saudi-arabias-next-phase-of-ai",
