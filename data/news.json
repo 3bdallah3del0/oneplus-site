@@ -54,6 +54,24 @@
     "priority": "P1"
   },
   {
+    "id": 14,
+    "geo": "saudi",
+    "url": "https://www.argaam.com/en/article/articledetail/id/1932409",
+    "date": "2026-08-28",
+    "image": "https://argaamplus.s3.amazonaws.com/e2b90809-8a12-4303-bebf-f1e78aacffe2.png",
+    "title": {
+      "ar": "المجدية تتعاون مع شركة SOM لتصميم مشاريع فاخرة",
+      "en": "Al Majdiah partners with SOM for high‑end projects"
+    },
+    "topic": "venue",
+    "source": "Argaam",
+    "summary": {
+      "ar": "وقعت شركة المجدية اتفاقية تعاون استراتيجي مع شركة الهندسة العالمية SOM لتصميم وتطوير مشاريع فاخرة.",
+      "en": "Al Majdiah signed a strategic cooperation agreement with global architecture firm SOM to design and develop high‑end projects."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 12,
     "geo": "global",
     "url": "https://exhibitionnews.uk/interprefy-launches-media-hub-for-post-event-multilingual-content/",
