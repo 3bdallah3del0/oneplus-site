@@ -397,6 +397,32 @@ loadNews();
     }
     document.addEventListener('visibilitychange', function(){ if (document.visibilityState === 'hidden') sendEngage(); });
     window.addEventListener('pagehide', sendEngage);
+
+    /* ---- conversion micro-events (P6/P8) — anonymous, same session id, no PII ---- */
+    var convSent = {};
+    window.__opTrack = function(kind, meta){
+      try {
+        if (!kind) return;
+        // dedupe rapid repeats of the same kind on the same page load
+        if (convSent[kind] && (Date.now() - convSent[kind]) < 1500) return;
+        convSent[kind] = Date.now();
+        var payload = JSON.stringify({
+          event: 'conv', kind: String(kind).slice(0, 32),
+          path: location.pathname, session_id: sid, client_pv_id: pvid,
+          exp: assignedExp, variant: assignedVariant, meta: meta || null
+        });
+        if (navigator.sendBeacon) navigator.sendBeacon(EP, new Blob([payload], { type: 'text/plain' }));
+        else fetch(EP, { method: 'POST', headers: { 'Content-Type': 'text/plain' }, body: payload, keepalive: true }).catch(function(){});
+      } catch (e) {}
+    };
+    // delegated: any WhatsApp link anywhere on the page (nav, hero, footer, assistant widget)
+    document.addEventListener('click', function(ev){
+      var a = ev.target && ev.target.closest && ev.target.closest('a[href]');
+      if (!a) return;
+      var href = a.getAttribute('href') || '';
+      if (/wa\.me\/|api\.whatsapp\.com|\/\/whatsapp\.com/i.test(href)) window.__opTrack('whatsapp_click', { href: href.slice(0, 80) });
+      else if (a.classList.contains('hero-cta') || /(^|\s)cta(\s|$|-)/i.test(a.className)) window.__opTrack('cta_click', { txt: (a.textContent || '').trim().slice(0, 40) });
+    }, true);
   } catch (e) { /* tracking must never break the page */ }
 })();
 
@@ -464,6 +490,8 @@ async function submitForm(e){
     brief: form.querySelector('#f-br').value
   };
 
+  try { if (window.__opTrack) window.__opTrack('form_submit'); } catch (e) {}
+
   // Best-effort lead qualification -- never blocks or affects the real Web3Forms
   // submission below. A failure here (webhook down, network) is silently ignored.
   fetch('https://n8n.oneplusevents.com/webhook/web-lead-qualify', {
@@ -482,6 +510,7 @@ async function submitForm(e){
     });
     const data = await res.json();
     if (data.success) {
+      try { if (window.__opTrack) window.__opTrack('form_success'); } catch (e) {}
       btn.textContent = isAR ? 'تم الاستلام ✓' : 'Received ✓';
       if (note) { note.textContent = isAR ? 'نردّ خلال ٢٤ ساعة.' : "We'll reply within 24 hours."; note.className = 'form-note ok'; }
       form.reset();
