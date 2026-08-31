@@ -54,6 +54,24 @@
     "priority": "P1"
   },
   {
+    "id": 15,
+    "geo": "global",
+    "url": "https://example.com/s87-news-gate-test-DELETE-ME",
+    "date": "2026-08-30",
+    "image": null,
+    "title": {
+      "ar": "اختبار بوابة الثقة S87",
+      "en": "S87 GATE TEST - synthetic borderline item"
+    },
+    "topic": "event",
+    "source": "S87 Test Harness",
+    "summary": {
+      "ar": "صف اصطناعي للتحقق من مسار المراجعة. آمن للحذف.",
+      "en": "Synthetic row to verify the pending review flow. Safe to delete."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 14,
     "geo": "saudi",
     "url": "https://www.argaam.com/en/article/articledetail/id/1932409",
