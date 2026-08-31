@@ -1,5 +1,17 @@
 [
   {
+    "slug": "first-time-exhibitor-checklist",
+    "title": {
+      "ar": "مشاركة أول مرة في معرض: قائمة التحقق الشاملة",
+      "en": "First Time Exhibitor Checklist: Your Saudi Arabia Guide"
+    },
+    "meta_description": {
+      "ar": "دليلك الشامل لضمان نجاح مشاركتها الأولى في المعارض التجارية بالمملكة العربية السعودية. تعرف على قائمة التحقق الأساسية من ون بلس للفعاليات.",
+      "en": "Follow this practical first time exhibitor checklist to plan your exhibition stand design and build in Saudi Arabia successfully."
+    },
+    "published_at": "2026-08-31T20:08:48.174Z"
+  },
+  {
     "slug": "exhibition-booth-mistakes",
     "title": {
       "ar": "أخطاء تصميم جناح معرض: تجنبها لنجاح مشاركتك",
@@ -226,17 +238,5 @@
       "en": "Discover what your LEAP exhibition booth needs to succeed in Saudi Arabia. Learn about design, tech integration, and compliance with local regulations."
     },
     "published_at": "2026-08-31T19:48:38.785Z"
-  },
-  {
-    "slug": "first-time-exhibitor-checklist",
-    "title": {
-      "ar": "مشاركة أول مرة في معرض: قائمة التحقق الشاملة",
-      "en": "First Time Exhibitor Checklist: Your Saudi Arabia Guide"
-    },
-    "meta_description": {
-      "ar": "دليلك الشامل لضمان نجاح مشاركتها الأولى في المعارض التجارية بالمملكة العربية السعودية. تعرف على قائمة التحقق الأساسية من ون بلس للفعاليات.",
-      "en": "Follow this practical first time exhibitor checklist to plan your exhibition stand design and build in Saudi Arabia successfully."
-    },
-    "published_at": "2026-08-31T19:48:29.781Z"
   }
 ]
