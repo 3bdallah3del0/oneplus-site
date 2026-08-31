@@ -329,17 +329,53 @@ loadNews();
     window.addEventListener('scroll', trackScroll, { passive: true });
     trackScroll();
 
-    // text/plain keeps this a CORS "simple" request (no preflight) — the body is still JSON,
-    // parsed server-side. We never read the response, so cross-origin is a non-issue.
-    fetch(EP, {
-      method: 'POST',
-      headers: { 'Content-Type': 'text/plain' },
-      body: JSON.stringify({
-        event: 'view', path: location.pathname, query: location.search || '',
-        referrer: document.referrer || '', session_id: sid, client_pv_id: pvid
-      }),
-      keepalive: true
-    }).catch(function(){});
+    /* ---- A/B experiment assignment (P8/S87) — data/experiments.json is n8n-published;
+       [] most of the time = pure no-op. Deterministic bucket per (session, experiment). ---- */
+    var assignedExp = null, assignedVariant = null;
+    function hashStr(s){ var h = 0; for (var i = 0; i < s.length; i++){ h = ((h << 5) - h + s.charCodeAt(i)) | 0; } return Math.abs(h); }
+    function applyExperiments(list){
+      if (!Array.isArray(list)) return;
+      for (var i = 0; i < list.length; i++){
+        var e = list[i]; if (!e || !e.slug) continue;
+        var scope = e.scope || '/';
+        var match = scope === '/' ? true : (location.pathname === scope || location.pathname.indexOf(scope) === 0);
+        if (!match) continue;
+        var v = (hashStr(sid + '|' + e.slug) % 100) < (e.split || 50) ? 'B' : 'A';
+        assignedExp = e.slug; assignedVariant = v;
+        if (v === 'B' && Array.isArray(e.changes)){
+          e.changes.forEach(function(ch){
+            try {
+              document.querySelectorAll(ch.selector).forEach(function(el){
+                if (ch.op === 'text') el.textContent = ch.value;
+                else if (ch.op === 'html') el.innerHTML = ch.value;
+                else if (ch.op === 'attr' && ch.attr) el.setAttribute(ch.attr, ch.value);
+                else if (ch.op === 'addClass') el.classList.add(ch.value);
+              });
+            } catch (e2){}
+          });
+        }
+      }
+    }
+    var viewSent = false;
+    function sendView(){
+      if (viewSent) return; viewSent = true;
+      // text/plain keeps this a CORS "simple" request (no preflight); body is JSON, parsed server-side.
+      fetch(EP, {
+        method: 'POST', headers: { 'Content-Type': 'text/plain' },
+        body: JSON.stringify({
+          event: 'view', path: location.pathname, query: location.search || '',
+          referrer: document.referrer || '', session_id: sid, client_pv_id: pvid,
+          exp: assignedExp, variant: assignedVariant
+        }),
+        keepalive: true
+      }).catch(function(){});
+    }
+    var viewCap = setTimeout(sendView, 1200); // never let a slow experiments.json delay the view beacon
+    fetch('/data/experiments.json', { cache: 'default' })
+      .then(function(r){ return r.ok ? r.json() : []; })
+      .then(function(list){ applyExperiments(list); })
+      .catch(function(){})
+      .then(function(){ clearTimeout(viewCap); sendView(); });
 
     function sendEngage(){
       if (engageSent) return;
