@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "slug": "hero-headline-fidelity",
+    "scope": "/",
+    "split": 50,
+    "changes": [
+      {
+        "op": "text",
+        "value": "جناحك يُنفَّذ تمامًا كما تراه في التصميم — لا فجوة بين الرندر والواقع",
+        "selector": ".hero h1"
+      }
+    ]
+  }
+]
