@@ -1,5 +1,17 @@
 [
   {
+    "slug": "black-hat-mea-booth-guide",
+    "title": {
+      "ar": "دليل جناح معرض Black Hat MEA: التصميم والتنفيذ",
+      "en": "Black Hat MEA exhibition booth guide"
+    },
+    "meta_description": {
+      "ar": "دليلك الشامل لتصميم وتنفيذ جناح Black Hat MEA في السعودية. تعرف على معايير النجاح، الخطوات الزمنية، ونصائح بناء أجنحة المعارض التقنية مع ون بلس.",
+      "en": "Plan your Black Hat MEA exhibition booth with our technical guide covering design trends, compliance, and execution in Saudi Arabia."
+    },
+    "published_at": "2026-08-31T02:49:00.512Z"
+  },
+  {
     "slug": "2030",
     "title": {
       "ar": "مذكرة تفاهم بين إكسبو 2030 الرياض وأتو فرنس",
@@ -70,18 +82,6 @@
       "en": "Learn what determines exhibition booth cost in Riyadh. Understand design, materials, size, and build timelines for events in Saudi Arabia."
     },
     "published_at": "2026-08-28T01:44:00.918Z"
-  },
-  {
-    "slug": "black-hat-mea-booth-guide",
-    "title": {
-      "ar": "دليل جناح معرض Black Hat MEA: التصميم والتنفيذ",
-      "en": "Black Hat MEA exhibition booth guide"
-    },
-    "meta_description": {
-      "ar": "دليلك الشامل لتصميم وتنفيذ جناح Black Hat MEA في السعودية. تعرف على معايير النجاح، الخطوات الزمنية، ونصائح بناء أجنحة المعارض التقنية مع ون بلس.",
-      "en": "Plan your Black Hat MEA exhibition booth with our technical guide covering design trends, compliance, and execution in Saudi Arabia."
-    },
-    "published_at": "2026-08-28T01:37:37.947Z"
   },
   {
     "slug": "booth-vs-conference-stage",
