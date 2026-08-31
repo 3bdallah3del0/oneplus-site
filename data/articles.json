@@ -1,5 +1,17 @@
 [
   {
+    "slug": "saudi-exhibition-calendar",
+    "title": {
+      "ar": "دليلك إلى أبرز معارض السعودية على مدار العام",
+      "en": "The Saudi Exhibitions Calendar: Top Events of the Year"
+    },
+    "meta_description": {
+      "ar": "تعرف على أهم معارض السعودية على مدار العام وأبرز الفعاليات التجارية الكبرى في الرياض وجدة، وكيفية الاستعداد لها بأجنحة معارض احترافية.",
+      "en": "Explore the top Saudi exhibitions throughout the year with the definitive Saudi exhibitions calendar. Plan your brand presence with ONE+ Events."
+    },
+    "published_at": "2026-08-31T19:49:07.583Z"
+  },
+  {
     "slug": "rented-vs-owned-booth",
     "title": {
       "ar": "ما الفرق بين الجناح المؤجر والمملوك في المعارض؟",
@@ -226,17 +238,5 @@
       "en": "تعرف على تفاصيل تعاون المجدية مع SOM لتصميم مشاريع فاخرة في السعودية، ودور التصميم المعماري الرائد في قطاع المعارض والفعاليات."
     },
     "published_at": "2026-08-31T02:52:05.759Z"
-  },
-  {
-    "slug": "saudi-exhibition-calendar",
-    "title": {
-      "ar": "دليلك إلى أبرز معارض السعودية على مدار العام",
-      "en": "The Saudi Exhibitions Calendar: Top Events of the Year"
-    },
-    "meta_description": {
-      "ar": "تعرف على أهم معارض السعودية على مدار العام وأبرز الفعاليات التجارية الكبرى في الرياض وجدة، وكيفية الاستعداد لها بأجنحة معارض احترافية.",
-      "en": "Explore the top Saudi exhibitions throughout the year with the definitive Saudi exhibitions calendar. Plan your brand presence with ONE+ Events."
-    },
-    "published_at": "2026-08-31T02:51:54.872Z"
   }
 ]
