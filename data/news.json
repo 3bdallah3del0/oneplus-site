@@ -1,5 +1,293 @@
 [
   {
+    "id": 31,
+    "geo": "riyadh",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE05WVg5alFRWDRjNDR1WmJBTU9McGRaczRLY0FNRzZYckpNTFBydTVSdTh4UUxkSUw5a0xCcVBheHdqWXlmcmhfS2dud0N1WUVEeGlZcEhpVjFfSVlhalJmSmxudDlnclJMakE?oc=5",
+    "date": "2026-08-31",
+    "image": null,
+    "title": {
+      "ar": "stc تُعزّز نظام الذكاء الاصطناعي في السعودية خلال LEAP 2026",
+      "en": "stc Advances Saudi AI Ecosystem at LEAP 2026"
+    },
+    "topic": "conference",
+    "source": "صحيفة مال",
+    "summary": {
+      "ar": "قدمت مجموعة stc مبادرات رقمية لتعزيز نظام الذكاء الاصطناعي في السعودية خلال مشاركتها في LEAP 2026.",
+      "en": "stc presented digital initiatives to advance Saudi AI ecosystem during its participation at LEAP 2026."
+    },
+    "priority": "P1"
+  },
+  {
+    "id": 30,
+    "geo": "riyadh",
+    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYXBmOE1hc1QxRTYzLU1rNlNLUkhSdzBLazR0ODB6amRLT0I3V0Jpb3h3d2dQS050YjhqSTdqN0ZzZkhkVWh1NDRTTGlxRThIdVpxMlQwenRRcFVONzVYeGRNa05FeHpNS19FRWcwUzFEODFJcC1yM1k4U2NvQVZ0TWlrNA?oc=5",
+    "date": "2026-08-31",
+    "image": null,
+    "title": {
+      "ar": "LEAP 2026 يفتتح اليوم في الرياض",
+      "en": "LEAP 2026 Opens Today in Riyadh"
+    },
+    "topic": "conference",
+    "source": "Intelligent CIO",
+    "summary": {
+      "ar": "انطلقت فعاليات مؤتمر ومعرض LEAP 2026 اليوم في الرياض، مع حضور عدد كبير من الشركات التقنية العالمية.",
+      "en": "LEAP 2026 opened today in Riyadh, attracting numerous global tech companies."
+    },
+    "priority": "P1"
+  },
+  {
+    "id": 29,
+    "geo": "riyadh",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZTJNTzMtbDN5ejU4SUFnaXVrY0NSZjV4c0ZESmVSbDltU3lGUXNCRS1WNEdjaFRTdUxsSU5kcm41eVhOWm1VbkRGZEQ3MnBGLWNaRWIzTHo2UUhvdGt5aGtiLVNxWTViXzFRcFFuMm9HckdLMTVNdlVUSk1DdTZ3MmNkUXlrcksyM0RmYlhpU1d1c195ZXZSMmZBd0lIb09wQVJrV3dlQ2I?oc=5",
+    "date": "2026-08-31",
+    "image": null,
+    "title": {
+      "ar": "Oracle تعرض ابتكارات الذكاء الاصطناعي لرؤية 2030 في LEAP 2026",
+      "en": "Oracle Showcases AI Innovation for Vision 2030 at LEAP 2026"
+    },
+    "topic": "conference",
+    "source": "TahawulTech.com",
+    "summary": {
+      "ar": "عرضت Oracle تقنيات الذكاء الاصطناعي المتوافقة مع رؤية السعودية 2030 خلال مؤتمر LEAP 2026.",
+      "en": "Oracle showcased AI innovations aligned with Saudi Vision 2030 at LEAP 2026."
+    },
+    "priority": "P1"
+  },
+  {
+    "id": 28,
+    "geo": "riyadh",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSlZZS1JWN0RGc25hbFpCTUxFOW9sblRHel9WVUxJZXJMMGpXSVBUbFZoRDRiUU5UMnFNTnFwRk9oSGZsazBrWFRUMVF0RjNSSTlFMUNtY0N1RWxpY0dfMVktQlNaRFR2QlB6dVdIME5kV2IzeURHWWtnTlJnSHctTVR5MmV3T3RwTS1hWnVScEU4ZDJfMnM5VWRoNzNGdy1LT2pPdlBwSFNTTExoUkZkVXVmb25ld1JhR1RSV2xqWG01TDB2eG9ueko1dE9adGhMSUdhWThlNWl4NmpmRFZ0c3BqSkg?oc=5",
+    "date": "2026-08-31",
+    "image": null,
+    "title": {
+      "ar": "Profit.co يسلط الضوء على إدارة الأداء بالذكاء الاصطناعي في LEAP 2026",
+      "en": "Profit.co Showcases AI‑Powered Performance Management at LEAP 2026"
+    },
+    "topic": "conference",
+    "source": "ACCESS Newswire",
+    "summary": {
+      "ar": "قدمت شركة Profit.co حلول إدارة الأداء المدعومة بالذكاء الاصطناعي خلال فعاليات LEAP 2026 في الرياض.",
+      "en": "Profit.co presented AI‑powered performance management solutions at LEAP 2026 in Riyadh."
+    },
+    "priority": "P1"
+  },
+  {
+    "id": 27,
+    "geo": "riyadh",
+    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOajhPWEtTNXFtdWlYazd4cEJLWi12dXlZUXRKWlhiNkh1WlFBSlhhUjVvT1dPbFRvVE1VU3RfODV6NmY0ckk1aVFqdXdfbnlyTnVna3hHdGxiSFhBUlRQSDZhTGRkWktzYjljeXpEajdDVUxwZDVIZnpwd1QyUGI1dDhYWEtwdXdrME5lOGZrN3FERXNzTENCT29CbEd4QjV2M0dRMVUxcWIwZw?oc=5",
+    "date": "2026-08-31",
+    "image": null,
+    "title": {
+      "ar": "Big 5 Construct Saudi يجمع قادة قطاع البناء",
+      "en": "Big 5 Construct Saudi Brings Together Construction Leaders"
+    },
+    "topic": "exhibition",
+    "source": "TradeArabia",
+    "summary": {
+      "ar": "يضم معرض Big 5 Construct Saudi 2026 قادة ومؤسسات قطاع البناء لتبادل الخبرات وإبرام الصفقات.",
+      "en": "Big 5 Construct Saudi 2026 brings together construction leaders to exchange expertise and seal deals."
+    },
+    "priority": "P1"
+  },
+  {
+    "id": 26,
+    "geo": "riyadh",
+    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaUdDN2h0eW83MkNMTWtUallHZDlOVkpWZ28tVUZ5Y1haeHFVQWdLeTRMdG9rWHA3S0pBQzFDdjZrSGVZcUdRR1BORzdYcm9ma0ppalBFa1JLVGhoamc3UTh4amtJeVBXQkU3QUl5QUJWa1F6SVMydkxON3pVT21pNkhYdW5IclFqOG03WEcyVTRFVVdOa1dGcW9SSQ?oc=5",
+    "date": "2026-08-31",
+    "image": null,
+    "title": {
+      "ar": "NetApp تعزز أمان البيانات والذكاء الاصطناعي في LEAP",
+      "en": "NetApp Boosts Data Security & AI at LEAP"
+    },
+    "topic": "conference",
+    "source": "intlbm",
+    "summary": {
+      "ar": "قامت NetApp بعرض حلول أمان البيانات وحماية الذكاء الاصطناعي خلال مؤتمر LEAP 2026.",
+      "en": "NetApp showcased enterprise data security and AI protection solutions at LEAP 2026."
+    },
+    "priority": "P1"
+  },
+  {
+    "id": 25,
+    "geo": "riyadh",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBCcXFGOUZRMmV4Ml9sT1pFSTA5Nm4wY18yQWpJeWY2X1lrbGZkRnBqaERRVzBtWG9DQjV2dWgwbG1wV0xIVkEycDZyekMteUkybmpXc213TGxRYWxVcWc?oc=5",
+    "date": "2026-08-31",
+    "image": null,
+    "title": {
+      "ar": "LEAP يفتتح بمشروعات ذكاء اصطناعي كبرى",
+      "en": "LEAP Opens with Major AI Projects"
+    },
+    "topic": "conference",
+    "source": "Arab News PK",
+    "summary": {
+      "ar": "بدأ مؤتمر LEAP 2026 بإطلاق مشروعات ذكاء اصطناعي كبرى، بما في ذلك شراكات مع Humain وشاحنات ذاتية القيادة.",
+      "en": "LEAP 2026 opened with major AI projects, including Humain partnerships and autonomous trucks."
+    },
+    "priority": "P1"
+  },
+  {
+    "id": 24,
+    "geo": "riyadh",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5QUXdrWHJOd0txTFVJVi0tRUtaY1NQai11Z3VVdFFlb1lfT3BoUDVxM05yd2gtdTRidmdreGlpSTlvU3Vla0tGMlZUcTkwMG1KdGxB?oc=5",
+    "date": "2026-08-31",
+    "image": null,
+    "title": {
+      "ar": "سوريا تفتح جناحاً في LEAP 2026 بالرياض",
+      "en": "Syria Opens Pavilion at LEAP 2026 in Riyadh"
+    },
+    "topic": "conference",
+    "source": "سانا",
+    "summary": {
+      "ar": "افتتح فريق سوري جناحاً في معرض ومؤتمر LEAP 2026 المقام بالرياض، يعرض تقنيات الاتصالات والتكنولوجيا.",
+      "en": "A Syrian delegation opened a pavilion at LEAP 2026 in Riyadh, showcasing telecom and tech solutions."
+    },
+    "priority": "P1"
+  },
+  {
+    "id": 23,
+    "geo": "riyadh",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOa3JET2pJTnFjQjlBckMyNUxWN1lZdm0yM0tHMUIwMjk3Q1ROeUlkSmFHTjhpVFlIbVlsS2Q4ZDdRazM1WTN5Zjd0Y2ltN0FaZEc5WVYzakNERXFLUld3b21GcmRyMW1MODhGblFxYWZVQXVxZDI0TEppZWVSZk01X3RwM2U3ck1qanV3eHNJcFlTOHd3Qy1US0pNSTdOWjVYT2pWRHdkMjN5SktZb212YURRbTB0SWF6T3ZGTDJyZw?oc=5",
+    "date": "2026-08-31",
+    "image": null,
+    "title": {
+      "ar": "LEAP 2026 يعلن عن استثمارات تقنية بقيمة 15 مليار دولار",
+      "en": "LEAP 2026 Announces $15 Bn Tech Investments"
+    },
+    "topic": "conference",
+    "source": "ASHARQ AL-AWSAT English",
+    "summary": {
+      "ar": "كشف مؤتمر LEAP 2026 عن أكثر من 15 مليار دولار من الإطلاقات والاستثمارات التقنية في السعودية.",
+      "en": "LEAP 2026 disclosed over $15 bn in technology launches and investments in Saudi Arabia."
+    },
+    "priority": "P1"
+  },
+  {
+    "id": 22,
+    "geo": "riyadh",
+    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOX3Q0V3pqLXdwMlhMcmhMY1NqeGhNQVBkdXJNVFNuRGJ1czRBRVBFWjhlSHAtcjhNYWhCX2w3NlNXUWxZT1NxQUtBSmpzbzlGZ0FkTGk3RHpYbWs5M0FBaFdiZURYS3dCVTlMVVAyM1VpaVZ0anpRUmd2VDZfOF81clRVbXpkMXpMTTFCLVpUM1V0MjlhTktWeVdKTXhqbDRzMlprVjlONnBYbHQ2b05DNU1RdkRrcXJB?oc=5",
+    "date": "2026-08-31",
+    "image": null,
+    "title": {
+      "ar": "افتتاح معرض Big 5 Construct Saudi 2026 في الرياض",
+      "en": "Big 5 Construct Saudi 2026 Opens in Riyadh"
+    },
+    "topic": "exhibition",
+    "source": "IndexBox",
+    "summary": {
+      "ar": "انطلق معرض Big 5 Construct Saudi 2026 في الرياض، يجمع قادة قطاع البناء والمشروعات.",
+      "en": "Big 5 Construct Saudi 2026 opened in Riyadh, gathering construction and project leaders."
+    },
+    "priority": "P1"
+  },
+  {
+    "id": 20,
+    "geo": "riyadh",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1sd29Jbnl1NEV5Tk5nZW9yXzBIaG9admVRanNXdTJFcHQ4X1diNEdwamtkay1ZN3g4Y3A1b2pSd0JjN3NsWmRhZ2lhUW9GYTg?oc=5",
+    "date": "2026-08-31",
+    "image": null,
+    "title": {
+      "ar": "الخوذة الذكية تتصدر ابتكارات الدفاع المدني في LEAP 2026",
+      "en": "Smart Helmet Leads Civil Defense Innovations at LEAP 2026"
+    },
+    "topic": "conference",
+    "source": "alsaudi.news",
+    "summary": {
+      "ar": "عرضت الخوذة الذكية كأبرز ابتكار للدفاع المدني خلال مؤتمر LEAP 2026 في الرياض.",
+      "en": "The smart helmet was highlighted as a top civil‑defense innovation at LEAP 2026 in Riyadh."
+    },
+    "priority": "P1"
+  },
+  {
+    "id": 18,
+    "geo": "riyadh",
+    "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQc0d0NGVzXzFMRkY5VU5qc3Etb3A4UFExQlZESGM0NGs4eng5Njd0Ykd3cE5sVmlJeXFTRnNyN0c5UGFIU2d6MXRYSVVLYjA1X2QybE8xb045QUVlbXk3ekx4dTlEN1FDaXNuallmV2oxSVl3azN5cVlPY0lwbGhSWllpR2ZLVUYwSlI1QndMLXo2VW1MZHlRV19VX081NE5YZ2RwaWVuSHBUQjZJWjNTMGJlMWYyTzQzV1NHWTViN25mQ1ctSTk4ZHN2T3RHM2VxOW16c0luZWRBc3p3d19TQy1SWnphT2RYQ2NxLW90Rkl2Mmc3MmgwNWZZQnZwOEN6Y3RsZmFXQ3BvbFgyVmtKem9nUEZMVHNBTzhUeHpXcHFLamtUbWwxcHFTUDZncUFQVmNCZF9RLWhId2FscWtMSkNhb1lWbGtrOTRF?oc=5",
+    "date": "2026-08-31",
+    "image": null,
+    "title": {
+      "ar": "إعلانات استثمارات ضخمة في الذكاء الاصطناعي خلال LEAP 2026",
+      "en": "Massive AI Investments Announced at LEAP 2026"
+    },
+    "topic": "conference",
+    "source": "البوابة التقنية",
+    "summary": {
+      "ar": "أعلنت السعودية عن استثمارات هائلة في مجال الذكاء الاصطناعي وشراكات تقنية كبرى خلال مؤتمر LEAP 2026.",
+      "en": "Saudi Arabia announced massive AI investments and major tech partnerships at LEAP 2026."
+    },
+    "priority": "P1"
+  },
+  {
+    "id": 16,
+    "geo": "riyadh",
+    "url": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxOR3llOWVma1g1aXpweXhXTzhHWkpKRXg1bXJXZzlVRXN4SXBJdncyeDhEVHpkR0dVQVpPUGtILTlma3lvcTV3VVBGVHhmVzB6RDNHdVBZZU4wWlR0Ul9DM3lZc0hlYlFlSnJpbUkzVW1BNGM5RUJhU08wUG5WaGp4Rl9odEtpc3VEUlVuQWJHczU0R21fcWRUNHYxZkpzdllEbE5BWFZ6OXh3T3hOUkFQU3pHZkdxSFFoQzlmUUp6SGJ5WU4xRGg2TGktaW4yX0pJNk90bVpTS0NEeEtLYU1JdV9zeTJfNC1Td0FTTEo5NkdWclBxQ3E1LVZHWHNjSFpCS1JObnZrcGtyUTRhT05FTGdVRGoyWFVra3FmVllQSkZ3Z1lJZ2hERmpzeFpSVERDdGpzTGF6V3VKYzNLUzZrNzJ0N3lTMmlHVWZNMnRZZTFjV0FiejRSTERhak5qZG1faEJ0ZUhn0gHmAkFVX3lxTE5HeWU5ZWZrWDVpenB5eFdPOEdaSkpFeDVtcldnOVVFc3hJcEl2dzJ4OERUemRHR1VBWk9Qa0gtOWZreW9xNXdVUEZUeGZXMHpEM0d1UFllTjBaVHRSX0MzeVlzSGViUWVKcmltSTNVbUE0YzlFQmFTTzBQblZoanhGX2h0S2lzdURSVW5BYkdzNTRHbV9xZFQ0djFmSnN2WURsTkFYVno5eHdPeE5SQVBTekdmR3FIUWhDOWZRSnpIYnlZTjFEaDZMaS1pbjJfSkk2T3RtWlNLQ0R4S0thTUl1X3N5Ml80LVN3QVNMSjk2R1ZyUHFDcTUtVkdYc2NIWkJLUk5udmtwa3JRNGFPTkVMZ1VEajJYVWtrcWZWWVBKRndnWUlnaERGanN4WlJUREN0anNMYXpXdUpjM0tTNms3MnQ3eVMyaUdVZk0ydFllMWNXQWJ6NFJMRGFqTmpkbV9oQnRlSGc?oc=5",
+    "date": "2026-08-31",
+    "image": null,
+    "title": {
+      "ar": "افتتاح وزير الاتصالات لمؤتمر LEAP 2026",
+      "en": "Telecom Minister Opens LEAP 2026"
+    },
+    "topic": "conference",
+    "source": "العربية",
+    "summary": {
+      "ar": "افتتح وزير الاتصالات السعودي مؤتمر LEAP 2026 في الرياض، مؤشراً على دعم الحكومة للفعاليات التقنية.",
+      "en": "Saudi Telecom Minister inaugurated LEAP 2026 in Riyadh, signalling strong government backing for tech events."
+    },
+    "priority": "P1"
+  },
+  {
+    "id": 21,
+    "geo": "riyadh",
+    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9VWVY5TXpNQzByM3E0a0tTaUM2MGRyNUFzUl85aE5yYnJlMHhNX09vdG5XZGFCZi03M21xcjJfOEhDLWJLRXdibGktVS1vRzN5c1d1c3cwVQ?oc=5",
+    "date": "2026-08-30",
+    "image": null,
+    "title": {
+      "ar": "سوريا تشارك في معرض ومؤتمر LEAP 2026 بالرياض",
+      "en": "Syria Participates in LEAP 2026 Expo in Riyadh"
+    },
+    "topic": "conference",
+    "source": "سانا",
+    "summary": {
+      "ar": "سوريا ستفتح جناحاً في معرض ومؤتمر LEAP 2026 المقام بالرياض غداً.",
+      "en": "Syria will open a pavilion at the LEAP 2026 expo and conference in Riyadh tomorrow."
+    },
+    "priority": "P1"
+  },
+  {
+    "id": 19,
+    "geo": "riyadh",
+    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE12RlBRald3LXFOQUh4Vy12T2wzMW9ZQlkwS0t6R19RbW1lWFU0RzBjNmM0bl80bGZmQVdFNnd1cXM0blN1WUtoNFpqbw?oc=5",
+    "date": "2026-08-30",
+    "image": null,
+    "title": {
+      "ar": "محاولة استقطاب شركات تقنية أجنبية في LEAP 2026",
+      "en": "LEAP 2026 Seeks Foreign Tech Companies"
+    },
+    "topic": "conference",
+    "source": "قناة نبأ الفضائية",
+    "summary": {
+      "ar": "يسعى مؤتمر LEAP 2026 إلى جذب شركات تقنية أجنبية رغم التحديات المالية.",
+      "en": "LEAP 2026 aims to attract foreign tech firms despite financial pressures."
+    },
+    "priority": "P1"
+  },
+  {
+    "id": 17,
+    "geo": "riyadh",
+    "url": "https://news.google.com/rss/articles/CBMihwNBVV95cUxNNnFoV3F2cjNVcE5LbEI4MkpObmV2VmhhVTFNUXZyWTFyeVFvQXdoYmQ1OGFrdVo0cnNrRUhrQVhzbFJCWVBOZVl6dGdReGdUMkMwN25aSVIzQ3I3Ujl2NEwxRGZSVXBSa0h1d291ZnJ1cmVTOUxBbTVCXzlydkVEQjk1eUx2Unc4VS01OEc2V0V0MnhYUUhoVUN4eFdDNUVmMzVvckhCVlRvUENldUZtTk9waHRYODFEdENVZkQ4V0xDSE9FMldTd3BYekZFSVEwckEwcHZiRlZtRzJWbjlERlhualRocEtTQUhrZ3Q3MUVPN1NsWWtwOU9KcHVJNFJSR2l5YzBlSHNBdnhTaWk4b21na2pSMnNtdUhPSVYwSmN6NFVBNUFkYXFydTNDX1hrRG0xZmQwRXdyRTl4bUhZblJ4cDlyVHEydXd3TlpxNVoxOF9DYWJrcVdGSFh2OHhISko5NGM3OGpNTkR4TzM4YW0wTnpRYkFRQjZmNlI1TFNsa2FxX3Zv?oc=5",
+    "date": "2026-08-29",
+    "image": null,
+    "title": {
+      "ar": "stc ترعى تذاكر LEAP 2026 حتى 30 أغسطس",
+      "en": "stc Sponsors LEAP 2026 Tickets Until Aug 30"
+    },
+    "topic": "conference",
+    "source": "الشرق بلومبرغ",
+    "summary": {
+      "ar": "مجموعة stc تقدم تذاكر مجانية للجمهور لحضور مؤتمر LEAP 2026 حتى 30 أغسطس.",
+      "en": "stc is sponsoring free public tickets for LEAP 2026 until August 30."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 3,
     "geo": "saudi",
     "url": "https://saudigazette.com.sa/article/664095/saudi-arabia/expo-2030-riyadh-and-atout-france-sign-mou-to-promote-strategic-collaboration-and-strengthen-knowledge-exchange",
