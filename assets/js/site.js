@@ -331,32 +331,79 @@ loadNews();
     window.addEventListener('scroll', trackScroll, { passive: true });
     trackScroll();
 
-    /* ---- A/B experiment assignment (P8/S87) — data/experiments.json is n8n-published;
-       [] most of the time = pure no-op. Deterministic bucket per (session, experiment). ---- */
+    /* ---- A/B experiments v2 (P8/S88) — data/experiments.json is n8n-published (running + shipped
+       winners). [] most of the time = pure no-op. Deterministic bucket per (session, experiment).
+       ops: text | html | attr | style | addClass | removeClass | remove | inject.
+       `value` is a plain string OR {ar,en}. Injected nodes that carry data-en/data-ar stay
+       language-synced through applyLang(). shipped rows always get variant B (split ignored). ---- */
     var assignedExp = null, assignedVariant = null;
     function hashStr(s){ var h = 0; for (var i = 0; i < s.length; i++){ h = ((h << 5) - h + s.charCodeAt(i)) | 0; } return Math.abs(h); }
+    function expVal(v){ return (v && typeof v === 'object') ? (isAR ? (v.ar != null ? v.ar : v.en) : (v.en != null ? v.en : v.ar)) : v; }
+    function expBiAttrs(el, v){ if (v && typeof v === 'object'){ if (v.en != null) el.setAttribute('data-en', v.en); if (v.ar != null) el.setAttribute('data-ar', v.ar); } }
+    function applyChange(ch){
+      if (ch.op === 'inject'){
+        var host = ch.selector ? document.querySelector(ch.selector) : document.body;
+        if (!host) return;
+        var pos = ch.position || 'beforeend';
+        var html = (typeof ch.value === 'string') ? ch.value : (ch.html || '');
+        if (pos === 'replace') host.outerHTML = html; else host.insertAdjacentHTML(pos, html);
+        return;
+      }
+      var els = ch.selector ? document.querySelectorAll(ch.selector) : [];
+      els.forEach(function(el){
+        if (ch.op === 'text'){ expBiAttrs(el, ch.value); el.textContent = expVal(ch.value); }
+        else if (ch.op === 'html'){ expBiAttrs(el, ch.value); el.innerHTML = expVal(ch.value); }
+        else if (ch.op === 'attr' && ch.attr){ var av = expVal(ch.value); if (av == null || av === false) el.removeAttribute(ch.attr); else el.setAttribute(ch.attr, av); }
+        else if (ch.op === 'style' && ch.prop){ el.style.setProperty(ch.prop, expVal(ch.value)); }
+        else if (ch.op === 'addClass'){ el.classList.add(ch.value); }
+        else if (ch.op === 'removeClass'){ el.classList.remove(ch.value); }
+        else if (ch.op === 'remove'){ el.remove(); }
+      });
+    }
     function applyExperiments(list){
       if (!Array.isArray(list)) return;
+      var injected = false;
+      var here = location.pathname.replace(/index\.html$/, '') || '/';
       for (var i = 0; i < list.length; i++){
         var e = list[i]; if (!e || !e.slug) continue;
         var scope = e.scope || '/';
-        var match = scope === '/' ? true : (location.pathname === scope || location.pathname.indexOf(scope) === 0);
+        var match = scope === '/' ? (here === '/') : (here === scope || here.indexOf(scope) === 0);
         if (!match) continue;
-        var v = (hashStr(sid + '|' + e.slug) % 100) < (e.split || 50) ? 'B' : 'A';
-        assignedExp = e.slug; assignedVariant = v;
-        if (v === 'B' && Array.isArray(e.changes)){
-          e.changes.forEach(function(ch){
-            try {
-              document.querySelectorAll(ch.selector).forEach(function(el){
-                if (ch.op === 'text') el.textContent = ch.value;
-                else if (ch.op === 'html') el.innerHTML = ch.value;
-                else if (ch.op === 'attr' && ch.attr) el.setAttribute(ch.attr, ch.value);
-                else if (ch.op === 'addClass') el.classList.add(ch.value);
-              });
-            } catch (e2){}
-          });
-        }
+        var shipped = e.shipped === true || e.status === 'shipped';
+        var v = shipped ? 'B' : ((hashStr(sid + '|' + e.slug) % 100) < (e.split || 50) ? 'B' : 'A');
+        if (!shipped){ assignedExp = e.slug; assignedVariant = v; }
+        if (v !== 'B' || !Array.isArray(e.changes)) continue;
+        var flag = 'data-exp-' + e.slug.replace(/[^a-z0-9-]/gi, '');
+        if (document.documentElement.hasAttribute(flag)) continue;
+        document.documentElement.setAttribute(flag, '1');
+        if (e.css){ try { var st = document.createElement('style'); st.setAttribute('data-exp', e.slug); st.textContent = e.css; document.head.appendChild(st); } catch (ec){} }
+        e.changes.forEach(function(ch){ try { applyChange(ch); if (ch.op === 'inject') injected = true; } catch (e2){} });
       }
+      if (injected){
+        try { applyLang(); } catch (el2){}
+        wireExpChips();
+      }
+    }
+    /* quick-select chips (pattern brief-quick-select) — pre-fill form fields, no form-logic change */
+    function wireExpChips(){
+      document.querySelectorAll('[data-exp-chips] .exp-chip-row').forEach(function(row){
+        if (row.__wired) return; row.__wired = true;
+        var target = document.querySelector(row.getAttribute('data-target'));
+        var prefix = row.getAttribute('data-prefix') || '';
+        row.querySelectorAll('button').forEach(function(btn){
+          btn.addEventListener('click', function(){
+            row.querySelectorAll('button').forEach(function(b){ b.classList.remove('on'); });
+            btn.classList.add('on');
+            if (!target) return;
+            var val = btn.getAttribute('data-val') || btn.textContent.trim();
+            if (target.tagName === 'TEXTAREA'){
+              var base = target.value.replace(new RegExp('(^|\\n)' + prefix.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '.*'), '').trim();
+              target.value = (base ? base + '\n' : '') + prefix + val;
+            } else { target.value = val; }
+            target.dispatchEvent(new Event('input', { bubbles: true }));
+          });
+        });
+      });
     }
     var viewSent = false;
     function sendView(){
