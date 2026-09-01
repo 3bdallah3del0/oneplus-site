@@ -13,5 +13,55 @@
         "selector": "body"
       }
     ]
+  },
+  {
+    "css": null,
+    "slug": "hero-cta-whatsapp-first",
+    "scope": "/",
+    "split": 50,
+    "status": "running",
+    "changes": [
+      {
+        "op": "attr",
+        "attr": "href",
+        "value": "https://wa.me/966566369163?text=%D9%85%D8%B1%D8%AD%D8%A8%D9%8B%D8%A7%D8%8C%20%D8%B9%D9%86%D8%AF%D9%8A%20%D9%81%D8%B9%D8%A7%D9%84%D9%8A%D8%A9%20%D9%88%D8%A3%D8%B1%D9%8A%D8%AF%20%D8%AC%D9%86%D8%A7%D8%AD",
+        "selector": ".hero-cta"
+      },
+      {
+        "op": "attr",
+        "attr": "target",
+        "value": "_blank",
+        "selector": ".hero-cta"
+      },
+      {
+        "op": "attr",
+        "attr": "data-cta",
+        "value": "hero-cta-wa",
+        "selector": ".hero-cta"
+      },
+      {
+        "op": "html",
+        "value": {
+          "ar": "راسلنا على واتساب",
+          "en": "Message us on WhatsApp"
+        },
+        "selector": ".hero-cta span:first-child"
+      }
+    ]
+  },
+  {
+    "css": ".exp-proofm{display:flex;flex-wrap:wrap;justify-content:center;gap:14px 34px;max-width:var(--maxw);margin:20px auto 0;padding:18px clamp(20px,5vw,64px) 0;border-top:1px solid var(--line)}.exp-proofm-i{display:flex;flex-direction:column;align-items:center;gap:3px;text-align:center}.exp-proofm-i b{font-family:var(--font-display);font-weight:700;font-size:clamp(20px,2.6vw,26px);color:var(--cyan);line-height:1}.exp-proofm-i span{font-family:var(--font-mono);font-size:10px;letter-spacing:0.08em;text-transform:uppercase;color:var(--paper-faint)}",
+    "slug": "proof-metrics-bar",
+    "scope": "/",
+    "split": 50,
+    "status": "running",
+    "changes": [
+      {
+        "op": "inject",
+        "value": "<div class=\"exp-proofm\"><div class=\"exp-proofm-i\"><b>40+</b><span data-en=\"stands delivered\" data-ar=\"جناحًا منفّذًا\">جناحًا منفّذًا</span></div><div class=\"exp-proofm-i\"><b>8</b><span data-en=\"years in Riyadh\" data-ar=\"سنوات في الرياض\">سنوات في الرياض</span></div><div class=\"exp-proofm-i\"><b>100%</b><span data-en=\"in-house fabrication\" data-ar=\"تصنيع داخلي\">تصنيع داخلي</span></div><div class=\"exp-proofm-i\"><b>24h</b><span data-en=\"concept turnaround\" data-ar=\"مهلة التصوّر\">مهلة التصوّر</span></div></div>",
+        "position": "afterend",
+        "selector": ".proof .marquee-viewport"
+      }
+    ]
   }
 ]
