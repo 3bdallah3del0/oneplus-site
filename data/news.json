@@ -1,5 +1,77 @@
 [
   {
+    "id": 49,
+    "geo": "riyadh",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTjBmM3dITDhkX0ljS3Y1ZkxJRkdVODJ1cEtPUjlubXdRVkpyTWJHQW1qemlmVVB0QlFOaEJvMTdEallvQ2RwNC1udWJyX3FpaUlHXzVBV3RKWlVHN0VFV2JXLU1DRkZRTFdZMjRWRnc5NGtRMmJjSjhCTXRmQS1wZVdJVVBHVnBHaElEU19XSV9nVzUweGxVc1FIenVBQWJ4aVhyNjlrZHM?oc=5",
+    "date": "2026-09-01",
+    "image": null,
+    "title": {
+      "ar": "افتتاح LEAP 2026 بأكثر من 15 مليار دولار صفقات",
+      "en": "LEAP 2026 opens with $15B deals"
+    },
+    "topic": "exhibition",
+    "source": "Dealroom",
+    "summary": {
+      "ar": "انطلقت نسخة 2026 لمعرض LEAP في الرياض مع صفقات تقنية بقيمة 15 مليار دولار ونموذج ذكاء اصطناعي عربي.",
+      "en": "LEAP 2026 opened in Riyadh with $15 bn in tech deals and an Arabic AI model."
+    },
+    "priority": "P1"
+  },
+  {
+    "id": 60,
+    "geo": "riyadh",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaEN6V0dobThkRktESjNpR1FqeVNBWnpPSjlQbUJ2N2w2SGNZYzZ4Q1lmN0Fld3VpbEU2MGJZZ00wakNHNTFrT2owYWd2cW1Xb1UtdE05clZOR3Jpa3dvanA0bmRQb2lSeTY3bmNhVjFjdDRTdnRzRTFCZmdaay0zZ2RXUUVPQWstWWlwNzFZNVdNWktkMV80dWo0UnB1NWZVbExESVlEOGFzZlQ2Znc?oc=5",
+    "date": "2026-08-31",
+    "image": null,
+    "title": {
+      "ar": "معرض Big 5 Construct يجمع قادة البناء في السعودية",
+      "en": "Big 5 Construct Saudi brings construction leaders together"
+    },
+    "topic": "exhibition",
+    "source": "Gulf Daily News (Bahrain)",
+    "summary": {
+      "ar": "يُعقد معرض Big 5 Construct السعودي 2026 ليجمع أبرز قادة قطاع البناء والمشروعات في المملكة.",
+      "en": "Big 5 Construct Saudi 2026 brings together construction and project leaders in the Kingdom."
+    },
+    "priority": "P1"
+  },
+  {
+    "id": 51,
+    "geo": "riyadh",
+    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYnZDOXVYYzR1ZmgyOE5JZXNONjZOYnU5by0tRTQ3dVZ0YVNBSHdWNEVTbWd4elJQVmRtcFVvUGpvMk04bVB5VmdQbDM5QS1xdElWLWFPcFdOaXpYMmR2UVkwb1RHNVR3OHYyTmFpV2tHNUtIdUxzMHlheXhsUU1Nb2w5UXFsOUxta25hVjNmVEE3RUJHNUZWX1JwN1dxUFpXU1d6emZsLW5XSW4tTlgzOEh3?oc=5",
+    "date": "2026-08-31",
+    "image": null,
+    "title": {
+      "ar": "LEAP يفتتح مع 15 مليار دولار من الاستثمارات",
+      "en": "LEAP opens with $15B investments"
+    },
+    "topic": "exhibition",
+    "source": "CEO Insights Asia",
+    "summary": {
+      "ar": "أعلن معرض LEAP عن افتتاحه مع استثمارات وشراكات تقنية بقيمة 15 مليار دولار.",
+      "en": "LEAP opened with $15 bn in tech investments and partnerships."
+    },
+    "priority": "P1"
+  },
+  {
+    "id": 50,
+    "geo": "riyadh",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1meVlWdmp6SFF1aGNqOEJoSkxFa3JOLWpneVo1aTlBSTVRR3NJUkxGNW9PVF9JSHU5bjFvTmdfT3NBR0cwdmlpY3dwR2pnOWtpaUdkOVZaZ2xGWUhyRkE?oc=5",
+    "date": "2026-08-31",
+    "image": null,
+    "title": {
+      "ar": "LEAP 2026 يفتح أبوابه في الرياض بأكثر من 15 مليار دولار استثمارات",
+      "en": "LEAP 2026 opens in Riyadh with $15B investments"
+    },
+    "topic": "exhibition",
+    "source": "Arab News PK",
+    "summary": {
+      "ar": "أعلن معرض LEAP 2026 عن افتتاحه في الرياض مع استثمارات وشراكات تقنيّة تفوق 15 مليار دولار.",
+      "en": "LEAP 2026 opened in Riyadh with over $15 bn in tech investments and partnerships."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 47,
     "geo": "riyadh",
     "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1GRUc3ajZrbnd3RGJJRDZXSmUtTjJzX0kxRkpTSVBKWDBnQkh1Qm5QZUxWTnJpN1F1T0RHZWdtYUVEbm1xTlNkLUZn?oc=5",
@@ -468,6 +540,150 @@
     "priority": "P1"
   },
   {
+    "id": 64,
+    "geo": "mena",
+    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4wdXBVbHUxMzNETHMzSjZKaWhqbGhrOGNibnJnNllqN2RLWEpTMVR2VXhUZnFjVzREd09YOV9iQzRMMXRuRVJidHd6TW5KZ2NaVkhNM0I0Njd3ZEVKOWh2Uzh3?oc=5",
+    "date": "2026-08-31",
+    "image": null,
+    "title": {
+      "ar": "24 شركة عُمانية تعرض خدماتها",
+      "en": "24 Omani companies showcase services"
+    },
+    "topic": "exhibition",
+    "source": "وكالة الأنباء العمانية (العمانية)",
+    "summary": {
+      "ar": "أعلنت وكالة الأنباء العمانية عن مشاركة 24 شركة في معرض LEAP 2026 بالمملكة.",
+      "en": "The Omani news agency reported 24 companies showcasing services at LEAP 2026 in Saudi Arabia."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 63,
+    "geo": "mena",
+    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZkVlTGNmejhpTGxOYjhUOWtZbnRCWlFIdzBRcGpIR2VhY0pkRzJ6bTZ3X3N1UkM1bnFRdHdUUTJGaEhmdUxkbTk3VE4zUzFtME5Ed1pxaU9LeTR3dkhTSjl4MmFCMXVSaWJyaDZrRXVrUVVsWWpQWU8wdXpQSW9IM2l6ZFpXTUxJaF82YVZHTG9NLXQ1a0l1a0wtUHE?oc=5",
+    "date": "2026-08-31",
+    "image": null,
+    "title": {
+      "ar": "شركات تقنية عُمانية تعرض خدماتها في LEAP 2026",
+      "en": "Omani tech firms at LEAP 2026"
+    },
+    "topic": "exhibition",
+    "source": "muscatdaily.com",
+    "summary": {
+      "ar": "تشارك شركات تقنية عُمانية في معرض LEAP 2026 لتقديم حلولها التقنية في السعودية.",
+      "en": "Omani tech firms showcased services at LEAP 2026 in Saudi Arabia."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 62,
+    "geo": "mena",
+    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8zWkVKdTZwaDlLWTM3RkExYndva1BvbTQ1bkx0R0psRTRoVjRMZ25sZjJaTFpwWDNaV3B0TzgxSFhvZDk1NGQ0WWtVdVJBWktJeWNLUW9zbjl5QdIBWkFVX3lxTE8zWkVKdTZwaDlLWTM3RkExYndva1BvbTQ1bkx0R0psRTRoVjRMZ25sZjJaTFpwWDNaV3B0TzgxSFhvZDk1NGQ0WWtVdVJBWktJeWNLUW9zbjl5QQ?oc=5",
+    "date": "2026-08-31",
+    "image": null,
+    "title": {
+      "ar": "24 شركة عُمانية تعرض خدماتها في LEAP 2026",
+      "en": "24 Omani firms showcase at LEAP 2026"
+    },
+    "topic": "exhibition",
+    "source": "Oman Observer",
+    "summary": {
+      "ar": "شاركت 24 شركة عُمانية في معرض LEAP 2026 لعرض خدماتها التقنية في السعودية.",
+      "en": "24 Omani companies showcased their services at LEAP 2026 in Saudi Arabia."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 61,
+    "geo": "riyadh",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbWNCUEYtdHA4UkpRa25VTnlSYnJfUVF5Y2RVLVF1TnFKY1pzMWZBWXBNMGExRTVfdHpuMm5Db1FDZ0tDRFpmaVBUSGwtUlRwa2hNNWRvWVRTeVlWNVhQRTktWUlnUkxQSzFhS2hwcGExNUJfNXVPTTM3c2tES0dNeDZEVDNiTno4TjVienlUTHF3WkEzTVdNWWxJMmpJYTlEMVFRVk5jOHJQa0NiSzRYb1VCVUkwR2QtRTI1enQxcWhQRHpX?oc=5",
+    "date": "2026-08-31",
+    "image": null,
+    "title": {
+      "ar": "الفطيم يطلق وحدات FM والسلامة في Big 5 Construct",
+      "en": "Al‑Futtaim launches FM units at Big 5 Construct"
+    },
+    "topic": "exhibition",
+    "source": "TradeArabia",
+    "summary": {
+      "ar": "أطلقت شركة الفطيم وحدات إدارة المرافق والسلامة في جناحها بمعرض Big 5 Construct السعودي 2026.",
+      "en": "Al‑Futtaim Contracting launched FM, fire & life safety units at Big 5 Construct Saudi."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 58,
+    "geo": "riyadh",
+    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9jME9Jb1NydzJBX0FDd29uRzc2RHZidnFuUjRNUFJGWEZOcGFnVEtaMW10OGF5M0lSWUo4aDIyYm5LcWc0VVpjVG5USEVHSW8tdGZjOWZIM2pPWS1uQ0VuN1hjX0M5Y2xRQ0MwT3AyU3BMeXBNUjdvWmJ30gGOAUFVX3lxTE9rRmdVRXNuclRXTHNGaE9fSUU3ejNaSURvdHc5UTV2dFNDeVFZYVU1M0xrWkdjTFhVMVZqY0FnM0Q2VmVKRmpDdEJtR3VQSVJMTVZBQnExT2d0a05vMUtNOTV1R3Rrckw2Tm1NYkwzeFJPT1ItVFRFaHpaU0VpSkVjM0d6QmZ5VlVjcWVSOUE?oc=5",
+    "date": "2026-08-31",
+    "image": null,
+    "title": {
+      "ar": "NC AI تقود جناح كوريا الكاملة في LEAP 2026",
+      "en": "NC AI leads Korea pavilion at LEAP 2026"
+    },
+    "topic": "exhibition",
+    "source": "Chosunbiz",
+    "summary": {
+      "ar": "تقود شركة NC AI جناحًا يضم حلول الذكاء الاصطناعي الكورية الكاملة في معرض LEAP 2026.",
+      "en": "NC AI leads the full‑stack Korean AI pavilion at Saudi LEAP 2026."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 55,
+    "geo": "riyadh",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaFUzaDIwcHF3ZXRUYUFXQ2RoR3FtRENZbzB4MlIyTzNhai1SMDZtVTRGTEdRNDcwVzY0b1VvODlwYm5aUjVMQmVTVTJHQl9lVzJTUHlpdVdfYS0tUkEzX1c4eVFPV1E5WF9wYk9nTGxoaWhkbTF1eTIySjdnWUJZcDZWNEdsS25TVWlBN0htQWxBbEN6WXI5ZVpjczZrZHVIdjVrSEg3VkQ?oc=5",
+    "date": "2026-08-31",
+    "image": null,
+    "title": {
+      "ar": "سالم تعرض الذكاء السحابي في LEAP 2026 كراعٍ استراتيجي",
+      "en": "Salam showcases AI & cloud at LEAP 2026"
+    },
+    "topic": "exhibition",
+    "source": "Gulf Business",
+    "summary": {
+      "ar": "تعلن شركة سالم عن مشاركتها في LEAP 2026 كراعٍ استراتيجي لتقديم حلول الذكاء السحابي.",
+      "en": "Salam will showcase AI and cloud solutions at LEAP 2026 as a strategic sponsor."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 54,
+    "geo": "riyadh",
+    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPazdNRk5LVERnUHVhbjJ6MUxiaGR4S0Z6WmtiMm5MRUdWZW1ON2JIWGZfNzltdmNaWl8xNC1qMEo0NUF4aEhFU0wtRUFKcExCWG5qeDVMSThmSkZKUXVTVm1fSWo1cFNwZGVWcFR2ZFQxRGVNdWhDMDZJSHdGTzFqdkg1SnRpTzR0OVVraXlHT0wzb09ILWR6dk5iSVdiRTZhN3c?oc=5",
+    "date": "2026-08-31",
+    "image": null,
+    "title": {
+      "ar": "NC AI تعرض حلول الذكاء الاصطناعي الكورية في LEAP 2026",
+      "en": "NC AI showcases Korean AI at LEAP 2026"
+    },
+    "topic": "exhibition",
+    "source": "Seoul Economic Daily",
+    "summary": {
+      "ar": "شركة NC AI تقدم جناحًا يضم حلول الذكاء الاصطناعي الكورية الكاملة في معرض LEAP 2026.",
+      "en": "NC AI presents a full‑stack Korean AI pavilion at LEAP 2026."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 53,
+    "geo": "riyadh",
+    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQkZJWkZrMm9ReTV3RXFwTk9BUEJwa004bEt6VVdodml1LVJoSHNnaE9HMV9VaUpNTTVNbG83alR5NEZ2aHVmOW9DUWd3a1RWcnpmdEdfaVB0YUdzcElxaXVuajk1SjJkQjNtUFBsX3NhYVlvUUQ3aUF6Z1U3NDYwaXZpWWpGV01JRjh1cUUwcmtiMmpnTTdsYzJhei1lbG5tZkFsTQ?oc=5",
+    "date": "2026-08-31",
+    "image": null,
+    "title": {
+      "ar": "ما وراء الكواليس في معرض LEAP",
+      "en": "Behind the scenes of LEAP"
+    },
+    "topic": "exhibition",
+    "source": "Gulf Business",
+    "summary": {
+      "ar": "تقرير يكشف تفاصيل تنظيم وإعداد معرض LEAP 2026 في الرياض، مفيد لمنظمي الأجنحة.",
+      "en": "An inside look at the organization and setup of LEAP 2026 in Riyadh."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 48,
     "geo": "riyadh",
     "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE44ZWEzSlQ2a2thZzE0RlZaTjNoNHoxT3RqNWI1QUdDTFdQRjFoQlhhUUx2bHQ2NzZndzRlVHRLZjRxNkx1cVUxRlFVYkdlYXg0T09UMTQ0ZUc?oc=5",
@@ -500,222 +716,6 @@
     "summary": {
       "ar": "أعلنت Tencent Cloud عن شراكة مع TruKKer في السعودية تمهيدًا لمؤتمر LEAP 2026.",
       "en": "Tencent Cloud announced a partnership with TruKKer in Saudi Arabia ahead of LEAP 2026."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 45,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxONFlYeHJMTGZYZ29SOW1OUGpPZjRzUGxQUElxNWNDYjAxZEtNaHE3WGp1RjdMdmFRdzJIUXVZeEJyWFJoeVk4Vm5ZVVQ2R094UXpLSFBYUVRxQ1lyY3ZFZU4tbEVIdEJkWkloYTNNeHVyTFZpQS03WFVFMU9lMVJWOUZlbXhwMllIbW5Mb2hB?oc=5",
-    "date": "2026-08-31",
-    "image": null,
-    "title": {
-      "ar": "LEAP 2026 يضيف مسار الفنتك دون أخبار جديدة",
-      "en": "LEAP 2026 adds fintech track, no new fintech news"
-    },
-    "topic": "conference",
-    "source": "The Fintech Times",
-    "summary": {
-      "ar": "أُضيف مسار الفنتك إلى برنامج LEAP 2026، رغم غياب أخبار جديدة في المجال.",
-      "en": "LEAP 2026 introduced a fintech track, though no fresh fintech news was reported."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 41,
-    "geo": "saudi",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQeUpXUXIxMGFrYlZxTFg1ZndXZlJ6WDRsZlZHaFhmMXBJOFNkVDNWbVhIRVpGNFAyeUlKdXo5elNOT25iemtndTJ4Q3FBS2p3el9PTXRLV3FpbkpkZ3VwdlpTYTIxZmt0Y2lESk1hTWpoVlhwSUZTVGtkcDBlUEMzTnlXTTRaSzItaUJuVGNqNGl2elJEbDVYV3ZJWXhkLWtyTDBTcFdRQ2o?oc=5",
-    "date": "2026-08-31",
-    "image": null,
-    "title": {
-      "ar": "ما وراء الكواليس في LEAP: نظرة داخل المعرض التقني",
-      "en": "Inside LEAP: behind the tech showcase"
-    },
-    "topic": "conference",
-    "source": "gulfbusiness.com",
-    "summary": {
-      "ar": "تستعرض المقالة تفاصيل تنظيم ومعروضات معرض LEAP التقني في السعودية.",
-      "en": "The article offers a behind‑the‑scenes look at the organization and exhibits of Saudi LEAP tech showcase."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 40,
-    "geo": "saudi",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOMmN2bUtYU1hLZWZ5a2pEY0syOVFXOEt1TVZHSnRqZGJRdHpOSUllaEpWNE93RkhUTU9scnhNYUFRelBiSm1KQ3FyRWNaRkNZNHR1LUtZTm9mV2otZ182dlYyU19BaHl4bF9VbDJBZFdxX3NNX1JxOEpMVzBqenVLZmQ5VVl6Z0IxTTVqOVBBQy13ckE4WEY2cVZodmw0eEdyU1lyTWd30gGrAUFVX3lxTFBPRy03U19aNDQ0N1hvclVRT3R0YXUyU0NId2ZwSDNtVG1pVmlKU1hUT21VNUREa09yMzVMVVFlODZaOTBnY2VhVzFmb21YZ1hXbzBUN0FlTGhXWk1SX25hUjJWb0RidkZrOUw1RzJ4ZzBwZHdiWGxTSVBoaVBaQWVSazdvMVo3U1JjV1VKc2lmY1RXd0hTRWtYQVNyam9lUWJFTmVjeTl3V1V1aw?oc=5",
-    "date": "2026-08-31",
-    "image": null,
-    "title": {
-      "ar": "NC AI تعرض الذكاء الاصطناعي المادي في معرض تقني سعودي",
-      "en": "NC AI brings physical AI to Saudi tech showcase"
-    },
-    "topic": "exhibition",
-    "source": "The Korea Times",
-    "summary": {
-      "ar": "تقدم شركة NC AI حلول الذكاء الاصطناعي المادي خلال معرض تقني في السعودية.",
-      "en": "NC AI presents physical AI solutions at a Saudi tech showcase."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 37,
-    "geo": "saudi",
-    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE9YT2QtSzMtMl8yblJlUnJlTmd3STBJeFJUSGxmTUVZRy1PT1JjMlRHZTR0S2NtOE9Mb2ctaFRtT0I3VW9UUVA1OWtVWWZ3WHBCc0RJa3N6ejBZMHZyT3VKXzdoZHhTckxubmFZNmhpRFY0bTFfaGc?oc=5",
-    "date": "2026-08-31",
-    "image": null,
-    "title": {
-      "ar": "NC AI تعرض تقنية الذكاء الاصطناعي الكورية الكاملة في LEAP 2026",
-      "en": "NC AI showcases Korean AI stack at LEAP 2026"
-    },
-    "topic": "exhibition",
-    "source": "finance.biggo.com",
-    "summary": {
-      "ar": "ستعرض شركة NC AI التقنية الكورية المتكاملة للذكاء الاصطناعي خلال معرض LEAP 2026 في السعودية.",
-      "en": "NC AI will showcase a full‑stack South Korean AI technology at Saudi Arabia's LEAP 2026."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 36,
-    "geo": "mena",
-    "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxPTUwzcDJ6Q3BISkFyREFBVTlONEdEZkY4WmJfNlU4ZWxJNURlMXJ6QURiZWh2Zy1oQTlMVTRVSV9Ca1BhdmJUTlR2LXQ3dVNlZU1sRGVyZkZzLW1wVWJqbk1lSERyVmJHNWppSko4eVlwYmdYWC0zcmJsY0tNcUVBY3g0M0FkWVRjWXhWa2Q1SHhJLXVSWXdhejZMZHRKM0ZDNUl4RW9SckVvTmNRT09YaXllVWxZQmlRWjJTaVVpTkUtQnUwRjhtZUlNZk9yNVdpQVBzSW9sel84UnBtOEFnVjhMOTA4c3NOSkdwdFNWN0xzSTZKTE9yRnVZSTJ5Um5LdjhQWGtyd041WXFDMjZQcGZuSWFSWDE3b0szYlFsWExuWkhkcThRdk5LTWM1M0RPNW9Lb1hVRU0zN3Itd0E?oc=5",
-    "date": "2026-08-31",
-    "image": null,
-    "title": {
-      "ar": "ACES وMovandi يعلنان شراكة 5G/6G في LEAP 2026",
-      "en": "ACES & Movandi partner on 5G/6G at LEAP 2026"
-    },
-    "topic": "technology",
-    "source": "Business Wire",
-    "summary": {
-      "ar": "أعلنت شركتا ACES وMovandi عن شراكة لتسريع بنية 5G و6G في السعودية والشرق الأوسط خلال LEAP 2026.",
-      "en": "ACES and Movandi announced a partnership to accelerate next‑gen 5G/6G infrastructure in Saudi Arabia and MENA at LEAP 2026."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 32,
-    "geo": "saudi",
-    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1zM01FTzJGd1Nfa0lyWjk0MjE5OTdoSTBNV1hyVk1qZkllUVVnYWdqUWVWR21QM1NVZzlCVHBEcE9yaVRqQmlnTWhBV3RYMEpsRGFSSHdiWmRZNmFwNXRGbWpwSElSQWc?oc=5",
-    "date": "2026-08-31",
-    "image": null,
-    "title": {
-      "ar": "NC AI تستهدف التوسع في الشرق الأوسط خلال LEAP 2026",
-      "en": "NC AI eyes Middle East expansion at LEAP 2026"
-    },
-    "topic": "conference",
-    "source": "thelec.net",
-    "summary": {
-      "ar": "تسعى شركة NC AI إلى توسيع حضورها في المنطقة من خلال مشاركتها في مؤتمر LEAP 2026.",
-      "en": "NC AI plans Middle East expansion, showcasing its solutions at Saudi LEAP 2026."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 43,
-    "geo": "saudi",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBNU0ZNZ3Q3SXlEaVpoenpiT29FMF9KbUpVOWJnTElLdlFiQko0Umx4eEJtM1o2c21obGtzb195WVlYU0x4VVMyaF9GdWNMNi1SNHZreVdUdWpIVEZaRWtv?oc=5",
-    "date": "2026-08-29",
-    "image": null,
-    "title": {
-      "ar": "مؤتمر LEAP يسلط الضوء على الذكاء الاصطناعي والتقنيات الناشئة",
-      "en": "LEAP conference spotlights AI and emerging tech"
-    },
-    "topic": "conference",
-    "source": "arabnews.com",
-    "summary": {
-      "ar": "يُركز مؤتمر LEAP على الذكاء الاصطناعي والتقنيات الناشئة، مع عروض ومناقشات متخصصة.",
-      "en": "The LEAP conference highlights AI and emerging technologies through specialized showcases and discussions."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 14,
-    "geo": "saudi",
-    "url": "https://www.argaam.com/en/article/articledetail/id/1932409",
-    "date": "2026-08-28",
-    "image": "https://argaamplus.s3.amazonaws.com/e2b90809-8a12-4303-bebf-f1e78aacffe2.png",
-    "title": {
-      "ar": "المجدية تتعاون مع شركة SOM لتصميم مشاريع فاخرة",
-      "en": "Al Majdiah partners with SOM for high‑end projects"
-    },
-    "topic": "venue",
-    "source": "Argaam",
-    "summary": {
-      "ar": "وقعت شركة المجدية اتفاقية تعاون استراتيجي مع شركة الهندسة العالمية SOM لتصميم وتطوير مشاريع فاخرة.",
-      "en": "Al Majdiah signed a strategic cooperation agreement with global architecture firm SOM to design and develop high‑end projects."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 38,
-    "geo": "mena",
-    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPT25EdUdJazB1d0lhTnB4NzhVQWVPVHUyMnNreW1wVkNOT054eGZ2OEVweWpEeFg3eU9ZWDNFX010ZVByTUlkZzhEckY5YUhEbndFQV9SRnJjWFBmMG9hX2tHeTVzNnROVnRZNmxfZFItOVBaenl3cENQbkZZck9wUEw0TXFEb2NBcXpLR2lKb3ZxVWFkR3hmdERGcHBJRDBweWhVRF93Z2VrYmkw?oc=5",
-    "date": "2026-08-27",
-    "image": null,
-    "title": {
-      "ar": "Cityscape Global 2026 يربط المشترين السعوديين بفرص عقارية",
-      "en": "Cityscape Global 2026 connects Saudi homebuyers"
-    },
-    "topic": "exhibition",
-    "source": "The National Law Review",
-    "summary": {
-      "ar": "يُعقد معرض Cityscape Global 2026 لتوفير فرص عقارية للمشترين السعوديين وتوسيع شبكة المستثمرين.",
-      "en": "Cityscape Global 2026 connects Saudi homebuyers with property opportunities, expanding investor networks."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 12,
-    "geo": "global",
-    "url": "https://exhibitionnews.uk/interprefy-launches-media-hub-for-post-event-multilingual-content/",
-    "date": "2026-08-26",
-    "image": null,
-    "title": {
-      "ar": "Interprefy تطلق Media Hub للمحتوى متعدد اللغات بعد الفعاليات",
-      "en": "Interprefy Launches Media Hub for Post-Event Multilingual Content"
-    },
-    "topic": "technology",
-    "source": "Exhibition World",
-    "summary": {
-      "ar": "أطلقت Interprefy منصة Media Hub لتمكين فرق الفعاليات من الوصول وتحرير المحتوى متعدد اللغات بعد الحدث.",
-      "en": "Interprefy launched Media Hub enabling event teams to access, edit, and reuse multilingual recordings and transcripts post‑event."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 13,
-    "geo": "global",
-    "url": "https://saudigazette.com.sa/article/664045/business/aimoga-brings-real-world-robot-operations-to-wrc-2026",
-    "date": "2026-08-25",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/08/25/2755561.webp",
-    "title": {
-      "ar": "AiMOGA تعرض عمليات الروبوتات الحقيقية في مؤتمر الروبوتات العالمي 2026",
-      "en": "AiMOGA brings real‑world robot operations to WRC 2026"
-    },
-    "topic": "conference",
-    "source": "Saudi Gazette — Business",
-    "summary": {
-      "ar": "ستُعرض عمليات الروبوتات الواقعية في مؤتمر الروبوتات العالمي 2026 في بكين، تحت شعار \"التكامل بين الإنسان والروبوت\".",
-      "en": "Real‑world robot operations will be showcased at the World Robot Conference 2026 in Beijing, themed \"Human‑Robot Symbiosis\"."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 6,
-    "geo": "saudi",
-    "url": "https://saudigazette.com.sa/article/664042/business/the-infrastructure-behind-saudi-arabias-next-phase-of-ai",
-    "date": "2026-08-25",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/08/25/2755560.webp",
-    "title": {
-      "ar": "البنية التحتية للذكاء الاصطناعي في السعودية",
-      "en": "Saudi Arabia's Next AI Infrastructure Phase"
-    },
-    "topic": "technology",
-    "source": "Saudi Gazette — Business",
-    "summary": {
-      "ar": "تستعرض المقالة التحولات في بنية الذكاء الاصطناعي بالمملكة مع إشارة إلى مؤتمر LEAP كمنصة لتجمع القادة.",
-      "en": "The article outlines Saudi AI infrastructure shifts, noting LEAP as a gathering for tech leaders."
     },
     "priority": "P2"
   }
