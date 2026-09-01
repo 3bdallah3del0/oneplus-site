@@ -679,7 +679,22 @@ async function submitForm(e){
     fab.classList.toggle('open', open);
     panel.classList.toggle('open', open);
     if (open) {
-      if (!hasWelcomed) { welcomeEl = addMessage('assistant', tr('welcome')); hasWelcomed = true; }
+      if (!hasWelcomed) {
+        hasWelcomed = true;
+        // Personalised opener: the assistant tailors a first line to the page the visitor
+        // is on (a project → "seen the X stand?", an article → "reading about Y?", etc.).
+        // Falls back to the static welcome if the request fails or is slow.
+        welcomeEl = addMessage('assistant', tr('welcome'));
+        fetch(WEBHOOK_URL, {
+          method: 'POST', headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            event: 'greeting', page: location.pathname, ref: document.referrer || '',
+            lang: isAR ? 'ar' : 'en', session_id: getSessionId()
+          })
+        }).then((r) => r.json()).then((d) => {
+          if (d && d.reply && welcomeEl && !userHasSent) welcomeEl.textContent = d.reply;
+        }).catch(() => {});
+      }
       setTimeout(() => input.focus(), 320);
     }
   }

@@ -203,13 +203,15 @@ body::after{
 /* direction:ltr on the viewport keeps the marquee loop geometry valid under an RTL
    document (otherwise the width:max-content track is flex-positioned from the right,
    translateX(-50%) pushes it fully off-screen, and the ticker looks empty in Arabic).
-   The ticker scrolls content leftward in both languages — the standard news-ticker convention. */
+   Movement follows the reading direction: leftward in English, rightward in Arabic
+   (animation-direction:reverse on the track) so the eye tracks each headline naturally. */
 .newsbar-viewport{ flex:1; overflow:hidden; position:relative; display:flex; align-items:center; direction:ltr; }
 .newsbar-viewport::before,
 .newsbar-viewport::after{ content:""; position:absolute; top:0; bottom:0; width:46px; z-index:1; pointer-events:none; }
 .newsbar-viewport::before{ left:0;  background:linear-gradient(90deg, var(--ink-2), transparent); }
 .newsbar-viewport::after{  right:0; background:linear-gradient(270deg, var(--ink-2), transparent); }
 .newsbar-track{ display:flex; width:max-content; animation:newsbar-scroll var(--newsbar-dur,40s) linear infinite; }
+[dir="rtl"] .newsbar-track{ animation-direction:reverse; }
 .newsbar:hover .newsbar-track,
 .newsbar:focus-within .newsbar-track{ animation-play-state:paused; }
 .newsbar-seq{ display:flex; align-items:center; flex-shrink:0; }
