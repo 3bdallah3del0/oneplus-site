@@ -562,7 +562,32 @@ body::after{
   background:oklch(0.16 0.02 255/0.5); transition:transform .2s, border-color .2s; }
 .news-card:hover{ transform:translateY(-3px); border-color:var(--cyan); }
 .news-card-img{ aspect-ratio:16/9; background-size:cover; background-position:center; background-color:oklch(0.22 0.03 255); }
-.news-card-img--none{ background:linear-gradient(135deg, oklch(0.24 0.04 255), oklch(0.18 0.03 240)); }
+/* Google-News-sourced items carry no image; a branded topical panel keeps the grid tidy. */
+.news-card-img--none{
+  position:relative; display:flex; align-items:center; justify-content:center; overflow:hidden;
+  background:
+    repeating-linear-gradient(135deg, oklch(1 0 0/0.02) 0 2px, transparent 2px 9px),
+    linear-gradient(135deg, oklch(0.26 0.05 255), oklch(0.17 0.03 245));
+}
+.news-card-img--none::before{
+  content:""; position:absolute; inset:0;
+  background:radial-gradient(120% 90% at 82% 12%, oklch(0.6 0.13 220/0.22), transparent 60%);
+}
+.news-card-img--none[data-topic="conference"], .news-card-img--none[data-topic="event"]{ background:
+  repeating-linear-gradient(135deg, oklch(1 0 0/0.02) 0 2px, transparent 2px 9px),
+  linear-gradient(135deg, oklch(0.26 0.05 285), oklch(0.17 0.03 270)); }
+.news-card-img--none[data-topic="technology"]{ background:
+  repeating-linear-gradient(135deg, oklch(1 0 0/0.02) 0 2px, transparent 2px 9px),
+  linear-gradient(135deg, oklch(0.27 0.06 195), oklch(0.16 0.03 210)); }
+.news-card-img--none[data-topic="venue"], .news-card-img--none[data-topic="business"]{ background:
+  repeating-linear-gradient(135deg, oklch(1 0 0/0.02) 0 2px, transparent 2px 9px),
+  linear-gradient(135deg, oklch(0.27 0.05 60), oklch(0.17 0.03 50)); }
+.news-card-imgsrc{
+  position:relative; z-index:1; font-family:var(--font-mono, ui-monospace, monospace);
+  font-size:11px; letter-spacing:0.14em; text-transform:uppercase; font-weight:600;
+  color:oklch(0.92 0.02 250/0.62); padding:5px 12px; border:1px solid oklch(1 0 0/0.14); border-radius:999px;
+  max-width:80%; overflow:hidden; text-overflow:ellipsis; white-space:nowrap;
+}
 .news-card-body{ padding:16px 18px 18px; display:flex; flex-direction:column; gap:8px; flex:1; }
 .news-tag{ align-self:flex-start; font-family:var(--font-mono); font-size:10px; letter-spacing:.1em; text-transform:uppercase;
   padding:3px 8px; border-radius:6px; background:oklch(0.78 0.16 220/0.16); color:var(--cyan); }

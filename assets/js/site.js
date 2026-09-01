@@ -281,7 +281,9 @@ function renderNewsPage(){
   if (!items.length) { grid.innerHTML = ''; if (empty) empty.style.display = ''; return; }
   if (empty) empty.style.display = 'none';
   grid.innerHTML = items.map(n => `<a class="news-card reveal" href="${n.url}" target="_blank" rel="noopener noreferrer">
-    ${n.image ? `<div class="news-card-img" style="background-image:url('${n.image.replace(/'/g, "%27")}')"></div>` : '<div class="news-card-img news-card-img--none"></div>'}
+    ${n.image
+      ? `<div class="news-card-img" style="background-image:url('${n.image.replace(/'/g, "%27")}')"></div>`
+      : `<div class="news-card-img news-card-img--none" data-topic="${(n.topic || 'industry').replace(/[^a-z]/gi, '')}"><span class="news-card-imgsrc">${(n.source || '').split(/[—·|]/)[0].trim().replace(/[<>&"]/g, '')}</span></div>`}
     <div class="news-card-body">
       ${n.priority === 'P1' ? '<span class="news-tag" data-en="Key" data-ar="مهم">' + (isAR ? 'مهم' : 'Key') + '</span>' : ''}
       <div class="news-card-title">${n.title}</div>
