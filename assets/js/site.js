@@ -336,7 +336,8 @@ loadNews();
        ops: text | html | attr | style | addClass | removeClass | remove | inject.
        `value` is a plain string OR {ar,en}. Injected nodes that carry data-en/data-ar stay
        language-synced through applyLang(). shipped rows always get variant B (split ignored). ---- */
-    var assignedExp = null, assignedVariant = null;
+    var assignedExp = null, assignedVariant = null;   // legacy "primary" pair (first assignment)
+    var expAssignments = {};                          // { slug: 'A'|'B' } — every running experiment on this page
     function hashStr(s){ var h = 0; for (var i = 0; i < s.length; i++){ h = ((h << 5) - h + s.charCodeAt(i)) | 0; } return Math.abs(h); }
     function expVal(v){ return (v && typeof v === 'object') ? (isAR ? (v.ar != null ? v.ar : v.en) : (v.en != null ? v.en : v.ar)) : v; }
     function expBiAttrs(el, v){ if (v && typeof v === 'object'){ if (v.en != null) el.setAttribute('data-en', v.en); if (v.ar != null) el.setAttribute('data-ar', v.ar); } }
@@ -371,7 +372,7 @@ loadNews();
         if (!match) continue;
         var shipped = e.shipped === true || e.status === 'shipped';
         var v = shipped ? 'B' : ((hashStr(sid + '|' + e.slug) % 100) < (e.split || 50) ? 'B' : 'A');
-        if (!shipped){ assignedExp = e.slug; assignedVariant = v; }
+        if (!shipped){ expAssignments[e.slug] = v; if (!assignedExp){ assignedExp = e.slug; assignedVariant = v; } }
         if (v !== 'B' || !Array.isArray(e.changes)) continue;
         var flag = 'data-exp-' + e.slug.replace(/[^a-z0-9-]/gi, '');
         if (document.documentElement.hasAttribute(flag)) continue;
@@ -414,7 +415,7 @@ loadNews();
         body: JSON.stringify({
           event: 'view', path: location.pathname, query: location.search || '',
           referrer: document.referrer || '', session_id: sid, client_pv_id: pvid,
-          exp: assignedExp, variant: assignedVariant
+          exp: assignedExp, variant: assignedVariant, exps: expAssignments
         }),
         keepalive: true
       }).catch(function(){});
@@ -458,7 +459,7 @@ loadNews();
         var payload = JSON.stringify({
           event: 'conv', kind: String(kind).slice(0, 32),
           path: location.pathname, session_id: sid, client_pv_id: pvid,
-          exp: assignedExp, variant: assignedVariant, meta: meta || null
+          exp: assignedExp, variant: assignedVariant, exps: expAssignments, meta: meta || null
         });
         if (navigator.sendBeacon) navigator.sendBeacon(EP, new Blob([payload], { type: 'text/plain' }));
         else fetch(EP, { method: 'POST', headers: { 'Content-Type': 'text/plain' }, body: payload, keepalive: true }).catch(function(){});
