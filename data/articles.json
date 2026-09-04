@@ -1,5 +1,18 @@
 [
   {
+    "slug": "booth-project-management-guide",
+    "title": {
+      "ar": "كيف تُدار مشاريع أجنحة المعارض هندسيًا؟",
+      "en": "How are exhibition booth projects managed from an engineering standpoint?"
+    },
+    "meta_description": {
+      "ar": "دليلك الشامل لمعرفة مراحل إدارة مشروع جناح معرض هندسيًا في السعودية، من التخطيط الأولي والتصميم حتى التنفيذ والتسليم بمعايير عالية.",
+      "en": "Discover how exhibition booth project management in Saudi Arabia ensures structural safety, precision engineering, and seamless event execution."
+    },
+    "has_en": true,
+    "published_at": "2026-09-04T03:00:56.306Z"
+  },
+  {
     "slug": "large-space-booth-ideas",
     "title": {
       "ar": "كيف تصمم جناح معرض مساحة كبيرة بفعالية؟",
