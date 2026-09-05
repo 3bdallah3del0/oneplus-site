@@ -36,6 +36,24 @@
     "priority": "P1"
   },
   {
+    "id": 83,
+    "geo": "riyadh",
+    "url": "https://backup.arabnews.com/node/2656512/corporate-and-sponsored-content",
+    "date": "2026-09-03",
+    "image": "https://backup.arabnews.com/sites/default/files/styles/watermark_670x423/public/main-image/2026/09/03/4745987-1300788552.jpeg?itok=JK6X1JVe",
+    "title": {
+      "ar": "stc تُحوّل البحر الأحمر إلى وجهة 3D حية في LEAP 2026",
+      "en": "stc turns the Red Sea into a live 3D destination at LEAP 2026"
+    },
+    "topic": "technology",
+    "source": "Arab News",
+    "summary": {
+      "ar": "عرضت stc نظام إدارة عمليات ذكي لثلاث وجهات بحرية خلال معرض LEAP في مركز الرياض الدولي. المشروع يُظهر إمكانيات الواقع الافتراضي في الفعاليات.",
+      "en": "stc showcased an intelligent operations system for three Red Sea destinations at LEAP, demonstrating 3D virtual experiences for events."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 67,
     "geo": "saudi",
     "url": "https://saudigazette.com.sa/article/664289/saudi-arabia/bahrain-signs-participation-contract-for-expo-2030-riyadh",
@@ -594,6 +612,24 @@
     "priority": "P1"
   },
   {
+    "id": 84,
+    "geo": "riyadh",
+    "url": "https://backup.arabnews.com/node/2656511/corporate-and-sponsored-content",
+    "date": "2026-09-03",
+    "image": "https://backup.arabnews.com/sites/default/files/styles/watermark_670x423/public/main-image/2026/09/03/4745983-1879581800.jpeg?itok=ghxVfrSY",
+    "title": {
+      "ar": "stc تُطلق colab لتقوية نظام المشاريع الناشئة في LEAP 2026",
+      "en": "stc powers venture ecosystem with launch of ‘colab’"
+    },
+    "topic": "technology",
+    "source": "Arab News",
+    "summary": {
+      "ar": "أطلقت stc برنامج colab للابتكار وبناء المشاريع داخل معرض LEAP، داعمةً بيئة الشركات الناشئة. الخطوة تعزز فرص التعاون في الفعاليات.",
+      "en": "stc launched the colab venture-building arm at LEAP, supporting startups and fostering collaboration within event ecosystems."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 74,
     "geo": "global",
     "url": "https://exhibitcitynews.com/airshow-china-2026-30th-anniversary/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=airshow-china-2026-30th-anniversary",
@@ -630,6 +666,42 @@
     "priority": "P2"
   },
   {
+    "id": 85,
+    "geo": "riyadh",
+    "url": "https://backup.arabnews.com/node/2656509/corporate-and-sponsored-content",
+    "date": "2026-09-02",
+    "image": "https://backup.arabnews.com/sites/default/files/styles/watermark_670x423/public/main-image/2026/09/02/4745977-1906700362.jpeg?itok=Mf_Jp2pu",
+    "title": {
+      "ar": "stc تُظهر الطبقة الرقمية للاقتصاد المتنامي في LEAP 2026",
+      "en": "At LEAP 2026, stc showcases how it is helping build the digital layer of a growing economy"
+    },
+    "topic": "technology",
+    "source": "Arab News",
+    "summary": {
+      "ar": "عرضت stc حلولاً رقمية في مجالات السياحة والرياضة واللوجستيات خلال معرض LEAP. توضح دور التقنية في دعم الفعاليات.",
+      "en": "stc presented digital solutions across tourism, sports, logistics at LEAP, illustrating tech’s role in scaling event operations."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 81,
+    "geo": "saudi",
+    "url": "https://saudigazette.com.sa/article/664255/saudi-arabia/over-240-million-transactions-processed-through-absher-in-1h-2026",
+    "date": "2026-09-02",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/09/02/2759691.webp",
+    "title": {
+      "ar": "معالجة 240 مليون معاملة عبر منصة أبشر في نصف 2026",
+      "en": "Over 240 million transactions processed through Absher in H1 2026"
+    },
+    "topic": "technology",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "أعلنت وزارة الداخلية عن حجم المعاملات التي عالجتها منصة أبشر خلال النصف الأول من 2026، خلال مشاركتها في جناح LEAP 2024. البيانات تُظهر النمو الرقمي في المملكة.",
+      "en": "The Ministry of Interior reported Absher handled over 240 million transactions in H1 2026, showcased at the LEAP 2024 pavilion."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 70,
     "geo": "saudi",
     "url": "https://saudigazette.com.sa/article/664260/business/stc-group-turns-the-red-sea-into-a-live-3d-destination-at-leap-2026",
@@ -644,78 +716,6 @@
     "summary": {
       "ar": "عرض نظام إدارة ذكي لثلاث وجهات بحرية في معرض LEAP 2026 بمركز الرياض الدولي للمؤتمرات والمعارض.",
       "en": "STC and Red Sea Global demonstrated an intelligent 3D live destination system at LEAP 2026 in Riyadh."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 80,
-    "geo": "global",
-    "url": "https://www.tsnn.com/convention-center/-616-million-economic-jolt-new-york-resort-doubles-down-on-trade-show-and-events-business",
-    "date": "2026-09-01",
-    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/bltdfbb032050fe18d3/6a96c50ed04aa4a68b7751cb/03_The_Grand_Expo_Lobby.jpg?width=720&amp;quality=80&amp;disable=upscale",
-    "title": {
-      "ar": "استثمار 616 مليون دولار في منتجع نيويورك لتوسيع أعمال الفعاليات",
-      "en": "$616 M boost for New York resort’s events business"
-    },
-    "topic": "business",
-    "source": "TSNN — Trade Show News",
-    "summary": {
-      "ar": "منتجع Oneida Indian Nation يضاعف مساحة 225,000 قدم مربع لتستضيف فعاليات ومعارض وطنية، متوقعًا تأثير اقتصادي كبير.",
-      "en": "Oneida Indian Nation’s Turning Stone Resort is investing $616 M to expand its event space to 225,000 sq ft, targeting national trade shows."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 75,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/hong-kong-watch-clock-fair-2026/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=hong-kong-watch-clock-fair-2026",
-    "date": "2026-09-01",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/08/joey-thye-hong-kong-watch-clock-fair-2026-600x400.webp",
-    "title": {
-      "ar": "معرض الساعات والساعة في هونغ كونغ يستضيف 630 عارضًا",
-      "en": "Hong Kong Watch & Clock Fair hosts 630 exhibitors"
-    },
-    "topic": "exhibition",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "المعرض السنوي سيُعقد في مركز مؤتمرات ومعارض هونغ كونغ من 1 إلى 5 سبتمبر بمشاركة أكثر من 630 عارضًا من 16 دولة.",
-      "en": "The Hong Kong Watch & Clock Fair and Salon de TIME will feature over 630 exhibitors from 16 countries, Sep 1‑5."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 72,
-    "geo": "global",
-    "url": "https://www.ufi.org/letter-from-the-ufi-president-september-2026/",
-    "date": "2026-09-01",
-    "image": "https://www.ufi.org/app/uploads/2026/08/1UFI-President-September-2026.jpg",
-    "title": {
-      "ar": "رسالة رئيس UFI لشهر سبتمبر 2026",
-      "en": "UFI President’s September 2026 letter"
-    },
-    "topic": "industry",
-    "source": "UFI",
-    "summary": {
-      "ar": "الرسالة تتناول آخر مستجدات قطاع المعارض العالمية وتوجهات الصناعة للربع الثالث من 2026.",
-      "en": "The UFI President’s September 2026 letter outlines updates and trends for the global exhibition industry."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 76,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/dwtc-2026-events-calendar/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=dwtc-2026-events-calendar",
-    "date": "2026-08-31",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/08/dubai-exhibition-centre-dwtc-2026-events-calendar-600x400.webp",
-    "title": {
-      "ar": "تقويم فعاليات DWTC لعام 2026 يُعلن",
-      "en": "DWTC releases 2026 events calendar"
-    },
-    "topic": "venue",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "مركز دبي التجاري العالمي يعلن جدول فعالياته للعام 2026 عبر موقعه، بما يشمل معارض ومؤتمرات في دبي ومركز إكسبو دبي.",
-      "en": "Dubai World Trade Centre has published its 2026 calendar of exhibitions, conferences and business events across two venues."
     },
     "priority": "P2"
   }
