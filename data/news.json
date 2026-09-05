@@ -1,5 +1,59 @@
 [
   {
+    "id": 66,
+    "geo": "saudi",
+    "url": "https://saudigazette.com.sa/article/664311/saudi-arabia/saudi-arabia-to-host-second-eu-gcc-summit-on-oct-24",
+    "date": "2026-09-04",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/09/04/2760722.webp",
+    "title": {
+      "ar": "السعودية تستضيف القمة الثانية بين الاتحاد الأوروبي ومجلس التعاون",
+      "en": "Saudi Arabia to host 2nd EU‑GCC summit"
+    },
+    "topic": "conference",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "المملكة تستضيف القمة الثنائية في الرياض في 24 أكتوبر 2026 لتعزيز التعاون السياسي والاقتصادي.",
+      "en": "Saudi Arabia will host the second EU‑GCC summit in Riyadh on Oct 24, 2026 to deepen strategic ties."
+    },
+    "priority": "P1"
+  },
+  {
+    "id": 65,
+    "geo": "saudi",
+    "url": "https://www.argaam.com/en/article/articledetail/id/1934054",
+    "date": "2026-09-04",
+    "image": "https://argaamplus.s3.amazonaws.com/4cd701f1-8088-4149-9200-29987c143f7a.png",
+    "title": {
+      "ar": "STC تختتم LEAP 2026 بشراكات استراتيجية",
+      "en": "STC wraps up LEAP 2026 with partnerships"
+    },
+    "topic": "conference",
+    "source": "Argaam",
+    "summary": {
+      "ar": "مجموعة STC تُعلن عن توقيع شراكات استراتيجية خلال مشاركتها الخمسية في مؤتمر LEAP.",
+      "en": "STC Group concluded LEAP 2026 by signing a series of strategic partnerships at the tech gathering."
+    },
+    "priority": "P1"
+  },
+  {
+    "id": 67,
+    "geo": "saudi",
+    "url": "https://saudigazette.com.sa/article/664289/saudi-arabia/bahrain-signs-participation-contract-for-expo-2030-riyadh",
+    "date": "2026-09-03",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/09/03/2760398.webp",
+    "title": {
+      "ar": "البحرين يوقع عقد مشاركة في إكسبو 2030 الرياض",
+      "en": "Bahrain signs Expo 2030 Riyadh participation contract"
+    },
+    "topic": "exhibition",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "توقيع اتفاقية مشاركة البحرين في إكسبو 2030 بالرياض يفتح مرحلة جديدة في التحضيرات للمعرض العالمي.",
+      "en": "Bahrain has signed its participation contract for Expo 2030 Riyadh, marking a new phase in preparations."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 49,
     "geo": "riyadh",
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTjBmM3dITDhkX0ljS3Y1ZkxJRkdVODJ1cEtPUjlubXdRVkpyTWJHQW1qemlmVVB0QlFOaEJvMTdEallvQ2RwNC1udWJyX3FpaUlHXzVBV3RKWlVHN0VFV2JXLU1DRkZRTFdZMjRWRnc5NGtRMmJjSjhCTXRmQS1wZVdJVVBHVnBHaElEU19XSV9nVzUweGxVc1FIenVBQWJ4aVhyNjlrZHM?oc=5",
@@ -540,182 +594,128 @@
     "priority": "P1"
   },
   {
-    "id": 64,
-    "geo": "mena",
-    "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE4wdXBVbHUxMzNETHMzSjZKaWhqbGhrOGNibnJnNllqN2RLWEpTMVR2VXhUZnFjVzREd09YOV9iQzRMMXRuRVJidHd6TW5KZ2NaVkhNM0I0Njd3ZEVKOWh2Uzh3?oc=5",
-    "date": "2026-08-31",
-    "image": null,
+    "id": 74,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/airshow-china-2026-30th-anniversary/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=airshow-china-2026-30th-anniversary",
+    "date": "2026-09-03",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/airshow-china-30th-anniversary-logo-2026-600x400.webp",
     "title": {
-      "ar": "24 شركة عُمانية تعرض خدماتها",
-      "en": "24 Omani companies showcase services"
+      "ar": "معرض Airshow China يحتفل بمرور 30 سنة في تشوهاي 2026",
+      "en": "Airshow China marks 30 years in Zhuhai 2026"
     },
     "topic": "exhibition",
-    "source": "وكالة الأنباء العمانية (العمانية)",
+    "source": "Exhibit City News",
     "summary": {
-      "ar": "أعلنت وكالة الأنباء العمانية عن مشاركة 24 شركة في معرض LEAP 2026 بالمملكة.",
-      "en": "The Omani news agency reported 24 companies showcasing services at LEAP 2026 in Saudi Arabia."
+      "ar": "النسخة الـ30 لمعرض الطيران الصيني تُعقد في تشوهاي من 7 إلى 13 ديسمبر 2026 بمشاركة آلاف الزوار.",
+      "en": "Airshow China celebrates its 30th anniversary with the 2026 exhibition in Zhuhai, Dec 7‑13."
     },
     "priority": "P2"
   },
   {
-    "id": 63,
-    "geo": "mena",
-    "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZkVlTGNmejhpTGxOYjhUOWtZbnRCWlFIdzBRcGpIR2VhY0pkRzJ6bTZ3X3N1UkM1bnFRdHdUUTJGaEhmdUxkbTk3VE4zUzFtME5Ed1pxaU9LeTR3dkhTSjl4MmFCMXVSaWJyaDZrRXVrUVVsWWpQWU8wdXpQSW9IM2l6ZFpXTUxJaF82YVZHTG9NLXQ1a0l1a0wtUHE?oc=5",
-    "date": "2026-08-31",
-    "image": null,
-    "title": {
-      "ar": "شركات تقنية عُمانية تعرض خدماتها في LEAP 2026",
-      "en": "Omani tech firms at LEAP 2026"
-    },
-    "topic": "exhibition",
-    "source": "muscatdaily.com",
-    "summary": {
-      "ar": "تشارك شركات تقنية عُمانية في معرض LEAP 2026 لتقديم حلولها التقنية في السعودية.",
-      "en": "Omani tech firms showcased services at LEAP 2026 in Saudi Arabia."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 62,
-    "geo": "mena",
-    "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE8zWkVKdTZwaDlLWTM3RkExYndva1BvbTQ1bkx0R0psRTRoVjRMZ25sZjJaTFpwWDNaV3B0TzgxSFhvZDk1NGQ0WWtVdVJBWktJeWNLUW9zbjl5QdIBWkFVX3lxTE8zWkVKdTZwaDlLWTM3RkExYndva1BvbTQ1bkx0R0psRTRoVjRMZ25sZjJaTFpwWDNaV3B0TzgxSFhvZDk1NGQ0WWtVdVJBWktJeWNLUW9zbjl5QQ?oc=5",
-    "date": "2026-08-31",
-    "image": null,
-    "title": {
-      "ar": "24 شركة عُمانية تعرض خدماتها في LEAP 2026",
-      "en": "24 Omani firms showcase at LEAP 2026"
-    },
-    "topic": "exhibition",
-    "source": "Oman Observer",
-    "summary": {
-      "ar": "شاركت 24 شركة عُمانية في معرض LEAP 2026 لعرض خدماتها التقنية في السعودية.",
-      "en": "24 Omani companies showcased their services at LEAP 2026 in Saudi Arabia."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 61,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbWNCUEYtdHA4UkpRa25VTnlSYnJfUVF5Y2RVLVF1TnFKY1pzMWZBWXBNMGExRTVfdHpuMm5Db1FDZ0tDRFpmaVBUSGwtUlRwa2hNNWRvWVRTeVlWNVhQRTktWUlnUkxQSzFhS2hwcGExNUJfNXVPTTM3c2tES0dNeDZEVDNiTno4TjVienlUTHF3WkEzTVdNWWxJMmpJYTlEMVFRVk5jOHJQa0NiSzRYb1VCVUkwR2QtRTI1enQxcWhQRHpX?oc=5",
-    "date": "2026-08-31",
-    "image": null,
-    "title": {
-      "ar": "الفطيم يطلق وحدات FM والسلامة في Big 5 Construct",
-      "en": "Al‑Futtaim launches FM units at Big 5 Construct"
-    },
-    "topic": "exhibition",
-    "source": "TradeArabia",
-    "summary": {
-      "ar": "أطلقت شركة الفطيم وحدات إدارة المرافق والسلامة في جناحها بمعرض Big 5 Construct السعودي 2026.",
-      "en": "Al‑Futtaim Contracting launched FM, fire & life safety units at Big 5 Construct Saudi."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 58,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9jME9Jb1NydzJBX0FDd29uRzc2RHZidnFuUjRNUFJGWEZOcGFnVEtaMW10OGF5M0lSWUo4aDIyYm5LcWc0VVpjVG5USEVHSW8tdGZjOWZIM2pPWS1uQ0VuN1hjX0M5Y2xRQ0MwT3AyU3BMeXBNUjdvWmJ30gGOAUFVX3lxTE9rRmdVRXNuclRXTHNGaE9fSUU3ejNaSURvdHc5UTV2dFNDeVFZYVU1M0xrWkdjTFhVMVZqY0FnM0Q2VmVKRmpDdEJtR3VQSVJMTVZBQnExT2d0a05vMUtNOTV1R3Rrckw2Tm1NYkwzeFJPT1ItVFRFaHpaU0VpSkVjM0d6QmZ5VlVjcWVSOUE?oc=5",
-    "date": "2026-08-31",
-    "image": null,
-    "title": {
-      "ar": "NC AI تقود جناح كوريا الكاملة في LEAP 2026",
-      "en": "NC AI leads Korea pavilion at LEAP 2026"
-    },
-    "topic": "exhibition",
-    "source": "Chosunbiz",
-    "summary": {
-      "ar": "تقود شركة NC AI جناحًا يضم حلول الذكاء الاصطناعي الكورية الكاملة في معرض LEAP 2026.",
-      "en": "NC AI leads the full‑stack Korean AI pavilion at Saudi LEAP 2026."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 55,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQaFUzaDIwcHF3ZXRUYUFXQ2RoR3FtRENZbzB4MlIyTzNhai1SMDZtVTRGTEdRNDcwVzY0b1VvODlwYm5aUjVMQmVTVTJHQl9lVzJTUHlpdVdfYS0tUkEzX1c4eVFPV1E5WF9wYk9nTGxoaWhkbTF1eTIySjdnWUJZcDZWNEdsS25TVWlBN0htQWxBbEN6WXI5ZVpjczZrZHVIdjVrSEg3VkQ?oc=5",
-    "date": "2026-08-31",
-    "image": null,
-    "title": {
-      "ar": "سالم تعرض الذكاء السحابي في LEAP 2026 كراعٍ استراتيجي",
-      "en": "Salam showcases AI & cloud at LEAP 2026"
-    },
-    "topic": "exhibition",
-    "source": "Gulf Business",
-    "summary": {
-      "ar": "تعلن شركة سالم عن مشاركتها في LEAP 2026 كراعٍ استراتيجي لتقديم حلول الذكاء السحابي.",
-      "en": "Salam will showcase AI and cloud solutions at LEAP 2026 as a strategic sponsor."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 54,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPazdNRk5LVERnUHVhbjJ6MUxiaGR4S0Z6WmtiMm5MRUdWZW1ON2JIWGZfNzltdmNaWl8xNC1qMEo0NUF4aEhFU0wtRUFKcExCWG5qeDVMSThmSkZKUXVTVm1fSWo1cFNwZGVWcFR2ZFQxRGVNdWhDMDZJSHdGTzFqdkg1SnRpTzR0OVVraXlHT0wzb09ILWR6dk5iSVdiRTZhN3c?oc=5",
-    "date": "2026-08-31",
-    "image": null,
-    "title": {
-      "ar": "NC AI تعرض حلول الذكاء الاصطناعي الكورية في LEAP 2026",
-      "en": "NC AI showcases Korean AI at LEAP 2026"
-    },
-    "topic": "exhibition",
-    "source": "Seoul Economic Daily",
-    "summary": {
-      "ar": "شركة NC AI تقدم جناحًا يضم حلول الذكاء الاصطناعي الكورية الكاملة في معرض LEAP 2026.",
-      "en": "NC AI presents a full‑stack Korean AI pavilion at LEAP 2026."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 53,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNQkZJWkZrMm9ReTV3RXFwTk9BUEJwa004bEt6VVdodml1LVJoSHNnaE9HMV9VaUpNTTVNbG83alR5NEZ2aHVmOW9DUWd3a1RWcnpmdEdfaVB0YUdzcElxaXVuajk1SjJkQjNtUFBsX3NhYVlvUUQ3aUF6Z1U3NDYwaXZpWWpGV01JRjh1cUUwcmtiMmpnTTdsYzJhei1lbG5tZkFsTQ?oc=5",
-    "date": "2026-08-31",
-    "image": null,
-    "title": {
-      "ar": "ما وراء الكواليس في معرض LEAP",
-      "en": "Behind the scenes of LEAP"
-    },
-    "topic": "exhibition",
-    "source": "Gulf Business",
-    "summary": {
-      "ar": "تقرير يكشف تفاصيل تنظيم وإعداد معرض LEAP 2026 في الرياض، مفيد لمنظمي الأجنحة.",
-      "en": "An inside look at the organization and setup of LEAP 2026 in Riyadh."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 48,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE44ZWEzSlQ2a2thZzE0RlZaTjNoNHoxT3RqNWI1QUdDTFdQRjFoQlhhUUx2bHQ2NzZndzRlVHRLZjRxNkx1cVUxRlFVYkdlYXg0T09UMTQ0ZUc?oc=5",
-    "date": "2026-08-31",
-    "image": null,
-    "title": {
-      "ar": "وزير تكنولوجيا المعلومات الباكستاني يحضر قمة LEAP 2026 في الرياض",
-      "en": "Pakistan IT minister to attend LEAP 2026 in Riyadh"
-    },
-    "topic": "conference",
-    "source": "Arab News PK",
-    "summary": {
-      "ar": "سيتوجه وزير تكنولوجيا المعلومات الباكستاني إلى الرياض لحضور قمة LEAP 2026 ومناقشة فرص التعاون.",
-      "en": "Pakistan's IT minister will travel to Riyadh to attend the LEAP 2026 tech summit and discuss cooperation opportunities."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 46,
+    "id": 68,
     "geo": "saudi",
-    "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPcTZpaFlCbGdHUXR0OFhwZTZnTXp4akpQUzdCOXNnYWFUYmFESTlGd0RocnIxSXF5V2QwQkxFVzdHZ25zNG1ENmFjcVV3OW9LUEVPbnliQjRLMXhESjFpSTRuaHFWcnJjS0NhS0dQM1VCb2FaZkZWdUhZZE41S1k2Y0tyZndIRnFDZHhpOU5BTkhkNmtUTWRUZTJNb01nU0lrWDFtTm1CUXhaY0U?oc=5",
-    "date": "2026-08-31",
-    "image": null,
+    "url": "https://saudigazette.com.sa/article/664278/saudi-arabia/ministry-of-tourism-wtm-spotlight-riyadh-announce-strategic-partnership-for-inaugural-event",
+    "date": "2026-09-03",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/09/03/2760145.webp",
     "title": {
-      "ar": "Tencent Cloud تتعاون مع TruKKer في السعودية قبيل LEAP 2026",
-      "en": "Tencent Cloud partners with TruKKer ahead of LEAP 2026"
+      "ar": "وزارة السياحة شريك استراتيجي لـ WTM Spotlight الرياض",
+      "en": "Tourism Ministry partners with WTM Spotlight Riyadh"
+    },
+    "topic": "event",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "وزارة السياحة تُصبح شريكًا استراتيجيًا للنسخة الافتتاحية لفعالية WTM Spotlight في الرياض.",
+      "en": "The Ministry of Tourism is announced as a strategic partner for the inaugural WTM Spotlight Riyadh event."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 70,
+    "geo": "saudi",
+    "url": "https://saudigazette.com.sa/article/664260/business/stc-group-turns-the-red-sea-into-a-live-3d-destination-at-leap-2026",
+    "date": "2026-09-02",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/09/02/2759840.webp",
+    "title": {
+      "ar": "STC وRed Sea يقدمان وجهة 3D حية في LEAP 2026",
+      "en": "STC & Red Sea showcase live 3D destination at LEAP 2026"
     },
     "topic": "technology",
-    "source": "TahawulTech.com",
+    "source": "Saudi Gazette — Business",
     "summary": {
-      "ar": "أعلنت Tencent Cloud عن شراكة مع TruKKer في السعودية تمهيدًا لمؤتمر LEAP 2026.",
-      "en": "Tencent Cloud announced a partnership with TruKKer in Saudi Arabia ahead of LEAP 2026."
+      "ar": "عرض نظام إدارة ذكي لثلاث وجهات بحرية في معرض LEAP 2026 بمركز الرياض الدولي للمؤتمرات والمعارض.",
+      "en": "STC and Red Sea Global demonstrated an intelligent 3D live destination system at LEAP 2026 in Riyadh."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 80,
+    "geo": "global",
+    "url": "https://www.tsnn.com/convention-center/-616-million-economic-jolt-new-york-resort-doubles-down-on-trade-show-and-events-business",
+    "date": "2026-09-01",
+    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/bltdfbb032050fe18d3/6a96c50ed04aa4a68b7751cb/03_The_Grand_Expo_Lobby.jpg?width=720&amp;quality=80&amp;disable=upscale",
+    "title": {
+      "ar": "استثمار 616 مليون دولار في منتجع نيويورك لتوسيع أعمال الفعاليات",
+      "en": "$616 M boost for New York resort’s events business"
+    },
+    "topic": "business",
+    "source": "TSNN — Trade Show News",
+    "summary": {
+      "ar": "منتجع Oneida Indian Nation يضاعف مساحة 225,000 قدم مربع لتستضيف فعاليات ومعارض وطنية، متوقعًا تأثير اقتصادي كبير.",
+      "en": "Oneida Indian Nation’s Turning Stone Resort is investing $616 M to expand its event space to 225,000 sq ft, targeting national trade shows."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 75,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/hong-kong-watch-clock-fair-2026/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=hong-kong-watch-clock-fair-2026",
+    "date": "2026-09-01",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/08/joey-thye-hong-kong-watch-clock-fair-2026-600x400.webp",
+    "title": {
+      "ar": "معرض الساعات والساعة في هونغ كونغ يستضيف 630 عارضًا",
+      "en": "Hong Kong Watch & Clock Fair hosts 630 exhibitors"
+    },
+    "topic": "exhibition",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "المعرض السنوي سيُعقد في مركز مؤتمرات ومعارض هونغ كونغ من 1 إلى 5 سبتمبر بمشاركة أكثر من 630 عارضًا من 16 دولة.",
+      "en": "The Hong Kong Watch & Clock Fair and Salon de TIME will feature over 630 exhibitors from 16 countries, Sep 1‑5."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 72,
+    "geo": "global",
+    "url": "https://www.ufi.org/letter-from-the-ufi-president-september-2026/",
+    "date": "2026-09-01",
+    "image": "https://www.ufi.org/app/uploads/2026/08/1UFI-President-September-2026.jpg",
+    "title": {
+      "ar": "رسالة رئيس UFI لشهر سبتمبر 2026",
+      "en": "UFI President’s September 2026 letter"
+    },
+    "topic": "industry",
+    "source": "UFI",
+    "summary": {
+      "ar": "الرسالة تتناول آخر مستجدات قطاع المعارض العالمية وتوجهات الصناعة للربع الثالث من 2026.",
+      "en": "The UFI President’s September 2026 letter outlines updates and trends for the global exhibition industry."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 76,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/dwtc-2026-events-calendar/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=dwtc-2026-events-calendar",
+    "date": "2026-08-31",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/08/dubai-exhibition-centre-dwtc-2026-events-calendar-600x400.webp",
+    "title": {
+      "ar": "تقويم فعاليات DWTC لعام 2026 يُعلن",
+      "en": "DWTC releases 2026 events calendar"
+    },
+    "topic": "venue",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "مركز دبي التجاري العالمي يعلن جدول فعالياته للعام 2026 عبر موقعه، بما يشمل معارض ومؤتمرات في دبي ومركز إكسبو دبي.",
+      "en": "Dubai World Trade Centre has published its 2026 calendar of exhibitions, conferences and business events across two venues."
     },
     "priority": "P2"
   }
