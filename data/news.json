@@ -612,6 +612,24 @@
     "priority": "P1"
   },
   {
+    "id": 89,
+    "geo": "global",
+    "url": "https://www.arabnews.com/lifestyle/new-work-by-saudi-artist-shalimar-sharbatly-unveiled-at-venice-biennale-3000614",
+    "date": "2026-09-05",
+    "image": "https://assets.maestronewsroom.com/media/30f6532d-717b-4366-9158-9c455299fcd9/1788629150011-cad9e4ba5d857982.png",
+    "title": {
+      "ar": "إطلاق أعمال الفنان السعودي شاليمار شربتلي في فينيسيا بينالي",
+      "en": "Saudi artist Shalimar Sharbatly unveils work at Venice Biennale"
+    },
+    "topic": "exhibition",
+    "source": "Arab News",
+    "summary": {
+      "ar": "عرض الفنان السعودي شاليمار شربتلي 15 لوحة وتمثالًا في فينيسيا بينالي، مستكشفًا العلاقة بين الفن والذكاء الاصطناعي. المعرض الدولي يبرز فرص تصميم أجنحة فنية للفعاليات العالمية.",
+      "en": "Saudi artist Shalimar Sharbatly presents 15 paintings and a sculpture at the Venice Biennale, exploring art and AI. The international exhibition offers insights for booth design in high‑profile events."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 84,
     "geo": "riyadh",
     "url": "https://backup.arabnews.com/node/2656511/corporate-and-sponsored-content",
@@ -698,24 +716,6 @@
     "summary": {
       "ar": "أعلنت وزارة الداخلية عن حجم المعاملات التي عالجتها منصة أبشر خلال النصف الأول من 2026، خلال مشاركتها في جناح LEAP 2024. البيانات تُظهر النمو الرقمي في المملكة.",
       "en": "The Ministry of Interior reported Absher handled over 240 million transactions in H1 2026, showcased at the LEAP 2024 pavilion."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 70,
-    "geo": "saudi",
-    "url": "https://saudigazette.com.sa/article/664260/business/stc-group-turns-the-red-sea-into-a-live-3d-destination-at-leap-2026",
-    "date": "2026-09-02",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/09/02/2759840.webp",
-    "title": {
-      "ar": "STC وRed Sea يقدمان وجهة 3D حية في LEAP 2026",
-      "en": "STC & Red Sea showcase live 3D destination at LEAP 2026"
-    },
-    "topic": "technology",
-    "source": "Saudi Gazette — Business",
-    "summary": {
-      "ar": "عرض نظام إدارة ذكي لثلاث وجهات بحرية في معرض LEAP 2026 بمركز الرياض الدولي للمؤتمرات والمعارض.",
-      "en": "STC and Red Sea Global demonstrated an intelligent 3D live destination system at LEAP 2026 in Riyadh."
     },
     "priority": "P2"
   }
