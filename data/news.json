@@ -1,5 +1,23 @@
 [
   {
+    "id": 91,
+    "geo": "riyadh",
+    "url": "https://saudigazette.com.sa/article/664360/saudi-arabia/oman-signs-participation-contract-for-expo-2030-riyadh",
+    "date": "2026-09-06",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/09/07/2761954.webp",
+    "title": {
+      "ar": "عمان توقع عقد مشاركة في إكسبو 2030 بالرياض",
+      "en": "Oman Signs Participation Contract for Expo 2030 Riyadh"
+    },
+    "topic": "exhibition",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "وقع سلطنة عمان عقد مشاركة رسمي في إكسبو 2030 بالرياض، ما يعزز مشاركة دولية في أكبر معرض عالمي بالمملكة.",
+      "en": "Oman signed a participation contract for Expo 2030 Riyadh, boosting international involvement in the Kingdom's flagship exhibition."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 66,
     "geo": "saudi",
     "url": "https://saudigazette.com.sa/article/664311/saudi-arabia/saudi-arabia-to-host-second-eu-gcc-summit-on-oct-24",
@@ -612,6 +630,60 @@
     "priority": "P1"
   },
   {
+    "id": 93,
+    "geo": "riyadh",
+    "url": "https://saudigazette.com.sa/article/664338/business/community-jameel-saudi-and-ntdp-sign-strategic-cooperation-agreement-at-leap-2026-to-empower-tech-entrepreneurs",
+    "date": "2026-09-06",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/09/06/2761658.webp",
+    "title": {
+      "ar": "مجموعة جميـل السعودية وNTDP يوقعان اتفاقية تعاون في LEAP 2026",
+      "en": "Community Jameel Saudi & NTDP Sign Cooperation at LEAP 2026"
+    },
+    "topic": "technology",
+    "source": "Saudi Gazette — Business",
+    "summary": {
+      "ar": "وقعت مجموعة جميـل السعودية مع برنامج التنمية التقنية اتفاقية لتعزيز ريادة الأعمال التقنية خلال فعاليات LEAP 2026.",
+      "en": "Community Jameel Saudi and NTDP signed a cooperation agreement at LEAP 2026 to boost tech entrepreneurship."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 92,
+    "geo": "riyadh",
+    "url": "https://saudigazette.com.sa/article/664354/saudi-arabia/interior-minister-opens-security-and-history-dialogue-2026-in-riyadh",
+    "date": "2026-09-06",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/09/06/2761878.webp",
+    "title": {
+      "ar": "وزير الداخلية يفتتح حوار الأمن والتاريخ 2026 في الرياض",
+      "en": "Interior Minister Opens Security and History Dialogue 2026 in Riyadh"
+    },
+    "topic": "conference",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "افتتح وزير الداخلية حوار الأمن والتاريخ 2026، مؤتمر ثلاثي الأيام يناقش تاريخ الأمن وتأثيره على التنمية.",
+      "en": "Interior Minister inaugurated the three‑day Security and History Dialogue 2026, a conference discussing security's role in development."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 90,
+    "geo": "global",
+    "url": "https://www.argaam.com/en/article/articledetail/id/1934488",
+    "date": "2026-09-06",
+    "image": "https://argaamplus.s3.amazonaws.com/71c23a9e-8569-4bdb-b2af-a50147407e4a.png",
+    "title": {
+      "ar": "شركة أم القرى للتطوير تعزز علاقاتها بالمستثمرين الدوليين في شنغهاي 2026",
+      "en": "Umm Al Qura Strengthens International Investor Relations at Shanghai 2026"
+    },
+    "topic": "conference",
+    "source": "Argaam",
+    "summary": {
+      "ar": "شاركت شركة أم القرى في منتدى CMF Select بشنغهاي، بتنظيم من مجموعة تداول السعودية. الحدث يسلط الضوء على فرص الاستثمار في مشاريع المعارض السعودية.",
+      "en": "Umm Al Qura participated in the CMF Select Shanghai forum, organized by Saudi Tadawul Group, highlighting investment opportunities for Saudi exhibition projects."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 89,
     "geo": "global",
     "url": "https://www.arabnews.com/lifestyle/new-work-by-saudi-artist-shalimar-sharbatly-unveiled-at-venice-biennale-3000614",
@@ -644,78 +716,6 @@
     "summary": {
       "ar": "أطلقت stc برنامج colab للابتكار وبناء المشاريع داخل معرض LEAP، داعمةً بيئة الشركات الناشئة. الخطوة تعزز فرص التعاون في الفعاليات.",
       "en": "stc launched the colab venture-building arm at LEAP, supporting startups and fostering collaboration within event ecosystems."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 74,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/airshow-china-2026-30th-anniversary/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=airshow-china-2026-30th-anniversary",
-    "date": "2026-09-03",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/airshow-china-30th-anniversary-logo-2026-600x400.webp",
-    "title": {
-      "ar": "معرض Airshow China يحتفل بمرور 30 سنة في تشوهاي 2026",
-      "en": "Airshow China marks 30 years in Zhuhai 2026"
-    },
-    "topic": "exhibition",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "النسخة الـ30 لمعرض الطيران الصيني تُعقد في تشوهاي من 7 إلى 13 ديسمبر 2026 بمشاركة آلاف الزوار.",
-      "en": "Airshow China celebrates its 30th anniversary with the 2026 exhibition in Zhuhai, Dec 7‑13."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 68,
-    "geo": "saudi",
-    "url": "https://saudigazette.com.sa/article/664278/saudi-arabia/ministry-of-tourism-wtm-spotlight-riyadh-announce-strategic-partnership-for-inaugural-event",
-    "date": "2026-09-03",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/09/03/2760145.webp",
-    "title": {
-      "ar": "وزارة السياحة شريك استراتيجي لـ WTM Spotlight الرياض",
-      "en": "Tourism Ministry partners with WTM Spotlight Riyadh"
-    },
-    "topic": "event",
-    "source": "Saudi Gazette — Saudi Arabia",
-    "summary": {
-      "ar": "وزارة السياحة تُصبح شريكًا استراتيجيًا للنسخة الافتتاحية لفعالية WTM Spotlight في الرياض.",
-      "en": "The Ministry of Tourism is announced as a strategic partner for the inaugural WTM Spotlight Riyadh event."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 85,
-    "geo": "riyadh",
-    "url": "https://backup.arabnews.com/node/2656509/corporate-and-sponsored-content",
-    "date": "2026-09-02",
-    "image": "https://backup.arabnews.com/sites/default/files/styles/watermark_670x423/public/main-image/2026/09/02/4745977-1906700362.jpeg?itok=Mf_Jp2pu",
-    "title": {
-      "ar": "stc تُظهر الطبقة الرقمية للاقتصاد المتنامي في LEAP 2026",
-      "en": "At LEAP 2026, stc showcases how it is helping build the digital layer of a growing economy"
-    },
-    "topic": "technology",
-    "source": "Arab News",
-    "summary": {
-      "ar": "عرضت stc حلولاً رقمية في مجالات السياحة والرياضة واللوجستيات خلال معرض LEAP. توضح دور التقنية في دعم الفعاليات.",
-      "en": "stc presented digital solutions across tourism, sports, logistics at LEAP, illustrating tech’s role in scaling event operations."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 81,
-    "geo": "saudi",
-    "url": "https://saudigazette.com.sa/article/664255/saudi-arabia/over-240-million-transactions-processed-through-absher-in-1h-2026",
-    "date": "2026-09-02",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/09/02/2759691.webp",
-    "title": {
-      "ar": "معالجة 240 مليون معاملة عبر منصة أبشر في نصف 2026",
-      "en": "Over 240 million transactions processed through Absher in H1 2026"
-    },
-    "topic": "technology",
-    "source": "Saudi Gazette — Saudi Arabia",
-    "summary": {
-      "ar": "أعلنت وزارة الداخلية عن حجم المعاملات التي عالجتها منصة أبشر خلال النصف الأول من 2026، خلال مشاركتها في جناح LEAP 2024. البيانات تُظهر النمو الرقمي في المملكة.",
-      "en": "The Ministry of Interior reported Absher handled over 240 million transactions in H1 2026, showcased at the LEAP 2024 pavilion."
     },
     "priority": "P2"
   }
