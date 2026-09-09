@@ -1,5 +1,23 @@
 [
   {
+    "id": 98,
+    "geo": "riyadh",
+    "url": "https://www.arabnews.com/saudi-arabia/saudi-warehousing-logistics-expo-brings-together-industry-leaders-3000957",
+    "date": "2026-09-08",
+    "image": "https://assets.maestronewsroom.com/media/30f6532d-717b-4366-9158-9c455299fcd9/1788882630601-546df33d2886a268.jfif",
+    "title": {
+      "ar": "معرض التخزين واللوجستيات السعودي يفتح أبوابه في الرياض",
+      "en": "Saudi Warehousing & Logistics Expo Launches in Riyadh"
+    },
+    "topic": "exhibition",
+    "source": "Arab News",
+    "summary": {
+      "ar": "أكثر من 300 عارض من 25 دولة يشاركون في المعرض لتعزيز موقع السعودية كمركز لوجستي إقليمي.",
+      "en": "Over 300 exhibitors from 25+ countries gather at the Riyadh expo to boost Saudi Arabia’s regional logistics hub."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 91,
     "geo": "riyadh",
     "url": "https://saudigazette.com.sa/article/664360/saudi-arabia/oman-signs-participation-contract-for-expo-2030-riyadh",
@@ -630,92 +648,74 @@
     "priority": "P1"
   },
   {
-    "id": 93,
-    "geo": "riyadh",
-    "url": "https://saudigazette.com.sa/article/664338/business/community-jameel-saudi-and-ntdp-sign-strategic-cooperation-agreement-at-leap-2026-to-empower-tech-entrepreneurs",
-    "date": "2026-09-06",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/09/06/2761658.webp",
+    "id": 97,
+    "geo": "global",
+    "url": "https://www.tsnn.com/people-career-development/event-launch-africa-exhibition-forum-set-for-december-in-nairobi",
+    "date": "2026-09-08",
+    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt8c36eb41a93b6049/6aa023e10032d543831945ba/shutterstocknairobi_2680477379.jpg?width=720&amp;quality=80&amp;disable=upscale",
     "title": {
-      "ar": "مجموعة جميـل السعودية وNTDP يوقعان اتفاقية تعاون في LEAP 2026",
-      "en": "Community Jameel Saudi & NTDP Sign Cooperation at LEAP 2026"
+      "ar": "إطلاق منتدى معرض أفريقيا في نيروبي ديسمبر",
+      "en": "Africa Exhibition Forum Set for December in Nairobi"
+    },
+    "topic": "conference",
+    "source": "TSNN — Trade Show News",
+    "summary": {
+      "ar": "المنتدى يهدف لسد فجوة البنية التحتية للمعارض وتعزيز التعاون الحكومي عبر القارة.",
+      "en": "The forum aims to bridge Africa’s exhibition infrastructure gap and boost government engagement."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 96,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/exhibition-engagement-benchmark-2026/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=exhibition-engagement-benchmark-2026",
+    "date": "2026-09-08",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/exposures-ruvey-600x400.webp",
+    "title": {
+      "ar": "مؤشر جديد يقيس تفاعل الزوار بعد المعرض",
+      "en": "Exhibition Engagement Benchmark Launched"
     },
     "topic": "technology",
-    "source": "Saudi Gazette — Business",
+    "source": "Exhibit City News",
     "summary": {
-      "ar": "وقعت مجموعة جميـل السعودية مع برنامج التنمية التقنية اتفاقية لتعزيز ريادة الأعمال التقنية خلال فعاليات LEAP 2026.",
-      "en": "Community Jameel Saudi and NTDP signed a cooperation agreement at LEAP 2026 to boost tech entrepreneurship."
+      "ar": "Exposure Analytics تطلق مؤشر Engagement 2026 لتقييم سلوك الزوار بعد حضورهم للمعارض.",
+      "en": "Exposure Analytics launches the 2026 Physical Engagement Index to assess post‑visit visitor behavior."
     },
     "priority": "P2"
   },
   {
-    "id": 92,
-    "geo": "riyadh",
-    "url": "https://saudigazette.com.sa/article/664354/saudi-arabia/interior-minister-opens-security-and-history-dialogue-2026-in-riyadh",
-    "date": "2026-09-06",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/09/06/2761878.webp",
-    "title": {
-      "ar": "وزير الداخلية يفتتح حوار الأمن والتاريخ 2026 في الرياض",
-      "en": "Interior Minister Opens Security and History Dialogue 2026 in Riyadh"
-    },
-    "topic": "conference",
-    "source": "Saudi Gazette — Saudi Arabia",
-    "summary": {
-      "ar": "افتتح وزير الداخلية حوار الأمن والتاريخ 2026، مؤتمر ثلاثي الأيام يناقش تاريخ الأمن وتأثيره على التنمية.",
-      "en": "Interior Minister inaugurated the three‑day Security and History Dialogue 2026, a conference discussing security's role in development."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 90,
+    "id": 95,
     "geo": "global",
-    "url": "https://www.argaam.com/en/article/articledetail/id/1934488",
-    "date": "2026-09-06",
-    "image": "https://argaamplus.s3.amazonaws.com/71c23a9e-8569-4bdb-b2af-a50147407e4a.png",
+    "url": "https://exhibitcitynews.com/georgia-world-congress-center-50-years/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=georgia-world-congress-center-50-years",
+    "date": "2026-09-08",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/gwcc-bobbin-show-1976-600x400.webp",
     "title": {
-      "ar": "شركة أم القرى للتطوير تعزز علاقاتها بالمستثمرين الدوليين في شنغهاي 2026",
-      "en": "Umm Al Qura Strengthens International Investor Relations at Shanghai 2026"
+      "ar": "مركز جورجيا العالمي للمؤتمرات يحتفل بمرور 50 سنة",
+      "en": "Georgia World Congress Center Marks 50 Years"
     },
-    "topic": "conference",
-    "source": "Argaam",
+    "topic": "venue",
+    "source": "Exhibit City News",
     "summary": {
-      "ar": "شاركت شركة أم القرى في منتدى CMF Select بشنغهاي، بتنظيم من مجموعة تداول السعودية. الحدث يسلط الضوء على فرص الاستثمار في مشاريع المعارض السعودية.",
-      "en": "Umm Al Qura participated in the CMF Select Shanghai forum, organized by Saudi Tadawul Group, highlighting investment opportunities for Saudi exhibition projects."
+      "ar": "الاحتفال يبرز دور المركز كوجهة مؤتمرات عالمية منذ عام 1976.",
+      "en": "Celebration highlights GWCC’s role as a leading global convention venue since 1976."
     },
     "priority": "P2"
   },
   {
-    "id": 89,
-    "geo": "global",
-    "url": "https://www.arabnews.com/lifestyle/new-work-by-saudi-artist-shalimar-sharbatly-unveiled-at-venice-biennale-3000614",
-    "date": "2026-09-05",
-    "image": "https://assets.maestronewsroom.com/media/30f6532d-717b-4366-9158-9c455299fcd9/1788629150011-cad9e4ba5d857982.png",
+    "id": 94,
+    "geo": "saudi",
+    "url": "https://saudigazette.com.sa/article/664372/saudi-arabia/saudi-arabia-named-guest-of-honor-at-26th-china-international-fair-for-investment-and-trade",
+    "date": "2026-09-07",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/09/07/2762170.webp",
     "title": {
-      "ar": "إطلاق أعمال الفنان السعودي شاليمار شربتلي في فينيسيا بينالي",
-      "en": "Saudi artist Shalimar Sharbatly unveils work at Venice Biennale"
+      "ar": "السعودية ضيفة شرف في معرض الصين الدولي للاستثمار والتجارة",
+      "en": "Saudi Guest of Honor at China International Fair"
     },
     "topic": "exhibition",
-    "source": "Arab News",
+    "source": "Saudi Gazette — Saudi Arabia",
     "summary": {
-      "ar": "عرض الفنان السعودي شاليمار شربتلي 15 لوحة وتمثالًا في فينيسيا بينالي، مستكشفًا العلاقة بين الفن والذكاء الاصطناعي. المعرض الدولي يبرز فرص تصميم أجنحة فنية للفعاليات العالمية.",
-      "en": "Saudi artist Shalimar Sharbatly presents 15 paintings and a sculpture at the Venice Biennale, exploring art and AI. The international exhibition offers insights for booth design in high‑profile events."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 84,
-    "geo": "riyadh",
-    "url": "https://backup.arabnews.com/node/2656511/corporate-and-sponsored-content",
-    "date": "2026-09-03",
-    "image": "https://backup.arabnews.com/sites/default/files/styles/watermark_670x423/public/main-image/2026/09/03/4745983-1879581800.jpeg?itok=ghxVfrSY",
-    "title": {
-      "ar": "stc تُطلق colab لتقوية نظام المشاريع الناشئة في LEAP 2026",
-      "en": "stc powers venture ecosystem with launch of ‘colab’"
-    },
-    "topic": "technology",
-    "source": "Arab News",
-    "summary": {
-      "ar": "أطلقت stc برنامج colab للابتكار وبناء المشاريع داخل معرض LEAP، داعمةً بيئة الشركات الناشئة. الخطوة تعزز فرص التعاون في الفعاليات.",
-      "en": "stc launched the colab venture-building arm at LEAP, supporting startups and fostering collaboration within event ecosystems."
+      "ar": "المملكة ستشارك كضيفة شرف في معرض CIFIT بالصين، ما يفتح فرصًا تجارية دولية.",
+      "en": "Saudi Arabia will attend as Guest of Honor at CIFIT in China, opening international trade opportunities."
     },
     "priority": "P2"
   }
