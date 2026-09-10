@@ -1,5 +1,23 @@
 [
   {
+    "id": 99,
+    "geo": "riyadh",
+    "url": "https://saudigazette.com.sa/article/664444/saudi-arabia/security-and-history-dialogue-2026-concludes-in-riyadh-with-5200-visitors",
+    "date": "2026-09-09",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/09/09/2763381.webp",
+    "title": {
+      "ar": "ختام حوار الأمن والتاريخ في الرياض",
+      "en": "Security and History Dialogue concludes in Riyadh"
+    },
+    "topic": "conference",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "حوار الأمن والتاريخ 2026 اختتم في قصر الثقافة بالربع الدبلوماسي بحضور أكثر من 5,200 زائر خلال ثلاثة أيام.",
+      "en": "The 2026 Security and History Dialogue ended at Riyadh’s Cultural Palace with over 5,200 visitors over three days."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 98,
     "geo": "riyadh",
     "url": "https://www.arabnews.com/saudi-arabia/saudi-warehousing-logistics-expo-brings-together-industry-leaders-3000957",
@@ -648,6 +666,24 @@
     "priority": "P1"
   },
   {
+    "id": 100,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/european-exhibitors-america-move-in/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=european-exhibitors-america-move-in",
+    "date": "2026-09-09",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/t3-systems-printing-united-usa-island-stand-600x400.webp",
+    "title": {
+      "ar": "ما لا يراه الأوروبيون في المعارض الأمريكية",
+      "en": "What Europeans Don't See in US Exhibitions"
+    },
+    "topic": "industry",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "يتناول المقال تجارب العارضين الأوروبيين في المعارض الأمريكية ويبرز اختلافات ثقافية في التعامل داخل أجنحة المعارض.",
+      "en": "The article discusses European exhibitors’ experiences on US show floors, highlighting cultural differences in booth handling."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 97,
     "geo": "global",
     "url": "https://www.tsnn.com/people-career-development/event-launch-africa-exhibition-forum-set-for-december-in-nairobi",
@@ -680,42 +716,6 @@
     "summary": {
       "ar": "Exposure Analytics تطلق مؤشر Engagement 2026 لتقييم سلوك الزوار بعد حضورهم للمعارض.",
       "en": "Exposure Analytics launches the 2026 Physical Engagement Index to assess post‑visit visitor behavior."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 95,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/georgia-world-congress-center-50-years/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=georgia-world-congress-center-50-years",
-    "date": "2026-09-08",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/gwcc-bobbin-show-1976-600x400.webp",
-    "title": {
-      "ar": "مركز جورجيا العالمي للمؤتمرات يحتفل بمرور 50 سنة",
-      "en": "Georgia World Congress Center Marks 50 Years"
-    },
-    "topic": "venue",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "الاحتفال يبرز دور المركز كوجهة مؤتمرات عالمية منذ عام 1976.",
-      "en": "Celebration highlights GWCC’s role as a leading global convention venue since 1976."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 94,
-    "geo": "saudi",
-    "url": "https://saudigazette.com.sa/article/664372/saudi-arabia/saudi-arabia-named-guest-of-honor-at-26th-china-international-fair-for-investment-and-trade",
-    "date": "2026-09-07",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/09/07/2762170.webp",
-    "title": {
-      "ar": "السعودية ضيفة شرف في معرض الصين الدولي للاستثمار والتجارة",
-      "en": "Saudi Guest of Honor at China International Fair"
-    },
-    "topic": "exhibition",
-    "source": "Saudi Gazette — Saudi Arabia",
-    "summary": {
-      "ar": "المملكة ستشارك كضيفة شرف في معرض CIFIT بالصين، ما يفتح فرصًا تجارية دولية.",
-      "en": "Saudi Arabia will attend as Guest of Honor at CIFIT in China, opening international trade opportunities."
     },
     "priority": "P2"
   }
