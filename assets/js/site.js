@@ -170,7 +170,11 @@ function articleCardHtml(a){
 function visibleArticles(){
   if (!Array.isArray(ARTICLES)) return [];
   if (isAR) return ARTICLES;
-  return ARTICLES.filter(function(a){ return !(a && a.title && typeof a.title === 'object' && /[\u0600-\u06ff]/.test(a.title.en || '')); });
+  return ARTICLES.filter(function(a){
+    if (!a || !a.title) return false;
+    var en = (typeof a.title === 'object') ? (a.title.en || '') : a.title;   // legacy plain-string title = Arabic-only
+    return !!en && !/[\u0600-\u06ff]/.test(en);
+  });
 }
 async function loadArticles(){
   try {
