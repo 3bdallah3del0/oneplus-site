@@ -1,5 +1,23 @@
 [
   {
+    "id": 101,
+    "geo": "saudi",
+    "url": "https://saudigazette.com.sa/article/665019/saudi-arabia/us-beef-sales-in-saudi-arabia-could-reach-150-million",
+    "date": "2026-10-01",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/01/2774193.webp",
+    "title": {
+      "ar": "مبيعات اللحم البقري الأمريكي قد تصل 150 مليون في معرض الطعام السعودي",
+      "en": "US Beef Sales Could Hit $150M at Saudi Food Show"
+    },
+    "topic": "exhibition",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "في معرض الطعام السعودي بجدة، افتتح جناح أمريكي يروج للمنتجات الزراعية مثل الجوز والبطاطس. يهدف الحدث إلى تعزيز التعاون الزراعي بين السعودية وأمريكا.",
+      "en": "At the Saudi Food Show in Jeddah, a dedicated U.S. pavilion showcased agricultural products such as walnuts and potatoes, aiming to boost Saudi‑U.S. agri‑cooperation."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 99,
     "geo": "riyadh",
     "url": "https://saudigazette.com.sa/article/664444/saudi-arabia/security-and-history-dialogue-2026-concludes-in-riyadh-with-5200-visitors",
@@ -666,56 +684,38 @@
     "priority": "P1"
   },
   {
-    "id": 100,
+    "id": 105,
     "geo": "global",
-    "url": "https://exhibitcitynews.com/european-exhibitors-america-move-in/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=european-exhibitors-america-move-in",
-    "date": "2026-09-09",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/t3-systems-printing-united-usa-island-stand-600x400.webp",
+    "url": "https://www.tsnn.com/event-planning/ceir-predict-2026-tackles-recovery-gaps-geopolitical-risk-and-innovation-imperative",
+    "date": "2026-09-30",
+    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blte0cc1dcee133087a/6abce7287201c40a005a6ab0/2026_09_CEIR_Predict_Recap_Brian_Pagel_Welcome.png?width=720&amp;quality=80&amp;disable=upscale",
     "title": {
-      "ar": "ما لا يراه الأوروبيون في المعارض الأمريكية",
-      "en": "What Europeans Don't See in US Exhibitions"
+      "ar": "CEIR Predict 2026 يناقش فجوات التعافي ومخاطر الجيوسياسة",
+      "en": "CEIR Predict 2026 Tackles Recovery Gaps and Geopolitical Risks"
     },
     "topic": "industry",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "يتناول المقال تجارب العارضين الأوروبيين في المعارض الأمريكية ويبرز اختلافات ثقافية في التعامل داخل أجنحة المعارض.",
-      "en": "The article discusses European exhibitors’ experiences on US show floors, highlighting cultural differences in booth handling."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 97,
-    "geo": "global",
-    "url": "https://www.tsnn.com/people-career-development/event-launch-africa-exhibition-forum-set-for-december-in-nairobi",
-    "date": "2026-09-08",
-    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt8c36eb41a93b6049/6aa023e10032d543831945ba/shutterstocknairobi_2680477379.jpg?width=720&amp;quality=80&amp;disable=upscale",
-    "title": {
-      "ar": "إطلاق منتدى معرض أفريقيا في نيروبي ديسمبر",
-      "en": "Africa Exhibition Forum Set for December in Nairobi"
-    },
-    "topic": "conference",
     "source": "TSNN — Trade Show News",
     "summary": {
-      "ar": "المنتدى يهدف لسد فجوة البنية التحتية للمعارض وتعزيز التعاون الحكومي عبر القارة.",
-      "en": "The forum aims to bridge Africa’s exhibition infrastructure gap and boost government engagement."
+      "ar": "خبراء الاقتصاد والصناعة يناقشون تحديات حضور المعارض، تأخيرات التأشيرات، وتحول التسويق في ظل عدم اليقين المستمر.",
+      "en": "Economists and industry leaders discuss exhibition attendance gaps, visa delays, and marketing transformation amid ongoing uncertainty."
     },
     "priority": "P2"
   },
   {
-    "id": 96,
+    "id": 112,
     "geo": "global",
-    "url": "https://exhibitcitynews.com/exhibition-engagement-benchmark-2026/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=exhibition-engagement-benchmark-2026",
-    "date": "2026-09-08",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/exposures-ruvey-600x400.webp",
+    "url": "https://www.pcma.org/plan-your-next-event-with-oak-view-group-and-do-big-things-together/",
+    "date": "2026-09-29",
+    "image": "https://www.pcma.org/wp-content/uploads/2026/09/IEC-PCMA-Engage-Image-150x150.png",
     "title": {
-      "ar": "مؤشر جديد يقيس تفاعل الزوار بعد المعرض",
-      "en": "Exhibition Engagement Benchmark Launched"
+      "ar": "خطط أوبك فيفيو لتوفير قاعات مؤتمرات عالمية",
+      "en": "Plan Events with Oak View Group’s Global Venue Portfolio"
     },
-    "topic": "technology",
-    "source": "Exhibit City News",
+    "topic": "venue",
+    "source": "PCMA (MICE industry)",
     "summary": {
-      "ar": "Exposure Analytics تطلق مؤشر Engagement 2026 لتقييم سلوك الزوار بعد حضورهم للمعارض.",
-      "en": "Exposure Analytics launches the 2026 Physical Engagement Index to assess post‑visit visitor behavior."
+      "ar": "تقدم OVG مجموعة واسعة من مراكز المؤتمرات العالمية وحلول مبتكرة لضمان تنظيم فعاليات من المستوى العالمي.",
+      "en": "OVG offers an expansive global convention‑center portfolio and innovative solutions to ensure world‑class event execution."
     },
     "priority": "P2"
   }
