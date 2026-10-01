@@ -165,6 +165,13 @@ function articleCardHtml(a){
     <div class="insight-desc">${desc}</div>
   </a>`;
 }
+// English view must never list an article that has no real English version (its EN title falls back to the Arabic text
+// and the /en/ page does not exist). Arabic view lists everything.
+function visibleArticles(){
+  if (!Array.isArray(ARTICLES)) return [];
+  if (isAR) return ARTICLES;
+  return ARTICLES.filter(function(a){ return !(a && a.title && typeof a.title === 'object' && /[\u0600-\u06ff]/.test(a.title.en || '')); });
+}
 async function loadArticles(){
   try {
     const res = await fetch('/data/articles.json', { cache: 'no-store' });
@@ -179,9 +186,10 @@ function renderArticles(){
   const section = document.getElementById('insights');
   const list = document.getElementById('insights-list');
   if (!section || !list) return;
-  if (!Array.isArray(ARTICLES) || ARTICLES.length === 0) { section.style.display = 'none'; return; }
+  const VA = visibleArticles();
+  if (VA.length === 0) { section.style.display = 'none'; return; }
   section.style.display = '';
-  list.innerHTML = ARTICLES.slice(0, 6).map(articleCardHtml).join('');
+  list.innerHTML = VA.slice(0, 6).map(articleCardHtml).join('');
   observeReveals(list);
 }
 // Full archive at /articles/ -- only that page has #articles-archive-list, so this is a
@@ -190,8 +198,8 @@ function renderArticlesArchive(){
   const list = document.getElementById('articles-archive-list');
   if (!list) return;
   const count = document.getElementById('articles-archive-count');
-  if (count) count.textContent = Array.isArray(ARTICLES) ? String(ARTICLES.length) : '0';
-  list.innerHTML = Array.isArray(ARTICLES) ? ARTICLES.map(articleCardHtml).join('') : '';
+  if (count) count.textContent = String(visibleArticles().length);
+  list.innerHTML = visibleArticles().map(articleCardHtml).join('');
   observeReveals(list);
 }
 loadArticles();
