@@ -46,6 +46,10 @@
           "en": "Message us on WhatsApp"
         },
         "selector": ".hero-cta span:first-child"
+      },
+      {
+        "op": "remove",
+        "selector": ".hero-wa"
       }
     ]
   }
