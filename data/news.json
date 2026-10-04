@@ -684,6 +684,24 @@
     "priority": "P1"
   },
   {
+    "id": 113,
+    "geo": "saudi",
+    "url": "https://saudigazette.com.sa/article/665087/business/sumerge-x-hrsd-at-leap-shaping-more-intelligent-and-inclusive-digital-services",
+    "date": "2026-10-04",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/04/2775349.webp",
+    "title": {
+      "ar": "سمرج ووزارة الموارد البشرية في مؤتمر ليب",
+      "en": "Sumerge & HRSD at LEAP"
+    },
+    "topic": "technology",
+    "source": "Saudi Gazette — Business",
+    "summary": {
+      "ar": "ناقش سمرج مع مدير الموارد البشرية في وزارة الموارد البشرية والاجتماعية استراتيجيات الخدمات الرقمية خلال مؤتمر ليب التقني في الرياض.",
+      "en": "Sumerge discussed digital service strategies with HRSD officials at the LEAP tech conference in Riyadh."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 105,
     "geo": "global",
     "url": "https://www.tsnn.com/event-planning/ceir-predict-2026-tackles-recovery-gaps-geopolitical-risk-and-innovation-imperative",
@@ -698,24 +716,6 @@
     "summary": {
       "ar": "خبراء الاقتصاد والصناعة يناقشون تحديات حضور المعارض، تأخيرات التأشيرات، وتحول التسويق في ظل عدم اليقين المستمر.",
       "en": "Economists and industry leaders discuss exhibition attendance gaps, visa delays, and marketing transformation amid ongoing uncertainty."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 112,
-    "geo": "global",
-    "url": "https://www.pcma.org/plan-your-next-event-with-oak-view-group-and-do-big-things-together/",
-    "date": "2026-09-29",
-    "image": "https://www.pcma.org/wp-content/uploads/2026/09/IEC-PCMA-Engage-Image-150x150.png",
-    "title": {
-      "ar": "خطط أوبك فيفيو لتوفير قاعات مؤتمرات عالمية",
-      "en": "Plan Events with Oak View Group’s Global Venue Portfolio"
-    },
-    "topic": "venue",
-    "source": "PCMA (MICE industry)",
-    "summary": {
-      "ar": "تقدم OVG مجموعة واسعة من مراكز المؤتمرات العالمية وحلول مبتكرة لضمان تنظيم فعاليات من المستوى العالمي.",
-      "en": "OVG offers an expansive global convention‑center portfolio and innovative solutions to ensure world‑class event execution."
     },
     "priority": "P2"
   }
