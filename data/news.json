@@ -1,5 +1,23 @@
 [
   {
+    "id": 115,
+    "geo": "saudi",
+    "url": "https://saudigazette.com.sa/article/665116/saudi-arabia/king-salman-invites-qatari-emir-to-attend-gcc-eu-summit",
+    "date": "2026-10-04",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/04/2775696.webp",
+    "title": {
+      "ar": "دعوة الملك سلمان للشيخ تميم لحضور قمة الخليج‑أوروبا",
+      "en": "King Salman Invites Qatari Emir to GCC‑EU Summit"
+    },
+    "topic": "conference",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "الملك سلمان يرسل دعوة للشيخ تميم لحضور القمة الثانية لتعاون دول الخليج مع الاتحاد الأوروبي في السعودية.",
+      "en": "King Salman invites Qatar’s Emir to attend the second GCC‑EU summit hosted in Saudi Arabia."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 101,
     "geo": "saudi",
     "url": "https://saudigazette.com.sa/article/665019/saudi-arabia/us-beef-sales-in-saudi-arabia-could-reach-150-million",
@@ -684,38 +702,20 @@
     "priority": "P1"
   },
   {
-    "id": 113,
-    "geo": "saudi",
-    "url": "https://saudigazette.com.sa/article/665087/business/sumerge-x-hrsd-at-leap-shaping-more-intelligent-and-inclusive-digital-services",
-    "date": "2026-10-04",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/04/2775349.webp",
+    "id": 116,
+    "geo": "mena",
+    "url": "https://saudigazette.com.sa/article/665135/business/al-watania-poultry-marks-three-major-milestones-with-industry-recognition-a-social-responsibility-award-and-strategic-partnerships",
+    "date": "2026-10-05",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/05/2775974.webp",
     "title": {
-      "ar": "سمرج ووزارة الموارد البشرية في مؤتمر ليب",
-      "en": "Sumerge & HRSD at LEAP"
+      "ar": "معرض الدواجن بالشرق الأوسط يسلّط الضوء على إنجازات الوطنية",
+      "en": "Al Watania Poultry Shines at Middle East Poultry Expo"
     },
-    "topic": "technology",
+    "topic": "exhibition",
     "source": "Saudi Gazette — Business",
     "summary": {
-      "ar": "ناقش سمرج مع مدير الموارد البشرية في وزارة الموارد البشرية والاجتماعية استراتيجيات الخدمات الرقمية خلال مؤتمر ليب التقني في الرياض.",
-      "en": "Sumerge discussed digital service strategies with HRSD officials at the LEAP tech conference in Riyadh."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 114,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/printing-united-alliance-2026-2027-board-directors/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=printing-united-alliance-2026-2027-board-directors",
-    "date": "2026-10-02",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/print-ex-board-600x400.webp",
-    "title": {
-      "ar": "تعيين مجلس إدارة جديد لتحالف PRINTING United 2026‑2027",
-      "en": "PRINTING United Alliance Names 2026‑2027 Board"
-    },
-    "topic": "industry",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "تم اختيار براين هيت رئيساً لمجلس الإدارة خلال معرض PRINTING United 2026 في لاس فيغاس، ما يعكس تحركات قطاع الطباعة المتعلق بأجنحة المعارض.",
-      "en": "Brian Hite was appointed chair of the PRINTING United Alliance board at the 2026 expo in Las Vegas, signaling trends in the printing sector for exhibition booths."
+      "ar": "الوطنيّة للطيور تحصل على جوائز وتوقّع اتفاقيات استراتيجية خلال معرض الدواجن بالشرق الأوسط.",
+      "en": "Al Watania Poultry wins awards and signs strategic deals at the Middle East Poultry Expo."
     },
     "priority": "P2"
   }
