@@ -1,5 +1,18 @@
 [
   {
+    "slug": "leap-booth-delivery-timeline",
+    "title": {
+      "ar": "كم يستغرق تسليم جناح LEAP في المعارض؟",
+      "en": "How long does LEAP booth delivery take, from confirmation to install?"
+    },
+    "meta_description": {
+      "ar": "تعرف على الإطار الزمني لتسليم أجنحة مؤتمر ومعرض LEAP في الرياض، من مرحلة التأكيد وحتى التركيب النهائي باحترافية عالية.",
+      "en": "Discover the LEAP booth delivery timeline for exhibitions in Saudi Arabia, covering design, approvals, pre-fabrication, and on-site installation."
+    },
+    "has_en": true,
+    "published_at": "2026-10-06T11:04:52.794Z"
+  },
+  {
     "slug": "booth-led-screens-tech",
     "title": {
       "ar": "شاشات LED جناح معرض: متى ولماذا؟",
