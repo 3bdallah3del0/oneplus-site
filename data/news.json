@@ -1,5 +1,23 @@
 [
   {
+    "id": 126,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/ai-is-already-walking-your-booth/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ai-is-already-walking-your-booth",
+    "date": "2026-10-07",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/ai-story-600x400.webp",
+    "title": {
+      "ar": "الذكاء الاصطناعي يزاحم أجنحة المعارض",
+      "en": "AI Is Already Walking Your Booth"
+    },
+    "topic": "technology",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "يستعرض المقال كيف يستخدم الزوار الذكاء الاصطناعي مثل ChatGPT لتخطيط زياراتهم داخل أجنحة المعارض، مما يغيّر تجربة الحضور.",
+      "en": "The piece discusses how attendees use AI tools like ChatGPT to navigate and plan visits within exhibition booths, reshaping the attendee experience."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 115,
     "geo": "saudi",
     "url": "https://saudigazette.com.sa/article/665116/saudi-arabia/king-salman-invites-qatari-emir-to-attend-gcc-eu-summit",
@@ -700,23 +718,5 @@
       "en": "Saudi Arabia and the BIE signed the SEE Agreement establishing the legal framework for Expo 2030 Riyadh."
     },
     "priority": "P1"
-  },
-  {
-    "id": 123,
-    "geo": "global",
-    "url": "https://www.tsnn.com/trade-shows-conferences/m-a-trifecta-collective-acquires-medical-spa-show-from-amspa",
-    "date": "2026-10-06",
-    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt60c4a1538eba2020/6ac5653d82c1306e3eeef959/amspa-mss26-main_image.jpg?width=720&amp;quality=80&amp;disable=upscale",
-    "title": {
-      "ar": "Trifecta Collective تستحوذ على معرض Medical Spa Show",
-      "en": "Trifecta Acquires Medical Spa Show"
-    },
-    "topic": "industry",
-    "source": "TSNN — Trade Show News",
-    "summary": {
-      "ar": "شركة Trifecta Collective تشتري معرض Medical Spa Show من AmSpa، مضيفة حدث تجاري جديد إلى محفظتها.",
-      "en": "Trifecta Collective acquires the Medical Spa Show from AmSpa, expanding its trade‑show portfolio."
-    },
-    "priority": "P2"
   }
 ]
