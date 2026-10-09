@@ -1,5 +1,23 @@
 [
   {
+    "id": 134,
+    "geo": "saudi",
+    "url": "https://saudigazette.com.sa/article/665224/saudi-arabia/king-salman-invites-uae-president-to-attend-2nd-gcc-eu-summit",
+    "date": "2026-10-08",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/08/2777492.webp",
+    "title": {
+      "ar": "دعوة الملك سلمان لرئيس الإمارات لحضور قمة الخليج‑EU الثانية",
+      "en": "King Salman Invites UAE President to 2nd GCC‑EU Summit"
+    },
+    "topic": "conference",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "الملك سلمان يدعو رئيس الإمارات لحضور القمة التي ستعقد في السعودية هذا الشهر.",
+      "en": "King Salman invited the UAE president to attend the second GCC‑EU summit in Saudi Arabia."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 126,
     "geo": "global",
     "url": "https://exhibitcitynews.com/ai-is-already-walking-your-booth/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ai-is-already-walking-your-booth",
@@ -698,24 +716,6 @@
     "summary": {
       "ar": "فرنسا توقّعت عقد المشاركة الرسمي في إكسبو 2030 الرياض، مما يعزز الزخم الدولي للمعرض.",
       "en": "France signed the official participation contract for Expo 2030 Riyadh, boosting the event’s international momentum."
-    },
-    "priority": "P1"
-  },
-  {
-    "id": 4,
-    "geo": "saudi",
-    "url": "https://saudigazette.com.sa/article/664068/saudi-arabia/saudi-arabia-bureau-international-des-expositions-sign-see-agreement-for-expo-2030-riyadh",
-    "date": "2026-08-25",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/08/25/2756083.webp",
-    "title": {
-      "ar": "السعودية ومكتب المعارض الدولي يوقعان اتفاقية SEE لإكسبو 2030",
-      "en": "Saudi Arabia & BIE Sign SEE Agreement for Expo 2030"
-    },
-    "topic": "exhibition",
-    "source": "Saudi Gazette — Saudi Arabia",
-    "summary": {
-      "ar": "وقعت السعودية ومكتب المعارض الدولي اتفاقية SEE لتحديد الإطار القانوني لإكسبو 2030 الرياض.",
-      "en": "Saudi Arabia and the BIE signed the SEE Agreement establishing the legal framework for Expo 2030 Riyadh."
     },
     "priority": "P1"
   }
