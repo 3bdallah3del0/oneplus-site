@@ -702,21 +702,21 @@
     "priority": "P1"
   },
   {
-    "id": 5,
-    "geo": "saudi",
-    "url": "https://saudigazette.com.sa/article/664067/saudi-arabia/france-becomes-first-official-participant-at-expo-2030-riyadh",
-    "date": "2026-08-25",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/08/25/2756071.webp",
+    "id": 138,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/in-memoriam-mike-drobick/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=in-memoriam-mike-drobick",
+    "date": "2026-10-09",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/mike-obit-400x400.webp",
     "title": {
-      "ar": "فرنسا أول مشارك رسمي في إكسبو 2030 الرياض",
-      "en": "France First Official Participant at Expo 2030 Riyadh"
+      "ar": "في ذكرى: مايك دروبك",
+      "en": "In Memoriam: Mike Drobick"
     },
-    "topic": "exhibition",
-    "source": "Saudi Gazette — Saudi Arabia",
+    "topic": "industry",
+    "source": "Exhibit City News",
     "summary": {
-      "ar": "فرنسا توقّعت عقد المشاركة الرسمي في إكسبو 2030 الرياض، مما يعزز الزخم الدولي للمعرض.",
-      "en": "France signed the official participation contract for Expo 2030 Riyadh, boosting the event’s international momentum."
+      "ar": "توفي مايك دروبك، محترف صناعة المعارض ذو أكثر من أربعة عقود من الخبرة في شيكاغو ولاس فيغاس، بعد نوبة قلبية.",
+      "en": "Mike Drobick, a veteran tradeshow professional with over 40 years experience, passed away."
     },
-    "priority": "P1"
+    "priority": "P2"
   }
 ]
