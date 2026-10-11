@@ -684,24 +684,6 @@
     "priority": "P1"
   },
   {
-    "id": 3,
-    "geo": "saudi",
-    "url": "https://saudigazette.com.sa/article/664095/saudi-arabia/expo-2030-riyadh-and-atout-france-sign-mou-to-promote-strategic-collaboration-and-strengthen-knowledge-exchange",
-    "date": "2026-08-26",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/08/26/2756432.webp",
-    "title": {
-      "ar": "مذكرة تفاهم بين إكسبو 2030 الرياض وأتو فرنس",
-      "en": "Expo 2030 Riyadh & Atout France Sign MoU"
-    },
-    "topic": "exhibition",
-    "source": "Saudi Gazette — Saudi Arabia",
-    "summary": {
-      "ar": "وقعت إكسبو 2030 الرياض وأتو فرنس مذكرة تفاهم لتعزيز التعاون الاستراتيجي وتبادل المعرفة.",
-      "en": "Expo 2030 Riyadh and Atout France signed an MoU to promote strategic collaboration and knowledge exchange."
-    },
-    "priority": "P1"
-  },
-  {
     "id": 138,
     "geo": "global",
     "url": "https://exhibitcitynews.com/in-memoriam-mike-drobick/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=in-memoriam-mike-drobick",
@@ -716,6 +698,24 @@
     "summary": {
       "ar": "توفي مايك دروبك، محترف صناعة المعارض ذو أكثر من أربعة عقود من الخبرة في شيكاغو ولاس فيغاس، بعد نوبة قلبية.",
       "en": "Mike Drobick, a veteran tradeshow professional with over 40 years experience, passed away."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 137,
+    "geo": "global",
+    "url": "https://www.tsnn.com/exhibitors/how-to-turn-trade-show-swag-into-actionable-event-data",
+    "date": "2026-10-09",
+    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt57e3bff63c54fcb5/6ac8d08815f68715a4fea9fe/eyJidWNrZXQiOiJzbXAtcHJvZCIsImtleSI6ImV2ZW50cy9mYTc5N2RkYi00YjBkLTQ4MjEtYTU4Ni05N2JlMWRlY2Y5YjUvcGhvdG9zL2NvcnJlY3RlZC1vcmlnaW5hbC9JUFBJMDkxNy0xNzg3NjgwNDc3ODAxLmpwZyIsImVkaXRzIjp7InJvdGF0ZSI6bnVsbCwidmVyc2lvbiI6MCwicmVzaXplIjp7IndpZHRoIjpudWxsLC%E2%80%A6.jpeg?width=720&amp;quality=80&amp;disable=upscale",
+    "title": {
+      "ar": "تحويل هدايا المعارض إلى بيانات فعلية",
+      "en": "Turning Tradeshow Swag into Actionable Data"
+    },
+    "topic": "technology",
+    "source": "TSNN — Trade Show News",
+    "summary": {
+      "ar": "شركة تُحوّل عينات الهدايا إلى تجارب تفاعلية قابلة للقياس، ما يضيف قيمة للمعارض.",
+      "en": "A company converts swag giveaways into measurable interactive experiences, providing actionable event data."
     },
     "priority": "P2"
   }
