@@ -1,5 +1,23 @@
 [
   {
+    "id": 140,
+    "geo": "saudi",
+    "url": "https://saudigazette.com.sa/article/665320/saudi-arabia/king-invites-omans-sultan-to-attend-gcc-eu-summit",
+    "date": "2026-10-11",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/11/2778775.webp",
+    "title": {
+      "ar": "الملك يدعو سلطان عُمان لحضور قمة الخليج‑أوروبا",
+      "en": "King invites Oman's Sultan to GCC‑EU Summit"
+    },
+    "topic": "conference",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "أرسل خادم الحرمين الملك سلمان دعوة للسلطان لحضور القمة التي ستعقد في السعودية في أكتوبر. الفعالية تجمع قادة دول الخليج والاتحاد الأوروبي.",
+      "en": "King Salman sent a written invitation to Oman's Sultan to attend the GCC‑EU Summit in Saudi Arabia this October. The event gathers Gulf and EU leaders."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 139,
     "geo": "riyadh",
     "url": "https://www.argaam.com/en/article/articledetail/id/1942936",
@@ -700,23 +718,5 @@
       "en": "Iraq debuted its first tech pavilion at LEAP 2026 in Riyadh, enhancing regional collaboration opportunities."
     },
     "priority": "P1"
-  },
-  {
-    "id": 138,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/in-memoriam-mike-drobick/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=in-memoriam-mike-drobick",
-    "date": "2026-10-09",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/mike-obit-400x400.webp",
-    "title": {
-      "ar": "في ذكرى: مايك دروبك",
-      "en": "In Memoriam: Mike Drobick"
-    },
-    "topic": "industry",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "توفي مايك دروبك، محترف صناعة المعارض ذو أكثر من أربعة عقود من الخبرة في شيكاغو ولاس فيغاس، بعد نوبة قلبية.",
-      "en": "Mike Drobick, a veteran tradeshow professional with over 40 years experience, passed away."
-    },
-    "priority": "P2"
   }
 ]
