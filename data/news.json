@@ -1,5 +1,23 @@
 [
   {
+    "id": 142,
+    "geo": "riyadh",
+    "url": "https://saudigazette.com.sa/article/665341/saudi-arabia/saudi-arabia-will-overcome-challenges-uphold-energy-commitments-prince-abdulaziz-says",
+    "date": "2026-10-12",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/12/2779010.webp",
+    "title": {
+      "ar": "السعودية ستتغلب على التحديات وتلتزم بالالتزامات العالمية للطاقة",
+      "en": "Saudi Arabia will overcome challenges, uphold global energy commitments"
+    },
+    "topic": "conference",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "أعلن وزير الطاقة الأمير عبدالعزيز بن سلمان خلال افتتاح المؤتمر العالمي للطاقة الـ25 في الرياض عن التزام المملكة بالتحديات والطاقة.\nيبرز ذلك دور السعودية في الفعاليات الدولية.",
+      "en": "Energy Minister Prince Abdulaziz bin Salman, speaking at the opening of the 25th World Energy Congress in Riyadh, reaffirmed Saudi commitment to global energy challenges.\nIt highlights the Kingdom’s role in major conferences."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 140,
     "geo": "saudi",
     "url": "https://saudigazette.com.sa/article/665320/saudi-arabia/king-invites-omans-sultan-to-attend-gcc-eu-summit",
@@ -698,24 +716,6 @@
     "summary": {
       "ar": "مجموعة stc تقدم تذاكر مجانية للجمهور لحضور مؤتمر LEAP 2026 حتى 30 أغسطس.",
       "en": "stc is sponsoring free public tickets for LEAP 2026 until August 30."
-    },
-    "priority": "P1"
-  },
-  {
-    "id": 42,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQOTFYRW9NYWZBY3pxazRTYjNDcFJJM00wVzQ3ZWYtTERnLWNVUVFaUWNvaEZEYUNDRWJtQXN5QnhoUWJ1QlgxdEZzRnRhbTU2UlZacjhrWWxKOUNmUjdIQzZVR2ZYdmpjallxSUMzVWpwdHNiZ2JKQWhtd1ppaU44bWdoVHdKS2VLYVVSWjExZw?oc=5",
-    "date": "2026-08-28",
-    "image": null,
-    "title": {
-      "ar": "العراق يفتتح أول جناح تقني في LEAP 2026 بالرياض",
-      "en": "Iraq opens first tech pavilion at LEAP 2026"
-    },
-    "topic": "exhibition",
-    "source": "iraqinews.com",
-    "summary": {
-      "ar": "أعلنت العراق عن افتتاح أول جناح تقني لها في معرض LEAP 2026 بالرياض، ما يعزز فرص التعاون الإقليمي.",
-      "en": "Iraq debuted its first tech pavilion at LEAP 2026 in Riyadh, enhancing regional collaboration opportunities."
     },
     "priority": "P1"
   }
