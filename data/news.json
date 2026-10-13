@@ -1,5 +1,23 @@
 [
   {
+    "id": 148,
+    "geo": "global",
+    "url": "https://www.smartmeetings.com/event/185069/imex-2026-recap-day-1",
+    "date": "2026-10-13",
+    "image": "http://www.smartmeetings.com/wp-content/uploads/2026/10/As-experience-center-entrance.jpg",
+    "title": {
+      "ar": "ملخص IMEX 2026 – اليوم الأول",
+      "en": "IMEX 2026 Day 1 Recap"
+    },
+    "topic": "exhibition",
+    "source": "Smart Meetings",
+    "summary": {
+      "ar": "تغطية لأهم الإعلانات والفعاليات في معرض IMEX 2026 بمندالا باي.",
+      "en": "Highlights of announcements and sessions at IMEX 2026 in Las Vegas."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 145,
     "geo": "saudi",
     "url": "https://saudigazette.com.sa/article/665350/saudi-arabia/misk-global-forum-2026-canceled-over-organizational-and-logistical-challenges",
@@ -698,24 +716,6 @@
     "summary": {
       "ar": "سوريا ستفتح جناحاً في معرض ومؤتمر LEAP 2026 المقام بالرياض غداً.",
       "en": "Syria will open a pavilion at the LEAP 2026 expo and conference in Riyadh tomorrow."
-    },
-    "priority": "P1"
-  },
-  {
-    "id": 19,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE12RlBRald3LXFOQUh4Vy12T2wzMW9ZQlkwS0t6R19RbW1lWFU0RzBjNmM0bl80bGZmQVdFNnd1cXM0blN1WUtoNFpqbw?oc=5",
-    "date": "2026-08-30",
-    "image": null,
-    "title": {
-      "ar": "محاولة استقطاب شركات تقنية أجنبية في LEAP 2026",
-      "en": "LEAP 2026 Seeks Foreign Tech Companies"
-    },
-    "topic": "conference",
-    "source": "قناة نبأ الفضائية",
-    "summary": {
-      "ar": "يسعى مؤتمر LEAP 2026 إلى جذب شركات تقنية أجنبية رغم التحديات المالية.",
-      "en": "LEAP 2026 aims to attract foreign tech firms despite financial pressures."
     },
     "priority": "P1"
   }
