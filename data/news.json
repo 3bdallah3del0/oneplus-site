@@ -1,5 +1,23 @@
 [
   {
+    "id": 145,
+    "geo": "saudi",
+    "url": "https://saudigazette.com.sa/article/665350/saudi-arabia/misk-global-forum-2026-canceled-over-organizational-and-logistical-challenges",
+    "date": "2026-10-12",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/12/2779126.webp",
+    "title": {
+      "ar": "إلغاء منتدى مسك العالمي 2026 بسبب تحديات تنظيمية",
+      "en": "Misk Global Forum 2026 canceled over logistical challenges"
+    },
+    "topic": "conference",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "مؤسسة مسك تعلن إلغاء المنتدى لعام 2026 بسبب صعوبات تنظيمية ولوجستية قد تؤثر على تجربة الحضور.",
+      "en": "Misk Foundation cancels 2026 Global Forum citing organizational and logistical challenges that could affect attendee experience."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 142,
     "geo": "riyadh",
     "url": "https://saudigazette.com.sa/article/665341/saudi-arabia/saudi-arabia-will-overcome-challenges-uphold-energy-commitments-prince-abdulaziz-says",
@@ -698,24 +716,6 @@
     "summary": {
       "ar": "يسعى مؤتمر LEAP 2026 إلى جذب شركات تقنية أجنبية رغم التحديات المالية.",
       "en": "LEAP 2026 aims to attract foreign tech firms despite financial pressures."
-    },
-    "priority": "P1"
-  },
-  {
-    "id": 17,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMihwNBVV95cUxNNnFoV3F2cjNVcE5LbEI4MkpObmV2VmhhVTFNUXZyWTFyeVFvQXdoYmQ1OGFrdVo0cnNrRUhrQVhzbFJCWVBOZVl6dGdReGdUMkMwN25aSVIzQ3I3Ujl2NEwxRGZSVXBSa0h1d291ZnJ1cmVTOUxBbTVCXzlydkVEQjk1eUx2Unc4VS01OEc2V0V0MnhYUUhoVUN4eFdDNUVmMzVvckhCVlRvUENldUZtTk9waHRYODFEdENVZkQ4V0xDSE9FMldTd3BYekZFSVEwckEwcHZiRlZtRzJWbjlERlhualRocEtTQUhrZ3Q3MUVPN1NsWWtwOU9KcHVJNFJSR2l5YzBlSHNBdnhTaWk4b21na2pSMnNtdUhPSVYwSmN6NFVBNUFkYXFydTNDX1hrRG0xZmQwRXdyRTl4bUhZblJ4cDlyVHEydXd3TlpxNVoxOF9DYWJrcVdGSFh2OHhISko5NGM3OGpNTkR4TzM4YW0wTnpRYkFRQjZmNlI1TFNsa2FxX3Zv?oc=5",
-    "date": "2026-08-29",
-    "image": null,
-    "title": {
-      "ar": "stc ترعى تذاكر LEAP 2026 حتى 30 أغسطس",
-      "en": "stc Sponsors LEAP 2026 Tickets Until Aug 30"
-    },
-    "topic": "conference",
-    "source": "الشرق بلومبرغ",
-    "summary": {
-      "ar": "مجموعة stc تقدم تذاكر مجانية للجمهور لحضور مؤتمر LEAP 2026 حتى 30 أغسطس.",
-      "en": "stc is sponsoring free public tickets for LEAP 2026 until August 30."
     },
     "priority": "P1"
   }
