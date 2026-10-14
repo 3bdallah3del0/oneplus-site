@@ -1,5 +1,41 @@
 [
   {
+    "id": 150,
+    "geo": "riyadh",
+    "url": "https://saudigazette.com.sa/article/665393/saudi-arabia/al-rumaih-riyadh-public-transport-nears-500-million-users-within-2-years",
+    "date": "2026-10-13",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/13/2779818.webp",
+    "title": {
+      "ar": "مؤتمر الطاقة العالمي 2026 في الرياض",
+      "en": "World Energy Congress 2026 in Riyadh"
+    },
+    "topic": "conference",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "يشارك خبراء الطاقة في مؤتمر عالمي يُعقد في الرياض، ما يخلق فرصًا لتصميم أجنحة ومعارض متخصصة.",
+      "en": "Energy experts gather at the World Energy Congress 2026 in Riyadh, offering opportunities for specialized exhibition stand design."
+    },
+    "priority": "P1"
+  },
+  {
+    "id": 149,
+    "geo": "riyadh",
+    "url": "https://saudigazette.com.sa/article/665398/saudi-arabia/riyadh-emir-opens-12th-riyadh-economic-forum",
+    "date": "2026-10-13",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/14/2779844.webp",
+    "title": {
+      "ar": "افتتاح المنتدى الاقتصادي الـ12 في الرياض",
+      "en": "12th Riyadh Economic Forum opens"
+    },
+    "topic": "conference",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "افتتح الأمير فيصل بن بندر المنتدى الاقتصادي الـ12 في مركز الرياض الدولي للمؤتمرات والمعارض، بمشاركة قادة الأعمال.",
+      "en": "Prince Faisal bin Bandar inaugurated the 12th Riyadh Economic Forum at the Riyadh International Convention & Exhibition Center, attended by business leaders."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 148,
     "geo": "global",
     "url": "https://www.smartmeetings.com/event/185069/imex-2026-recap-day-1",
@@ -680,42 +716,6 @@
     "summary": {
       "ar": "أعلنت السعودية عن استثمارات هائلة في مجال الذكاء الاصطناعي وشراكات تقنية كبرى خلال مؤتمر LEAP 2026.",
       "en": "Saudi Arabia announced massive AI investments and major tech partnerships at LEAP 2026."
-    },
-    "priority": "P1"
-  },
-  {
-    "id": 16,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMi5gJBVV95cUxOR3llOWVma1g1aXpweXhXTzhHWkpKRXg1bXJXZzlVRXN4SXBJdncyeDhEVHpkR0dVQVpPUGtILTlma3lvcTV3VVBGVHhmVzB6RDNHdVBZZU4wWlR0Ul9DM3lZc0hlYlFlSnJpbUkzVW1BNGM5RUJhU08wUG5WaGp4Rl9odEtpc3VEUlVuQWJHczU0R21fcWRUNHYxZkpzdllEbE5BWFZ6OXh3T3hOUkFQU3pHZkdxSFFoQzlmUUp6SGJ5WU4xRGg2TGktaW4yX0pJNk90bVpTS0NEeEtLYU1JdV9zeTJfNC1Td0FTTEo5NkdWclBxQ3E1LVZHWHNjSFpCS1JObnZrcGtyUTRhT05FTGdVRGoyWFVra3FmVllQSkZ3Z1lJZ2hERmpzeFpSVERDdGpzTGF6V3VKYzNLUzZrNzJ0N3lTMmlHVWZNMnRZZTFjV0FiejRSTERhak5qZG1faEJ0ZUhn0gHmAkFVX3lxTE5HeWU5ZWZrWDVpenB5eFdPOEdaSkpFeDVtcldnOVVFc3hJcEl2dzJ4OERUemRHR1VBWk9Qa0gtOWZreW9xNXdVUEZUeGZXMHpEM0d1UFllTjBaVHRSX0MzeVlzSGViUWVKcmltSTNVbUE0YzlFQmFTTzBQblZoanhGX2h0S2lzdURSVW5BYkdzNTRHbV9xZFQ0djFmSnN2WURsTkFYVno5eHdPeE5SQVBTekdmR3FIUWhDOWZRSnpIYnlZTjFEaDZMaS1pbjJfSkk2T3RtWlNLQ0R4S0thTUl1X3N5Ml80LVN3QVNMSjk2R1ZyUHFDcTUtVkdYc2NIWkJLUk5udmtwa3JRNGFPTkVMZ1VEajJYVWtrcWZWWVBKRndnWUlnaERGanN4WlJUREN0anNMYXpXdUpjM0tTNms3MnQ3eVMyaUdVZk0ydFllMWNXQWJ6NFJMRGFqTmpkbV9oQnRlSGc?oc=5",
-    "date": "2026-08-31",
-    "image": null,
-    "title": {
-      "ar": "افتتاح وزير الاتصالات لمؤتمر LEAP 2026",
-      "en": "Telecom Minister Opens LEAP 2026"
-    },
-    "topic": "conference",
-    "source": "العربية",
-    "summary": {
-      "ar": "افتتح وزير الاتصالات السعودي مؤتمر LEAP 2026 في الرياض، مؤشراً على دعم الحكومة للفعاليات التقنية.",
-      "en": "Saudi Telecom Minister inaugurated LEAP 2026 in Riyadh, signalling strong government backing for tech events."
-    },
-    "priority": "P1"
-  },
-  {
-    "id": 21,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE9VWVY5TXpNQzByM3E0a0tTaUM2MGRyNUFzUl85aE5yYnJlMHhNX09vdG5XZGFCZi03M21xcjJfOEhDLWJLRXdibGktVS1vRzN5c1d1c3cwVQ?oc=5",
-    "date": "2026-08-30",
-    "image": null,
-    "title": {
-      "ar": "سوريا تشارك في معرض ومؤتمر LEAP 2026 بالرياض",
-      "en": "Syria Participates in LEAP 2026 Expo in Riyadh"
-    },
-    "topic": "conference",
-    "source": "سانا",
-    "summary": {
-      "ar": "سوريا ستفتح جناحاً في معرض ومؤتمر LEAP 2026 المقام بالرياض غداً.",
-      "en": "Syria will open a pavilion at the LEAP 2026 expo and conference in Riyadh tomorrow."
     },
     "priority": "P1"
   }
