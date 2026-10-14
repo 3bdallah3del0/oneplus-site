@@ -1,5 +1,23 @@
 [
   {
+    "id": 151,
+    "geo": "mena",
+    "url": "https://www.tsnn.com/people-career-development/preview-what-to-expect-at-the-93rd-ufi-global-congress-in-the-kingdom-of-bahrain",
+    "date": "2026-10-14",
+    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt205667eac0e82541/6acd073ec4be2fdefdb4fc6b/Congress_1.jpg?width=720&amp;quality=80&amp;disable=upscale",
+    "title": {
+      "ar": "معاينة: ما سيُعرض في المؤتمر العالمي الـ93 للاتحاد الدولي للمعارض في البحرين",
+      "en": "Preview: What to Expect at the 93rd UFI Global Congress in Bahrain"
+    },
+    "topic": "exhibition",
+    "source": "TSNN — Trade Show News",
+    "summary": {
+      "ar": "كريس سكيث، الرئيس التنفيذي للاتحاد الدولي للمعارض، يسلط الضوء على أبرز الجلسات والمواضيع التي ستتناولها الدورة التي ستعقد في البحرين في نوفمبر. الخبر مهم للمنظمين والشركات العاملة في قطاع المعارض.",
+      "en": "UFI CEO Chris Skeith outlines key sessions and trends for the 93rd Global Congress in Bahrain, scheduled for Nov 2‑5. Provides valuable insights for exhibition organizers and booth designers."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 150,
     "geo": "riyadh",
     "url": "https://saudigazette.com.sa/article/665393/saudi-arabia/al-rumaih-riyadh-public-transport-nears-500-million-users-within-2-years",
@@ -698,24 +716,6 @@
     "summary": {
       "ar": "عرضت الخوذة الذكية كأبرز ابتكار للدفاع المدني خلال مؤتمر LEAP 2026 في الرياض.",
       "en": "The smart helmet was highlighted as a top civil‑defense innovation at LEAP 2026 in Riyadh."
-    },
-    "priority": "P1"
-  },
-  {
-    "id": 18,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMiywJBVV95cUxQc0d0NGVzXzFMRkY5VU5qc3Etb3A4UFExQlZESGM0NGs4eng5Njd0Ykd3cE5sVmlJeXFTRnNyN0c5UGFIU2d6MXRYSVVLYjA1X2QybE8xb045QUVlbXk3ekx4dTlEN1FDaXNuallmV2oxSVl3azN5cVlPY0lwbGhSWllpR2ZLVUYwSlI1QndMLXo2VW1MZHlRV19VX081NE5YZ2RwaWVuSHBUQjZJWjNTMGJlMWYyTzQzV1NHWTViN25mQ1ctSTk4ZHN2T3RHM2VxOW16c0luZWRBc3p3d19TQy1SWnphT2RYQ2NxLW90Rkl2Mmc3MmgwNWZZQnZwOEN6Y3RsZmFXQ3BvbFgyVmtKem9nUEZMVHNBTzhUeHpXcHFLamtUbWwxcHFTUDZncUFQVmNCZF9RLWhId2FscWtMSkNhb1lWbGtrOTRF?oc=5",
-    "date": "2026-08-31",
-    "image": null,
-    "title": {
-      "ar": "إعلانات استثمارات ضخمة في الذكاء الاصطناعي خلال LEAP 2026",
-      "en": "Massive AI Investments Announced at LEAP 2026"
-    },
-    "topic": "conference",
-    "source": "البوابة التقنية",
-    "summary": {
-      "ar": "أعلنت السعودية عن استثمارات هائلة في مجال الذكاء الاصطناعي وشراكات تقنية كبرى خلال مؤتمر LEAP 2026.",
-      "en": "Saudi Arabia announced massive AI investments and major tech partnerships at LEAP 2026."
     },
     "priority": "P1"
   }
