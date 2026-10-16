@@ -360,363 +360,363 @@
     "priority": "P1"
   },
   {
-    "id": 60,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPaEN6V0dobThkRktESjNpR1FqeVNBWnpPSjlQbUJ2N2w2SGNZYzZ4Q1lmN0Fld3VpbEU2MGJZZ00wakNHNTFrT2owYWd2cW1Xb1UtdE05clZOR3Jpa3dvanA0bmRQb2lSeTY3bmNhVjFjdDRTdnRzRTFCZmdaay0zZ2RXUUVPQWstWWlwNzFZNVdNWktkMV80dWo0UnB1NWZVbExESVlEOGFzZlQ2Znc?oc=5",
-    "date": "2026-08-31",
-    "image": null,
+    "id": 155,
+    "geo": "mena",
+    "url": "https://exhibitcitynews.com/ufi-global-congress-bahrain-2026/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ufi-global-congress-bahrain-2026",
+    "date": "2026-10-15",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/ef18f923-15d6-4b9e-8640-4b246f6d4040-600x338.png",
     "title": {
-      "ar": "معرض Big 5 Construct يجمع قادة البناء في السعودية",
-      "en": "Big 5 Construct Saudi brings construction leaders together"
+      "ar": "مؤتمر UFI العالمي ينتقل إلى البحرين 2026",
+      "en": "UFI Global Congress to Bahrain 2026"
+    },
+    "topic": "conference",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "ستعقد الجمعية العالمية لصناعة المعارض (UFI) مؤتمرها السنوي في البحرين في نوفمبر 2026، وهو أول مرة يُنظم فيها الحدث في المملكة.",
+      "en": "The UFI Global Congress will be held in Bahrain from Nov 2‑5 2026, marking the first time the event takes place in the Kingdom."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 154,
+    "geo": "riyadh",
+    "url": "https://saudigazette.com.sa/article/665445/saudi-arabia/gcc-eu-summit-in-riyadh-postponed-over-houthi-attacks-and-airport-suspension",
+    "date": "2026-10-15",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/15/2780459.webp",
+    "title": {
+      "ar": "تأجيل قمة مجلس التعاون مع الاتحاد الأوروبي بسبب هجمات الحوثيين",
+      "en": "GCC‑EU Summit Delayed"
+    },
+    "topic": "conference",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "أعلنت مجلس التعاون عن تأجيل القمة المقررة في الرياض نتيجة استمرار هجمات الحوثيين.",
+      "en": "The GCC‑EU summit in Riyadh was postponed due to ongoing Houthi attacks."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 153,
+    "geo": "riyadh",
+    "url": "https://saudigazette.com.sa/article/665449/saudi-arabia/saudi-arabia-to-enhance-energy-cooperation-with-several-countries",
+    "date": "2026-10-15",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/15/2780485.webp",
+    "title": {
+      "ar": "مؤتمر الطاقة العالمي الـ25 في الرياض",
+      "en": "25th WPC Energy Congress"
+    },
+    "topic": "conference",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "عقد وزير الطاقة وعدد من المسؤولين اجتماعات ثنائية خلال مؤتمر الطاقة العالمي الـ25 في الرياض.",
+      "en": "Energy ministers held bilateral meetings during the 25th WPC Energy Congress in Riyadh."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 152,
+    "geo": "riyadh",
+    "url": "https://www.argaam.com/en/article/articledetail/id/1944401",
+    "date": "2026-10-15",
+    "image": "https://argaamplus.s3.amazonaws.com/d46a1cb5-fa26-4ad7-a6be-0e07f77387bf.png",
+    "title": {
+      "ar": "تأجيل قمة دول مجلس التعاون مع الاتحاد الأوروبي في الرياض",
+      "en": "GCC‑EU Summit Postponed"
+    },
+    "topic": "conference",
+    "source": "Argaam",
+    "summary": {
+      "ar": "أعلنت أمانة مجلس التعاون عن تأجيل القمة المقررة في الرياض بسبب هجمات الحوثيين.",
+      "en": "The GCC‑EU summit scheduled in Riyadh has been postponed amid Houthi attacks."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 147,
+    "geo": "global",
+    "url": "https://www.ufi.org/letter-from-the-ufi-president-october-2026/",
+    "date": "2026-10-13",
+    "image": "https://www.ufi.org/app/uploads/2026/10/Programme_June-04_13-Industry-Partners-Working-Group_2026-06-04_UFI_IZMIR_FOTOBUENO_MP_1930.jpg_1200x800.jpg",
+    "title": {
+      "ar": "رسالة رئيس UFI لشهر أكتوبر 2026",
+      "en": "UFI President Letter Oct 2026"
+    },
+    "topic": "industry",
+    "source": "UFI",
+    "summary": {
+      "ar": "رسالة من رئيس الاتحاد الدولي للمعارض تتناول توجهات الصناعة للعام القادم.",
+      "en": "Letter from UFI President outlining industry outlook for the upcoming year."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 146,
+    "geo": "saudi",
+    "url": "https://saudigazette.com.sa/article/665373/saudi-arabia/from-asir-to-japan-heritage-bride-brings-generations-of-saudi-womens-stories-to-the-world",
+    "date": "2026-10-13",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/13/2779430.webp",
+    "title": {
+      "ar": "فيلم «عروس التراث» يروي قصص نساء سعوديات",
+      "en": "Heritage Bride Film Highlights Saudi Women"
+    },
+    "topic": "festival",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "فيلم قصير يسلط الضوء على أزياء النساء في عسير ويُعرض في مهرجان أوساكا السينمائي.",
+      "en": "Short film showcasing Asir women's dresses, screened at Osaka Horizon Film Festival."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 144,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/captivate-2027-30-years-of-evolution/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=captivate-2027-30-years-of-evolution",
+    "date": "2026-10-12",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/captivate-600x400.webp",
+    "title": {
+      "ar": "كابتيفيت 2027: 30 عاماً من التطور",
+      "en": "Captivate 2027: 30 Years of Evolution"
+    },
+    "topic": "industry",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "يستعرض التقرير تطورات تكنولوجيا المعارض وتوقعات مستقبلية بعد ثلاثين عاماً من خبرة كابتيفيت.\nيسلط الضوء على الاتجاهات التي تؤثر على تصميم الأجنحة وتجربة الزوار.",
+      "en": "The report reviews three decades of tradeshow evolution, highlighting emerging technologies and future trends.\nIt informs exhibitors about design and attendee experience shifts."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 143,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/new-tools-familiar-freight-problem/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=new-tools-familiar-freight-problem",
+    "date": "2026-10-12",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/shipping-600x400.webp",
+    "title": {
+      "ar": "أدوات جديدة ومشكلة الشحن المتكررة في المعارض",
+      "en": "New Tools, Familiar Freight Problem"
+    },
+    "topic": "technology",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "تناقش المقالة تحديات تكلفة الشحن والشفافية في نقل أجنحة المعارض بعد 25 عاماً من دراسة سابقة.\nتسلط الضوء على أخطاء التخطيط التي لا تزال تؤثر على الفعاليات.",
+      "en": "The article examines rising freight costs and visibility issues in tradeshow logistics, revisiting challenges identified 25 years ago.\nIt highlights planning mistakes that still affect exhibitions."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 141,
+    "geo": "riyadh",
+    "url": "https://saudigazette.com.sa/article/665313/saudi-arabia/saudi-energy-minister-calls-riyadh-capital-of-energy-security-vows-reliable-global-supplies",
+    "date": "2026-10-11",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/11/2778701.webp",
+    "title": {
+      "ar": "الوزير السعودي يعلن: الرياض عاصمة الأمن الطاقي",
+      "en": "Saudi minister: Riyadh ‘capital of energy security’"
+    },
+    "topic": "conference",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "أعلن وزير الطاقة الأمير عبدالعزيز بن سلمان في افتتاح منتدى الطاقة الدولي أن الرياض ستصبح مركزاً للأمن الطاقي. الحدث يجذب خبراء ومستثمرين عالميين.",
+      "en": "Energy Minister Prince Abdulaziz bin Salman declared Riyadh the capital of energy security at the International Energy Forum opening. The forum attracts global experts and investors."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 138,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/in-memoriam-mike-drobick/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=in-memoriam-mike-drobick",
+    "date": "2026-10-09",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/mike-obit-400x400.webp",
+    "title": {
+      "ar": "في ذكرى: مايك دروبك",
+      "en": "In Memoriam: Mike Drobick"
+    },
+    "topic": "industry",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "توفي مايك دروبك، محترف صناعة المعارض ذو أكثر من أربعة عقود من الخبرة في شيكاغو ولاس فيغاس، بعد نوبة قلبية.",
+      "en": "Mike Drobick, a veteran tradeshow professional with over 40 years experience, passed away."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 137,
+    "geo": "global",
+    "url": "https://www.tsnn.com/exhibitors/how-to-turn-trade-show-swag-into-actionable-event-data",
+    "date": "2026-10-09",
+    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt57e3bff63c54fcb5/6ac8d08815f68715a4fea9fe/eyJidWNrZXQiOiJzbXAtcHJvZCIsImtleSI6ImV2ZW50cy9mYTc5N2RkYi00YjBkLTQ4MjEtYTU4Ni05N2JlMWRlY2Y5YjUvcGhvdG9zL2NvcnJlY3RlZC1vcmlnaW5hbC9JUFBJMDkxNy0xNzg3NjgwNDc3ODAxLmpwZyIsImVkaXRzIjp7InJvdGF0ZSI6bnVsbCwidmVyc2lvbiI6MCwicmVzaXplIjp7IndpZHRoIjpudWxsLC%E2%80%A6.jpeg?width=720&amp;quality=80&amp;disable=upscale",
+    "title": {
+      "ar": "تحويل هدايا المعارض إلى بيانات فعلية",
+      "en": "Turning Tradeshow Swag into Actionable Data"
+    },
+    "topic": "technology",
+    "source": "TSNN — Trade Show News",
+    "summary": {
+      "ar": "شركة تُحوّل عينات الهدايا إلى تجارب تفاعلية قابلة للقياس، ما يضيف قيمة للمعارض.",
+      "en": "A company converts swag giveaways into measurable interactive experiences, providing actionable event data."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 136,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/soaring-fuel-prices-tradeshow-shippers/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=soaring-fuel-prices-tradeshow-shippers",
+    "date": "2026-10-09",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/fuel-600x400.webp",
+    "title": {
+      "ar": "ارتفاع أسعار الوقود يعرقل شحن المعارض",
+      "en": "Fuel Price Surge Hinders Tradeshow Shipping"
+    },
+    "topic": "industry",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "ارتفاع أسعار الوقود يضيف تكاليف وتعقيدًا على شحن أجنحة المعارض، ما يؤثر على ميزانيات المنظمين.",
+      "en": "Rising fuel costs increase shipping expenses and complexity for exhibition booths, impacting event budgets."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 135,
+    "geo": "global",
+    "url": "https://www.pcma.org/parkinson-ready-training-accessibility/",
+    "date": "2026-10-08",
+    "image": "https://www.pcma.org/wp-content/uploads/2026/09/parkinson-ready-opener-150x150.jpeg",
+    "title": {
+      "ar": "برنامج التدريب Parkinson Ready يحسّن تجربة الحضور",
+      "en": "Parkinson Ready Training Improves Attendee Experience"
+    },
+    "topic": "industry",
+    "source": "PCMA (MICE industry)",
+    "summary": {
+      "ar": "برنامج عالمي يدرّب موظفي الضيافة ومراكز المؤتمرات على دعم الحضور المصابين بمرض باركنسون.",
+      "en": "The program educates hospitality and convention staff worldwide to better support attendees with Parkinson’s."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 133,
+    "geo": "global",
+    "url": "https://www.tsnn.com/trade-shows-conferences/imts-2026-saw-an-increase-in-attendance-plus-more-interest-in-specialty-programming",
+    "date": "2026-10-08",
+    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/bltf14762494e59bb30/6ac2fac61921cdc2b6515851/IMTS26-17-1400w.jpg?width=720&amp;quality=80&amp;disable=upscale",
+    "title": {
+      "ar": "زيادة الحضور في معرض IMTS 2026 واهتمام أكبر بالبرامج المتخصصة",
+      "en": "IMTS 2026 Attendance Up, Specialty Programming Grows"
     },
     "topic": "exhibition",
-    "source": "Gulf Daily News (Bahrain)",
+    "source": "TSNN — Trade Show News",
     "summary": {
-      "ar": "يُعقد معرض Big 5 Construct السعودي 2026 ليجمع أبرز قادة قطاع البناء والمشروعات في المملكة.",
-      "en": "Big 5 Construct Saudi 2026 brings together construction and project leaders in the Kingdom."
+      "ar": "أظهر معرض IMTS 2026 للمنتجات الصناعية زيادة في عدد الحضور وارتفاع الاهتمام بالبرامج المتخصصة.",
+      "en": "The biennial IMTS 2026 trade show reported higher attendance and growing interest in specialty programming."
     },
-    "priority": "P1"
+    "priority": "P2"
   },
   {
-    "id": 51,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQYnZDOXVYYzR1ZmgyOE5JZXNONjZOYnU5by0tRTQ3dVZ0YVNBSHdWNEVTbWd4elJQVmRtcFVvUGpvMk04bVB5VmdQbDM5QS1xdElWLWFPcFdOaXpYMmR2UVkwb1RHNVR3OHYyTmFpV2tHNUtIdUxzMHlheXhsUU1Nb2w5UXFsOUxta25hVjNmVEE3RUJHNUZWX1JwN1dxUFpXU1d6emZsLW5XSW4tTlgzOEh3?oc=5",
-    "date": "2026-08-31",
-    "image": null,
+    "id": 131,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/ifes-launches-global-study-of-exhibitor-spending/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ifes-launches-global-study-of-exhibitor-spending",
+    "date": "2026-10-08",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/ifes-survey-600x400.webp",
     "title": {
-      "ar": "LEAP يفتتح مع 15 مليار دولار من الاستثمارات",
-      "en": "LEAP opens with $15B investments"
+      "ar": "IFES يطلق دراسة عالمية عن إنفاق العارضين",
+      "en": "IFES Launches Global Exhibitor Spending Study"
     },
-    "topic": "exhibition",
-    "source": "CEO Insights Asia",
+    "topic": "industry",
+    "source": "Exhibit City News",
     "summary": {
-      "ar": "أعلن معرض LEAP عن افتتاحه مع استثمارات وشراكات تقنية بقيمة 15 مليار دولار.",
-      "en": "LEAP opened with $15 bn in tech investments and partnerships."
+      "ar": "أطلقت الاتحاد الدولي لخدمات المعارض والفعاليات دراسة عالمية تستكشف أنماط إنفاق العارضين وتفضيلاتهم في الخدمات.",
+      "en": "The International Federation of Exhibition and Event Services (IFES) launched a global research initiative examining exhibitor spending patterns and valued services."
     },
-    "priority": "P1"
+    "priority": "P2"
   },
   {
-    "id": 50,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE1meVlWdmp6SFF1aGNqOEJoSkxFa3JOLWpneVo1aTlBSTVRR3NJUkxGNW9PVF9JSHU5bjFvTmdfT3NBR0cwdmlpY3dwR2pnOWtpaUdkOVZaZ2xGWUhyRkE?oc=5",
-    "date": "2026-08-31",
-    "image": null,
+    "id": 130,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/aluvision-new-las-vegas-location/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=aluvision-new-las-vegas-location",
+    "date": "2026-10-08",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/aluvision-lv-600x400.webp",
     "title": {
-      "ar": "LEAP 2026 يفتح أبوابه في الرياض بأكثر من 15 مليار دولار استثمارات",
-      "en": "LEAP 2026 opens in Riyadh with $15B investments"
+      "ar": "آلوفيجن تفتتح موقعًا جديدًا في لاس فيغاس",
+      "en": "Aluvision Opens New Las Vegas Location"
     },
-    "topic": "exhibition",
-    "source": "Arab News PK",
+    "topic": "technology",
+    "source": "Exhibit City News",
     "summary": {
-      "ar": "أعلن معرض LEAP 2026 عن افتتاحه في الرياض مع استثمارات وشراكات تقنيّة تفوق 15 مليار دولار.",
-      "en": "LEAP 2026 opened in Riyadh with over $15 bn in tech investments and partnerships."
+      "ar": "أعلنت شركة آلوفيجن، المزود العالمي للأنظمة المعيارية وحلول الإضاءة للمعارض، عن افتتاح موقعها الجديد في لاس فيغاس لدعم الشركاء في أمريكا الشمالية.",
+      "en": "Aluvision, a global supplier of modular exhibit systems and LED solutions, opened a new showroom and sales center in Las Vegas to support its North American partners."
     },
-    "priority": "P1"
+    "priority": "P2"
   },
   {
-    "id": 47,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE1GRUc3ajZrbnd3RGJJRDZXSmUtTjJzX0kxRkpTSVBKWDBnQkh1Qm5QZUxWTnJpN1F1T0RHZWdtYUVEbm1xTlNkLUZn?oc=5",
-    "date": "2026-08-31",
-    "image": null,
+    "id": 129,
+    "geo": "global",
+    "url": "https://meetings.skift.com/2026/10/07/after-informa-clarion-who-buys-next/",
+    "date": "2026-10-07",
+    "image": "https://meetings.skift.com/wp-content/uploads/2026/10/TradeshowfloorClarion.jpg?w=1024",
     "title": {
-      "ar": "أكاديمية الملك سلمان العالمية تعرض لهجات السعودية بخريطة تفاعلية في LEAP 2026",
-      "en": "King Salman Academy showcases Saudi dialects via interactive map at LEAP 2026"
+      "ar": "بعد صفقة إنفورما‑كلاريون: من سيشتري التالي؟",
+      "en": "After Informa‑Clarion: Who Buys Next?"
     },
-    "topic": "exhibition",
-    "source": "وكالة الأنباء السعودية",
+    "topic": "business",
+    "source": "Skift Meetings",
     "summary": {
-      "ar": "قدمت أكاديمية الملك سلمان العالمية خريطة تفاعلية تُظهر لهجات السعودية ضمن جناحها في LEAP 2026 بالرياض.",
-      "en": "The King Salman Global Academy displayed Saudi dialects through an interactive map at its LEAP 2026 pavilion in Riyadh."
+      "ar": "تحليل للصفقات في قطاع المعارض وتوقعات الاستحواذات المستقبلية.",
+      "en": "Analysis of recent trade‑show M&A and prospects for future acquisitions."
     },
-    "priority": "P1"
+    "priority": "P2"
   },
   {
-    "id": 44,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5fby1kMU8ya2FHMnJ5WVdrQ1R1dUFQbGZaNTY4N19BaEJVd2JGUng5b0V1M1JieUpWQ2FPUzN0Q2QwcDhlYWlCWFRB?oc=5",
-    "date": "2026-08-31",
-    "image": null,
+    "id": 128,
+    "geo": "global",
+    "url": "https://www.ufi.org/the-ecosystem-advantage-why-thailand-is-engineering-exhibition-growth-by-design/",
+    "date": "2026-10-07",
+    "image": "https://www.ufi.org/app/uploads/2025/10/DiamondSponsor-1024x512.png",
     "title": {
-      "ar": "وكالة الشؤون المدنية تشارك في جناح وزارة الداخلية بـ LEAP 2026",
-      "en": "Civil Affairs Agency joins Interior Ministry pavilion at LEAP 2026"
+      "ar": "الميزة البيئية: كيف تقود تايلاند نمو المعارض بالتصميم",
+      "en": "The Ecosystem Advantage: Thailand’s Exhibition Growth"
     },
-    "topic": "exhibition",
-    "source": "وكالة الأنباء السعودية",
+    "topic": "industry",
+    "source": "UFI",
     "summary": {
-      "ar": "شاركت وكالة الشؤون المدنية في جناح وزارة الداخلية خلال معرض LEAP 2026 بالرياض، مما يعزز التفاعل الحكومي.",
-      "en": "The Civil Affairs Agency participated in the Ministry of Interior pavilion at LEAP 2026 in Riyadh, enhancing governmental engagement."
+      "ar": "مقال يوضح استراتيجيات تايلاند لتصميم وتطوير المعارض وتأثيرها بعد الحدث.",
+      "en": "Article explains Thailand’s design‑driven strategy to boost exhibition impact beyond the event."
     },
-    "priority": "P1"
+    "priority": "P2"
   },
   {
-    "id": 39,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNaXBUeE9UekdHcHEtclM2V0FqQzF6NmMtb3RBTWxDNFRVZzBpZy16VGpHa2N3Z1VWYy1TNFRjSlhHSUJXd3RnOWlvN3NBaFV1RlZtWlM2MGd0R2FId3hWRmFLYzFEMFNNU0tKMGhxQ013YVJsd01YdE1XSkt2Yzd3LWxHNEZjZGJVU3B1Ml83dFlReEY2ZVBYQ09lQU1IN0FsY09Qb2MyVDFTTHRCMHdER19GWm9lMmd6WVA4RG9oRERwNFU?oc=5",
-    "date": "2026-08-31",
-    "image": null,
+    "id": 125,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/future-of-experiential-design-exsys-awards/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=future-of-experiential-design-exsys-awards",
+    "date": "2026-10-07",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/Restore-the-Rhythm-600x388.webp",
     "title": {
-      "ar": "الرياض تجمع عمالقة التقنية في LEAP 2026",
-      "en": "Riyadh gathers tech giants at LEAP 2026"
+      "ar": "مستقبل التصميم التجريبي في المعارض",
+      "en": "The Future of Experiential Design"
     },
-    "topic": "conference",
-    "source": "ASHARQ AL-AWSAT English",
+    "topic": "industry",
+    "source": "Exhibit City News",
     "summary": {
-      "ar": "تستضيف الرياض مؤتمر LEAP 2026، مع توقع صفقات واستثمارات تقنية ضخمة.",
-      "en": "Riyadh hosts LEAP 2026, bringing together tech giants with expected major deals and investments."
+      "ar": "تستعرض المقالة الفائزين بجائزة تصميم الطلاب في مجال المعارض والتجربة، مع التركيز على الابتكار في التصميم.",
+      "en": "The article highlights student award finalists in exhibit and experience design, emphasizing innovative exhibition design."
     },
-    "priority": "P1"
+    "priority": "P2"
   },
   {
-    "id": 35,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBvNXU1VmxsZWJKUUtDY3JjbUIyMC05MVE5OGl4c29hSTNEcVBZemlkV1RyUk9MQzZQdklBa3BETnJGcXAxTWo3WktiNFhBRHREd2l0V1dYZG9FdTltenFj?oc=5",
-    "date": "2026-08-31",
-    "image": null,
+    "id": 123,
+    "geo": "global",
+    "url": "https://www.tsnn.com/trade-shows-conferences/m-a-trifecta-collective-acquires-medical-spa-show-from-amspa",
+    "date": "2026-10-06",
+    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt60c4a1538eba2020/6ac5653d82c1306e3eeef959/amspa-mss26-main_image.jpg?width=720&amp;quality=80&amp;disable=upscale",
     "title": {
-      "ar": "LEAP 2026 يفتح أبوابه في الرياض بأكثر من 15 مليار دولار استثمارات",
-      "en": "LEAP 2026 opens in Riyadh with $15 bn investments"
+      "ar": "Trifecta Collective تستحوذ على معرض Medical Spa Show",
+      "en": "Trifecta Acquires Medical Spa Show"
     },
-    "topic": "conference",
-    "source": "arabnews.com",
+    "topic": "industry",
+    "source": "TSNN — Trade Show News",
     "summary": {
-      "ar": "أعلن مؤتمر LEAP 2026 عن افتتاحه في الرياض مع استثمارات تقنية تفوق 15 مليار دولار.",
-      "en": "LEAP 2026 opened in Riyadh with tech investments exceeding $15 bn."
+      "ar": "شركة Trifecta Collective تشتري معرض Medical Spa Show من AmSpa، مضيفة حدث تجاري جديد إلى محفظتها.",
+      "en": "Trifecta Collective acquires the Medical Spa Show from AmSpa, expanding its trade‑show portfolio."
     },
-    "priority": "P1"
-  },
-  {
-    "id": 34,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPUDMweVdoeGYwQU9UemR3RGMyNkFHNWFCSEg0Zk5LZUlaQWpJRFprTk00UXRJVnFHVUJjX043S3UwV1lJeDh3aGJTWVNyRnd6MllFUWQxVzhXdTNDaUhERUQ1MG9xVDRUb3RRZUNFUVBkWkN3N1JrQlp2NVFaUmpWQnRWUnpsaml0eXozajVxRDBuTGc?oc=5",
-    "date": "2026-08-31",
-    "image": null,
-    "title": {
-      "ar": "انطلاق مؤتمر LEAP 2026 التقني في السعودية",
-      "en": "LEAP 2026 tech conference kicks off"
-    },
-    "topic": "conference",
-    "source": "Fana News -",
-    "summary": {
-      "ar": "بدأ مؤتمر LEAP 2026 للتقنية في الرياض، مستضيفًا أبرز الشركات العالمية.",
-      "en": "The LEAP 2026 tech conference launched in Saudi Arabia, attracting leading global firms."
-    },
-    "priority": "P1"
-  },
-  {
-    "id": 33,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNZFkzMDFfOXBlaFNDNjhIUFFXdTRkSnRfQjBZQVAyMDcyU1EtcUNYQ2g1RUNRNmUyOGNYNHUxT2doTXNmUjk4WVN0eEJEcGZwWFkxWXctblJvM19CblVwUG5Nb19WSmkzeERlTmpCZmVoVTI2QWdBWTUwd09BNTluZkpVNjFNMF9RVVI3QjBUSmdnNE51UTNrSFJHYU4wOUhmLXB5elNVNWF3SFNZc1h2RFRXdmxYWjFqWXJVVDB2RTFmWnRoTFZkdDRPZ0lxMF9RSlVTRA?oc=5",
-    "date": "2026-08-31",
-    "image": null,
-    "title": {
-      "ar": "إطلاق LEAP 5 بأكثر من 15 مليار دولار استثمارات تقنية",
-      "en": "LEAP 5 opens with $15 bn tech investments"
-    },
-    "topic": "conference",
-    "source": "EIN Presswire",
-    "summary": {
-      "ar": "افتتح مؤتمر LEAP 5 في الرياض بأكثر من 15 مليار دولار استثمارات وشراكات تقنية.",
-      "en": "LEAP 5 kicked off in Riyadh with over $15 bn in tech investments and strategic partnerships."
-    },
-    "priority": "P1"
-  },
-  {
-    "id": 31,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE05WVg5alFRWDRjNDR1WmJBTU9McGRaczRLY0FNRzZYckpNTFBydTVSdTh4UUxkSUw5a0xCcVBheHdqWXlmcmhfS2dud0N1WUVEeGlZcEhpVjFfSVlhalJmSmxudDlnclJMakE?oc=5",
-    "date": "2026-08-31",
-    "image": null,
-    "title": {
-      "ar": "stc تُعزّز نظام الذكاء الاصطناعي في السعودية خلال LEAP 2026",
-      "en": "stc Advances Saudi AI Ecosystem at LEAP 2026"
-    },
-    "topic": "conference",
-    "source": "صحيفة مال",
-    "summary": {
-      "ar": "قدمت مجموعة stc مبادرات رقمية لتعزيز نظام الذكاء الاصطناعي في السعودية خلال مشاركتها في LEAP 2026.",
-      "en": "stc presented digital initiatives to advance Saudi AI ecosystem during its participation at LEAP 2026."
-    },
-    "priority": "P1"
-  },
-  {
-    "id": 30,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNYXBmOE1hc1QxRTYzLU1rNlNLUkhSdzBLazR0ODB6amRLT0I3V0Jpb3h3d2dQS050YjhqSTdqN0ZzZkhkVWh1NDRTTGlxRThIdVpxMlQwenRRcFVONzVYeGRNa05FeHpNS19FRWcwUzFEODFJcC1yM1k4U2NvQVZ0TWlrNA?oc=5",
-    "date": "2026-08-31",
-    "image": null,
-    "title": {
-      "ar": "LEAP 2026 يفتتح اليوم في الرياض",
-      "en": "LEAP 2026 Opens Today in Riyadh"
-    },
-    "topic": "conference",
-    "source": "Intelligent CIO",
-    "summary": {
-      "ar": "انطلقت فعاليات مؤتمر ومعرض LEAP 2026 اليوم في الرياض، مع حضور عدد كبير من الشركات التقنية العالمية.",
-      "en": "LEAP 2026 opened today in Riyadh, attracting numerous global tech companies."
-    },
-    "priority": "P1"
-  },
-  {
-    "id": 29,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZTJNTzMtbDN5ejU4SUFnaXVrY0NSZjV4c0ZESmVSbDltU3lGUXNCRS1WNEdjaFRTdUxsSU5kcm41eVhOWm1VbkRGZEQ3MnBGLWNaRWIzTHo2UUhvdGt5aGtiLVNxWTViXzFRcFFuMm9HckdLMTVNdlVUSk1DdTZ3MmNkUXlrcksyM0RmYlhpU1d1c195ZXZSMmZBd0lIb09wQVJrV3dlQ2I?oc=5",
-    "date": "2026-08-31",
-    "image": null,
-    "title": {
-      "ar": "Oracle تعرض ابتكارات الذكاء الاصطناعي لرؤية 2030 في LEAP 2026",
-      "en": "Oracle Showcases AI Innovation for Vision 2030 at LEAP 2026"
-    },
-    "topic": "conference",
-    "source": "TahawulTech.com",
-    "summary": {
-      "ar": "عرضت Oracle تقنيات الذكاء الاصطناعي المتوافقة مع رؤية السعودية 2030 خلال مؤتمر LEAP 2026.",
-      "en": "Oracle showcased AI innovations aligned with Saudi Vision 2030 at LEAP 2026."
-    },
-    "priority": "P1"
-  },
-  {
-    "id": 28,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNSlZZS1JWN0RGc25hbFpCTUxFOW9sblRHel9WVUxJZXJMMGpXSVBUbFZoRDRiUU5UMnFNTnFwRk9oSGZsazBrWFRUMVF0RjNSSTlFMUNtY0N1RWxpY0dfMVktQlNaRFR2QlB6dVdIME5kV2IzeURHWWtnTlJnSHctTVR5MmV3T3RwTS1hWnVScEU4ZDJfMnM5VWRoNzNGdy1LT2pPdlBwSFNTTExoUkZkVXVmb25ld1JhR1RSV2xqWG01TDB2eG9ueko1dE9adGhMSUdhWThlNWl4NmpmRFZ0c3BqSkg?oc=5",
-    "date": "2026-08-31",
-    "image": null,
-    "title": {
-      "ar": "Profit.co يسلط الضوء على إدارة الأداء بالذكاء الاصطناعي في LEAP 2026",
-      "en": "Profit.co Showcases AI‑Powered Performance Management at LEAP 2026"
-    },
-    "topic": "conference",
-    "source": "ACCESS Newswire",
-    "summary": {
-      "ar": "قدمت شركة Profit.co حلول إدارة الأداء المدعومة بالذكاء الاصطناعي خلال فعاليات LEAP 2026 في الرياض.",
-      "en": "Profit.co presented AI‑powered performance management solutions at LEAP 2026 in Riyadh."
-    },
-    "priority": "P1"
-  },
-  {
-    "id": 27,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOajhPWEtTNXFtdWlYazd4cEJLWi12dXlZUXRKWlhiNkh1WlFBSlhhUjVvT1dPbFRvVE1VU3RfODV6NmY0ckk1aVFqdXdfbnlyTnVna3hHdGxiSFhBUlRQSDZhTGRkWktzYjljeXpEajdDVUxwZDVIZnpwd1QyUGI1dDhYWEtwdXdrME5lOGZrN3FERXNzTENCT29CbEd4QjV2M0dRMVUxcWIwZw?oc=5",
-    "date": "2026-08-31",
-    "image": null,
-    "title": {
-      "ar": "Big 5 Construct Saudi يجمع قادة قطاع البناء",
-      "en": "Big 5 Construct Saudi Brings Together Construction Leaders"
-    },
-    "topic": "exhibition",
-    "source": "TradeArabia",
-    "summary": {
-      "ar": "يضم معرض Big 5 Construct Saudi 2026 قادة ومؤسسات قطاع البناء لتبادل الخبرات وإبرام الصفقات.",
-      "en": "Big 5 Construct Saudi 2026 brings together construction leaders to exchange expertise and seal deals."
-    },
-    "priority": "P1"
-  },
-  {
-    "id": 26,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaUdDN2h0eW83MkNMTWtUallHZDlOVkpWZ28tVUZ5Y1haeHFVQWdLeTRMdG9rWHA3S0pBQzFDdjZrSGVZcUdRR1BORzdYcm9ma0ppalBFa1JLVGhoamc3UTh4amtJeVBXQkU3QUl5QUJWa1F6SVMydkxON3pVT21pNkhYdW5IclFqOG03WEcyVTRFVVdOa1dGcW9SSQ?oc=5",
-    "date": "2026-08-31",
-    "image": null,
-    "title": {
-      "ar": "NetApp تعزز أمان البيانات والذكاء الاصطناعي في LEAP",
-      "en": "NetApp Boosts Data Security & AI at LEAP"
-    },
-    "topic": "conference",
-    "source": "intlbm",
-    "summary": {
-      "ar": "قامت NetApp بعرض حلول أمان البيانات وحماية الذكاء الاصطناعي خلال مؤتمر LEAP 2026.",
-      "en": "NetApp showcased enterprise data security and AI protection solutions at LEAP 2026."
-    },
-    "priority": "P1"
-  },
-  {
-    "id": 25,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFBCcXFGOUZRMmV4Ml9sT1pFSTA5Nm4wY18yQWpJeWY2X1lrbGZkRnBqaERRVzBtWG9DQjV2dWgwbG1wV0xIVkEycDZyekMteUkybmpXc213TGxRYWxVcWc?oc=5",
-    "date": "2026-08-31",
-    "image": null,
-    "title": {
-      "ar": "LEAP يفتتح بمشروعات ذكاء اصطناعي كبرى",
-      "en": "LEAP Opens with Major AI Projects"
-    },
-    "topic": "conference",
-    "source": "Arab News PK",
-    "summary": {
-      "ar": "بدأ مؤتمر LEAP 2026 بإطلاق مشروعات ذكاء اصطناعي كبرى، بما في ذلك شراكات مع Humain وشاحنات ذاتية القيادة.",
-      "en": "LEAP 2026 opened with major AI projects, including Humain partnerships and autonomous trucks."
-    },
-    "priority": "P1"
-  },
-  {
-    "id": 24,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5QUXdrWHJOd0txTFVJVi0tRUtaY1NQai11Z3VVdFFlb1lfT3BoUDVxM05yd2gtdTRidmdreGlpSTlvU3Vla0tGMlZUcTkwMG1KdGxB?oc=5",
-    "date": "2026-08-31",
-    "image": null,
-    "title": {
-      "ar": "سوريا تفتح جناحاً في LEAP 2026 بالرياض",
-      "en": "Syria Opens Pavilion at LEAP 2026 in Riyadh"
-    },
-    "topic": "conference",
-    "source": "سانا",
-    "summary": {
-      "ar": "افتتح فريق سوري جناحاً في معرض ومؤتمر LEAP 2026 المقام بالرياض، يعرض تقنيات الاتصالات والتكنولوجيا.",
-      "en": "A Syrian delegation opened a pavilion at LEAP 2026 in Riyadh, showcasing telecom and tech solutions."
-    },
-    "priority": "P1"
-  },
-  {
-    "id": 23,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOa3JET2pJTnFjQjlBckMyNUxWN1lZdm0yM0tHMUIwMjk3Q1ROeUlkSmFHTjhpVFlIbVlsS2Q4ZDdRazM1WTN5Zjd0Y2ltN0FaZEc5WVYzakNERXFLUld3b21GcmRyMW1MODhGblFxYWZVQXVxZDI0TEppZWVSZk01X3RwM2U3ck1qanV3eHNJcFlTOHd3Qy1US0pNSTdOWjVYT2pWRHdkMjN5SktZb212YURRbTB0SWF6T3ZGTDJyZw?oc=5",
-    "date": "2026-08-31",
-    "image": null,
-    "title": {
-      "ar": "LEAP 2026 يعلن عن استثمارات تقنية بقيمة 15 مليار دولار",
-      "en": "LEAP 2026 Announces $15 Bn Tech Investments"
-    },
-    "topic": "conference",
-    "source": "ASHARQ AL-AWSAT English",
-    "summary": {
-      "ar": "كشف مؤتمر LEAP 2026 عن أكثر من 15 مليار دولار من الإطلاقات والاستثمارات التقنية في السعودية.",
-      "en": "LEAP 2026 disclosed over $15 bn in technology launches and investments in Saudi Arabia."
-    },
-    "priority": "P1"
-  },
-  {
-    "id": 22,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOX3Q0V3pqLXdwMlhMcmhMY1NqeGhNQVBkdXJNVFNuRGJ1czRBRVBFWjhlSHAtcjhNYWhCX2w3NlNXUWxZT1NxQUtBSmpzbzlGZ0FkTGk3RHpYbWs5M0FBaFdiZURYS3dCVTlMVVAyM1VpaVZ0anpRUmd2VDZfOF81clRVbXpkMXpMTTFCLVpUM1V0MjlhTktWeVdKTXhqbDRzMlprVjlONnBYbHQ2b05DNU1RdkRrcXJB?oc=5",
-    "date": "2026-08-31",
-    "image": null,
-    "title": {
-      "ar": "افتتاح معرض Big 5 Construct Saudi 2026 في الرياض",
-      "en": "Big 5 Construct Saudi 2026 Opens in Riyadh"
-    },
-    "topic": "exhibition",
-    "source": "IndexBox",
-    "summary": {
-      "ar": "انطلق معرض Big 5 Construct Saudi 2026 في الرياض، يجمع قادة قطاع البناء والمشروعات.",
-      "en": "Big 5 Construct Saudi 2026 opened in Riyadh, gathering construction and project leaders."
-    },
-    "priority": "P1"
-  },
-  {
-    "id": 20,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1sd29Jbnl1NEV5Tk5nZW9yXzBIaG9admVRanNXdTJFcHQ4X1diNEdwamtkay1ZN3g4Y3A1b2pSd0JjN3NsWmRhZ2lhUW9GYTg?oc=5",
-    "date": "2026-08-31",
-    "image": null,
-    "title": {
-      "ar": "الخوذة الذكية تتصدر ابتكارات الدفاع المدني في LEAP 2026",
-      "en": "Smart Helmet Leads Civil Defense Innovations at LEAP 2026"
-    },
-    "topic": "conference",
-    "source": "alsaudi.news",
-    "summary": {
-      "ar": "عرضت الخوذة الذكية كأبرز ابتكار للدفاع المدني خلال مؤتمر LEAP 2026 في الرياض.",
-      "en": "The smart helmet was highlighted as a top civil‑defense innovation at LEAP 2026 in Riyadh."
-    },
-    "priority": "P1"
+    "priority": "P2"
   }
 ]
