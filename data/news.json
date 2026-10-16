@@ -360,6 +360,42 @@
     "priority": "P1"
   },
   {
+    "id": 162,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/aluvision-ice-9-hi-led-pro/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=aluvision-ice-9-hi-led-pro",
+    "date": "2026-10-16",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/alu-1-600x400.webp",
+    "title": {
+      "ar": "Aluvision و Ice 9: حل إضاءة Hi‑LED لمعرض NRA 2026",
+      "en": "Aluvision x Ice 9: Hi‑LED pro case for NRA 2026"
+    },
+    "topic": "technology",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "تعاون لتقديم إضاءة LED متطورة في معرض الجمعية الوطنية للمطاعم 2026.",
+      "en": "Partnership delivers innovative Hi‑LED lighting for the 2026 National Restaurant Association Show."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 161,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/imex-america-rising-costs-new-business-and-a-slower-recovery/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=imex-america-rising-costs-new-business-and-a-slower-recovery",
+    "date": "2026-10-16",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/IMEX-1-600x400.webp",
+    "title": {
+      "ar": "IMEX America: تكاليف مرتفعة ونمو بطيء في التعافي",
+      "en": "IMEX America: Rising Costs, Slower Recovery"
+    },
+    "topic": "industry",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "تقرير عن نشاط مركز مؤتمرات ميامي بيتش وتوقعات إيجابية للمعارض حتى 2028.",
+      "en": "Report highlights booming business at Miami Beach Convention Center and optimistic trade‑show calendar through 2028."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 155,
     "geo": "mena",
     "url": "https://exhibitcitynews.com/ufi-global-congress-bahrain-2026/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ufi-global-congress-bahrain-2026",
@@ -680,42 +716,6 @@
     "summary": {
       "ar": "مقال يوضح استراتيجيات تايلاند لتصميم وتطوير المعارض وتأثيرها بعد الحدث.",
       "en": "Article explains Thailand’s design‑driven strategy to boost exhibition impact beyond the event."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 125,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/future-of-experiential-design-exsys-awards/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=future-of-experiential-design-exsys-awards",
-    "date": "2026-10-07",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/Restore-the-Rhythm-600x388.webp",
-    "title": {
-      "ar": "مستقبل التصميم التجريبي في المعارض",
-      "en": "The Future of Experiential Design"
-    },
-    "topic": "industry",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "تستعرض المقالة الفائزين بجائزة تصميم الطلاب في مجال المعارض والتجربة، مع التركيز على الابتكار في التصميم.",
-      "en": "The article highlights student award finalists in exhibit and experience design, emphasizing innovative exhibition design."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 123,
-    "geo": "global",
-    "url": "https://www.tsnn.com/trade-shows-conferences/m-a-trifecta-collective-acquires-medical-spa-show-from-amspa",
-    "date": "2026-10-06",
-    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt60c4a1538eba2020/6ac5653d82c1306e3eeef959/amspa-mss26-main_image.jpg?width=720&amp;quality=80&amp;disable=upscale",
-    "title": {
-      "ar": "Trifecta Collective تستحوذ على معرض Medical Spa Show",
-      "en": "Trifecta Acquires Medical Spa Show"
-    },
-    "topic": "industry",
-    "source": "TSNN — Trade Show News",
-    "summary": {
-      "ar": "شركة Trifecta Collective تشتري معرض Medical Spa Show من AmSpa، مضيفة حدث تجاري جديد إلى محفظتها.",
-      "en": "Trifecta Collective acquires the Medical Spa Show from AmSpa, expanding its trade‑show portfolio."
     },
     "priority": "P2"
   }
