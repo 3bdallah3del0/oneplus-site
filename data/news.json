@@ -342,22 +342,22 @@
     "priority": "P1"
   },
   {
-    "id": 49,
-    "geo": "riyadh",
-    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQTjBmM3dITDhkX0ljS3Y1ZkxJRkdVODJ1cEtPUjlubXdRVkpyTWJHQW1qemlmVVB0QlFOaEJvMTdEallvQ2RwNC1udWJyX3FpaUlHXzVBV3RKWlVHN0VFV2JXLU1DRkZRTFdZMjRWRnc5NGtRMmJjSjhCTXRmQS1wZVdJVVBHVnBHaElEU19XSV9nVzUweGxVc1FIenVBQWJ4aVhyNjlrZHM?oc=5",
-    "date": "2026-09-01",
-    "image": null,
+    "id": 163,
+    "geo": "global",
+    "url": "https://www.tsnn.com/exhibitors/the-awards-exhibitors-have-been-waiting-for-meet-the-exhies-",
+    "date": "2026-10-16",
+    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt145332a9121571b2/6ad2351d7cb22e485e04a49c/Visit_Detroit_wins_exhie.jpg?width=720&amp;quality=80&amp;disable=upscale",
     "title": {
-      "ar": "افتتاح LEAP 2026 بأكثر من 15 مليار دولار صفقات",
-      "en": "LEAP 2026 opens with $15B deals"
+      "ar": "خلف الكواليس لإطلاق برنامج EXHIEs™",
+      "en": "Launch of EXHIEs™ Recognition Program"
     },
-    "topic": "exhibition",
-    "source": "Dealroom",
+    "topic": "industry",
+    "source": "TSNN — Trade Show News",
     "summary": {
-      "ar": "انطلقت نسخة 2026 لمعرض LEAP في الرياض مع صفقات تقنية بقيمة 15 مليار دولار ونموذج ذكاء اصطناعي عربي.",
-      "en": "LEAP 2026 opened in Riyadh with $15 bn in tech deals and an Arabic AI model."
+      "ar": "أطلقت TSNN برنامج EXHIEs™ لتكريم مسوقي المعارض. يهدف البرنامج إلى إبراز الابتكار والتميز في تصميم أجنحة المعارض.",
+      "en": "TSNN unveiled the EXHIEs™ program to honor exhibition marketers. The initiative spotlights innovation and excellence in booth design."
     },
-    "priority": "P1"
+    "priority": "P2"
   },
   {
     "id": 162,
