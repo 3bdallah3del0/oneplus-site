@@ -306,40 +306,22 @@
     "priority": "P1"
   },
   {
-    "id": 83,
+    "id": 164,
     "geo": "riyadh",
-    "url": "https://backup.arabnews.com/node/2656512/corporate-and-sponsored-content",
-    "date": "2026-09-03",
-    "image": "https://backup.arabnews.com/sites/default/files/styles/watermark_670x423/public/main-image/2026/09/03/4745987-1300788552.jpeg?itok=JK6X1JVe",
+    "url": "https://saudigazette.com.sa/article/665523/saudi-arabia/kapsarc-wins-two-best-paper-awards-at-25th-wpc-energy-congress-in-riyadh",
+    "date": "2026-10-18",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/18/2781697.webp",
     "title": {
-      "ar": "stc تُحوّل البحر الأحمر إلى وجهة 3D حية في LEAP 2026",
-      "en": "stc turns the Red Sea into a live 3D destination at LEAP 2026"
+      "ar": "كابسارك تفوز بجائزتي أفضل ورقة في مؤتمر الطاقة بالرياض",
+      "en": "KAPSARC Wins Two Best Paper Awards at Riyadh Energy Congress"
     },
-    "topic": "technology",
-    "source": "Arab News",
-    "summary": {
-      "ar": "عرضت stc نظام إدارة عمليات ذكي لثلاث وجهات بحرية خلال معرض LEAP في مركز الرياض الدولي. المشروع يُظهر إمكانيات الواقع الافتراضي في الفعاليات.",
-      "en": "stc showcased an intelligent operations system for three Red Sea destinations at LEAP, demonstrating 3D virtual experiences for events."
-    },
-    "priority": "P1"
-  },
-  {
-    "id": 67,
-    "geo": "saudi",
-    "url": "https://saudigazette.com.sa/article/664289/saudi-arabia/bahrain-signs-participation-contract-for-expo-2030-riyadh",
-    "date": "2026-09-03",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/09/03/2760398.webp",
-    "title": {
-      "ar": "البحرين يوقع عقد مشاركة في إكسبو 2030 الرياض",
-      "en": "Bahrain signs Expo 2030 Riyadh participation contract"
-    },
-    "topic": "exhibition",
+    "topic": "conference",
     "source": "Saudi Gazette — Saudi Arabia",
     "summary": {
-      "ar": "توقيع اتفاقية مشاركة البحرين في إكسبو 2030 بالرياض يفتح مرحلة جديدة في التحضيرات للمعرض العالمي.",
-      "en": "Bahrain has signed its participation contract for Expo 2030 Riyadh, marking a new phase in preparations."
+      "ar": "حصل مركز كابسارك على جائزتين لأفضل ورقة في المؤتمر الـ25 للطاقة في الرياض. يسلط الحدث الضوء على أبحاث الطاقة والتحول.",
+      "en": "KAPSARC received two Best Paper Awards at the 25th WPC Energy Congress in Riyadh, highlighting research on energy transition and clean cooking."
     },
-    "priority": "P1"
+    "priority": "P2"
   },
   {
     "id": 163,
@@ -716,6 +698,24 @@
     "summary": {
       "ar": "مقال يوضح استراتيجيات تايلاند لتصميم وتطوير المعارض وتأثيرها بعد الحدث.",
       "en": "Article explains Thailand’s design‑driven strategy to boost exhibition impact beyond the event."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 125,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/future-of-experiential-design-exsys-awards/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=future-of-experiential-design-exsys-awards",
+    "date": "2026-10-07",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/Restore-the-Rhythm-600x388.webp",
+    "title": {
+      "ar": "مستقبل التصميم التجريبي في المعارض",
+      "en": "The Future of Experiential Design"
+    },
+    "topic": "industry",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "تستعرض المقالة الفائزين بجائزة تصميم الطلاب في مجال المعارض والتجربة، مع التركيز على الابتكار في التصميم.",
+      "en": "The article highlights student award finalists in exhibit and experience design, emphasizing innovative exhibition design."
     },
     "priority": "P2"
   }
