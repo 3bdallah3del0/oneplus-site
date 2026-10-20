@@ -1,5 +1,41 @@
 [
   {
+    "id": 170,
+    "geo": "riyadh",
+    "url": "https://saudigazette.com.sa/article/665566/saudi-arabia/future-investment-initiative-postpones-fii10-conference-in-riyadh-to-2027",
+    "date": "2026-10-19",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/19/2782400.webp",
+    "title": {
+      "ar": "تأجيل النسخة العاشرة لمبادرة الاستثمار المستقبلية في الرياض إلى 2027",
+      "en": "Future Investment Initiative 10th Edition Postponed"
+    },
+    "topic": "conference",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "أعلنت مبادرة الاستثمار المستقبلية تأجيل فعاليتها العاشرة إلى 2027، كانت مقررة في الرياض في أواخر أكتوبر 2026.",
+      "en": "The Future Investment Initiative announced its 10th edition in Riyadh is postponed to 2027."
+    },
+    "priority": "P1"
+  },
+  {
+    "id": 169,
+    "geo": "riyadh",
+    "url": "https://www.argaam.com/en/article/articledetail/id/1945308",
+    "date": "2026-10-19",
+    "image": "https://argaamplus.s3.amazonaws.com/e767b24b-66bc-4230-b0b9-c4a86f3039a8.png",
+    "title": {
+      "ar": "تأجيل النسخة العاشرة لمؤتمر FII إلى 2027",
+      "en": "10th FII Conference Postponed to 2027"
+    },
+    "topic": "conference",
+    "source": "Argaam",
+    "summary": {
+      "ar": "أعلنت معهد FII تأجيل المؤتمر السنوي العاشر إلى عام 2027، كان من المقرر عقده في الرياض في أكتوبر 2026.",
+      "en": "The Future Investment Initiative has postponed its 10th annual conference to 2027; it was slated for Riyadh in Oct 2026."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 165,
     "geo": "global",
     "url": "https://exhibitcitynews.com/wow-booth-ocular-therapeutix-vivid-global-marketing-aao-2025/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=wow-booth-ocular-therapeutix-vivid-global-marketing-aao-2025",
@@ -288,42 +324,6 @@
     "priority": "P1"
   },
   {
-    "id": 66,
-    "geo": "saudi",
-    "url": "https://saudigazette.com.sa/article/664311/saudi-arabia/saudi-arabia-to-host-second-eu-gcc-summit-on-oct-24",
-    "date": "2026-09-04",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/09/04/2760722.webp",
-    "title": {
-      "ar": "السعودية تستضيف القمة الثانية بين الاتحاد الأوروبي ومجلس التعاون",
-      "en": "Saudi Arabia to host 2nd EU‑GCC summit"
-    },
-    "topic": "conference",
-    "source": "Saudi Gazette — Saudi Arabia",
-    "summary": {
-      "ar": "المملكة تستضيف القمة الثنائية في الرياض في 24 أكتوبر 2026 لتعزيز التعاون السياسي والاقتصادي.",
-      "en": "Saudi Arabia will host the second EU‑GCC summit in Riyadh on Oct 24, 2026 to deepen strategic ties."
-    },
-    "priority": "P1"
-  },
-  {
-    "id": 65,
-    "geo": "saudi",
-    "url": "https://www.argaam.com/en/article/articledetail/id/1934054",
-    "date": "2026-09-04",
-    "image": "https://argaamplus.s3.amazonaws.com/4cd701f1-8088-4149-9200-29987c143f7a.png",
-    "title": {
-      "ar": "STC تختتم LEAP 2026 بشراكات استراتيجية",
-      "en": "STC wraps up LEAP 2026 with partnerships"
-    },
-    "topic": "conference",
-    "source": "Argaam",
-    "summary": {
-      "ar": "مجموعة STC تُعلن عن توقيع شراكات استراتيجية خلال مشاركتها الخمسية في مؤتمر LEAP.",
-      "en": "STC Group concluded LEAP 2026 by signing a series of strategic partnerships at the tech gathering."
-    },
-    "priority": "P1"
-  },
-  {
     "id": 168,
     "geo": "global",
     "url": "https://www.tsnn.com/trade-shows-conferences/imex-america-2026-ceo-carina-bauer-on-growth-ai-the-future-of-business-events",
@@ -522,6 +522,24 @@
     "priority": "P2"
   },
   {
+    "id": 171,
+    "geo": "global",
+    "url": "https://www.smartmeetings.com/event/185069/imex-2026-recap-smart-monday",
+    "date": "2026-10-13",
+    "image": "http://www.smartmeetings.com/wp-content/uploads/2026/10/As-experience-center-entrance.jpg",
+    "title": {
+      "ar": "ملخص IMEX America 2026: يوم ذكي",
+      "en": "IMEX America 2026 Recap: Smart Monday"
+    },
+    "topic": "conference",
+    "source": "Smart Meetings",
+    "summary": {
+      "ar": "استعرضت IMEX America 2026 في لاس فيغاس أحدث الإعلانات والجوائز وجلسات حول الذكاء الاصطناعي في قطاع المؤتمرات.",
+      "en": "IMEX America 2026 highlighted new announcements, awards and AI sessions for the meetings industry."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 147,
     "geo": "global",
     "url": "https://www.ufi.org/letter-from-the-ufi-president-october-2026/",
@@ -698,24 +716,6 @@
     "summary": {
       "ar": "أظهر معرض IMTS 2026 للمنتجات الصناعية زيادة في عدد الحضور وارتفاع الاهتمام بالبرامج المتخصصة.",
       "en": "The biennial IMTS 2026 trade show reported higher attendance and growing interest in specialty programming."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 131,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/ifes-launches-global-study-of-exhibitor-spending/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ifes-launches-global-study-of-exhibitor-spending",
-    "date": "2026-10-08",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/ifes-survey-600x400.webp",
-    "title": {
-      "ar": "IFES يطلق دراسة عالمية عن إنفاق العارضين",
-      "en": "IFES Launches Global Exhibitor Spending Study"
-    },
-    "topic": "industry",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "أطلقت الاتحاد الدولي لخدمات المعارض والفعاليات دراسة عالمية تستكشف أنماط إنفاق العارضين وتفضيلاتهم في الخدمات.",
-      "en": "The International Federation of Exhibition and Event Services (IFES) launched a global research initiative examining exhibitor spending patterns and valued services."
     },
     "priority": "P2"
   }
