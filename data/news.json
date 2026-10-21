@@ -1,5 +1,23 @@
 [
   {
+    "id": 172,
+    "geo": "riyadh",
+    "url": "https://saudigazette.com.sa/article/665590/saudi-arabia/agriculture-minister-launches-farmer-training-drive-to-improve-agricultural-practices",
+    "date": "2026-10-20",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/20/2782789.webp",
+    "title": {
+      "ar": "إطلاق برنامج تدريب المزارعين في معرض الزراعة السعودي 2026",
+      "en": "Agriculture Minister launches farmer training at Saudi Agriculture 2026 Expo"
+    },
+    "topic": "exhibition",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "أطلق وزير البيئة والزراعة برنامج تدريب للمزارعين خلال اليوم الأول من معرض الزراعة السعودي 2026 في الرياض. يهدف إلى تحسين الممارسات الزراعية.",
+      "en": "The Agriculture Minister launched a farmer training program on the opening day of the Saudi Agriculture 2026 Exhibition in Riyadh, aiming to improve agricultural practices."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 170,
     "geo": "riyadh",
     "url": "https://saudigazette.com.sa/article/665566/saudi-arabia/future-investment-initiative-postpones-fii10-conference-in-riyadh-to-2027",
@@ -698,24 +716,6 @@
     "summary": {
       "ar": "برنامج عالمي يدرّب موظفي الضيافة ومراكز المؤتمرات على دعم الحضور المصابين بمرض باركنسون.",
       "en": "The program educates hospitality and convention staff worldwide to better support attendees with Parkinson’s."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 133,
-    "geo": "global",
-    "url": "https://www.tsnn.com/trade-shows-conferences/imts-2026-saw-an-increase-in-attendance-plus-more-interest-in-specialty-programming",
-    "date": "2026-10-08",
-    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/bltf14762494e59bb30/6ac2fac61921cdc2b6515851/IMTS26-17-1400w.jpg?width=720&amp;quality=80&amp;disable=upscale",
-    "title": {
-      "ar": "زيادة الحضور في معرض IMTS 2026 واهتمام أكبر بالبرامج المتخصصة",
-      "en": "IMTS 2026 Attendance Up, Specialty Programming Grows"
-    },
-    "topic": "exhibition",
-    "source": "TSNN — Trade Show News",
-    "summary": {
-      "ar": "أظهر معرض IMTS 2026 للمنتجات الصناعية زيادة في عدد الحضور وارتفاع الاهتمام بالبرامج المتخصصة.",
-      "en": "The biennial IMTS 2026 trade show reported higher attendance and growing interest in specialty programming."
     },
     "priority": "P2"
   }
