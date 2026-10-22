@@ -324,6 +324,24 @@
     "priority": "P1"
   },
   {
+    "id": 173,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/ecn-magazine-archive-industry-history/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ecn-magazine-archive-industry-history",
+    "date": "2026-10-22",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/ecn-archives-600x400.webp",
+    "title": {
+      "ar": "أرشيف مجلة ECN يحفظ تاريخ صناعة المعارض",
+      "en": "ECN Magazine Archive Preserves Tradeshow History"
+    },
+    "topic": "industry",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "أعلنت ECN عن إتاحة أكثر من عقد من إصدارات مجلتها على الإنترنت، ما يتيح للمهتمين بصناعة المعارض الاطلاع على تقارير منذ 2015. يضم الأرشيف 66 عددًا بما فيها إصدارات الذكرى الـ25 والـ30.",
+      "en": "Exhibit City News made over a decade of its magazine editions available online, giving industry professionals access to reports dating back to 2015. The archive includes 66 publications, among them the 25th and 30th anniversary issues."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 168,
     "geo": "global",
     "url": "https://www.tsnn.com/trade-shows-conferences/imex-america-2026-ceo-carina-bauer-on-growth-ai-the-future-of-business-events",
@@ -698,24 +716,6 @@
     "summary": {
       "ar": "برنامج عالمي يدرّب موظفي الضيافة ومراكز المؤتمرات على دعم الحضور المصابين بمرض باركنسون.",
       "en": "The program educates hospitality and convention staff worldwide to better support attendees with Parkinson’s."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 133,
-    "geo": "global",
-    "url": "https://www.tsnn.com/trade-shows-conferences/imts-2026-saw-an-increase-in-attendance-plus-more-interest-in-specialty-programming",
-    "date": "2026-10-08",
-    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/bltf14762494e59bb30/6ac2fac61921cdc2b6515851/IMTS26-17-1400w.jpg?width=720&amp;quality=80&amp;disable=upscale",
-    "title": {
-      "ar": "زيادة الحضور في معرض IMTS 2026 واهتمام أكبر بالبرامج المتخصصة",
-      "en": "IMTS 2026 Attendance Up, Specialty Programming Grows"
-    },
-    "topic": "exhibition",
-    "source": "TSNN — Trade Show News",
-    "summary": {
-      "ar": "أظهر معرض IMTS 2026 للمنتجات الصناعية زيادة في عدد الحضور وارتفاع الاهتمام بالبرامج المتخصصة.",
-      "en": "The biennial IMTS 2026 trade show reported higher attendance and growing interest in specialty programming."
     },
     "priority": "P2"
   }
