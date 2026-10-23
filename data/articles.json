@@ -1,5 +1,18 @@
 [
   {
+    "slug": "ufi-global-exhibition-trends-bahrain-insights",
+    "title": {
+      "ar": "انعكاسات مخرجات مؤتمر الاتحاد الدولي للمعارض على تصميم الأجنحة بالسعودية",
+      "en": "UFI Conference Impacts on Exhibition Design in Saudi Arabia"
+    },
+    "meta_description": {
+      "ar": "تعرف على تأثير مخرجات مؤتمر الاتحاد الدولي للمعارض البحرين على قطاع تصميم وتنفيذ أجنحة المعارض في المملكة العربية السعودية وفق المعايير العالمية.",
+      "en": "Explore how global UFI conference outcomes shape exhibition stand design and elevate standards across the exhibition sector in Saudi Arabia."
+    },
+    "has_en": true,
+    "published_at": "2026-10-23T00:31:17.842Z"
+  },
+  {
     "slug": "saudi-agriculture-exhibition-farmer-training-booth-design",
     "title": {
       "ar": "كيف تصمم أجنحة معرض الزراعة السعودي لدعم برامج التدريب؟",
