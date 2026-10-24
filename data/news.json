@@ -306,24 +306,6 @@
     "priority": "P1"
   },
   {
-    "id": 98,
-    "geo": "riyadh",
-    "url": "https://www.arabnews.com/saudi-arabia/saudi-warehousing-logistics-expo-brings-together-industry-leaders-3000957",
-    "date": "2026-09-08",
-    "image": "https://assets.maestronewsroom.com/media/30f6532d-717b-4366-9158-9c455299fcd9/1788882630601-546df33d2886a268.jfif",
-    "title": {
-      "ar": "معرض التخزين واللوجستيات السعودي يفتح أبوابه في الرياض",
-      "en": "Saudi Warehousing & Logistics Expo Launches in Riyadh"
-    },
-    "topic": "exhibition",
-    "source": "Arab News",
-    "summary": {
-      "ar": "أكثر من 300 عارض من 25 دولة يشاركون في المعرض لتعزيز موقع السعودية كمركز لوجستي إقليمي.",
-      "en": "Over 300 exhibitors from 25+ countries gather at the Riyadh expo to boost Saudi Arabia’s regional logistics hub."
-    },
-    "priority": "P1"
-  },
-  {
     "id": 173,
     "geo": "global",
     "url": "https://exhibitcitynews.com/ecn-magazine-archive-industry-history/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ecn-magazine-archive-industry-history",
@@ -716,6 +698,24 @@
     "summary": {
       "ar": "برنامج عالمي يدرّب موظفي الضيافة ومراكز المؤتمرات على دعم الحضور المصابين بمرض باركنسون.",
       "en": "The program educates hospitality and convention staff worldwide to better support attendees with Parkinson’s."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 133,
+    "geo": "global",
+    "url": "https://www.tsnn.com/trade-shows-conferences/imts-2026-saw-an-increase-in-attendance-plus-more-interest-in-specialty-programming",
+    "date": "2026-10-08",
+    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/bltf14762494e59bb30/6ac2fac61921cdc2b6515851/IMTS26-17-1400w.jpg?width=720&amp;quality=80&amp;disable=upscale",
+    "title": {
+      "ar": "زيادة الحضور في معرض IMTS 2026 واهتمام أكبر بالبرامج المتخصصة",
+      "en": "IMTS 2026 Attendance Up, Specialty Programming Grows"
+    },
+    "topic": "exhibition",
+    "source": "TSNN — Trade Show News",
+    "summary": {
+      "ar": "أظهر معرض IMTS 2026 للمنتجات الصناعية زيادة في عدد الحضور وارتفاع الاهتمام بالبرامج المتخصصة.",
+      "en": "The biennial IMTS 2026 trade show reported higher attendance and growing interest in specialty programming."
     },
     "priority": "P2"
   }
