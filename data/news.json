@@ -288,24 +288,6 @@
     "priority": "P1"
   },
   {
-    "id": 99,
-    "geo": "riyadh",
-    "url": "https://saudigazette.com.sa/article/664444/saudi-arabia/security-and-history-dialogue-2026-concludes-in-riyadh-with-5200-visitors",
-    "date": "2026-09-09",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/09/09/2763381.webp",
-    "title": {
-      "ar": "ختام حوار الأمن والتاريخ في الرياض",
-      "en": "Security and History Dialogue concludes in Riyadh"
-    },
-    "topic": "conference",
-    "source": "Saudi Gazette — Saudi Arabia",
-    "summary": {
-      "ar": "حوار الأمن والتاريخ 2026 اختتم في قصر الثقافة بالربع الدبلوماسي بحضور أكثر من 5,200 زائر خلال ثلاثة أيام.",
-      "en": "The 2026 Security and History Dialogue ended at Riyadh’s Cultural Palace with over 5,200 visitors over three days."
-    },
-    "priority": "P1"
-  },
-  {
     "id": 173,
     "geo": "global",
     "url": "https://exhibitcitynews.com/ecn-magazine-archive-industry-history/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ecn-magazine-archive-industry-history",
@@ -716,6 +698,24 @@
     "summary": {
       "ar": "أظهر معرض IMTS 2026 للمنتجات الصناعية زيادة في عدد الحضور وارتفاع الاهتمام بالبرامج المتخصصة.",
       "en": "The biennial IMTS 2026 trade show reported higher attendance and growing interest in specialty programming."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 131,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/ifes-launches-global-study-of-exhibitor-spending/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ifes-launches-global-study-of-exhibitor-spending",
+    "date": "2026-10-08",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/ifes-survey-600x400.webp",
+    "title": {
+      "ar": "IFES يطلق دراسة عالمية عن إنفاق العارضين",
+      "en": "IFES Launches Global Exhibitor Spending Study"
+    },
+    "topic": "industry",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "أطلقت الاتحاد الدولي لخدمات المعارض والفعاليات دراسة عالمية تستكشف أنماط إنفاق العارضين وتفضيلاتهم في الخدمات.",
+      "en": "The International Federation of Exhibition and Event Services (IFES) launched a global research initiative examining exhibitor spending patterns and valued services."
     },
     "priority": "P2"
   }
