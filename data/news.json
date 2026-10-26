@@ -288,6 +288,42 @@
     "priority": "P1"
   },
   {
+    "id": 179,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/right-place-for-the-right-show/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=right-place-for-the-right-show",
+    "date": "2026-10-26",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/vkc-600x400.webp",
+    "title": {
+      "ar": "اختيار المدينة والقاعـة المناسبة للمعرض",
+      "en": "Choosing the Right City and Venue for a Show"
+    },
+    "topic": "venue",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "تستعرض المقالة عوامل اختيار المدن والقاعات للمعارض، مشددة على أن الحجم ليس المعيار الوحيد للنجاح.",
+      "en": "The article highlights key criteria beyond size when selecting a city and venue for trade shows."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 178,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/ufi-exhibition-venues-asia-pacific/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ufi-exhibition-venues-asia-pacific",
+    "date": "2026-10-26",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/UFI-600x400.webp",
+    "title": {
+      "ar": "آسيا‑المحيط الهادئ تتصدر عدد القاعات الكبيرة للمعارض",
+      "en": "Asia‑Pacific Leads in Large Exhibition Venues"
+    },
+    "topic": "venue",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "أظهر تقرير UFI أن عدد القاعات التي تتجاوز 100,000 م² في آسيا‑المحيط الهادئ فاق أوروبا، ما يفتح فرصاً للمعارض الدولية.",
+      "en": "UFI’s 2026 map shows the region now has the most venues over 100,000 m², offering new opportunities for global shows."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 177,
     "geo": "global",
     "url": "https://exhibitcitynews.com/greg-roberts-superior-logistics-operations-manager/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=greg-roberts-superior-logistics-operations-manager",
@@ -680,42 +716,6 @@
     "summary": {
       "ar": "ارتفاع أسعار الوقود يضيف تكاليف وتعقيدًا على شحن أجنحة المعارض، ما يؤثر على ميزانيات المنظمين.",
       "en": "Rising fuel costs increase shipping expenses and complexity for exhibition booths, impacting event budgets."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 135,
-    "geo": "global",
-    "url": "https://www.pcma.org/parkinson-ready-training-accessibility/",
-    "date": "2026-10-08",
-    "image": "https://www.pcma.org/wp-content/uploads/2026/09/parkinson-ready-opener-150x150.jpeg",
-    "title": {
-      "ar": "برنامج التدريب Parkinson Ready يحسّن تجربة الحضور",
-      "en": "Parkinson Ready Training Improves Attendee Experience"
-    },
-    "topic": "industry",
-    "source": "PCMA (MICE industry)",
-    "summary": {
-      "ar": "برنامج عالمي يدرّب موظفي الضيافة ومراكز المؤتمرات على دعم الحضور المصابين بمرض باركنسون.",
-      "en": "The program educates hospitality and convention staff worldwide to better support attendees with Parkinson’s."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 133,
-    "geo": "global",
-    "url": "https://www.tsnn.com/trade-shows-conferences/imts-2026-saw-an-increase-in-attendance-plus-more-interest-in-specialty-programming",
-    "date": "2026-10-08",
-    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/bltf14762494e59bb30/6ac2fac61921cdc2b6515851/IMTS26-17-1400w.jpg?width=720&amp;quality=80&amp;disable=upscale",
-    "title": {
-      "ar": "زيادة الحضور في معرض IMTS 2026 واهتمام أكبر بالبرامج المتخصصة",
-      "en": "IMTS 2026 Attendance Up, Specialty Programming Grows"
-    },
-    "topic": "exhibition",
-    "source": "TSNN — Trade Show News",
-    "summary": {
-      "ar": "أظهر معرض IMTS 2026 للمنتجات الصناعية زيادة في عدد الحضور وارتفاع الاهتمام بالبرامج المتخصصة.",
-      "en": "The biennial IMTS 2026 trade show reported higher attendance and growing interest in specialty programming."
     },
     "priority": "P2"
   }
