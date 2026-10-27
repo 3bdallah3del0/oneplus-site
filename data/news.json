@@ -288,6 +288,24 @@
     "priority": "P1"
   },
   {
+    "id": 182,
+    "geo": "global",
+    "url": "https://www.tsnn.com/event-planning/why-attendees-wait-to-register-maritz-on-event-trends",
+    "date": "2026-10-27",
+    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt0c3609445c7d46c9/6ae0850faed203d6a2902468/maritz_thumbnail.png?width=720&amp;quality=80&amp;disable=upscale",
+    "title": {
+      "ar": "لماذا ينتظر الحضور التسجيل؟",
+      "en": "Why Attendees Wait to Register"
+    },
+    "topic": "event",
+    "source": "TSNN — Trade Show News",
+    "summary": {
+      "ar": "تحليل ماريتز للاتجاه المتزايد لتأخير التسجيل في الفعاليات وكيفية استجابة منظمي المعارض.",
+      "en": "Maritz analyzes the growing trend of late event registration and how organizers should respond."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 180,
     "geo": "saudi",
     "url": "https://saudigazette.com.sa/article/665744/business/bae-systems-saudi-arabia-highlights-its-contribution-to-national-industrial-and-technical-capabilities-at-military-industries-forum-2026",
@@ -698,24 +716,6 @@
     "summary": {
       "ar": "توفي مايك دروبك، محترف صناعة المعارض ذو أكثر من أربعة عقود من الخبرة في شيكاغو ولاس فيغاس، بعد نوبة قلبية.",
       "en": "Mike Drobick, a veteran tradeshow professional with over 40 years experience, passed away."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 137,
-    "geo": "global",
-    "url": "https://www.tsnn.com/exhibitors/how-to-turn-trade-show-swag-into-actionable-event-data",
-    "date": "2026-10-09",
-    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt57e3bff63c54fcb5/6ac8d08815f68715a4fea9fe/eyJidWNrZXQiOiJzbXAtcHJvZCIsImtleSI6ImV2ZW50cy9mYTc5N2RkYi00YjBkLTQ4MjEtYTU4Ni05N2JlMWRlY2Y5YjUvcGhvdG9zL2NvcnJlY3RlZC1vcmlnaW5hbC9JUFBJMDkxNy0xNzg3NjgwNDc3ODAxLmpwZyIsImVkaXRzIjp7InJvdGF0ZSI6bnVsbCwidmVyc2lvbiI6MCwicmVzaXplIjp7IndpZHRoIjpudWxsLC%E2%80%A6.jpeg?width=720&amp;quality=80&amp;disable=upscale",
-    "title": {
-      "ar": "تحويل هدايا المعارض إلى بيانات فعلية",
-      "en": "Turning Tradeshow Swag into Actionable Data"
-    },
-    "topic": "technology",
-    "source": "TSNN — Trade Show News",
-    "summary": {
-      "ar": "شركة تُحوّل عينات الهدايا إلى تجارب تفاعلية قابلة للقياس، ما يضيف قيمة للمعارض.",
-      "en": "A company converts swag giveaways into measurable interactive experiences, providing actionable event data."
     },
     "priority": "P2"
   }
