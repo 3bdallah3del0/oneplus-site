@@ -288,6 +288,24 @@
     "priority": "P1"
   },
   {
+    "id": 180,
+    "geo": "saudi",
+    "url": "https://saudigazette.com.sa/article/665744/business/bae-systems-saudi-arabia-highlights-its-contribution-to-national-industrial-and-technical-capabilities-at-military-industries-forum-2026",
+    "date": "2026-10-26",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/26/2785385.webp",
+    "title": {
+      "ar": "باي سيستمز السعودية في منتدى الصناعات العسكرية 2026",
+      "en": "BAE Systems Saudi at Military Industries Forum 2026"
+    },
+    "topic": "conference",
+    "source": "Saudi Gazette — Business",
+    "summary": {
+      "ar": "شركة باي سيستمز السعودية تسلط الضوء على مساهمتها في القدرات الصناعية خلال منتدى الصناعات العسكرية في الرياض.",
+      "en": "BAE Systems Saudi highlighted its role in national industrial capabilities at the Riyadh Military Industries Forum."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 179,
     "geo": "global",
     "url": "https://exhibitcitynews.com/right-place-for-the-right-show/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=right-place-for-the-right-show",
@@ -698,24 +716,6 @@
     "summary": {
       "ar": "شركة تُحوّل عينات الهدايا إلى تجارب تفاعلية قابلة للقياس، ما يضيف قيمة للمعارض.",
       "en": "A company converts swag giveaways into measurable interactive experiences, providing actionable event data."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 136,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/soaring-fuel-prices-tradeshow-shippers/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=soaring-fuel-prices-tradeshow-shippers",
-    "date": "2026-10-09",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/fuel-600x400.webp",
-    "title": {
-      "ar": "ارتفاع أسعار الوقود يعرقل شحن المعارض",
-      "en": "Fuel Price Surge Hinders Tradeshow Shipping"
-    },
-    "topic": "industry",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "ارتفاع أسعار الوقود يضيف تكاليف وتعقيدًا على شحن أجنحة المعارض، ما يؤثر على ميزانيات المنظمين.",
-      "en": "Rising fuel costs increase shipping expenses and complexity for exhibition booths, impacting event budgets."
     },
     "priority": "P2"
   }
