@@ -1,5 +1,18 @@
 [
   {
+    "slug": "imex-2026-day-one-insights-for-event-design",
+    "title": {
+      "ar": "دروس اليوم الأول في معرض IMEX 2026 لتصميم الفعاليات",
+      "en": "Day One Lessons at IMEX 2026 for Event Design"
+    },
+    "meta_description": {
+      "ar": "تعرف على أبرز الدروس المستفادة من اليوم الأول لملخص معرض IMEX 2026 وأحدث اتجاهات تصميم أجنحة المعارض والفعاليات في المملكة العربية السعودية.",
+      "en": "Discover key takeaways from Day One at IMEX 2026, focusing on sustainable exhibition stands, digital interaction, and modern event design trends."
+    },
+    "has_en": true,
+    "published_at": "2026-10-27T15:00:25.273Z"
+  },
+  {
     "slug": "riyadh-economic-forum-booth-design",
     "title": {
       "ar": "كيف تصمم جناحاً بمعارض المنتديات الاقتصادية في الرياض؟",
@@ -24,19 +37,6 @@
     },
     "has_en": true,
     "published_at": "2026-10-26T05:27:51.603Z"
-  },
-  {
-    "slug": "imex-2026-day-one-insights-for-event-design",
-    "title": {
-      "ar": "دروس اليوم الأول في معرض IMEX 2026 لتصميم الفعاليات",
-      "en": "Day One Lessons at IMEX 2026 for Event Design"
-    },
-    "meta_description": {
-      "ar": "تعرف على أبرز الدروس المستفادة من اليوم الأول لملخص معرض IMEX 2026 وأحدث اتجاهات تصميم أجنحة المعارض والفعاليات في المملكة العربية السعودية.",
-      "en": "Discover key takeaways from Day One at IMEX 2026, focusing on sustainable exhibition stands, digital interaction, and modern event design trends."
-    },
-    "has_en": true,
-    "published_at": "2026-10-25T08:21:44.938Z"
   },
   {
     "slug": "ufi-global-exhibition-trends-bahrain-insights",
