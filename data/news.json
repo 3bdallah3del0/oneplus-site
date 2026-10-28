@@ -288,6 +288,42 @@
     "priority": "P1"
   },
   {
+    "id": 185,
+    "geo": "global",
+    "url": "https://www.tsnn.com/exhibitors/rising-trade-show-costs-ges-shares-its-strategy",
+    "date": "2026-10-28",
+    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/bltb089ebafc3b4c762/6ae1ed9ae06e27a07256cc76/jeff_quade_thumbanil.png?width=720&amp;quality=80&amp;disable=upscale",
+    "title": {
+      "ar": "ارتفاع تكاليف المعارض؟ استراتيجية GES",
+      "en": "Rising Trade Show Costs? GES Strategy"
+    },
+    "topic": "technology",
+    "source": "TSNN — Trade Show News",
+    "summary": {
+      "ar": "في IMEX America 2026 يناقش رئيس GES استراتيجيات تأجير الأجنحة والاستدامة والذكاء الاصطناعي. يقدم رؤى لتقليل التكاليف.",
+      "en": "At IMEX America 2026 GES President discusses exhibit rentals, sustainability and AI. Offers insights to curb trade‑show costs."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 184,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/wow-booth-locus-robotics-catalyst-exhibits/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=wow-booth-locus-robotics-catalyst-exhibits",
+    "date": "2026-10-28",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/Locus-Robotics1-600x400.webp",
+    "title": {
+      "ar": "منصة Locus Robotics مع Catalyst Exhibits في MODEX",
+      "en": "Locus Robotics Booth at MODEX"
+    },
+    "topic": "exhibition",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "عرض توضيحي لتصميم جناح مرن في قاعة الأتمتة بـ MODEX. يبرز التعاون بين Locus Robotics و Catalyst Exhibits لتجربة 360 درجة.",
+      "en": "Showcase of a flexible booth in MODEX’s automation hall. Collaboration between Locus Robotics and Catalyst Exhibits delivers a 360° experience."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 183,
     "geo": "global",
     "url": "https://exhibitcitynews.com/tribute-to-tom-bacha/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=tribute-to-tom-bacha",
@@ -680,42 +716,6 @@
     "summary": {
       "ar": "يستعرض التقرير تطورات تكنولوجيا المعارض وتوقعات مستقبلية بعد ثلاثين عاماً من خبرة كابتيفيت.\nيسلط الضوء على الاتجاهات التي تؤثر على تصميم الأجنحة وتجربة الزوار.",
       "en": "The report reviews three decades of tradeshow evolution, highlighting emerging technologies and future trends.\nIt informs exhibitors about design and attendee experience shifts."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 143,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/new-tools-familiar-freight-problem/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=new-tools-familiar-freight-problem",
-    "date": "2026-10-12",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/shipping-600x400.webp",
-    "title": {
-      "ar": "أدوات جديدة ومشكلة الشحن المتكررة في المعارض",
-      "en": "New Tools, Familiar Freight Problem"
-    },
-    "topic": "technology",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "تناقش المقالة تحديات تكلفة الشحن والشفافية في نقل أجنحة المعارض بعد 25 عاماً من دراسة سابقة.\nتسلط الضوء على أخطاء التخطيط التي لا تزال تؤثر على الفعاليات.",
-      "en": "The article examines rising freight costs and visibility issues in tradeshow logistics, revisiting challenges identified 25 years ago.\nIt highlights planning mistakes that still affect exhibitions."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 141,
-    "geo": "riyadh",
-    "url": "https://saudigazette.com.sa/article/665313/saudi-arabia/saudi-energy-minister-calls-riyadh-capital-of-energy-security-vows-reliable-global-supplies",
-    "date": "2026-10-11",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/11/2778701.webp",
-    "title": {
-      "ar": "الوزير السعودي يعلن: الرياض عاصمة الأمن الطاقي",
-      "en": "Saudi minister: Riyadh ‘capital of energy security’"
-    },
-    "topic": "conference",
-    "source": "Saudi Gazette — Saudi Arabia",
-    "summary": {
-      "ar": "أعلن وزير الطاقة الأمير عبدالعزيز بن سلمان في افتتاح منتدى الطاقة الدولي أن الرياض ستصبح مركزاً للأمن الطاقي. الحدث يجذب خبراء ومستثمرين عالميين.",
-      "en": "Energy Minister Prince Abdulaziz bin Salman declared Riyadh the capital of energy security at the International Energy Forum opening. The forum attracts global experts and investors."
     },
     "priority": "P2"
   }
