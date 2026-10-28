@@ -288,6 +288,24 @@
     "priority": "P1"
   },
   {
+    "id": 183,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/tribute-to-tom-bacha/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=tribute-to-tom-bacha",
+    "date": "2026-10-27",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/bachta-2-600x400.webp",
+    "title": {
+      "ar": "تكريم توماس باچا، رائد صناعة أجنحة المعارض",
+      "en": "Tribute to Tom Bacha"
+    },
+    "topic": "industry",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "توفي توماس باچا، أحد رواد بناء أجنحة المعارض، عن عمر يناهز 72 عاماً. مسيرته بدأت في شركة Exhibits Inc. في شيكاغو وأثر كبير في الصناعة.",
+      "en": "Tom Bacha, a pioneering tradeshow exhibit builder, passed away at 72. His career began at Exhibits Inc. in Chicago, leaving a lasting impact on the industry."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 182,
     "geo": "global",
     "url": "https://www.tsnn.com/event-planning/why-attendees-wait-to-register-maritz-on-event-trends",
@@ -698,24 +716,6 @@
     "summary": {
       "ar": "أعلن وزير الطاقة الأمير عبدالعزيز بن سلمان في افتتاح منتدى الطاقة الدولي أن الرياض ستصبح مركزاً للأمن الطاقي. الحدث يجذب خبراء ومستثمرين عالميين.",
       "en": "Energy Minister Prince Abdulaziz bin Salman declared Riyadh the capital of energy security at the International Energy Forum opening. The forum attracts global experts and investors."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 138,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/in-memoriam-mike-drobick/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=in-memoriam-mike-drobick",
-    "date": "2026-10-09",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/mike-obit-400x400.webp",
-    "title": {
-      "ar": "في ذكرى: مايك دروبك",
-      "en": "In Memoriam: Mike Drobick"
-    },
-    "topic": "industry",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "توفي مايك دروبك، محترف صناعة المعارض ذو أكثر من أربعة عقود من الخبرة في شيكاغو ولاس فيغاس، بعد نوبة قلبية.",
-      "en": "Mike Drobick, a veteran tradeshow professional with over 40 years experience, passed away."
     },
     "priority": "P2"
   }
