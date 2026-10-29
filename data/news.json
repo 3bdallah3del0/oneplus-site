@@ -1,5 +1,23 @@
 [
   {
+    "id": 188,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/nacs-2026-boss-awards-finalists/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=nacs-2026-boss-awards-finalists",
+    "date": "2026-10-28",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/Chomps-533x400.webp",
+    "title": {
+      "ar": "الإعلان عن المتأهلين لجائزة NACS 2026 BOSS",
+      "en": "NACS 2026 BOSS Awards finalists announced"
+    },
+    "topic": "industry",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "كشفت Experiential Design Authority عن المتأهلين لجائزة أفضل تصميم أجنحة في معرض NACS 2026، ما يعكس أحدث الاتجاهات في تصميم الأجنحة التجريبية.",
+      "en": "The Experiential Design Authority announced the finalists for the NACS 2026 BOSS Awards, showcasing top experiential stand designs."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 172,
     "geo": "riyadh",
     "url": "https://saudigazette.com.sa/article/665590/saudi-arabia/agriculture-minister-launches-farmer-training-drive-to-improve-agricultural-practices",
@@ -286,6 +304,24 @@
       "en": "At the Saudi Food Show in Jeddah, a dedicated U.S. pavilion showcased agricultural products such as walnuts and potatoes, aiming to boost Saudi‑U.S. agri‑cooperation."
     },
     "priority": "P1"
+  },
+  {
+    "id": 186,
+    "geo": "riyadh",
+    "url": "https://saudigazette.com.sa/article/665801/saudi-arabia/saudi-awwal-bank-signs-mou-with-playbook-to-advance-womens-entrepreneurship-and-financial-innovation",
+    "date": "2026-10-28",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/28/2786453.webp",
+    "title": {
+      "ar": "بنك أواّل يوقع مذكرات تعاون مع PLAYBOOK لتمكين رائدات الأعمال",
+      "en": "SAB signs MoU with PLAYBOOK for women entrepreneurship"
+    },
+    "topic": "conference",
+    "source": "Saudi Gazette — Business",
+    "summary": {
+      "ar": "وقع بنك أواّل مذكرة تفاهم مع PLAYBOOK خلال قمة Women Shaping Wealth في الرياض لتعزيز ريادة الأعمال للنساء والابتكار المالي.",
+      "en": "Saudi Awwal Bank signed an MoU with PLAYBOOK at the Women Shaping Wealth Summit in Riyadh to boost women entrepreneurship and financial innovation."
+    },
+    "priority": "P2"
   },
   {
     "id": 185,
@@ -680,42 +716,6 @@
     "summary": {
       "ar": "رسالة من رئيس الاتحاد الدولي للمعارض تتناول توجهات الصناعة للعام القادم.",
       "en": "Letter from UFI President outlining industry outlook for the upcoming year."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 146,
-    "geo": "saudi",
-    "url": "https://saudigazette.com.sa/article/665373/saudi-arabia/from-asir-to-japan-heritage-bride-brings-generations-of-saudi-womens-stories-to-the-world",
-    "date": "2026-10-13",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/13/2779430.webp",
-    "title": {
-      "ar": "فيلم «عروس التراث» يروي قصص نساء سعوديات",
-      "en": "Heritage Bride Film Highlights Saudi Women"
-    },
-    "topic": "festival",
-    "source": "Saudi Gazette — Saudi Arabia",
-    "summary": {
-      "ar": "فيلم قصير يسلط الضوء على أزياء النساء في عسير ويُعرض في مهرجان أوساكا السينمائي.",
-      "en": "Short film showcasing Asir women's dresses, screened at Osaka Horizon Film Festival."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 144,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/captivate-2027-30-years-of-evolution/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=captivate-2027-30-years-of-evolution",
-    "date": "2026-10-12",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/captivate-600x400.webp",
-    "title": {
-      "ar": "كابتيفيت 2027: 30 عاماً من التطور",
-      "en": "Captivate 2027: 30 Years of Evolution"
-    },
-    "topic": "industry",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "يستعرض التقرير تطورات تكنولوجيا المعارض وتوقعات مستقبلية بعد ثلاثين عاماً من خبرة كابتيفيت.\nيسلط الضوء على الاتجاهات التي تؤثر على تصميم الأجنحة وتجربة الزوار.",
-      "en": "The report reviews three decades of tradeshow evolution, highlighting emerging technologies and future trends.\nIt informs exhibitors about design and attendee experience shifts."
     },
     "priority": "P2"
   }
