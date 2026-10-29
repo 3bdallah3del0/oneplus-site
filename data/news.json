@@ -306,6 +306,42 @@
     "priority": "P1"
   },
   {
+    "id": 190,
+    "geo": "global",
+    "url": "https://www.tsnn.com/trade-shows-conferences/closerstill-media-acquires-roar-b2b-adding-five-event-brands-to-global-portfolio",
+    "date": "2026-10-29",
+    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt2a5f070f7b4793ee/6ae34a45c6f80f153384d510/ess_expo_show_floor.webp?width=720&amp;quality=80&amp;disable=upscale",
+    "title": {
+      "ar": "CloserStill Media تستحوذ على ROAR B2B وتضيف خمس علامات تجارية للفعاليات",
+      "en": "CloserStill Media Acquires ROAR B2B, Adding Five Event Brands"
+    },
+    "topic": "industry",
+    "source": "TSNN — Trade Show News",
+    "summary": {
+      "ar": "الصفقة تضيف معرض الخدمات البيئية، معرض Naidex، وثلاث فعاليات بريطانية أخرى إلى محفظة CloserStill، ما يعزز تقنياتها وخدماتها للمعارض العالمية.",
+      "en": "The deal brings Environmental Services & Solutions Expo, Naidex and three UK events into CloserStill’s portfolio, expanding its infrastructure, technology and healthcare event offerings."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 189,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/from-the-workshop-to-the-show-floor-lighting-handover/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=from-the-workshop-to-the-show-floor-lighting-handover",
+    "date": "2026-10-29",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/whatever-600x400.webp",
+    "title": {
+      "ar": "نظام إضاءة الأجنحة: توصيل الأدوات من الورشة إلى صالة العرض",
+      "en": "Exhibit Lighting Kit Handover from Workshop to Show Floor"
+    },
+    "topic": "technology",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "يتناول المقال طريقة تسليم مجموعات الإضاءة للأجنحة مع توثيق الترتيب والرسومات، ما يسهل تركيب الأجنحة في المعارض.",
+      "en": "The article explains a clearer hand‑over process for stand lighting kits, linking workshop setup, drawings and case contents to speed up exhibition build‑outs."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 186,
     "geo": "riyadh",
     "url": "https://saudigazette.com.sa/article/665801/saudi-arabia/saudi-awwal-bank-signs-mou-with-playbook-to-advance-womens-entrepreneurship-and-financial-innovation",
@@ -680,42 +716,6 @@
     "summary": {
       "ar": "أعلنت أمانة مجلس التعاون عن تأجيل القمة المقررة في الرياض بسبب هجمات الحوثيين.",
       "en": "The GCC‑EU summit scheduled in Riyadh has been postponed amid Houthi attacks."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 171,
-    "geo": "global",
-    "url": "https://www.smartmeetings.com/event/185069/imex-2026-recap-smart-monday",
-    "date": "2026-10-13",
-    "image": "http://www.smartmeetings.com/wp-content/uploads/2026/10/As-experience-center-entrance.jpg",
-    "title": {
-      "ar": "ملخص IMEX America 2026: يوم ذكي",
-      "en": "IMEX America 2026 Recap: Smart Monday"
-    },
-    "topic": "conference",
-    "source": "Smart Meetings",
-    "summary": {
-      "ar": "استعرضت IMEX America 2026 في لاس فيغاس أحدث الإعلانات والجوائز وجلسات حول الذكاء الاصطناعي في قطاع المؤتمرات.",
-      "en": "IMEX America 2026 highlighted new announcements, awards and AI sessions for the meetings industry."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 147,
-    "geo": "global",
-    "url": "https://www.ufi.org/letter-from-the-ufi-president-october-2026/",
-    "date": "2026-10-13",
-    "image": "https://www.ufi.org/app/uploads/2026/10/Programme_June-04_13-Industry-Partners-Working-Group_2026-06-04_UFI_IZMIR_FOTOBUENO_MP_1930.jpg_1200x800.jpg",
-    "title": {
-      "ar": "رسالة رئيس UFI لشهر أكتوبر 2026",
-      "en": "UFI President Letter Oct 2026"
-    },
-    "topic": "industry",
-    "source": "UFI",
-    "summary": {
-      "ar": "رسالة من رئيس الاتحاد الدولي للمعارض تتناول توجهات الصناعة للعام القادم.",
-      "en": "Letter from UFI President outlining industry outlook for the upcoming year."
     },
     "priority": "P2"
   }
