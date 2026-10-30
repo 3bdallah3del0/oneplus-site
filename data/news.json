@@ -306,6 +306,42 @@
     "priority": "P1"
   },
   {
+    "id": 192,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/corporate-event-branding-table-centerpieces/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=corporate-event-branding-table-centerpieces",
+    "date": "2026-10-30",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/whatever-1-600x400.webp",
+    "title": {
+      "ar": "نقل هوية الحدث إلى طاولة الضيافة",
+      "en": "Bringing Corporate Event Branding to the Table"
+    },
+    "topic": "event",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "يوضح المقال كيف يمكن للهوية البصرية للفعالية أن تستمر على طاولات الضيافة خلال الاستقبال والاحتفالات. يطرح أفكاراً لتصميم طاولات تعكس العلامة التجارية.",
+      "en": "The article explains how a corporate event’s visual identity can extend to dining tables during receptions and celebrations, offering design ideas to reflect the brand."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 191,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/load-in-load-out-successful-tradeshow/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=load-in-load-out-successful-tradeshow",
+    "date": "2026-10-30",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/load-in-600x400.webp",
+    "title": {
+      "ar": "التحميل داخل وخارج المعرض: الجوانب غير المرئية للنجاح",
+      "en": "Load‑in & Load‑out: The Unseen Circle of a Successful Show"
+    },
+    "topic": "industry",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "يتناول المقال تفاصيل عمليات التحميل والتركيب في المعارض وكيف تؤثر على نجاح الأجنحة. يسلط الضوء على عناصر لا يراها الزوار لكن لها دور أساسي.",
+      "en": "The article discusses load‑in and load‑out processes in exhibitions and their impact on booth success. It highlights behind‑the‑scenes elements crucial for a smooth show."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 190,
     "geo": "global",
     "url": "https://www.tsnn.com/trade-shows-conferences/closerstill-media-acquires-roar-b2b-adding-five-event-brands-to-global-portfolio",
@@ -680,42 +716,6 @@
     "summary": {
       "ar": "أعلنت مجلس التعاون عن تأجيل القمة المقررة في الرياض نتيجة استمرار هجمات الحوثيين.",
       "en": "The GCC‑EU summit in Riyadh was postponed due to ongoing Houthi attacks."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 153,
-    "geo": "riyadh",
-    "url": "https://saudigazette.com.sa/article/665449/saudi-arabia/saudi-arabia-to-enhance-energy-cooperation-with-several-countries",
-    "date": "2026-10-15",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/15/2780485.webp",
-    "title": {
-      "ar": "مؤتمر الطاقة العالمي الـ25 في الرياض",
-      "en": "25th WPC Energy Congress"
-    },
-    "topic": "conference",
-    "source": "Saudi Gazette — Saudi Arabia",
-    "summary": {
-      "ar": "عقد وزير الطاقة وعدد من المسؤولين اجتماعات ثنائية خلال مؤتمر الطاقة العالمي الـ25 في الرياض.",
-      "en": "Energy ministers held bilateral meetings during the 25th WPC Energy Congress in Riyadh."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 152,
-    "geo": "riyadh",
-    "url": "https://www.argaam.com/en/article/articledetail/id/1944401",
-    "date": "2026-10-15",
-    "image": "https://argaamplus.s3.amazonaws.com/d46a1cb5-fa26-4ad7-a6be-0e07f77387bf.png",
-    "title": {
-      "ar": "تأجيل قمة دول مجلس التعاون مع الاتحاد الأوروبي في الرياض",
-      "en": "GCC‑EU Summit Postponed"
-    },
-    "topic": "conference",
-    "source": "Argaam",
-    "summary": {
-      "ar": "أعلنت أمانة مجلس التعاون عن تأجيل القمة المقررة في الرياض بسبب هجمات الحوثيين.",
-      "en": "The GCC‑EU summit scheduled in Riyadh has been postponed amid Houthi attacks."
     },
     "priority": "P2"
   }
