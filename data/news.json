@@ -1,5 +1,23 @@
 [
   {
+    "id": 194,
+    "geo": "riyadh",
+    "url": "https://saudigazette.com.sa/article/665868/saudi-arabia/saudi-arabia-us-sign-official-participation-agreement-for-expo-2030-riyadh",
+    "date": "2026-10-31",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/31/2787421.webp",
+    "title": {
+      "ar": "الاتفاقية السعودية‑الأمريكية للمشاركة في إكسبو 2030 بالرياض",
+      "en": "Saudi‑US Participation Agreement for Expo 2030 Riyadh"
+    },
+    "topic": "exhibition",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "وقع وزير الخارجية السعودي والأمين العام الأمريكي اتفاقية رسمية لمشاركة الولايات المتحدة في إكسبو 2030 بالرياض، مما يعزز التعاون الدولي للمعرض.",
+      "en": "Saudi Foreign Minister and US Secretary of State signed an agreement formalizing US participation in Expo 2030 Riyadh, boosting international collaboration for the event."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 188,
     "geo": "global",
     "url": "https://exhibitcitynews.com/nacs-2026-boss-awards-finalists/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=nacs-2026-boss-awards-finalists",
@@ -698,24 +716,6 @@
     "summary": {
       "ar": "ستعقد الجمعية العالمية لصناعة المعارض (UFI) مؤتمرها السنوي في البحرين في نوفمبر 2026، وهو أول مرة يُنظم فيها الحدث في المملكة.",
       "en": "The UFI Global Congress will be held in Bahrain from Nov 2‑5 2026, marking the first time the event takes place in the Kingdom."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 154,
-    "geo": "riyadh",
-    "url": "https://saudigazette.com.sa/article/665445/saudi-arabia/gcc-eu-summit-in-riyadh-postponed-over-houthi-attacks-and-airport-suspension",
-    "date": "2026-10-15",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/15/2780459.webp",
-    "title": {
-      "ar": "تأجيل قمة مجلس التعاون مع الاتحاد الأوروبي بسبب هجمات الحوثيين",
-      "en": "GCC‑EU Summit Delayed"
-    },
-    "topic": "conference",
-    "source": "Saudi Gazette — Saudi Arabia",
-    "summary": {
-      "ar": "أعلنت مجلس التعاون عن تأجيل القمة المقررة في الرياض نتيجة استمرار هجمات الحوثيين.",
-      "en": "The GCC‑EU summit in Riyadh was postponed due to ongoing Houthi attacks."
     },
     "priority": "P2"
   }
