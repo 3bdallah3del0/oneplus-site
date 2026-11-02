@@ -324,6 +324,42 @@
     "priority": "P1"
   },
   {
+    "id": 196,
+    "geo": "global",
+    "url": "https://meetings.skift.com/2026/11/02/14-venues-3500-delegates-one-day-to-load-in-inside-the-b20-summit/",
+    "date": "2026-11-02",
+    "image": "https://meetings.skift.com/wp-content/uploads/2026/11/Wharf_005_7407811_20230316.jpg?w=1024",
+    "title": {
+      "ar": "ملامح قمة B20: 14 موقعًا و3500 مشارك",
+      "en": "Inside the B20 Summit Logistics"
+    },
+    "topic": "conference",
+    "source": "Skift Meetings",
+    "summary": {
+      "ar": "استعراض لتحديات تحميل الأجنحة في قمة B20 التي تستخدم نموذجًا لامركزيًا.",
+      "en": "Overview of load‑in challenges for the decentralized B20 summit venue model."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 195,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/washington-dc-international-tradeshow-participation/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=washington-dc-international-tradeshow-participation",
+    "date": "2026-11-02",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/advo-600x400.webp",
+    "title": {
+      "ar": "مستقبل المشاركة الدولية في معارض الولايات المتحدة",
+      "en": "Future of International Participation in US Tradeshows"
+    },
+    "topic": "exhibition",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "تحليل لارتفاع أعداد العارضين والزوار في المعارض الأمريكية وتحديات الاستثمار والاندماجات.",
+      "en": "Analysis of record exhibitor attendance in US tradeshows and related investment trends."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 192,
     "geo": "global",
     "url": "https://exhibitcitynews.com/corporate-event-branding-table-centerpieces/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=corporate-event-branding-table-centerpieces",
@@ -680,42 +716,6 @@
     "summary": {
       "ar": "تعاون لتقديم إضاءة LED متطورة في معرض الجمعية الوطنية للمطاعم 2026.",
       "en": "Partnership delivers innovative Hi‑LED lighting for the 2026 National Restaurant Association Show."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 161,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/imex-america-rising-costs-new-business-and-a-slower-recovery/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=imex-america-rising-costs-new-business-and-a-slower-recovery",
-    "date": "2026-10-16",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/IMEX-1-600x400.webp",
-    "title": {
-      "ar": "IMEX America: تكاليف مرتفعة ونمو بطيء في التعافي",
-      "en": "IMEX America: Rising Costs, Slower Recovery"
-    },
-    "topic": "industry",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "تقرير عن نشاط مركز مؤتمرات ميامي بيتش وتوقعات إيجابية للمعارض حتى 2028.",
-      "en": "Report highlights booming business at Miami Beach Convention Center and optimistic trade‑show calendar through 2028."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 155,
-    "geo": "mena",
-    "url": "https://exhibitcitynews.com/ufi-global-congress-bahrain-2026/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ufi-global-congress-bahrain-2026",
-    "date": "2026-10-15",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/ef18f923-15d6-4b9e-8640-4b246f6d4040-600x338.png",
-    "title": {
-      "ar": "مؤتمر UFI العالمي ينتقل إلى البحرين 2026",
-      "en": "UFI Global Congress to Bahrain 2026"
-    },
-    "topic": "conference",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "ستعقد الجمعية العالمية لصناعة المعارض (UFI) مؤتمرها السنوي في البحرين في نوفمبر 2026، وهو أول مرة يُنظم فيها الحدث في المملكة.",
-      "en": "The UFI Global Congress will be held in Bahrain from Nov 2‑5 2026, marking the first time the event takes place in the Kingdom."
     },
     "priority": "P2"
   }
