@@ -324,6 +324,42 @@
     "priority": "P1"
   },
   {
+    "id": 199,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/exhibitor-roi-tradeshow-investment/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=exhibitor-roi-tradeshow-investment",
+    "date": "2026-11-03",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/wisdom-600x400.webp",
+    "title": {
+      "ar": "هل يستحق الكشك الجميل تكلفة المشاركة في المعرض؟",
+      "en": "Is a Beautiful Booth Worth the Cost?"
+    },
+    "topic": "exhibition",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "تحليل لتكلفة الأجنحة في المعارض ومدى العائد على الاستثمار للعارضين.",
+      "en": "Analysis of booth costs versus ROI for exhibitors at trade shows."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 198,
+    "geo": "global",
+    "url": "https://www.ufi.org/why-design-exhibitions-are-becoming-platforms-for-creative-economy-growth/",
+    "date": "2026-11-03",
+    "image": "https://www.ufi.org/app/uploads/2025/10/DiamondSponsor-1024x512.png",
+    "title": {
+      "ar": "لماذا تصبح المعارض التصميمية منصات لنمو الاقتصاد الإبداعي",
+      "en": "Design Exhibitions as Platforms for Creative Economy Growth"
+    },
+    "topic": "exhibition",
+    "source": "UFI",
+    "summary": {
+      "ar": "المعارض التصميمية تتحول إلى فرص تجارية تربط المصممين ورواد الأعمال بشبكات دولية.",
+      "en": "Design exhibitions evolve into business opportunities linking designers, entrepreneurs, and global networks."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 197,
     "geo": "global",
     "url": "https://www.tsnn.com/people-career-development/m-a-growth-opportunities-and-event-launches-with-rx-s-toni-piela",
@@ -680,42 +716,6 @@
     "summary": {
       "ar": "جمعية خدمات المعارض عقدت مؤتمرًا تعليميًا في فندق فريمونت بانف سبرينغز مع أنشطة متعددة.",
       "en": "ESCA hosted its annual Summer Educational Conference in Banff with networking and leisure activities."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 164,
-    "geo": "riyadh",
-    "url": "https://saudigazette.com.sa/article/665523/saudi-arabia/kapsarc-wins-two-best-paper-awards-at-25th-wpc-energy-congress-in-riyadh",
-    "date": "2026-10-18",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/18/2781697.webp",
-    "title": {
-      "ar": "كابسارك تفوز بجائزتي أفضل ورقة في مؤتمر الطاقة بالرياض",
-      "en": "KAPSARC Wins Two Best Paper Awards at Riyadh Energy Congress"
-    },
-    "topic": "conference",
-    "source": "Saudi Gazette — Saudi Arabia",
-    "summary": {
-      "ar": "حصل مركز كابسارك على جائزتين لأفضل ورقة في المؤتمر الـ25 للطاقة في الرياض. يسلط الحدث الضوء على أبحاث الطاقة والتحول.",
-      "en": "KAPSARC received two Best Paper Awards at the 25th WPC Energy Congress in Riyadh, highlighting research on energy transition and clean cooking."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 163,
-    "geo": "global",
-    "url": "https://www.tsnn.com/exhibitors/the-awards-exhibitors-have-been-waiting-for-meet-the-exhies-",
-    "date": "2026-10-16",
-    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt145332a9121571b2/6ad2351d7cb22e485e04a49c/Visit_Detroit_wins_exhie.jpg?width=720&amp;quality=80&amp;disable=upscale",
-    "title": {
-      "ar": "خلف الكواليس لإطلاق برنامج EXHIEs™",
-      "en": "Launch of EXHIEs™ Recognition Program"
-    },
-    "topic": "industry",
-    "source": "TSNN — Trade Show News",
-    "summary": {
-      "ar": "أطلقت TSNN برنامج EXHIEs™ لتكريم مسوقي المعارض. يهدف البرنامج إلى إبراز الابتكار والتميز في تصميم أجنحة المعارض.",
-      "en": "TSNN unveiled the EXHIEs™ program to honor exhibition marketers. The initiative spotlights innovation and excellence in booth design."
     },
     "priority": "P2"
   }
