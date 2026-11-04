@@ -1,5 +1,23 @@
 [
   {
+    "id": 202,
+    "geo": "global",
+    "url": "https://saudigazette.com.sa/article/665991/saudi-arabia/tourism-minister-inaugurates-saudi-land-pavilion-in-london",
+    "date": "2026-11-04",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/04/2789727.webp",
+    "title": {
+      "ar": "وزير السياحة يفتتح جناح السعودية في لندن",
+      "en": "Tourism Minister Opens Saudi Pavilion in London"
+    },
+    "topic": "exhibition",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "افتتح وزير السياحة السعودي الجناح السعودي في معرض World Travel Market بلندن 2026، بمشاركة مسؤولين من هيئة السياحة.",
+      "en": "Saudi Tourism Minister inaugurated the Saudi pavilion at WTM London 2026, attended by STA officials."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 200,
     "geo": "mena",
     "url": "https://saudigazette.com.sa/article/665973/saudi-arabia/culture-minister-meets-algerian-president-visits-saudi-pavilion-at-algiers-book-fair",
@@ -342,6 +360,24 @@
     "priority": "P1"
   },
   {
+    "id": 203,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/san-diego-convention-center-eat-sleep-play/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=san-diego-convention-center-eat-sleep-play",
+    "date": "2026-11-04",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/sd-cc-600x400.webp",
+    "title": {
+      "ar": "مركز مؤتمرات سان دييغو",
+      "en": "San Diego Convention Center"
+    },
+    "topic": "venue",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "يُعد مركز مؤتمرات سان دييغو من أكبر القاعات في الولايات المتحدة، يضم أكثر من 600,000 قدم مربع من مساحة المعارض.",
+      "en": "San Diego Convention Center is a premier U.S. venue with over 600,000 sq ft of exhibit space."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 201,
     "geo": "global",
     "url": "https://www.tsnn.com/exhibitors/on-the-trade-show-floor-cort-events-on-purposeful-play-personalization-and-sustainability",
@@ -680,42 +716,6 @@
     "summary": {
       "ar": "قامت شركة Superior Logistics المتخصصة في نقل المعارض والفعاليات بتعيين غريغ روبرتس كمدير عمليات، لتعزيز خدماتها اللوجستية.",
       "en": "Event logistics firm Superior Logistics appoints Greg Roberts as Operations Manager to boost its trade‑show transportation services."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 173,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/ecn-magazine-archive-industry-history/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ecn-magazine-archive-industry-history",
-    "date": "2026-10-22",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/ecn-archives-600x400.webp",
-    "title": {
-      "ar": "أرشيف مجلة ECN يحفظ تاريخ صناعة المعارض",
-      "en": "ECN Magazine Archive Preserves Tradeshow History"
-    },
-    "topic": "industry",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "أعلنت ECN عن إتاحة أكثر من عقد من إصدارات مجلتها على الإنترنت، ما يتيح للمهتمين بصناعة المعارض الاطلاع على تقارير منذ 2015. يضم الأرشيف 66 عددًا بما فيها إصدارات الذكرى الـ25 والـ30.",
-      "en": "Exhibit City News made over a decade of its magazine editions available online, giving industry professionals access to reports dating back to 2015. The archive includes 66 publications, among them the 25th and 30th anniversary issues."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 168,
-    "geo": "global",
-    "url": "https://www.tsnn.com/trade-shows-conferences/imex-america-2026-ceo-carina-bauer-on-growth-ai-the-future-of-business-events",
-    "date": "2026-10-19",
-    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/bltfac4aa47711d355f/6ad6102e8536ea716312ce89/carina_thumbnail.png?width=720&amp;quality=80&amp;disable=upscale",
-    "title": {
-      "ar": "IMEX America 2026: مقابلة مع الرئيسة كارينا باور",
-      "en": "IMEX America 2026: CEO Interview"
-    },
-    "topic": "business",
-    "source": "TSNN — Trade Show News",
-    "summary": {
-      "ar": "الرئيسة التنفيذية لمجموعة IMEX تتحدث عن نمو الفعاليات، الذكاء الاصطناعي ومستقبل الأعمال.",
-      "en": "IMEX CEO discusses growth, AI, and the future of business events at IMEX America 2026."
     },
     "priority": "P2"
   }
