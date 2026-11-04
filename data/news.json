@@ -1,5 +1,23 @@
 [
   {
+    "id": 200,
+    "geo": "mena",
+    "url": "https://saudigazette.com.sa/article/665973/saudi-arabia/culture-minister-meets-algerian-president-visits-saudi-pavilion-at-algiers-book-fair",
+    "date": "2026-11-03",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/03/2789451.webp",
+    "title": {
+      "ar": "وزير الثقافة يزور الجناح السعودي في معرض الجزائر الدولي للكتاب",
+      "en": "Saudi Minister Visits Saudi Pavilion at Algiers Book Fair"
+    },
+    "topic": "exhibition",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "التقى وزير الثقافة السعودي بالرئيس الجزائري وزار الجناح السعودي في معرض الكتاب بالجزائر، حيث كانت السعودية ضيفة شرف.",
+      "en": "Saudi Culture Minister met the Algerian President and toured the Saudi pavilion at the Algiers International Book Fair, where Saudi Arabia was guest of honor."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 194,
     "geo": "riyadh",
     "url": "https://saudigazette.com.sa/article/665868/saudi-arabia/saudi-arabia-us-sign-official-participation-agreement-for-expo-2030-riyadh",
@@ -322,6 +340,24 @@
       "en": "At the Saudi Food Show in Jeddah, a dedicated U.S. pavilion showcased agricultural products such as walnuts and potatoes, aiming to boost Saudi‑U.S. agri‑cooperation."
     },
     "priority": "P1"
+  },
+  {
+    "id": 201,
+    "geo": "global",
+    "url": "https://www.tsnn.com/exhibitors/on-the-trade-show-floor-cort-events-on-purposeful-play-personalization-and-sustainability",
+    "date": "2026-11-03",
+    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blte887e55144cf5759/6ae9e9b8f7db7f4e9dad3d8f/cort_thumbnail.png?width=720&amp;quality=80&amp;disable=upscale",
+    "title": {
+      "ar": "كورت إيفنتس في معرض IMEX 2026: اللعب المتعمد، التخصيص والاستدامة",
+      "en": "CORT Events at IMEX 2026: Purposeful Play, Personalization & Sustainability"
+    },
+    "topic": "industry",
+    "source": "TSNN — Trade Show News",
+    "summary": {
+      "ar": "تستعرض شبكة TSNN كشك شركة كورت إيفنتس في معرض IMEX 2026 وتسلط الضوء على الاتجاهات الحديثة في الأثاث والديكور للمعارض.",
+      "en": "TSNN previews the CORT Events booth at IMEX 2026, highlighting trends in furniture, personalization and sustainability for trade shows."
+    },
+    "priority": "P2"
   },
   {
     "id": 199,
@@ -680,42 +716,6 @@
     "summary": {
       "ar": "الرئيسة التنفيذية لمجموعة IMEX تتحدث عن نمو الفعاليات، الذكاء الاصطناعي ومستقبل الأعمال.",
       "en": "IMEX CEO discusses growth, AI, and the future of business events at IMEX America 2026."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 167,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/hkcec-25-new-exhibitions-conferences/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=hkcec-25-new-exhibitions-conferences",
-    "date": "2026-10-19",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/HKCEC-1-600x400.webp",
-    "title": {
-      "ar": "مركز هونغ كونغ للمؤتمرات يستضيف 25 معرضًا جديدًا",
-      "en": "HKCEC Hosts 25 New Exhibitions"
-    },
-    "topic": "venue",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "مركز هونغ كونغ للمؤتمرات أعلن عن 25 معرضًا ومؤتمرًا جديدًا في عام 2025-26 ضمن 786 فعالية.",
-      "en": "HKCEC reports 25 new exhibitions and conferences added to its 2025-26 calendar."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 166,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/esca-looks-ahead-in-banff/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=esca-looks-ahead-in-banff",
-    "date": "2026-10-19",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/esca-2-600x400.webp",
-    "title": {
-      "ar": "مؤتمر ESCA الصيفي في بانف",
-      "en": "ESCA Summer Conference in Banff"
-    },
-    "topic": "conference",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "جمعية خدمات المعارض عقدت مؤتمرًا تعليميًا في فندق فريمونت بانف سبرينغز مع أنشطة متعددة.",
-      "en": "ESCA hosted its annual Summer Educational Conference in Banff with networking and leisure activities."
     },
     "priority": "P2"
   }
