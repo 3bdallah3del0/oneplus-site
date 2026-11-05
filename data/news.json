@@ -1,5 +1,23 @@
 [
   {
+    "id": 205,
+    "geo": "saudi",
+    "url": "https://saudigazette.com.sa/article/665994/saudi-arabia/azerbaijan-signs-participation-contract-for-expo-2030-riyadh",
+    "date": "2026-11-04",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/04/2789772.webp",
+    "title": {
+      "ar": "أذربيجان توقع عقد المشاركة في إكسبو 2030 الرياض",
+      "en": "Azerbaijan Signs Expo 2030 Riyadh Participation Contract"
+    },
+    "topic": "exhibition",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "أذربيجان توقع عقدًا للمشاركة في إكسبو 2030 بالرياض، ما يفتح باب تطوير جناحها وبرامجها.",
+      "en": "Azerbaijan has signed the participation contract for Expo 2030 Riyadh, initiating pavilion development and program planning."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 202,
     "geo": "global",
     "url": "https://saudigazette.com.sa/article/665991/saudi-arabia/tourism-minister-inaugurates-saudi-land-pavilion-in-london",
@@ -360,6 +378,24 @@
     "priority": "P1"
   },
   {
+    "id": 206,
+    "geo": "global",
+    "url": "https://www.tsnn.com/venues-destinations/seattle-s-next-chapter-for-trade-shows-summit-sustainability",
+    "date": "2026-11-04",
+    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt83019b5b45a12f0b/6aea57932e789c4daf508c69/seattle_thumbnail.png?width=720&amp;quality=80&amp;disable=upscale",
+    "title": {
+      "ar": "المرحلة القادمة لمعارض سياتل: القمة والاستدامة",
+      "en": "Seattle’s Next Chapter for Trade Shows: Summit & Sustainability"
+    },
+    "topic": "industry",
+    "source": "TSNN — Trade Show News",
+    "summary": {
+      "ar": "نقاش حول مركز مؤتمرات سياتل، الاستدامة في الفعاليات وفرص للمنظمين.",
+      "en": "Discussion on Seattle Convention Center’s sustainability initiatives and new opportunities for event organizers."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 203,
     "geo": "global",
     "url": "https://exhibitcitynews.com/san-diego-convention-center-eat-sleep-play/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=san-diego-convention-center-eat-sleep-play",
@@ -680,42 +716,6 @@
     "summary": {
       "ar": "تستعرض المقالة عوامل اختيار المدن والقاعات للمعارض، مشددة على أن الحجم ليس المعيار الوحيد للنجاح.",
       "en": "The article highlights key criteria beyond size when selecting a city and venue for trade shows."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 178,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/ufi-exhibition-venues-asia-pacific/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ufi-exhibition-venues-asia-pacific",
-    "date": "2026-10-26",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/UFI-600x400.webp",
-    "title": {
-      "ar": "آسيا‑المحيط الهادئ تتصدر عدد القاعات الكبيرة للمعارض",
-      "en": "Asia‑Pacific Leads in Large Exhibition Venues"
-    },
-    "topic": "venue",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "أظهر تقرير UFI أن عدد القاعات التي تتجاوز 100,000 م² في آسيا‑المحيط الهادئ فاق أوروبا، ما يفتح فرصاً للمعارض الدولية.",
-      "en": "UFI’s 2026 map shows the region now has the most venues over 100,000 m², offering new opportunities for global shows."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 177,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/greg-roberts-superior-logistics-operations-manager/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=greg-roberts-superior-logistics-operations-manager",
-    "date": "2026-10-23",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/superior-bob-400x400.webp",
-    "title": {
-      "ar": "تعيين غريغ روبرتس مدير عمليات في شركة Superior Logistics",
-      "en": "Greg Roberts Appointed Operations Manager at Superior Logistics"
-    },
-    "topic": "industry",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "قامت شركة Superior Logistics المتخصصة في نقل المعارض والفعاليات بتعيين غريغ روبرتس كمدير عمليات، لتعزيز خدماتها اللوجستية.",
-      "en": "Event logistics firm Superior Logistics appoints Greg Roberts as Operations Manager to boost its trade‑show transportation services."
     },
     "priority": "P2"
   }
