@@ -378,6 +378,42 @@
     "priority": "P1"
   },
   {
+    "id": 208,
+    "geo": "mena",
+    "url": "https://www.tsnn.com/trade-shows-conferences/informa-ceo-stephen-carter-on-why-the-real-room-still-matters",
+    "date": "2026-11-05",
+    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/bltbeae2676e7cc810a/6aec7b1929720d3a8468c256/AS2_1108.jpg?width=720&amp;quality=80&amp;disable=upscale",
+    "title": {
+      "ar": "ستيفن كارتر من إنفورما يوضح أهمية “الغرفة الحقيقية” في مؤتمر UFI بالبحرين",
+      "en": "Informa CEO on ‘Real Room’ at UFI Global Congress"
+    },
+    "topic": "conference",
+    "source": "TSNN — Trade Show News",
+    "summary": {
+      "ar": "ألقى الرئيس التنفيذي لشركة إنفورما، ستيفن كارتر، كلمة رئيسية في المؤتمر الـ93 للجمعية العالمية للمعارض في البحرين، مؤكدًا على أهمية المساحات الفعلية في الفعاليات. يسلط الحديث الضوء على استراتيجيات التصميم والتفاعل.",
+      "en": "Informa CEO Stephen Carter delivered the keynote at the 93rd UFI Global Congress in Bahrain, emphasizing the continued relevance of the “real room” concept for exhibitions. His insights address design and attendee engagement trends."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 207,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/ufi-board-of-directors-2026-2029/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ufi-board-of-directors-2026-2029",
+    "date": "2026-11-05",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/UFI-1-600x400.webp",
+    "title": {
+      "ar": "UFI تعين 59 عضوًا لمجلس الإدارة 2026‑2029",
+      "en": "UFI Announces 59‑Member Board 2026‑2029"
+    },
+    "topic": "industry",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "أعلنت الجمعية العالمية للمعارض (UFI) عن تشكيل مجلس إدارة مكوّن من 59 عضوًا للفترة 2026‑2029. تشمل الأعضاء ممثلين من مؤسسات دولية.",
+      "en": "UFI has revealed a 59‑member board of directors for 2026‑2029, including representatives from major global exhibition organizations. The appointment signals strategic direction for the exhibition sector."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 206,
     "geo": "global",
     "url": "https://www.tsnn.com/venues-destinations/seattle-s-next-chapter-for-trade-shows-summit-sustainability",
@@ -680,42 +716,6 @@
     "summary": {
       "ar": "تحليل ماريتز للاتجاه المتزايد لتأخير التسجيل في الفعاليات وكيفية استجابة منظمي المعارض.",
       "en": "Maritz analyzes the growing trend of late event registration and how organizers should respond."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 180,
-    "geo": "saudi",
-    "url": "https://saudigazette.com.sa/article/665744/business/bae-systems-saudi-arabia-highlights-its-contribution-to-national-industrial-and-technical-capabilities-at-military-industries-forum-2026",
-    "date": "2026-10-26",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/26/2785385.webp",
-    "title": {
-      "ar": "باي سيستمز السعودية في منتدى الصناعات العسكرية 2026",
-      "en": "BAE Systems Saudi at Military Industries Forum 2026"
-    },
-    "topic": "conference",
-    "source": "Saudi Gazette — Business",
-    "summary": {
-      "ar": "شركة باي سيستمز السعودية تسلط الضوء على مساهمتها في القدرات الصناعية خلال منتدى الصناعات العسكرية في الرياض.",
-      "en": "BAE Systems Saudi highlighted its role in national industrial capabilities at the Riyadh Military Industries Forum."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 179,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/right-place-for-the-right-show/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=right-place-for-the-right-show",
-    "date": "2026-10-26",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/vkc-600x400.webp",
-    "title": {
-      "ar": "اختيار المدينة والقاعـة المناسبة للمعرض",
-      "en": "Choosing the Right City and Venue for a Show"
-    },
-    "topic": "venue",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "تستعرض المقالة عوامل اختيار المدن والقاعات للمعارض، مشددة على أن الحجم ليس المعيار الوحيد للنجاح.",
-      "en": "The article highlights key criteria beyond size when selecting a city and venue for trade shows."
     },
     "priority": "P2"
   }
