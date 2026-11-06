@@ -1,5 +1,23 @@
 [
   {
+    "id": 209,
+    "geo": "saudi",
+    "url": "https://saudigazette.com.sa/article/666030/saudi-arabia/pakistan-signs-participation-contract-for-expo-2030-riyadh",
+    "date": "2026-11-05",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/05/2790465.webp",
+    "title": {
+      "ar": "باكستان توقع عقد مشاركة في إكسبو 2030 بالرياض",
+      "en": "Pakistan signs participation contract for Expo 2030 Riyadh"
+    },
+    "topic": "exhibition",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "وقعت باكستان عقد مشاركة لتطوير جناحها وبرامجها في إكسبو 2030 بالرياض، ما يعزز مشاركة دولية في الحدث.",
+      "en": "Pakistan has signed its participation contract to develop its pavilion and programs for Expo 2030 Riyadh, boosting international involvement."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 205,
     "geo": "saudi",
     "url": "https://saudigazette.com.sa/article/665994/saudi-arabia/azerbaijan-signs-participation-contract-for-expo-2030-riyadh",
@@ -378,6 +396,24 @@
     "priority": "P1"
   },
   {
+    "id": 210,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/ges-acquires-csg-creative/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ges-acquires-csg-creative",
+    "date": "2026-11-05",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/ges-600x400.webp",
+    "title": {
+      "ar": "GES تستحوذ على CSG Creative من National Trade Productions",
+      "en": "GES acquires CSG Creative from National Trade Productions"
+    },
+    "topic": "industry",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "شركة GES العالمية للخبرات التفاعلية استحوذت على CSG Creative لتوسيع خدماتها للمنظمين والمعارض.",
+      "en": "Global Experience Specialists GES has acquired CSG Creative to expand its marketing and creative services for exhibition organizers."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 208,
     "geo": "mena",
     "url": "https://www.tsnn.com/trade-shows-conferences/informa-ceo-stephen-carter-on-why-the-real-room-still-matters",
@@ -680,42 +716,6 @@
     "summary": {
       "ar": "عرض توضيحي لتصميم جناح مرن في قاعة الأتمتة بـ MODEX. يبرز التعاون بين Locus Robotics و Catalyst Exhibits لتجربة 360 درجة.",
       "en": "Showcase of a flexible booth in MODEX’s automation hall. Collaboration between Locus Robotics and Catalyst Exhibits delivers a 360° experience."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 183,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/tribute-to-tom-bacha/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=tribute-to-tom-bacha",
-    "date": "2026-10-27",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/bachta-2-600x400.webp",
-    "title": {
-      "ar": "تكريم توماس باچا، رائد صناعة أجنحة المعارض",
-      "en": "Tribute to Tom Bacha"
-    },
-    "topic": "industry",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "توفي توماس باچا، أحد رواد بناء أجنحة المعارض، عن عمر يناهز 72 عاماً. مسيرته بدأت في شركة Exhibits Inc. في شيكاغو وأثر كبير في الصناعة.",
-      "en": "Tom Bacha, a pioneering tradeshow exhibit builder, passed away at 72. His career began at Exhibits Inc. in Chicago, leaving a lasting impact on the industry."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 182,
-    "geo": "global",
-    "url": "https://www.tsnn.com/event-planning/why-attendees-wait-to-register-maritz-on-event-trends",
-    "date": "2026-10-27",
-    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt0c3609445c7d46c9/6ae0850faed203d6a2902468/maritz_thumbnail.png?width=720&amp;quality=80&amp;disable=upscale",
-    "title": {
-      "ar": "لماذا ينتظر الحضور التسجيل؟",
-      "en": "Why Attendees Wait to Register"
-    },
-    "topic": "event",
-    "source": "TSNN — Trade Show News",
-    "summary": {
-      "ar": "تحليل ماريتز للاتجاه المتزايد لتأخير التسجيل في الفعاليات وكيفية استجابة منظمي المعارض.",
-      "en": "Maritz analyzes the growing trend of late event registration and how organizers should respond."
     },
     "priority": "P2"
   }
