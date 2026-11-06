@@ -396,6 +396,60 @@
     "priority": "P1"
   },
   {
+    "id": 212,
+    "geo": "global",
+    "url": "https://www.tsnn.com/trade-shows-conferences/the-2026-nacs-show-welcomed-more-than-25-000-attendees-amid-industry-challenges",
+    "date": "2026-11-06",
+    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt12fd46cf47105660/6aea566e12acd33eea711cb7/Massive_Crowd_1776_(1).JPG?width=720&amp;quality=80&amp;disable=upscale",
+    "title": {
+      "ar": "معرض NACS 2026 يجذب أكثر من 25,000 زائر",
+      "en": "2026 NACS Show Attracts 25,000+ Attendees"
+    },
+    "topic": "exhibition",
+    "source": "TSNN — Trade Show News",
+    "summary": {
+      "ar": "استقبل معرض NACS السنوي لعام 2026 أكثر من 25,000 مشارك رغم التحديات التي تواجه الصناعة.",
+      "en": "The 2026 NACS Show welcomed over 25,000 attendees amid industry challenges."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 211,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/gina-locatto-noenmcc-assistant-director-sales/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=gina-locatto-noenmcc-assistant-director-sales",
+    "date": "2026-11-06",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/Gina-Locatto-400x400.webp",
+    "title": {
+      "ar": "ترقية جينا لوكاتو إلى مساعد مدير المبيعات في مركز نيو أورلينز للمؤتمرات",
+      "en": "Gina Locatto Promoted at New Orleans Convention Center"
+    },
+    "topic": "venue",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "تمت ترقية جينا لوكاتو إلى منصب مساعد مدير المبيعات في مركز نيو أورلينز إرنست ن. موريال للمؤتمرات.",
+      "en": "Gina Locatto has been promoted to Assistant Director of Sales at NOENMCC."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 213,
+    "geo": "global",
+    "url": "https://www.tsnn.com/trade-show-marketing/ges-acquires-csg-creative-from-national-trade-productions",
+    "date": "2026-11-05",
+    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt4a13fb318d648c8e/6aec979d25b8d16baca7c25d/Paige_Cardwell_2026_main_image.jpeg?width=720&amp;quality=80&amp;disable=upscale",
+    "title": {
+      "ar": "GES تستحوذ على CSG Creative من National Trade Productions",
+      "en": "GES Acquires CSG Creative"
+    },
+    "topic": "industry",
+    "source": "TSNN — Trade Show News",
+    "summary": {
+      "ar": "أضافت GES شركة CSG Creative إلى محفظتها لتوسيع خدمات التسويق الإبداعي في مجال المعارض.",
+      "en": "GES has acquired CSG Creative, enhancing its creative services portfolio for exhibitions."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 210,
     "geo": "global",
     "url": "https://exhibitcitynews.com/ges-acquires-csg-creative/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ges-acquires-csg-creative",
@@ -662,60 +716,6 @@
     "summary": {
       "ar": "يتناول المقال طريقة تسليم مجموعات الإضاءة للأجنحة مع توثيق الترتيب والرسومات، ما يسهل تركيب الأجنحة في المعارض.",
       "en": "The article explains a clearer hand‑over process for stand lighting kits, linking workshop setup, drawings and case contents to speed up exhibition build‑outs."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 186,
-    "geo": "riyadh",
-    "url": "https://saudigazette.com.sa/article/665801/saudi-arabia/saudi-awwal-bank-signs-mou-with-playbook-to-advance-womens-entrepreneurship-and-financial-innovation",
-    "date": "2026-10-28",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/28/2786453.webp",
-    "title": {
-      "ar": "بنك أواّل يوقع مذكرات تعاون مع PLAYBOOK لتمكين رائدات الأعمال",
-      "en": "SAB signs MoU with PLAYBOOK for women entrepreneurship"
-    },
-    "topic": "conference",
-    "source": "Saudi Gazette — Business",
-    "summary": {
-      "ar": "وقع بنك أواّل مذكرة تفاهم مع PLAYBOOK خلال قمة Women Shaping Wealth في الرياض لتعزيز ريادة الأعمال للنساء والابتكار المالي.",
-      "en": "Saudi Awwal Bank signed an MoU with PLAYBOOK at the Women Shaping Wealth Summit in Riyadh to boost women entrepreneurship and financial innovation."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 185,
-    "geo": "global",
-    "url": "https://www.tsnn.com/exhibitors/rising-trade-show-costs-ges-shares-its-strategy",
-    "date": "2026-10-28",
-    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/bltb089ebafc3b4c762/6ae1ed9ae06e27a07256cc76/jeff_quade_thumbanil.png?width=720&amp;quality=80&amp;disable=upscale",
-    "title": {
-      "ar": "ارتفاع تكاليف المعارض؟ استراتيجية GES",
-      "en": "Rising Trade Show Costs? GES Strategy"
-    },
-    "topic": "technology",
-    "source": "TSNN — Trade Show News",
-    "summary": {
-      "ar": "في IMEX America 2026 يناقش رئيس GES استراتيجيات تأجير الأجنحة والاستدامة والذكاء الاصطناعي. يقدم رؤى لتقليل التكاليف.",
-      "en": "At IMEX America 2026 GES President discusses exhibit rentals, sustainability and AI. Offers insights to curb trade‑show costs."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 184,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/wow-booth-locus-robotics-catalyst-exhibits/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=wow-booth-locus-robotics-catalyst-exhibits",
-    "date": "2026-10-28",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/Locus-Robotics1-600x400.webp",
-    "title": {
-      "ar": "منصة Locus Robotics مع Catalyst Exhibits في MODEX",
-      "en": "Locus Robotics Booth at MODEX"
-    },
-    "topic": "exhibition",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "عرض توضيحي لتصميم جناح مرن في قاعة الأتمتة بـ MODEX. يبرز التعاون بين Locus Robotics و Catalyst Exhibits لتجربة 360 درجة.",
-      "en": "Showcase of a flexible booth in MODEX’s automation hall. Collaboration between Locus Robotics and Catalyst Exhibits delivers a 360° experience."
     },
     "priority": "P2"
   }
