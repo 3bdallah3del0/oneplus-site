@@ -432,6 +432,24 @@
     "priority": "P2"
   },
   {
+    "id": 215,
+    "geo": "saudi",
+    "url": "https://saudigazette.com.sa/article/666033/saudi-arabia/riyadh-metro-named-among-worlds-top-four-transport-projects",
+    "date": "2026-11-05",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/05/2790473.webp",
+    "title": {
+      "ar": "مترو الرياض يُصنّف ضمن أفضل أربعة مشاريع نقل عالمية",
+      "en": "Riyadh Metro among top four global transport projects"
+    },
+    "topic": "technology",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "حُكم على مترو الرياض كأحد أفضل أربعة مشاريع نقل في معرض Smart City Expo World Congress 2026 ببرشلونة.",
+      "en": "Riyadh Metro ranked among the top four transport projects at the Smart City Expo World Congress 2026 in Barcelona."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 213,
     "geo": "global",
     "url": "https://www.tsnn.com/trade-show-marketing/ges-acquires-csg-creative-from-national-trade-productions",
@@ -698,24 +716,6 @@
     "summary": {
       "ar": "الصفقة تضيف معرض الخدمات البيئية، معرض Naidex، وثلاث فعاليات بريطانية أخرى إلى محفظة CloserStill، ما يعزز تقنياتها وخدماتها للمعارض العالمية.",
       "en": "The deal brings Environmental Services & Solutions Expo, Naidex and three UK events into CloserStill’s portfolio, expanding its infrastructure, technology and healthcare event offerings."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 189,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/from-the-workshop-to-the-show-floor-lighting-handover/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=from-the-workshop-to-the-show-floor-lighting-handover",
-    "date": "2026-10-29",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/whatever-600x400.webp",
-    "title": {
-      "ar": "نظام إضاءة الأجنحة: توصيل الأدوات من الورشة إلى صالة العرض",
-      "en": "Exhibit Lighting Kit Handover from Workshop to Show Floor"
-    },
-    "topic": "technology",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "يتناول المقال طريقة تسليم مجموعات الإضاءة للأجنحة مع توثيق الترتيب والرسومات، ما يسهل تركيب الأجنحة في المعارض.",
-      "en": "The article explains a clearer hand‑over process for stand lighting kits, linking workshop setup, drawings and case contents to speed up exhibition build‑outs."
     },
     "priority": "P2"
   }
