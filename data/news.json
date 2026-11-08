@@ -396,6 +396,24 @@
     "priority": "P1"
   },
   {
+    "id": 216,
+    "geo": "riyadh",
+    "url": "https://saudigazette.com.sa/article/666081/saudi-arabia/global-logistics-forum-postpones-second-edition-in-riyadh-to-november-2027",
+    "date": "2026-11-08",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/08/2791346.webp",
+    "title": {
+      "ar": "تأجيل منتدى اللوجستيات العالمي في الرياض إلى 2027",
+      "en": "Global Logistics Forum postponed to 2027 in Riyadh"
+    },
+    "topic": "conference",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "تم تأجيل النسخة الثانية لمنتدى اللوجستيات العالمي في الرياض إلى 16‑18 نوفمبر 2027، بالتزامن مع منتدى سلاسل الإمداد العالمي التابع للأونكتاد.",
+      "en": "The second edition of the Global Logistics Forum in Riyadh has been postponed to November 16‑18, 2027, aligning with the UNCTAD Global Supply Chain Forum."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 212,
     "geo": "global",
     "url": "https://www.tsnn.com/trade-shows-conferences/the-2026-nacs-show-welcomed-more-than-25-000-attendees-amid-industry-challenges",
@@ -698,24 +716,6 @@
     "summary": {
       "ar": "يتناول المقال تفاصيل عمليات التحميل والتركيب في المعارض وكيف تؤثر على نجاح الأجنحة. يسلط الضوء على عناصر لا يراها الزوار لكن لها دور أساسي.",
       "en": "The article discusses load‑in and load‑out processes in exhibitions and their impact on booth success. It highlights behind‑the‑scenes elements crucial for a smooth show."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 190,
-    "geo": "global",
-    "url": "https://www.tsnn.com/trade-shows-conferences/closerstill-media-acquires-roar-b2b-adding-five-event-brands-to-global-portfolio",
-    "date": "2026-10-29",
-    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt2a5f070f7b4793ee/6ae34a45c6f80f153384d510/ess_expo_show_floor.webp?width=720&amp;quality=80&amp;disable=upscale",
-    "title": {
-      "ar": "CloserStill Media تستحوذ على ROAR B2B وتضيف خمس علامات تجارية للفعاليات",
-      "en": "CloserStill Media Acquires ROAR B2B, Adding Five Event Brands"
-    },
-    "topic": "industry",
-    "source": "TSNN — Trade Show News",
-    "summary": {
-      "ar": "الصفقة تضيف معرض الخدمات البيئية، معرض Naidex، وثلاث فعاليات بريطانية أخرى إلى محفظة CloserStill، ما يعزز تقنياتها وخدماتها للمعارض العالمية.",
-      "en": "The deal brings Environmental Services & Solutions Expo, Naidex and three UK events into CloserStill’s portfolio, expanding its infrastructure, technology and healthcare event offerings."
     },
     "priority": "P2"
   }
