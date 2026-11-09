@@ -432,6 +432,60 @@
     "priority": "P1"
   },
   {
+    "id": 221,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/kansas-city-convention-campus-500-million-plan/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=kansas-city-convention-campus-500-million-plan",
+    "date": "2026-11-09",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/KC-Convention-Center-rendering-1-credit-Populous-600x400.webp",
+    "title": {
+      "ar": "رؤية حرم المؤتمرات في كانساس سيتي",
+      "en": "Kansas City Convention Campus Vision"
+    },
+    "topic": "venue",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "تقدم كانساس سيتي خطة لتحديث حرم المؤتمرات والترفيه بمبلغ 500 مليون دولار حتى 2036، تشمل تجديد مرافق تاريخية.",
+      "en": "Kansas City advances a $500 M vision to modernize its convention and entertainment campus through 2036, including historic venue upgrades."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 220,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/abilities-expo-los-angeles-2027-expansion/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=abilities-expo-los-angeles-2027-expansion",
+    "date": "2026-11-09",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/Abilities-Expo-600x400.webp",
+    "title": {
+      "ar": "توسعة معرض Abilities في لوس أنجلوس",
+      "en": "Abilities Expo Los Angeles Expansion"
+    },
+    "topic": "exhibition",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "سيتم توسيع معرض Abilities في لوس أنجلوس إلى ثلاثة قاعات في مركز مؤتمرات لونغ بيتش بحلول 2027، ما يعكس نمو الفعاليات المتخصصة.",
+      "en": "Abilities Expo Los Angeles will expand to three halls at Long Beach Convention Center by 2027, reflecting growth in niche exhibitions."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 219,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/santa-clara-convention-center-5-in-15/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=santa-clara-convention-center-5-in-15",
+    "date": "2026-11-09",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/sc-1-600x400.webp",
+    "title": {
+      "ar": "مركز مؤتمرات سانتا كلارا",
+      "en": "Santa Clara Convention Center"
+    },
+    "topic": "venue",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "دليل لأقرب الأماكن للراحة والطعام داخل مسافة 15 دقيقة من مركز مؤتمرات سانتا كلارا، مفيد لمنظمي الفعاليات.",
+      "en": "Guide to nearby dining and relaxation spots within a 15‑minute walk of Santa Clara Convention Center, useful for event planners."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 216,
     "geo": "riyadh",
     "url": "https://saudigazette.com.sa/article/666081/saudi-arabia/global-logistics-forum-postpones-second-edition-in-riyadh-to-november-2027",
@@ -662,60 +716,6 @@
     "summary": {
       "ar": "المعارض التصميمية تتحول إلى فرص تجارية تربط المصممين ورواد الأعمال بشبكات دولية.",
       "en": "Design exhibitions evolve into business opportunities linking designers, entrepreneurs, and global networks."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 197,
-    "geo": "global",
-    "url": "https://www.tsnn.com/people-career-development/m-a-growth-opportunities-and-event-launches-with-rx-s-toni-piela",
-    "date": "2026-11-02",
-    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt8a7d22d749e79ef2/6ae8fe361b7efbd34aec73a7/toni_Piela.png?width=720&amp;quality=80&amp;disable=upscale",
-    "title": {
-      "ar": "الاندماجات وفرص النمو وإطلاق الفعاليات",
-      "en": "M&A, Growth Opportunities & Event Launches"
-    },
-    "topic": "industry",
-    "source": "TSNN — Trade Show News",
-    "summary": {
-      "ar": "بودكاست Trade Show Talk يناقش تأثير صفقات الاندماج والاستحواذ على صناعة المعارض وفرص النمو وإطلاق الفعاليات. المقابلة مع رئيس الاستراتيجية والاندماجات لمنطقة الأمريكتين.",
-      "en": "Trade Show Talk podcast explores how M&A deals affect the exhibition industry, offering growth opportunities and event launches. Interview with RX’s Head of Strategy and M&A for the Americas."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 196,
-    "geo": "global",
-    "url": "https://meetings.skift.com/2026/11/02/14-venues-3500-delegates-one-day-to-load-in-inside-the-b20-summit/",
-    "date": "2026-11-02",
-    "image": "https://meetings.skift.com/wp-content/uploads/2026/11/Wharf_005_7407811_20230316.jpg?w=1024",
-    "title": {
-      "ar": "ملامح قمة B20: 14 موقعًا و3500 مشارك",
-      "en": "Inside the B20 Summit Logistics"
-    },
-    "topic": "conference",
-    "source": "Skift Meetings",
-    "summary": {
-      "ar": "استعراض لتحديات تحميل الأجنحة في قمة B20 التي تستخدم نموذجًا لامركزيًا.",
-      "en": "Overview of load‑in challenges for the decentralized B20 summit venue model."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 195,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/washington-dc-international-tradeshow-participation/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=washington-dc-international-tradeshow-participation",
-    "date": "2026-11-02",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/advo-600x400.webp",
-    "title": {
-      "ar": "مستقبل المشاركة الدولية في معارض الولايات المتحدة",
-      "en": "Future of International Participation in US Tradeshows"
-    },
-    "topic": "exhibition",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "تحليل لارتفاع أعداد العارضين والزوار في المعارض الأمريكية وتحديات الاستثمار والاندماجات.",
-      "en": "Analysis of record exhibitor attendance in US tradeshows and related investment trends."
     },
     "priority": "P2"
   }
