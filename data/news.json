@@ -1,5 +1,41 @@
 [
   {
+    "id": 218,
+    "geo": "jeddah",
+    "url": "https://saudigazette.com.sa/article/666087/saudi-arabia/high-tech-services-for-pilgrims-showcased-as-hajj-conference-and-exhibition-kicks-off-in-jeddah",
+    "date": "2026-11-08",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/08/2791586.webp",
+    "title": {
+      "ar": "خدمات تقنية عالية للحوّاجين تُعرض في معرض الحج بجدة",
+      "en": "High‑Tech Pilgrim Services Showcased at Hajj Exhibition"
+    },
+    "topic": "technology",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "انطلقت النسخة السادسة لمؤتمر ومعرض الحج في سوبر دوم جدة، بمشاركة أكثر من 520 جهة حكومية وخاصة. يركز المعرض على عرض حلول تقنية لخدمة الحجاج.",
+      "en": "The 6th Hajj Conference & Exhibition opened at Jeddah Superdome with over 520 entities, highlighting high‑tech solutions for pilgrims."
+    },
+    "priority": "P1"
+  },
+  {
+    "id": 217,
+    "geo": "jeddah",
+    "url": "https://saudigazette.com.sa/article/666097/saudi-arabia/makkah-deputy-emir-inaugurates-hajj-conference-and-exhibition",
+    "date": "2026-11-08",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/09/2791801.webp",
+    "title": {
+      "ar": "نائب أمير مكة يفتتح مؤتمر ومعرض الحج",
+      "en": "Makkah Deputy Emir Inaugurates Hajj Conference & Exhibition"
+    },
+    "topic": "conference",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "افتتح نائب أمير مكة الأمير سعود بن مشعل النسخة السادسة لمؤتمر ومعرض الحج في سوبر دوم جدة. الحدث يستمر أربعة أيام تحت رعاية خادم الحرمين الشريفين.",
+      "en": "Deputy Emir of Makkah, Prince Saud bin Mishaal, inaugurated the 6th Hajj Conference & Exhibition at Jeddah Superdome. The four‑day event is under the patronage of King Salman."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 209,
     "geo": "saudi",
     "url": "https://saudigazette.com.sa/article/666030/saudi-arabia/pakistan-signs-participation-contract-for-expo-2030-riyadh",
@@ -680,42 +716,6 @@
     "summary": {
       "ar": "تحليل لارتفاع أعداد العارضين والزوار في المعارض الأمريكية وتحديات الاستثمار والاندماجات.",
       "en": "Analysis of record exhibitor attendance in US tradeshows and related investment trends."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 192,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/corporate-event-branding-table-centerpieces/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=corporate-event-branding-table-centerpieces",
-    "date": "2026-10-30",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/whatever-1-600x400.webp",
-    "title": {
-      "ar": "نقل هوية الحدث إلى طاولة الضيافة",
-      "en": "Bringing Corporate Event Branding to the Table"
-    },
-    "topic": "event",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "يوضح المقال كيف يمكن للهوية البصرية للفعالية أن تستمر على طاولات الضيافة خلال الاستقبال والاحتفالات. يطرح أفكاراً لتصميم طاولات تعكس العلامة التجارية.",
-      "en": "The article explains how a corporate event’s visual identity can extend to dining tables during receptions and celebrations, offering design ideas to reflect the brand."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 191,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/load-in-load-out-successful-tradeshow/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=load-in-load-out-successful-tradeshow",
-    "date": "2026-10-30",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/load-in-600x400.webp",
-    "title": {
-      "ar": "التحميل داخل وخارج المعرض: الجوانب غير المرئية للنجاح",
-      "en": "Load‑in & Load‑out: The Unseen Circle of a Successful Show"
-    },
-    "topic": "industry",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "يتناول المقال تفاصيل عمليات التحميل والتركيب في المعارض وكيف تؤثر على نجاح الأجنحة. يسلط الضوء على عناصر لا يراها الزوار لكن لها دور أساسي.",
-      "en": "The article discusses load‑in and load‑out processes in exhibitions and their impact on booth success. It highlights behind‑the‑scenes elements crucial for a smooth show."
     },
     "priority": "P2"
   }
