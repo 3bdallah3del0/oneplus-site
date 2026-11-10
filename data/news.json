@@ -432,6 +432,24 @@
     "priority": "P1"
   },
   {
+    "id": 222,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/expo-convention-contractors-texas-expansion/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=expo-convention-contractors-texas-expansion",
+    "date": "2026-11-09",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/ECC-2-600x400.webp",
+    "title": {
+      "ar": "EXPO Convention Contractors يفتح فرعًا في تكساس",
+      "en": "EXPO Contractors Opens Texas Office"
+    },
+    "topic": "industry",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "توسّع شركة EXPO Convention Contractors حضورها في تكساس لتلبية طلبات المؤتمرات والفعاليات في المنطقة.",
+      "en": "EXPO Convention Contractors expands to Texas, boosting services for regional conventions."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 221,
     "geo": "global",
     "url": "https://exhibitcitynews.com/kansas-city-convention-campus-500-million-plan/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=kansas-city-convention-campus-500-million-plan",
@@ -698,24 +716,6 @@
     "summary": {
       "ar": "تحليل لتكلفة الأجنحة في المعارض ومدى العائد على الاستثمار للعارضين.",
       "en": "Analysis of booth costs versus ROI for exhibitors at trade shows."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 198,
-    "geo": "global",
-    "url": "https://www.ufi.org/why-design-exhibitions-are-becoming-platforms-for-creative-economy-growth/",
-    "date": "2026-11-03",
-    "image": "https://www.ufi.org/app/uploads/2025/10/DiamondSponsor-1024x512.png",
-    "title": {
-      "ar": "لماذا تصبح المعارض التصميمية منصات لنمو الاقتصاد الإبداعي",
-      "en": "Design Exhibitions as Platforms for Creative Economy Growth"
-    },
-    "topic": "exhibition",
-    "source": "UFI",
-    "summary": {
-      "ar": "المعارض التصميمية تتحول إلى فرص تجارية تربط المصممين ورواد الأعمال بشبكات دولية.",
-      "en": "Design exhibitions evolve into business opportunities linking designers, entrepreneurs, and global networks."
     },
     "priority": "P2"
   }
