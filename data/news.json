@@ -1,5 +1,23 @@
 [
   {
+    "id": 225,
+    "geo": "mena",
+    "url": "https://www.ufi.org/letter-from-the-ufi-president-november-2026/",
+    "date": "2026-11-09",
+    "image": "https://www.ufi.org/app/uploads/2026/11/Sessions_Day-0_01-Trio-Meeting_2025-11-18_UGC_HK_FOTOBUENO_1185.jpg_1200x800.jpg",
+    "title": {
+      "ar": "رسالة رئيس UFI عن المؤتمر العالمي في السعودية",
+      "en": "UFI President Letter on Saudi Global Congress"
+    },
+    "topic": "conference",
+    "source": "UFI",
+    "summary": {
+      "ar": "رئيس الاتحاد الدولي للمعارض يختتم رئاسته مع إشارة إلى مؤتمر UFI العالمي الذي سيعقد في المملكة، ما يعزز مكانة السعودية في قطاع المعارض.",
+      "en": "UFI President’s farewell letter highlights the upcoming UFI Global Congress in Saudi Arabia, underscoring the Kingdom’s exhibition sector prominence."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 218,
     "geo": "jeddah",
     "url": "https://saudigazette.com.sa/article/666087/saudi-arabia/high-tech-services-for-pilgrims-showcased-as-hajj-conference-and-exhibition-kicks-off-in-jeddah",
@@ -432,6 +450,60 @@
     "priority": "P1"
   },
   {
+    "id": 226,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/link-belt-highmark-sparks-conexpo-con-agg-2026/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=link-belt-highmark-sparks-conexpo-con-agg-2026",
+    "date": "2026-11-10",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/highmark-1-600x400.webp",
+    "title": {
+      "ar": "جناح WOW في معرض CONEXPO‑CON/AGG 2026",
+      "en": "WOW Booth at CONEXPO‑CON/AGG 2026"
+    },
+    "topic": "exhibition",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "شركة Highmark وSparks تصممان جناح WOW لشركة Link‑Belt في معرض CONEXPO‑CON/AGG في لاس فيغاس، أحد أكبر معارض معدات البناء عالمياً.",
+      "en": "Highmark and Sparks design the WOW booth for Link‑Belt at CONEXPO‑CON/AGG 2026 in Las Vegas, a leading global construction equipment exhibition."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 224,
+    "geo": "saudi",
+    "url": "https://saudigazette.com.sa/article/666104/saudi-arabia/saudi-arabia-exceeds-90-umrah-pilgrim-satisfaction-target",
+    "date": "2026-11-09",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/09/2791911.webp",
+    "title": {
+      "ar": "تحقق نسبة رضا 93٪ عن خدمات الحج",
+      "en": "93% Hajj Satisfaction Achieved"
+    },
+    "topic": "industry",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "وزير الحج والعمرة يعلن تحقيق معدل رضا 93٪ للحجاج خلال مؤتمر ومعرض حج، بفضل تنسيق أكثر من 60 جهة حكومية.",
+      "en": "Hajj minister reports 93% pilgrim satisfaction at Hajj Conference & Exhibition, thanks to coordination of 60+ agencies."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 223,
+    "geo": "saudi",
+    "url": "https://saudigazette.com.sa/article/666109/saudi-arabia/saudi-arabia-secures-over-13-million-beds-for-hajj-licenses-all-pilgrim-accommodation-buildings",
+    "date": "2026-11-09",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/09/2791966.webp",
+    "title": {
+      "ar": "تأمين أكثر من 1.3 مليون سرير لموسم حج 1448",
+      "en": "Over 1.3 M Hajj Beds Secured"
+    },
+    "topic": "industry",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "وزير السياحة يعلن تأمين 1.3 مليون سرير وإصدار تراخيص لجميع مباني الإقامة خلال مؤتمر ومعرض حج.",
+      "en": "Tourism minister announces 1.3 M beds secured and all pilgrim accommodation licensed at Hajj Conference & Exhibition."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 222,
     "geo": "global",
     "url": "https://exhibitcitynews.com/expo-convention-contractors-texas-expansion/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=expo-convention-contractors-texas-expansion",
@@ -644,78 +716,6 @@
     "summary": {
       "ar": "أعلنت الجمعية العالمية للمعارض (UFI) عن تشكيل مجلس إدارة مكوّن من 59 عضوًا للفترة 2026‑2029. تشمل الأعضاء ممثلين من مؤسسات دولية.",
       "en": "UFI has revealed a 59‑member board of directors for 2026‑2029, including representatives from major global exhibition organizations. The appointment signals strategic direction for the exhibition sector."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 206,
-    "geo": "global",
-    "url": "https://www.tsnn.com/venues-destinations/seattle-s-next-chapter-for-trade-shows-summit-sustainability",
-    "date": "2026-11-04",
-    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt83019b5b45a12f0b/6aea57932e789c4daf508c69/seattle_thumbnail.png?width=720&amp;quality=80&amp;disable=upscale",
-    "title": {
-      "ar": "المرحلة القادمة لمعارض سياتل: القمة والاستدامة",
-      "en": "Seattle’s Next Chapter for Trade Shows: Summit & Sustainability"
-    },
-    "topic": "industry",
-    "source": "TSNN — Trade Show News",
-    "summary": {
-      "ar": "نقاش حول مركز مؤتمرات سياتل، الاستدامة في الفعاليات وفرص للمنظمين.",
-      "en": "Discussion on Seattle Convention Center’s sustainability initiatives and new opportunities for event organizers."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 203,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/san-diego-convention-center-eat-sleep-play/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=san-diego-convention-center-eat-sleep-play",
-    "date": "2026-11-04",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/sd-cc-600x400.webp",
-    "title": {
-      "ar": "مركز مؤتمرات سان دييغو",
-      "en": "San Diego Convention Center"
-    },
-    "topic": "venue",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "يُعد مركز مؤتمرات سان دييغو من أكبر القاعات في الولايات المتحدة، يضم أكثر من 600,000 قدم مربع من مساحة المعارض.",
-      "en": "San Diego Convention Center is a premier U.S. venue with over 600,000 sq ft of exhibit space."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 201,
-    "geo": "global",
-    "url": "https://www.tsnn.com/exhibitors/on-the-trade-show-floor-cort-events-on-purposeful-play-personalization-and-sustainability",
-    "date": "2026-11-03",
-    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blte887e55144cf5759/6ae9e9b8f7db7f4e9dad3d8f/cort_thumbnail.png?width=720&amp;quality=80&amp;disable=upscale",
-    "title": {
-      "ar": "كورت إيفنتس في معرض IMEX 2026: اللعب المتعمد، التخصيص والاستدامة",
-      "en": "CORT Events at IMEX 2026: Purposeful Play, Personalization & Sustainability"
-    },
-    "topic": "industry",
-    "source": "TSNN — Trade Show News",
-    "summary": {
-      "ar": "تستعرض شبكة TSNN كشك شركة كورت إيفنتس في معرض IMEX 2026 وتسلط الضوء على الاتجاهات الحديثة في الأثاث والديكور للمعارض.",
-      "en": "TSNN previews the CORT Events booth at IMEX 2026, highlighting trends in furniture, personalization and sustainability for trade shows."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 199,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/exhibitor-roi-tradeshow-investment/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=exhibitor-roi-tradeshow-investment",
-    "date": "2026-11-03",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/wisdom-600x400.webp",
-    "title": {
-      "ar": "هل يستحق الكشك الجميل تكلفة المشاركة في المعرض؟",
-      "en": "Is a Beautiful Booth Worth the Cost?"
-    },
-    "topic": "exhibition",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "تحليل لتكلفة الأجنحة في المعارض ومدى العائد على الاستثمار للعارضين.",
-      "en": "Analysis of booth costs versus ROI for exhibitors at trade shows."
     },
     "priority": "P2"
   }
