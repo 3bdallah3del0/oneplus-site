@@ -450,6 +450,60 @@
     "priority": "P1"
   },
   {
+    "id": 231,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/site-survey-tradeshow-buyers-suppliers/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=site-survey-tradeshow-buyers-suppliers",
+    "date": "2026-11-11",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/site-pulse-survey-page-1-600x400.webp",
+    "title": {
+      "ar": "اختلاف أهداف المشترين والموردين في المعارض حسب دراسة SITE",
+      "en": "Buyers vs Suppliers Trade Show Goals"
+    },
+    "topic": "industry",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "تكشف الدراسة أن المشترين يركزون على العلاقات القائمة بينما يسعى الموردون لفرص عمل جديدة، ما يؤثر على استراتيجيات المعارض.",
+      "en": "Research shows buyers prioritize existing relationships, while suppliers seek new business, shaping exhibition strategies."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 230,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/lvcva-south-hall-warehouse-freight-elevator/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=lvcva-south-hall-warehouse-freight-elevator",
+    "date": "2026-11-11",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/LVCVA-byTanvi-600x400.webp",
+    "title": {
+      "ar": "المجلس يوافق على بناء مستودع ومصعد شحن في قاعة جنوب لاس فيغاس",
+      "en": "LVCC Approves South Hall Warehouse"
+    },
+    "topic": "venue",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "تمت الموافقة على مشروع بقيمة 5.49 مليون دولار لإنشاء مستودع ومصعد شحن داخل مركز مؤتمرات لاس فيغاس، ما يحسن لوجستيات الفعاليات.",
+      "en": "A $5.49 M project will add a warehouse and freight elevator to the South Hall, easing event crew logistics."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 229,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/tradeshow-testimonials-video-production/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=tradeshow-testimonials-video-production",
+    "date": "2026-11-11",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/AdobeStock_512066458-600x400.webp",
+    "title": {
+      "ar": "كيفية تصوير شهادات العملاء في أجنحة المعارض",
+      "en": "Filming Booth Testimonials"
+    },
+    "topic": "exhibition",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "يشرح المقال طرقًا فعّالة لتسجيل شهادات العملاء داخل أجنحة المعارض، مما يعزز محتوى التسويق للعارضين.",
+      "en": "Tips for capturing authentic customer testimonials on the exhibition floor to boost marketing impact."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 228,
     "geo": "global",
     "url": "https://exhibitcitynews.com/euro-fair-statistics-2025-ufi-report/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=euro-fair-statistics-2025-ufi-report",
@@ -662,60 +716,6 @@
     "summary": {
       "ar": "تمت ترقية جينا لوكاتو إلى منصب مساعد مدير المبيعات في مركز نيو أورلينز إرنست ن. موريال للمؤتمرات.",
       "en": "Gina Locatto has been promoted to Assistant Director of Sales at NOENMCC."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 215,
-    "geo": "saudi",
-    "url": "https://saudigazette.com.sa/article/666033/saudi-arabia/riyadh-metro-named-among-worlds-top-four-transport-projects",
-    "date": "2026-11-05",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/05/2790473.webp",
-    "title": {
-      "ar": "مترو الرياض يُصنّف ضمن أفضل أربعة مشاريع نقل عالمية",
-      "en": "Riyadh Metro among top four global transport projects"
-    },
-    "topic": "technology",
-    "source": "Saudi Gazette — Saudi Arabia",
-    "summary": {
-      "ar": "حُكم على مترو الرياض كأحد أفضل أربعة مشاريع نقل في معرض Smart City Expo World Congress 2026 ببرشلونة.",
-      "en": "Riyadh Metro ranked among the top four transport projects at the Smart City Expo World Congress 2026 in Barcelona."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 213,
-    "geo": "global",
-    "url": "https://www.tsnn.com/trade-show-marketing/ges-acquires-csg-creative-from-national-trade-productions",
-    "date": "2026-11-05",
-    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt4a13fb318d648c8e/6aec979d25b8d16baca7c25d/Paige_Cardwell_2026_main_image.jpeg?width=720&amp;quality=80&amp;disable=upscale",
-    "title": {
-      "ar": "GES تستحوذ على CSG Creative من National Trade Productions",
-      "en": "GES Acquires CSG Creative"
-    },
-    "topic": "industry",
-    "source": "TSNN — Trade Show News",
-    "summary": {
-      "ar": "أضافت GES شركة CSG Creative إلى محفظتها لتوسيع خدمات التسويق الإبداعي في مجال المعارض.",
-      "en": "GES has acquired CSG Creative, enhancing its creative services portfolio for exhibitions."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 210,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/ges-acquires-csg-creative/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ges-acquires-csg-creative",
-    "date": "2026-11-05",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/ges-600x400.webp",
-    "title": {
-      "ar": "GES تستحوذ على CSG Creative من National Trade Productions",
-      "en": "GES acquires CSG Creative from National Trade Productions"
-    },
-    "topic": "industry",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "شركة GES العالمية للخبرات التفاعلية استحوذت على CSG Creative لتوسيع خدماتها للمنظمين والمعارض.",
-      "en": "Global Experience Specialists GES has acquired CSG Creative to expand its marketing and creative services for exhibition organizers."
     },
     "priority": "P2"
   }
