@@ -450,6 +450,24 @@
     "priority": "P1"
   },
   {
+    "id": 228,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/euro-fair-statistics-2025-ufi-report/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=euro-fair-statistics-2025-ufi-report",
+    "date": "2026-11-10",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/UFI-report-cover-600x400.webp",
+    "title": {
+      "ar": "إحصاءات UFI للمعارض الأوروبية 2025",
+      "en": "UFI Euro Fair Statistics 2025"
+    },
+    "topic": "industry",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "تقرير UFI يوضح 49.9 مليون زيارة و19.4 مليون متر مربع مساحة معرضية عبر 1,758 فعالية في 13 دولة أوروبية.",
+      "en": "UFI report shows 49.9 M visits and 19.4 M m² exhibit space across 1,758 events in 13 European countries."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 226,
     "geo": "global",
     "url": "https://exhibitcitynews.com/link-belt-highmark-sparks-conexpo-con-agg-2026/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=link-belt-highmark-sparks-conexpo-con-agg-2026",
@@ -464,6 +482,24 @@
     "summary": {
       "ar": "شركة Highmark وSparks تصممان جناح WOW لشركة Link‑Belt في معرض CONEXPO‑CON/AGG في لاس فيغاس، أحد أكبر معارض معدات البناء عالمياً.",
       "en": "Highmark and Sparks design the WOW booth for Link‑Belt at CONEXPO‑CON/AGG 2026 in Las Vegas, a leading global construction equipment exhibition."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 227,
+    "geo": "saudi",
+    "url": "https://saudigazette.com.sa/article/666119/saudi-arabia/gaca-chief-madinah-airport-expansion-to-boost-capacity-to-18-million-passengers-by-october-2027",
+    "date": "2026-11-09",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/09/2792183.webp",
+    "title": {
+      "ar": "توسعة مطار المدينة المنورة إلى 18 مليون مسافر",
+      "en": "Madinah Airport Expansion to 18 M Passengers"
+    },
+    "topic": "venue",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "رئيس الهيئة العامة للطيران المدني يعلن رفع سعة مطار المدينة إلى 18 مليون مسافر بحلول أكتوبر 2027، ما يدعم استقطاب الزوار للفعاليات.",
+      "en": "GACA chief says Madinah airport will boost capacity to 18 M passengers by Oct 2027, aiding event attendance."
     },
     "priority": "P2"
   },
@@ -680,42 +716,6 @@
     "summary": {
       "ar": "شركة GES العالمية للخبرات التفاعلية استحوذت على CSG Creative لتوسيع خدماتها للمنظمين والمعارض.",
       "en": "Global Experience Specialists GES has acquired CSG Creative to expand its marketing and creative services for exhibition organizers."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 208,
-    "geo": "mena",
-    "url": "https://www.tsnn.com/trade-shows-conferences/informa-ceo-stephen-carter-on-why-the-real-room-still-matters",
-    "date": "2026-11-05",
-    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/bltbeae2676e7cc810a/6aec7b1929720d3a8468c256/AS2_1108.jpg?width=720&amp;quality=80&amp;disable=upscale",
-    "title": {
-      "ar": "ستيفن كارتر من إنفورما يوضح أهمية “الغرفة الحقيقية” في مؤتمر UFI بالبحرين",
-      "en": "Informa CEO on ‘Real Room’ at UFI Global Congress"
-    },
-    "topic": "conference",
-    "source": "TSNN — Trade Show News",
-    "summary": {
-      "ar": "ألقى الرئيس التنفيذي لشركة إنفورما، ستيفن كارتر، كلمة رئيسية في المؤتمر الـ93 للجمعية العالمية للمعارض في البحرين، مؤكدًا على أهمية المساحات الفعلية في الفعاليات. يسلط الحديث الضوء على استراتيجيات التصميم والتفاعل.",
-      "en": "Informa CEO Stephen Carter delivered the keynote at the 93rd UFI Global Congress in Bahrain, emphasizing the continued relevance of the “real room” concept for exhibitions. His insights address design and attendee engagement trends."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 207,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/ufi-board-of-directors-2026-2029/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ufi-board-of-directors-2026-2029",
-    "date": "2026-11-05",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/UFI-1-600x400.webp",
-    "title": {
-      "ar": "UFI تعين 59 عضوًا لمجلس الإدارة 2026‑2029",
-      "en": "UFI Announces 59‑Member Board 2026‑2029"
-    },
-    "topic": "industry",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "أعلنت الجمعية العالمية للمعارض (UFI) عن تشكيل مجلس إدارة مكوّن من 59 عضوًا للفترة 2026‑2029. تشمل الأعضاء ممثلين من مؤسسات دولية.",
-      "en": "UFI has revealed a 59‑member board of directors for 2026‑2029, including representatives from major global exhibition organizations. The appointment signals strategic direction for the exhibition sector."
     },
     "priority": "P2"
   }
