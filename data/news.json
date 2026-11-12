@@ -1,5 +1,23 @@
 [
   {
+    "id": 234,
+    "geo": "jeddah",
+    "url": "https://saudigazette.com.sa/article/666201/saudi-arabia/hajj-conference-draws-over-200000-visitors-seals-2553-agreements",
+    "date": "2026-11-12",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/12/2793645.webp",
+    "title": {
+      "ar": "مؤتمر الحج يجذب 200,000 زائر",
+      "en": "Hajj Conference draws 200k visitors"
+    },
+    "topic": "conference",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "اختتم المؤتمر السادس في جدة بمشاركة 520 جهة من أكثر من 150 دولة وتوقيع 2,553 اتفاقية.",
+      "en": "Sixth Hajj Conference in Jeddah hosted 520 entities from 150+ countries, sealing 2,553 agreements."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 232,
     "geo": "saudi",
     "url": "https://saudigazette.com.sa/article/666186/saudi-arabia/minister-al-rabiah-hajj-conference-participation-surges-fivefold",
@@ -468,6 +486,60 @@
     "priority": "P1"
   },
   {
+    "id": 237,
+    "geo": "global",
+    "url": "https://meetings.skift.com/2026/11/11/india-and-africa-are-the-event-industrys-next-growth-markets-can-venues-keep-up/",
+    "date": "2026-11-12",
+    "image": "https://meetings.skift.com/wp-content/uploads/2026/11/Wednesday-11-November_Morning-Breakfasts-morning-activities-and-sessions-before-lunch_AND09014.JPG_1200x900-2.jpg?w=1024",
+    "title": {
+      "ar": "الهند وأفريقيا أسواق النمو للفعاليات",
+      "en": "India & Africa: next event‑industry growth markets"
+    },
+    "topic": "venue",
+    "source": "Skift Meetings",
+    "summary": {
+      "ar": "من المتوقع أن ينمو سوق المعارض في الهند بسرعة تفوق المتوسط العالمي، بينما تواجه أفريقيا نقصًا في الأماكن والبنية التحتية.",
+      "en": "India’s exhibition market is set to grow nearly four times the global average, with Africa gaining momentum but facing venue shortages."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 236,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/eic-barometer-q2-2026-event-demand/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=eic-barometer-q2-2026-event-demand",
+    "date": "2026-11-12",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/reports-cover-600x400.webp",
+    "title": {
+      "ar": "ارتفاع طلب الفعاليات حسب تقرير EIC",
+      "en": "Event demand rises per EIC barometer"
+    },
+    "topic": "industry",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "الطلب على الفعاليات التجارية يتجاوز مستويات ما قبل الجائحة، بينما إقامات الفنادق لا تواكب الارتفاع.",
+      "en": "Business event demand exceeds pre‑pandemic levels, yet hotel stays lag behind, according to the EIC 2026 Barometer."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 235,
+    "geo": "riyadh",
+    "url": "https://saudigazette.com.sa/article/666198/saudi-arabia/saudi-arabia-postpones-10th-future-investment-initiative-to-october-2027",
+    "date": "2026-11-12",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/12/2793601.webp",
+    "title": {
+      "ar": "تأجيل مؤتمر الاستثمار المستقبلي إلى 2027",
+      "en": "Future Investment Initiative postponed to 2027"
+    },
+    "topic": "conference",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "أُعلن عن تأجيل النسخة العاشرة إلى أكتوبر 2027 في الرياض تحت رعاية خادم الحرمين الشريفين.",
+      "en": "FII10 rescheduled to Oct 25‑28 2027 in Riyadh, under royal patronage."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 233,
     "geo": "mena",
     "url": "https://www.tsnn.com/venues-destinations/bahrain-strengthens-its-case-as-a-host-destination-at-ufi-global-congress",
@@ -644,78 +716,6 @@
     "summary": {
       "ar": "توسّع شركة EXPO Convention Contractors حضورها في تكساس لتلبية طلبات المؤتمرات والفعاليات في المنطقة.",
       "en": "EXPO Convention Contractors expands to Texas, boosting services for regional conventions."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 221,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/kansas-city-convention-campus-500-million-plan/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=kansas-city-convention-campus-500-million-plan",
-    "date": "2026-11-09",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/KC-Convention-Center-rendering-1-credit-Populous-600x400.webp",
-    "title": {
-      "ar": "رؤية حرم المؤتمرات في كانساس سيتي",
-      "en": "Kansas City Convention Campus Vision"
-    },
-    "topic": "venue",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "تقدم كانساس سيتي خطة لتحديث حرم المؤتمرات والترفيه بمبلغ 500 مليون دولار حتى 2036، تشمل تجديد مرافق تاريخية.",
-      "en": "Kansas City advances a $500 M vision to modernize its convention and entertainment campus through 2036, including historic venue upgrades."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 220,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/abilities-expo-los-angeles-2027-expansion/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=abilities-expo-los-angeles-2027-expansion",
-    "date": "2026-11-09",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/Abilities-Expo-600x400.webp",
-    "title": {
-      "ar": "توسعة معرض Abilities في لوس أنجلوس",
-      "en": "Abilities Expo Los Angeles Expansion"
-    },
-    "topic": "exhibition",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "سيتم توسيع معرض Abilities في لوس أنجلوس إلى ثلاثة قاعات في مركز مؤتمرات لونغ بيتش بحلول 2027، ما يعكس نمو الفعاليات المتخصصة.",
-      "en": "Abilities Expo Los Angeles will expand to three halls at Long Beach Convention Center by 2027, reflecting growth in niche exhibitions."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 219,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/santa-clara-convention-center-5-in-15/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=santa-clara-convention-center-5-in-15",
-    "date": "2026-11-09",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/sc-1-600x400.webp",
-    "title": {
-      "ar": "مركز مؤتمرات سانتا كلارا",
-      "en": "Santa Clara Convention Center"
-    },
-    "topic": "venue",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "دليل لأقرب الأماكن للراحة والطعام داخل مسافة 15 دقيقة من مركز مؤتمرات سانتا كلارا، مفيد لمنظمي الفعاليات.",
-      "en": "Guide to nearby dining and relaxation spots within a 15‑minute walk of Santa Clara Convention Center, useful for event planners."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 216,
-    "geo": "riyadh",
-    "url": "https://saudigazette.com.sa/article/666081/saudi-arabia/global-logistics-forum-postpones-second-edition-in-riyadh-to-november-2027",
-    "date": "2026-11-08",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/08/2791346.webp",
-    "title": {
-      "ar": "تأجيل منتدى اللوجستيات العالمي في الرياض إلى 2027",
-      "en": "Global Logistics Forum postponed to 2027 in Riyadh"
-    },
-    "topic": "conference",
-    "source": "Saudi Gazette — Saudi Arabia",
-    "summary": {
-      "ar": "تم تأجيل النسخة الثانية لمنتدى اللوجستيات العالمي في الرياض إلى 16‑18 نوفمبر 2027، بالتزامن مع منتدى سلاسل الإمداد العالمي التابع للأونكتاد.",
-      "en": "The second edition of the Global Logistics Forum in Riyadh has been postponed to November 16‑18, 2027, aligning with the UNCTAD Global Supply Chain Forum."
     },
     "priority": "P2"
   }
