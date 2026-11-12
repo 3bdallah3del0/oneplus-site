@@ -1,5 +1,23 @@
 [
   {
+    "id": 232,
+    "geo": "saudi",
+    "url": "https://saudigazette.com.sa/article/666186/saudi-arabia/minister-al-rabiah-hajj-conference-participation-surges-fivefold",
+    "date": "2026-11-11",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/12/2793446.webp",
+    "title": {
+      "ar": "ارتفاع مشاركة مؤتمر الحج والمعرض خمس مرات",
+      "en": "Hajj Conference Participation Surges Fivefold"
+    },
+    "topic": "conference",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "أعلن وزير الحج والعمرة أن مؤتمر الحج والمعرض السادس شهد زيادة هائلة في عدد الجهات المشاركة إلى حوالي 520 جهة. هذا النمو يعكس اهتمامًا دوليًا متزايدًا بالفعالية.",
+      "en": "The Minister of Hajj and Umrah reported that the 6th Hajj Conference & Exhibition saw participation jump to about 520 entities, a five‑fold increase, indicating rising international interest."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 225,
     "geo": "mena",
     "url": "https://www.ufi.org/letter-from-the-ufi-president-november-2026/",
@@ -450,6 +468,24 @@
     "priority": "P1"
   },
   {
+    "id": 233,
+    "geo": "mena",
+    "url": "https://www.tsnn.com/venues-destinations/bahrain-strengthens-its-case-as-a-host-destination-at-ufi-global-congress",
+    "date": "2026-11-11",
+    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt8cc39fb077782184/6af47ba783eee21c03f0f462/UFI_bahrain_thumbnail.png?width=720&amp;quality=80&amp;disable=upscale",
+    "title": {
+      "ar": "البحرين تعزز موقعها كمستضيف للكونغرس العالمي للمعارض",
+      "en": "Bahrain Positions Itself as Host for UFI Global Congress"
+    },
+    "topic": "conference",
+    "source": "TSNN — Trade Show News",
+    "summary": {
+      "ar": "تستضيف البحرين للمرة الأولى المؤتمر العالمي للمعارض UFI، وتبرز نمو Exhibition World Bahrain كوجهة إقليمية للمنظمين. يسلط الضوء على فرص استضافة فعاليات كبرى في الخليج.",
+      "en": "Bahrain will host the UFI Global Congress for the first time, showcasing Exhibition World Bahrain’s growth and positioning the kingdom as a regional hub for large‑scale events."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 231,
     "geo": "global",
     "url": "https://exhibitcitynews.com/site-survey-tradeshow-buyers-suppliers/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=site-survey-tradeshow-buyers-suppliers",
@@ -680,42 +716,6 @@
     "summary": {
       "ar": "تم تأجيل النسخة الثانية لمنتدى اللوجستيات العالمي في الرياض إلى 16‑18 نوفمبر 2027، بالتزامن مع منتدى سلاسل الإمداد العالمي التابع للأونكتاد.",
       "en": "The second edition of the Global Logistics Forum in Riyadh has been postponed to November 16‑18, 2027, aligning with the UNCTAD Global Supply Chain Forum."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 212,
-    "geo": "global",
-    "url": "https://www.tsnn.com/trade-shows-conferences/the-2026-nacs-show-welcomed-more-than-25-000-attendees-amid-industry-challenges",
-    "date": "2026-11-06",
-    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt12fd46cf47105660/6aea566e12acd33eea711cb7/Massive_Crowd_1776_(1).JPG?width=720&amp;quality=80&amp;disable=upscale",
-    "title": {
-      "ar": "معرض NACS 2026 يجذب أكثر من 25,000 زائر",
-      "en": "2026 NACS Show Attracts 25,000+ Attendees"
-    },
-    "topic": "exhibition",
-    "source": "TSNN — Trade Show News",
-    "summary": {
-      "ar": "استقبل معرض NACS السنوي لعام 2026 أكثر من 25,000 مشارك رغم التحديات التي تواجه الصناعة.",
-      "en": "The 2026 NACS Show welcomed over 25,000 attendees amid industry challenges."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 211,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/gina-locatto-noenmcc-assistant-director-sales/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=gina-locatto-noenmcc-assistant-director-sales",
-    "date": "2026-11-06",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/10/Gina-Locatto-400x400.webp",
-    "title": {
-      "ar": "ترقية جينا لوكاتو إلى مساعد مدير المبيعات في مركز نيو أورلينز للمؤتمرات",
-      "en": "Gina Locatto Promoted at New Orleans Convention Center"
-    },
-    "topic": "venue",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "تمت ترقية جينا لوكاتو إلى منصب مساعد مدير المبيعات في مركز نيو أورلينز إرنست ن. موريال للمؤتمرات.",
-      "en": "Gina Locatto has been promoted to Assistant Director of Sales at NOENMCC."
     },
     "priority": "P2"
   }
