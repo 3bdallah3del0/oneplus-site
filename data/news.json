@@ -486,6 +486,24 @@
     "priority": "P1"
   },
   {
+    "id": 241,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/balloon-museum-opens-at-immerse-ldn-as-ticket-sales-top-1-7-million/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=balloon-museum-opens-at-immerse-ldn-as-ticket-sales-top-1-7-million",
+    "date": "2026-11-13",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/baloons-1-600x400.webp",
+    "title": {
+      "ar": "افتتاح متحف البالونات في Immerse LDN",
+      "en": "Balloon Museum Opens at Immerse LDN"
+    },
+    "topic": "exhibition",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "افتتح متحف البالونات ضمن منطقة Immerse LDN في لندن، وساهم في تجاوز مبيعات التذاكر 1.7 مليون منذ إطلاق الحي.",
+      "en": "The Balloon Museum opened at Immerse LDN in London, contributing to over 1.7 million tickets sold since the district’s launch."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 239,
     "geo": "global",
     "url": "https://www.tsnn.com/venues-destinations/one-contact-multiple-hotels-mgm-s-new-approach-to-meetings",
@@ -698,24 +716,6 @@
     "summary": {
       "ar": "رئيس الهيئة العامة للطيران المدني يعلن رفع سعة مطار المدينة إلى 18 مليون مسافر بحلول أكتوبر 2027، ما يدعم استقطاب الزوار للفعاليات.",
       "en": "GACA chief says Madinah airport will boost capacity to 18 M passengers by Oct 2027, aiding event attendance."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 224,
-    "geo": "saudi",
-    "url": "https://saudigazette.com.sa/article/666104/saudi-arabia/saudi-arabia-exceeds-90-umrah-pilgrim-satisfaction-target",
-    "date": "2026-11-09",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/09/2791911.webp",
-    "title": {
-      "ar": "تحقق نسبة رضا 93٪ عن خدمات الحج",
-      "en": "93% Hajj Satisfaction Achieved"
-    },
-    "topic": "industry",
-    "source": "Saudi Gazette — Saudi Arabia",
-    "summary": {
-      "ar": "وزير الحج والعمرة يعلن تحقيق معدل رضا 93٪ للحجاج خلال مؤتمر ومعرض حج، بفضل تنسيق أكثر من 60 جهة حكومية.",
-      "en": "Hajj minister reports 93% pilgrim satisfaction at Hajj Conference & Exhibition, thanks to coordination of 60+ agencies."
     },
     "priority": "P2"
   }
