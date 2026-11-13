@@ -486,6 +486,42 @@
     "priority": "P1"
   },
   {
+    "id": 239,
+    "geo": "global",
+    "url": "https://www.tsnn.com/venues-destinations/one-contact-multiple-hotels-mgm-s-new-approach-to-meetings",
+    "date": "2026-11-12",
+    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blte0ae2cad47cc2aa1/6af5d3f03b73082368402e27/ernest_mgm.png?width=720&amp;quality=80&amp;disable=upscale",
+    "title": {
+      "ar": "نهج جديد للفنادق في تنظيم الاجتماعات من MGM",
+      "en": "MGM's New Approach to Meetings"
+    },
+    "topic": "venue",
+    "source": "TSNN — Trade Show News",
+    "summary": {
+      "ar": "إرنست ستوفال يشرح استراتيجية MGM الموحدة للمبيعات الفندقية ودعم منظمي المعارض.",
+      "en": "Ernest Stoval discusses MGM’s unified sales strategy to aid trade show organizers."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 238,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/fern-expo-2026-events-expo-expo/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=fern-expo-2026-events-expo-expo",
+    "date": "2026-11-12",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/fern-expo-600x400.webp",
+    "title": {
+      "ar": "تسليط الضوء على معارض Fern 2026 وخطط Expo! Expo!",
+      "en": "Fern Expo Highlights 2026 Events"
+    },
+    "topic": "exhibition",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "تقدم Fern Expo نظرة على معارض 2026 في مجالات اللياقة والصحة والتقنية، مع التركيز على Expo! Expo! في ميلووكي.",
+      "en": "Fern Expo previews 2026 fitness, health, tech shows and IAEE’s Expo! Expo! in Milwaukee."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 237,
     "geo": "global",
     "url": "https://meetings.skift.com/2026/11/11/india-and-africa-are-the-event-industrys-next-growth-markets-can-venues-keep-up/",
@@ -680,42 +716,6 @@
     "summary": {
       "ar": "وزير الحج والعمرة يعلن تحقيق معدل رضا 93٪ للحجاج خلال مؤتمر ومعرض حج، بفضل تنسيق أكثر من 60 جهة حكومية.",
       "en": "Hajj minister reports 93% pilgrim satisfaction at Hajj Conference & Exhibition, thanks to coordination of 60+ agencies."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 223,
-    "geo": "saudi",
-    "url": "https://saudigazette.com.sa/article/666109/saudi-arabia/saudi-arabia-secures-over-13-million-beds-for-hajj-licenses-all-pilgrim-accommodation-buildings",
-    "date": "2026-11-09",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/09/2791966.webp",
-    "title": {
-      "ar": "تأمين أكثر من 1.3 مليون سرير لموسم حج 1448",
-      "en": "Over 1.3 M Hajj Beds Secured"
-    },
-    "topic": "industry",
-    "source": "Saudi Gazette — Saudi Arabia",
-    "summary": {
-      "ar": "وزير السياحة يعلن تأمين 1.3 مليون سرير وإصدار تراخيص لجميع مباني الإقامة خلال مؤتمر ومعرض حج.",
-      "en": "Tourism minister announces 1.3 M beds secured and all pilgrim accommodation licensed at Hajj Conference & Exhibition."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 222,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/expo-convention-contractors-texas-expansion/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=expo-convention-contractors-texas-expansion",
-    "date": "2026-11-09",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/ECC-2-600x400.webp",
-    "title": {
-      "ar": "EXPO Convention Contractors يفتح فرعًا في تكساس",
-      "en": "EXPO Contractors Opens Texas Office"
-    },
-    "topic": "industry",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "توسّع شركة EXPO Convention Contractors حضورها في تكساس لتلبية طلبات المؤتمرات والفعاليات في المنطقة.",
-      "en": "EXPO Convention Contractors expands to Texas, boosting services for regional conventions."
     },
     "priority": "P2"
   }
