@@ -486,6 +486,60 @@
     "priority": "P1"
   },
   {
+    "id": 248,
+    "geo": "global",
+    "url": "https://meetings.skift.com/2026/11/13/nationwide-faa-ground-stop-threatens-travel-for-major-meetings/",
+    "date": "2026-11-13",
+    "image": "https://meetings.skift.com/wp-content/uploads/2026/11/AmericanPlane.jpg?w=1024",
+    "title": {
+      "ar": "إيقاف طيران FAA يهدد مؤتمرات كبرى",
+      "en": "FAA Ground Stop Threatens Major Meetings"
+    },
+    "topic": "conference",
+    "source": "Skift Meetings",
+    "summary": {
+      "ar": "إيقاف الطيران من قبل FAA قد يؤثر على إعداد المعارض والمؤتمرات الكبيرة ويؤدي إلى خسائر تنظيمية.",
+      "en": "An FAA ground stop could disrupt setup and travel for major meetings, risking significant organizer losses."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 247,
+    "geo": "global",
+    "url": "https://www.tsnn.com/event-management/doug-emslie-and-david-larkin-team-up-to-launch-deep-focus-new-b2b-exhibition-for-production-industry-with-afm-in-2027",
+    "date": "2026-11-13",
+    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt15fcf491928dfe9f/6af739d0315369981d92a263/Panel_1_.jpeg?width=720&amp;quality=80&amp;disable=upscale",
+    "title": {
+      "ar": "إطلاق معرض B2B جديد Deep Focus في 2027",
+      "en": "Deep Focus B2B Exhibition Launch 2027"
+    },
+    "topic": "exhibition",
+    "source": "TSNN — Trade Show News",
+    "summary": {
+      "ar": "دوج إمسلي وديفيد لاركن يطلقان معرضًا تجاريًا جديدًا يُعقد في حرم سوق الأفلام الأمريكي عام 2027.",
+      "en": "Doug Emslie and David Larkin are launching a new B2B exhibition, Deep Focus, at the AFM campus in 2027."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 242,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/balloon-museum-opens-at-immerse-ldn-as-ticket-sales-top-1-7-million/",
+    "date": "2026-11-13",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/baloons-1-600x400.webp",
+    "title": {
+      "ar": "افتتاح متحف البالونات في إيمرس لند",
+      "en": "Balloon Museum Opens at Immerse LDN"
+    },
+    "topic": "exhibition",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "متحف البالونات يفتح أبوابه في إيمرس لند بلندن، مع أكثر من 1.7 مليون تذكرة مباعة منذ الإطلاق.",
+      "en": "The Balloon Museum opened at Immerse LDN in London, with ticket sales exceeding 1.7 million."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 241,
     "geo": "global",
     "url": "https://exhibitcitynews.com/balloon-museum-opens-at-immerse-ldn-as-ticket-sales-top-1-7-million/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=balloon-museum-opens-at-immerse-ldn-as-ticket-sales-top-1-7-million",
@@ -500,6 +554,42 @@
     "summary": {
       "ar": "افتتح متحف البالونات ضمن منطقة Immerse LDN في لندن، وساهم في تجاوز مبيعات التذاكر 1.7 مليون منذ إطلاق الحي.",
       "en": "The Balloon Museum opened at Immerse LDN in London, contributing to over 1.7 million tickets sold since the district’s launch."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 244,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/eic-barometer-q2-2026-event-demand/",
+    "date": "2026-11-12",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/reports-cover-600x400.webp",
+    "title": {
+      "ar": "بارومتر EIC يوضح ارتفاع طلب الفعاليات",
+      "en": "EIC Barometer Shows Event Demand Rising"
+    },
+    "topic": "industry",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "تظهر بيانات EIC أن طلب الفعاليات التجارية تجاوز مستويات ما قبل الجائحة، رغم تباطؤ إقامات الفنادق.",
+      "en": "EIC data shows business event demand surpassing pre‑pandemic levels, while hotel stays lag behind."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 243,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/fern-expo-2026-events-expo-expo/",
+    "date": "2026-11-12",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/fern-expo-600x400.webp",
+    "title": {
+      "ar": "Fern Expo يسلط الضوء على فعاليات 2026",
+      "en": "Fern Expo Highlights 2026 Events"
+    },
+    "topic": "industry",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "شركة Fern Expo تعرض مشاريعها في مجالات اللياقة والصحة والتقنية للمعارض والمؤتمرات لعام 2026.",
+      "en": "Fern Expo showcased its 2026 projects across fitness, health, technology and association events."
     },
     "priority": "P2"
   },
@@ -594,6 +684,24 @@
     "priority": "P2"
   },
   {
+    "id": 246,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/lvcva-south-hall-warehouse-freight-elevator/",
+    "date": "2026-11-11",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/LVCVA-byTanvi-600x400.webp",
+    "title": {
+      "ar": "المجلس يوافق على مستودع ومصعد شحن في قاعة جنوب لاس فيغاس",
+      "en": "LVCVA Approves South Hall Warehouse and Freight Elevator"
+    },
+    "topic": "venue",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "تمت الموافقة على مشروع بقيمة 5.49 مليون دولار لإنشاء مستودع ومصعد شحن في قاعة جنوب مركز لاس فيغاس للمؤتمرات.",
+      "en": "A $5.49 M project was approved to add a warehouse and freight elevator to the South Hall of the Las Vegas Convention Center."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 233,
     "geo": "mena",
     "url": "https://www.tsnn.com/venues-destinations/bahrain-strengthens-its-case-as-a-host-destination-at-ufi-global-congress",
@@ -608,114 +716,6 @@
     "summary": {
       "ar": "تستضيف البحرين للمرة الأولى المؤتمر العالمي للمعارض UFI، وتبرز نمو Exhibition World Bahrain كوجهة إقليمية للمنظمين. يسلط الضوء على فرص استضافة فعاليات كبرى في الخليج.",
       "en": "Bahrain will host the UFI Global Congress for the first time, showcasing Exhibition World Bahrain’s growth and positioning the kingdom as a regional hub for large‑scale events."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 231,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/site-survey-tradeshow-buyers-suppliers/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=site-survey-tradeshow-buyers-suppliers",
-    "date": "2026-11-11",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/site-pulse-survey-page-1-600x400.webp",
-    "title": {
-      "ar": "اختلاف أهداف المشترين والموردين في المعارض حسب دراسة SITE",
-      "en": "Buyers vs Suppliers Trade Show Goals"
-    },
-    "topic": "industry",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "تكشف الدراسة أن المشترين يركزون على العلاقات القائمة بينما يسعى الموردون لفرص عمل جديدة، ما يؤثر على استراتيجيات المعارض.",
-      "en": "Research shows buyers prioritize existing relationships, while suppliers seek new business, shaping exhibition strategies."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 230,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/lvcva-south-hall-warehouse-freight-elevator/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=lvcva-south-hall-warehouse-freight-elevator",
-    "date": "2026-11-11",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/LVCVA-byTanvi-600x400.webp",
-    "title": {
-      "ar": "المجلس يوافق على بناء مستودع ومصعد شحن في قاعة جنوب لاس فيغاس",
-      "en": "LVCC Approves South Hall Warehouse"
-    },
-    "topic": "venue",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "تمت الموافقة على مشروع بقيمة 5.49 مليون دولار لإنشاء مستودع ومصعد شحن داخل مركز مؤتمرات لاس فيغاس، ما يحسن لوجستيات الفعاليات.",
-      "en": "A $5.49 M project will add a warehouse and freight elevator to the South Hall, easing event crew logistics."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 229,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/tradeshow-testimonials-video-production/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=tradeshow-testimonials-video-production",
-    "date": "2026-11-11",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/AdobeStock_512066458-600x400.webp",
-    "title": {
-      "ar": "كيفية تصوير شهادات العملاء في أجنحة المعارض",
-      "en": "Filming Booth Testimonials"
-    },
-    "topic": "exhibition",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "يشرح المقال طرقًا فعّالة لتسجيل شهادات العملاء داخل أجنحة المعارض، مما يعزز محتوى التسويق للعارضين.",
-      "en": "Tips for capturing authentic customer testimonials on the exhibition floor to boost marketing impact."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 228,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/euro-fair-statistics-2025-ufi-report/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=euro-fair-statistics-2025-ufi-report",
-    "date": "2026-11-10",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/UFI-report-cover-600x400.webp",
-    "title": {
-      "ar": "إحصاءات UFI للمعارض الأوروبية 2025",
-      "en": "UFI Euro Fair Statistics 2025"
-    },
-    "topic": "industry",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "تقرير UFI يوضح 49.9 مليون زيارة و19.4 مليون متر مربع مساحة معرضية عبر 1,758 فعالية في 13 دولة أوروبية.",
-      "en": "UFI report shows 49.9 M visits and 19.4 M m² exhibit space across 1,758 events in 13 European countries."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 226,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/link-belt-highmark-sparks-conexpo-con-agg-2026/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=link-belt-highmark-sparks-conexpo-con-agg-2026",
-    "date": "2026-11-10",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/highmark-1-600x400.webp",
-    "title": {
-      "ar": "جناح WOW في معرض CONEXPO‑CON/AGG 2026",
-      "en": "WOW Booth at CONEXPO‑CON/AGG 2026"
-    },
-    "topic": "exhibition",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "شركة Highmark وSparks تصممان جناح WOW لشركة Link‑Belt في معرض CONEXPO‑CON/AGG في لاس فيغاس، أحد أكبر معارض معدات البناء عالمياً.",
-      "en": "Highmark and Sparks design the WOW booth for Link‑Belt at CONEXPO‑CON/AGG 2026 in Las Vegas, a leading global construction equipment exhibition."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 227,
-    "geo": "saudi",
-    "url": "https://saudigazette.com.sa/article/666119/saudi-arabia/gaca-chief-madinah-airport-expansion-to-boost-capacity-to-18-million-passengers-by-october-2027",
-    "date": "2026-11-09",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/09/2792183.webp",
-    "title": {
-      "ar": "توسعة مطار المدينة المنورة إلى 18 مليون مسافر",
-      "en": "Madinah Airport Expansion to 18 M Passengers"
-    },
-    "topic": "venue",
-    "source": "Saudi Gazette — Saudi Arabia",
-    "summary": {
-      "ar": "رئيس الهيئة العامة للطيران المدني يعلن رفع سعة مطار المدينة إلى 18 مليون مسافر بحلول أكتوبر 2027، ما يدعم استقطاب الزوار للفعاليات.",
-      "en": "GACA chief says Madinah airport will boost capacity to 18 M passengers by Oct 2027, aiding event attendance."
     },
     "priority": "P2"
   }
