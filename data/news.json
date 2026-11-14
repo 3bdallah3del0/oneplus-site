@@ -486,6 +486,24 @@
     "priority": "P1"
   },
   {
+    "id": 249,
+    "geo": "jeddah",
+    "url": "https://saudigazette.com.sa/article/666235/saudi-arabia/ministry-of-hajj-and-umrah-completes-signing-of-agreements-for-2027-hajj-season",
+    "date": "2026-11-14",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/14/2794129.webp",
+    "title": {
+      "ar": "إكمال توقيع اتفاقيات موسم حج 2027",
+      "en": "Hajj Ministry Finalizes 2027 Agreements"
+    },
+    "topic": "event",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "أكملت وزارة الحج والعمرة توقيع اتفاقيات تنظيم موسم حج 2027 مع مكاتب الشؤون في جدة.",
+      "en": "Ministry of Hajj and Umrah completed signing of agreements for the 2027 Hajj season."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 248,
     "geo": "global",
     "url": "https://meetings.skift.com/2026/11/13/nationwide-faa-ground-stop-threatens-travel-for-major-meetings/",
@@ -684,38 +702,20 @@
     "priority": "P2"
   },
   {
-    "id": 246,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/lvcva-south-hall-warehouse-freight-elevator/",
+    "id": 250,
+    "geo": "jeddah",
+    "url": "https://saudigazette.com.sa/article/666178/saudi-arabia/makkah-deputy-emir-reviews-hajj-ministrys-efforts-in-serving-pilgrims",
     "date": "2026-11-11",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/LVCVA-byTanvi-600x400.webp",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/11/2793258.webp",
     "title": {
-      "ar": "المجلس يوافق على مستودع ومصعد شحن في قاعة جنوب لاس فيغاس",
-      "en": "LVCVA Approves South Hall Warehouse and Freight Elevator"
+      "ar": "نائب أمير مكة يراجع جهود وزارة الحج",
+      "en": "Makkah Deputy Emir Reviews Hajj Ministry Efforts"
     },
-    "topic": "venue",
-    "source": "Exhibit City News",
+    "topic": "event",
+    "source": "Saudi Gazette — Saudi Arabia",
     "summary": {
-      "ar": "تمت الموافقة على مشروع بقيمة 5.49 مليون دولار لإنشاء مستودع ومصعد شحن في قاعة جنوب مركز لاس فيغاس للمؤتمرات.",
-      "en": "A $5.49 M project was approved to add a warehouse and freight elevator to the South Hall of the Las Vegas Convention Center."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 233,
-    "geo": "mena",
-    "url": "https://www.tsnn.com/venues-destinations/bahrain-strengthens-its-case-as-a-host-destination-at-ufi-global-congress",
-    "date": "2026-11-11",
-    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt8cc39fb077782184/6af47ba783eee21c03f0f462/UFI_bahrain_thumbnail.png?width=720&amp;quality=80&amp;disable=upscale",
-    "title": {
-      "ar": "البحرين تعزز موقعها كمستضيف للكونغرس العالمي للمعارض",
-      "en": "Bahrain Positions Itself as Host for UFI Global Congress"
-    },
-    "topic": "conference",
-    "source": "TSNN — Trade Show News",
-    "summary": {
-      "ar": "تستضيف البحرين للمرة الأولى المؤتمر العالمي للمعارض UFI، وتبرز نمو Exhibition World Bahrain كوجهة إقليمية للمنظمين. يسلط الضوء على فرص استضافة فعاليات كبرى في الخليج.",
-      "en": "Bahrain will host the UFI Global Congress for the first time, showcasing Exhibition World Bahrain’s growth and positioning the kingdom as a regional hub for large‑scale events."
+      "ar": "استقبل نائب أمير مكة وزير الحج لتقديم تقرير عن جهود الوزارة في موسم العمرة الحالي والنظام الرقمي.",
+      "en": "Makkah Deputy Emir met Hajj Minister to discuss current Umrah season efforts and digital services."
     },
     "priority": "P2"
   }
