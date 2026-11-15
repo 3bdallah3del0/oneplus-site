@@ -1,5 +1,23 @@
 [
   {
+    "id": 251,
+    "geo": "riyadh",
+    "url": "https://saudigazette.com.sa/article/666257/saudi-arabia/riyadh-begins-construction-of-70000-square-meter-expo-2030-metro-station",
+    "date": "2026-11-15",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/15/2794679.webp",
+    "title": {
+      "ar": "بدء بناء محطة مترو إكسبو 2030 في الرياض",
+      "en": "Riyadh Starts Building 70,000 sqm Expo 2030 Metro Station"
+    },
+    "topic": "exhibition",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "بدأت الهيئة الملكية لمدينة الرياض أعمال بناء محطة المترو الخاصة بإكسبو 2030، بمساحة 70,000 متر مربع وتستوعب 19,000 راكب في الساعة. المشروع يبرز جاهزية الرياض لاستضافة الفعاليات العالمية.",
+      "en": "The Royal Commission for Riyadh City has begun construction of the 70,000‑sqm Expo 2030 Metro station, designed to handle up to 19,000 passengers per hour. The project underscores Riyadh’s preparation for major exhibitions."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 234,
     "geo": "jeddah",
     "url": "https://saudigazette.com.sa/article/666201/saudi-arabia/hajj-conference-draws-over-200000-visitors-seals-2553-agreements",
@@ -698,24 +716,6 @@
     "summary": {
       "ar": "أُعلن عن تأجيل النسخة العاشرة إلى أكتوبر 2027 في الرياض تحت رعاية خادم الحرمين الشريفين.",
       "en": "FII10 rescheduled to Oct 25‑28 2027 in Riyadh, under royal patronage."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 250,
-    "geo": "jeddah",
-    "url": "https://saudigazette.com.sa/article/666178/saudi-arabia/makkah-deputy-emir-reviews-hajj-ministrys-efforts-in-serving-pilgrims",
-    "date": "2026-11-11",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/11/2793258.webp",
-    "title": {
-      "ar": "نائب أمير مكة يراجع جهود وزارة الحج",
-      "en": "Makkah Deputy Emir Reviews Hajj Ministry Efforts"
-    },
-    "topic": "event",
-    "source": "Saudi Gazette — Saudi Arabia",
-    "summary": {
-      "ar": "استقبل نائب أمير مكة وزير الحج لتقديم تقرير عن جهود الوزارة في موسم العمرة الحالي والنظام الرقمي.",
-      "en": "Makkah Deputy Emir met Hajj Minister to discuss current Umrah season efforts and digital services."
     },
     "priority": "P2"
   }
