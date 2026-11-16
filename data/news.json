@@ -486,24 +486,6 @@
     "priority": "P1"
   },
   {
-    "id": 101,
-    "geo": "saudi",
-    "url": "https://saudigazette.com.sa/article/665019/saudi-arabia/us-beef-sales-in-saudi-arabia-could-reach-150-million",
-    "date": "2026-10-01",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/01/2774193.webp",
-    "title": {
-      "ar": "مبيعات اللحم البقري الأمريكي قد تصل 150 مليون في معرض الطعام السعودي",
-      "en": "US Beef Sales Could Hit $150M at Saudi Food Show"
-    },
-    "topic": "exhibition",
-    "source": "Saudi Gazette — Saudi Arabia",
-    "summary": {
-      "ar": "في معرض الطعام السعودي بجدة، افتتح جناح أمريكي يروج للمنتجات الزراعية مثل الجوز والبطاطس. يهدف الحدث إلى تعزيز التعاون الزراعي بين السعودية وأمريكا.",
-      "en": "At the Saudi Food Show in Jeddah, a dedicated U.S. pavilion showcased agricultural products such as walnuts and potatoes, aiming to boost Saudi‑U.S. agri‑cooperation."
-    },
-    "priority": "P1"
-  },
-  {
     "id": 249,
     "geo": "jeddah",
     "url": "https://saudigazette.com.sa/article/666235/saudi-arabia/ministry-of-hajj-and-umrah-completes-signing-of-agreements-for-2027-hajj-season",
@@ -716,6 +698,24 @@
     "summary": {
       "ar": "أُعلن عن تأجيل النسخة العاشرة إلى أكتوبر 2027 في الرياض تحت رعاية خادم الحرمين الشريفين.",
       "en": "FII10 rescheduled to Oct 25‑28 2027 in Riyadh, under royal patronage."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 250,
+    "geo": "jeddah",
+    "url": "https://saudigazette.com.sa/article/666178/saudi-arabia/makkah-deputy-emir-reviews-hajj-ministrys-efforts-in-serving-pilgrims",
+    "date": "2026-11-11",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/11/2793258.webp",
+    "title": {
+      "ar": "نائب أمير مكة يراجع جهود وزارة الحج",
+      "en": "Makkah Deputy Emir Reviews Hajj Ministry Efforts"
+    },
+    "topic": "event",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "استقبل نائب أمير مكة وزير الحج لتقديم تقرير عن جهود الوزارة في موسم العمرة الحالي والنظام الرقمي.",
+      "en": "Makkah Deputy Emir met Hajj Minister to discuss current Umrah season efforts and digital services."
     },
     "priority": "P2"
   }
