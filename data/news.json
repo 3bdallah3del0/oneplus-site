@@ -486,6 +486,42 @@
     "priority": "P1"
   },
   {
+    "id": 253,
+    "geo": "global",
+    "url": "https://www.tsnn.com/venues-destinations/hawaii-s-convention-comeback-what-planners-can-expect-in-2028",
+    "date": "2026-11-16",
+    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt03062e77b55c0d6b/6afaff6bea20de6f0224d449/lynn_whitehead_thumbnail.png?width=720&amp;quality=80&amp;disable=upscale",
+    "title": {
+      "ar": "عودة مراكز المؤتمرات في هاواي لعام 2028",
+      "en": "Hawaii Convention Center Reopening 2028"
+    },
+    "topic": "venue",
+    "source": "TSNN — Trade Show News",
+    "summary": {
+      "ar": "يستعرض الخبر خطط مركز مؤتمرات هاواي لإعادة الفتح في 2028 مع تجديدات فندقية وخدمات محسنة للمنظمين. يهم منظمي الفعاليات الباحثين عن وجهات جديدة.",
+      "en": "The article outlines Hawaii's Convention Center reopening plans for 2028, including hotel upgrades and enhanced services for planners. Useful for event organizers exploring new venues."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 252,
+    "geo": "global",
+    "url": "https://www.ufi.org/net-zero-carbon-events-where-are-we-now/",
+    "date": "2026-11-16",
+    "image": "https://www.ufi.org/app/uploads/2026/11/Programme_June-04_21-Bate-papo-Corner_2026-06-04_UFI_IZMIR_FOTOBUENO_PP_3104.jpg_1200x800.jpg",
+    "title": {
+      "ar": "صافي الصفر للفعاليات: أين نحن الآن؟",
+      "en": "Net Zero Carbon Events: Current Status"
+    },
+    "topic": "industry",
+    "source": "UFI",
+    "summary": {
+      "ar": "تناقش جلسة UFI في مؤتمر إزمير 2026 التقدم نحو فعاليات صديقة للبيئة وتحدد خطوات الحفاظ على الزخم. يهم منظمي الفعاليات الباحثين عن استدامة.",
+      "en": "UFI session at the Izmir 2026 conference reviews progress toward carbon‑neutral events and outlines next steps. Relevant for planners seeking sustainability."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 249,
     "geo": "jeddah",
     "url": "https://saudigazette.com.sa/article/666235/saudi-arabia/ministry-of-hajj-and-umrah-completes-signing-of-agreements-for-2027-hajj-season",
@@ -680,42 +716,6 @@
     "summary": {
       "ar": "الطلب على الفعاليات التجارية يتجاوز مستويات ما قبل الجائحة، بينما إقامات الفنادق لا تواكب الارتفاع.",
       "en": "Business event demand exceeds pre‑pandemic levels, yet hotel stays lag behind, according to the EIC 2026 Barometer."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 235,
-    "geo": "riyadh",
-    "url": "https://saudigazette.com.sa/article/666198/saudi-arabia/saudi-arabia-postpones-10th-future-investment-initiative-to-october-2027",
-    "date": "2026-11-12",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/12/2793601.webp",
-    "title": {
-      "ar": "تأجيل مؤتمر الاستثمار المستقبلي إلى 2027",
-      "en": "Future Investment Initiative postponed to 2027"
-    },
-    "topic": "conference",
-    "source": "Saudi Gazette — Saudi Arabia",
-    "summary": {
-      "ar": "أُعلن عن تأجيل النسخة العاشرة إلى أكتوبر 2027 في الرياض تحت رعاية خادم الحرمين الشريفين.",
-      "en": "FII10 rescheduled to Oct 25‑28 2027 in Riyadh, under royal patronage."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 250,
-    "geo": "jeddah",
-    "url": "https://saudigazette.com.sa/article/666178/saudi-arabia/makkah-deputy-emir-reviews-hajj-ministrys-efforts-in-serving-pilgrims",
-    "date": "2026-11-11",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/11/2793258.webp",
-    "title": {
-      "ar": "نائب أمير مكة يراجع جهود وزارة الحج",
-      "en": "Makkah Deputy Emir Reviews Hajj Ministry Efforts"
-    },
-    "topic": "event",
-    "source": "Saudi Gazette — Saudi Arabia",
-    "summary": {
-      "ar": "استقبل نائب أمير مكة وزير الحج لتقديم تقرير عن جهود الوزارة في موسم العمرة الحالي والنظام الرقمي.",
-      "en": "Makkah Deputy Emir met Hajj Minister to discuss current Umrah season efforts and digital services."
     },
     "priority": "P2"
   }
