@@ -486,6 +486,24 @@
     "priority": "P1"
   },
   {
+    "id": 254,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/esca-awards-2026-winter-celebration-milwaukee/",
+    "date": "2026-11-16",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/esca-awards-1-600x400.webp",
+    "title": {
+      "ar": "ESCA تكريم الفائزين بجوائز 2026 في ميلووكي",
+      "en": "ESCA Honors 2026 Award Winners in Milwaukee"
+    },
+    "topic": "industry",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "نظمت جمعية خدمات ومعاقد المعارض حفل تكريم الفائزين بجوائز 2026 في ميلووكي، مع إعلان عن المنح الدراسية والقيادة 2027.",
+      "en": "The Exhibition Services & Contractors Association held its 2026 Awards Celebration in Milwaukee, announcing scholarship recipients and the 2027 leadership."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 253,
     "geo": "global",
     "url": "https://www.tsnn.com/venues-destinations/hawaii-s-convention-comeback-what-planners-can-expect-in-2028",
@@ -698,24 +716,6 @@
     "summary": {
       "ar": "من المتوقع أن ينمو سوق المعارض في الهند بسرعة تفوق المتوسط العالمي، بينما تواجه أفريقيا نقصًا في الأماكن والبنية التحتية.",
       "en": "India’s exhibition market is set to grow nearly four times the global average, with Africa gaining momentum but facing venue shortages."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 236,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/eic-barometer-q2-2026-event-demand/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=eic-barometer-q2-2026-event-demand",
-    "date": "2026-11-12",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/reports-cover-600x400.webp",
-    "title": {
-      "ar": "ارتفاع طلب الفعاليات حسب تقرير EIC",
-      "en": "Event demand rises per EIC barometer"
-    },
-    "topic": "industry",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "الطلب على الفعاليات التجارية يتجاوز مستويات ما قبل الجائحة، بينما إقامات الفنادق لا تواكب الارتفاع.",
-      "en": "Business event demand exceeds pre‑pandemic levels, yet hotel stays lag behind, according to the EIC 2026 Barometer."
     },
     "priority": "P2"
   }
