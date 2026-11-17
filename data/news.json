@@ -486,6 +486,42 @@
     "priority": "P1"
   },
   {
+    "id": 256,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/hong-kong-exhibitions-fall-2026/",
+    "date": "2026-11-17",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/tr-round-up-1-600x400.webp",
+    "title": {
+      "ar": "معارض خريف هونغ كونغ تجذب مشترين عالميين",
+      "en": "Hong Kong Fall Exhibitions Attract Global Buyers"
+    },
+    "topic": "exhibition",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "تقرير عن معارض خريفية في هونغ كونغ في مجالات الإضاءة والتقنية البيئية والبصريات، مع إضافة أجنحة إقليمية وخدمات مطابقة إلكترونية.",
+      "en": "Report on Hong Kong’s fall shows in lighting, environmental tech and optics, highlighting regional pavilions and online matchmaking services."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 255,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/dia-stokes-kelly-tradeshow-event-planning/",
+    "date": "2026-11-17",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/dil-1-600x400.webp",
+    "title": {
+      "ar": "ديّا ستوكس كيلي تنظم الفعاليات التجارية",
+      "en": "Dia Stokes Kelly Streamlines Trade Shows"
+    },
+    "topic": "exhibition",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "تصف المقالة روتين مدير الفعاليات في شركة كراوفورد قبل افتتاح صالة المعرض، مع التركيز على التحضير الدقيق للبوث.",
+      "en": "The piece outlines a tradeshow manager’s early‑morning routine to ensure booth readiness before the exhibition floor opens."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 254,
     "geo": "global",
     "url": "https://exhibitcitynews.com/esca-awards-2026-winter-celebration-milwaukee/",
@@ -680,42 +716,6 @@
     "summary": {
       "ar": "إرنست ستوفال يشرح استراتيجية MGM الموحدة للمبيعات الفندقية ودعم منظمي المعارض.",
       "en": "Ernest Stoval discusses MGM’s unified sales strategy to aid trade show organizers."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 238,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/fern-expo-2026-events-expo-expo/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=fern-expo-2026-events-expo-expo",
-    "date": "2026-11-12",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/fern-expo-600x400.webp",
-    "title": {
-      "ar": "تسليط الضوء على معارض Fern 2026 وخطط Expo! Expo!",
-      "en": "Fern Expo Highlights 2026 Events"
-    },
-    "topic": "exhibition",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "تقدم Fern Expo نظرة على معارض 2026 في مجالات اللياقة والصحة والتقنية، مع التركيز على Expo! Expo! في ميلووكي.",
-      "en": "Fern Expo previews 2026 fitness, health, tech shows and IAEE’s Expo! Expo! in Milwaukee."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 237,
-    "geo": "global",
-    "url": "https://meetings.skift.com/2026/11/11/india-and-africa-are-the-event-industrys-next-growth-markets-can-venues-keep-up/",
-    "date": "2026-11-12",
-    "image": "https://meetings.skift.com/wp-content/uploads/2026/11/Wednesday-11-November_Morning-Breakfasts-morning-activities-and-sessions-before-lunch_AND09014.JPG_1200x900-2.jpg?w=1024",
-    "title": {
-      "ar": "الهند وأفريقيا أسواق النمو للفعاليات",
-      "en": "India & Africa: next event‑industry growth markets"
-    },
-    "topic": "venue",
-    "source": "Skift Meetings",
-    "summary": {
-      "ar": "من المتوقع أن ينمو سوق المعارض في الهند بسرعة تفوق المتوسط العالمي، بينما تواجه أفريقيا نقصًا في الأماكن والبنية التحتية.",
-      "en": "India’s exhibition market is set to grow nearly four times the global average, with Africa gaining momentum but facing venue shortages."
     },
     "priority": "P2"
   }
