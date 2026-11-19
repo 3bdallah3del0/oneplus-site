@@ -468,22 +468,40 @@
     "priority": "P1"
   },
   {
-    "id": 115,
-    "geo": "saudi",
-    "url": "https://saudigazette.com.sa/article/665116/saudi-arabia/king-salman-invites-qatari-emir-to-attend-gcc-eu-summit",
-    "date": "2026-10-04",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/04/2775696.webp",
+    "id": 259,
+    "geo": "global",
+    "url": "https://meetings.skift.com/2026/11/18/meetings-in-canada-2027-new-routes-openings-or-canada-conferences-2027-new-flights-hotels/",
+    "date": "2026-11-18",
+    "image": "https://meetings.skift.com/wp-content/uploads/2026/11/DakotaDunes_Spa_Quiet-Area-Rendering_2026-05.jpg?w=1024",
     "title": {
-      "ar": "دعوة الملك سلمان للشيخ تميم لحضور قمة الخليج‑أوروبا",
-      "en": "King Salman Invites Qatari Emir to GCC‑EU Summit"
+      "ar": "ما الجديد في مؤتمرات كندا 2027: رحلات، فنادق، وأماكن جديدة",
+      "en": "Canada 2027 Meetings: New Flights, Hotels & Venues"
     },
     "topic": "conference",
-    "source": "Saudi Gazette — Saudi Arabia",
+    "source": "Skift Meetings",
     "summary": {
-      "ar": "الملك سلمان يرسل دعوة للشيخ تميم لحضور القمة الثانية لتعاون دول الخليج مع الاتحاد الأوروبي في السعودية.",
-      "en": "King Salman invites Qatar’s Emir to attend the second GCC‑EU summit hosted in Saudi Arabia."
+      "ar": "تستعرض المقالة التطورات في بنية السفر والفنادق القريبة من القاعات في كندا لعام 2027 لتلبية احتياجات منظمي الاجتماعات.",
+      "en": "The article highlights new nonstop routes, nearby hotels, and fresh venues supporting 2027 Canadian meetings."
     },
-    "priority": "P1"
+    "priority": "P2"
+  },
+  {
+    "id": 258,
+    "geo": "global",
+    "url": "https://www.tsnn.com/trade-shows-conferences/how-pack-expo-international-became-more-accessible-and-productive-for-attendees-this-year",
+    "date": "2026-11-18",
+    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt742271056c60e3e6/6af10010c974043e249c3b86/CB3_2122.JPG?width=720&amp;quality=80&amp;disable=upscale",
+    "title": {
+      "ar": "معرض Pack Expo International 2026 يركز على سهولة الوصول والإنتاجية",
+      "en": "Pack Expo International 2026 Boosts Accessibility & Productivity"
+    },
+    "topic": "exhibition",
+    "source": "TSNN — Trade Show News",
+    "summary": {
+      "ar": "أبرزت النسخة 2026 من أكبر معرض للتعبئة والتغليف في أمريكا الشمالية أدوات رقمية وجولات اكتشافية لتسهيل مشاركة الشركات الصغيرة والمتوسطة.",
+      "en": "The 2026 edition introduced digital tools and Discovery Tours to enhance attendee experience for SMEs."
+    },
+    "priority": "P2"
   },
   {
     "id": 257,
@@ -698,24 +716,6 @@
     "summary": {
       "ar": "تظهر بيانات EIC أن طلب الفعاليات التجارية تجاوز مستويات ما قبل الجائحة، رغم تباطؤ إقامات الفنادق.",
       "en": "EIC data shows business event demand surpassing pre‑pandemic levels, while hotel stays lag behind."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 243,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/fern-expo-2026-events-expo-expo/",
-    "date": "2026-11-12",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/fern-expo-600x400.webp",
-    "title": {
-      "ar": "Fern Expo يسلط الضوء على فعاليات 2026",
-      "en": "Fern Expo Highlights 2026 Events"
-    },
-    "topic": "industry",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "شركة Fern Expo تعرض مشاريعها في مجالات اللياقة والصحة والتقنية للمعارض والمؤتمرات لعام 2026.",
-      "en": "Fern Expo showcased its 2026 projects across fitness, health, technology and association events."
     },
     "priority": "P2"
   }
