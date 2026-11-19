@@ -468,6 +468,60 @@
     "priority": "P1"
   },
   {
+    "id": 261,
+    "geo": "global",
+    "url": "https://www.tsnn.com/venues-destinations/san-francisco-is-back-on-the-map-as-a-thriving-trade-show-destination",
+    "date": "2026-11-19",
+    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt8559de00aeb2ba0a/6afef17bc40ff086ccf2e38f/Battery_Bluff2_Patrick_Tregenza.jpg?width=720&amp;quality=80&amp;disable=upscale",
+    "title": {
+      "ar": "سان فرانسيسكو تستعيد مكانتها كوجهة للمعارض التجارية",
+      "en": "San Francisco Revives as Trade Show Destination"
+    },
+    "topic": "venue",
+    "source": "TSNN — Trade Show News",
+    "summary": {
+      "ar": "بعد جائحة كوفيد‑19، تعيد سان فرانسيسكو جذب المعارض التجارية عبر تحسين البنية التحتية وتقديم حوافز للمنظمين.",
+      "en": "Post‑COVID, San Francisco is attracting trade shows again with venue upgrades and organizer incentives."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 260,
+    "geo": "mena",
+    "url": "https://exhibitcitynews.com/ufi-medal-of-honour-2026-recipients/",
+    "date": "2026-11-19",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/UFI-medals-600x400.webp",
+    "title": {
+      "ar": "UFI تُعلن عن ثلاثة فائزين بميدالية الشرف 2026",
+      "en": "UFI Announces Three 2026 Medal of Honour Recipients"
+    },
+    "topic": "industry",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "UFI تكشف عن راي بلوم، رافيندر سيثي، وبول وودارد كحاصلين على ميدالية الشرف 2026 خلال المؤتمر العالمي في البحرين.",
+      "en": "UFI names Ray Bloom, Ravinder Sethi and Paul Woodward as 2026 Medal of Honour winners at its Global Congress in Bahrain."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 262,
+    "geo": "global",
+    "url": "https://www.tsnn.com/convention-center/hawaii-convention-center-s-2028-reopening-a-rooftop-transformation",
+    "date": "2026-11-18",
+    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt9406b86422702bab/6afda75f14ee9ce6af69db64/teri_orton_best_thumbanil.png?width=720&amp;quality=80&amp;disable=upscale",
+    "title": {
+      "ar": "مركز مؤتمرات هاواي يفتتح تجديداً سقفياً في 2028",
+      "en": "Hawaii Convention Center’s 2028 Rooftop Renovation"
+    },
+    "topic": "venue",
+    "source": "TSNN — Trade Show News",
+    "summary": {
+      "ar": "المركز يعلن عن تجديد شامل للسطح مع تحسينات تقنية وخدمية تستهدف الفعاليات الدولية.",
+      "en": "The Hawaii Convention Center previews a major rooftop transformation slated for 2028, enhancing tech and services for international events."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 259,
     "geo": "global",
     "url": "https://meetings.skift.com/2026/11/18/meetings-in-canada-2027-new-routes-openings-or-canada-conferences-2027-new-flights-hotels/",
@@ -662,60 +716,6 @@
     "summary": {
       "ar": "دوج إمسلي وديفيد لاركن يطلقان معرضًا تجاريًا جديدًا يُعقد في حرم سوق الأفلام الأمريكي عام 2027.",
       "en": "Doug Emslie and David Larkin are launching a new B2B exhibition, Deep Focus, at the AFM campus in 2027."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 242,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/balloon-museum-opens-at-immerse-ldn-as-ticket-sales-top-1-7-million/",
-    "date": "2026-11-13",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/baloons-1-600x400.webp",
-    "title": {
-      "ar": "افتتاح متحف البالونات في إيمرس لند",
-      "en": "Balloon Museum Opens at Immerse LDN"
-    },
-    "topic": "exhibition",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "متحف البالونات يفتح أبوابه في إيمرس لند بلندن، مع أكثر من 1.7 مليون تذكرة مباعة منذ الإطلاق.",
-      "en": "The Balloon Museum opened at Immerse LDN in London, with ticket sales exceeding 1.7 million."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 241,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/balloon-museum-opens-at-immerse-ldn-as-ticket-sales-top-1-7-million/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=balloon-museum-opens-at-immerse-ldn-as-ticket-sales-top-1-7-million",
-    "date": "2026-11-13",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/baloons-1-600x400.webp",
-    "title": {
-      "ar": "افتتاح متحف البالونات في Immerse LDN",
-      "en": "Balloon Museum Opens at Immerse LDN"
-    },
-    "topic": "exhibition",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "افتتح متحف البالونات ضمن منطقة Immerse LDN في لندن، وساهم في تجاوز مبيعات التذاكر 1.7 مليون منذ إطلاق الحي.",
-      "en": "The Balloon Museum opened at Immerse LDN in London, contributing to over 1.7 million tickets sold since the district’s launch."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 244,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/eic-barometer-q2-2026-event-demand/",
-    "date": "2026-11-12",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/reports-cover-600x400.webp",
-    "title": {
-      "ar": "بارومتر EIC يوضح ارتفاع طلب الفعاليات",
-      "en": "EIC Barometer Shows Event Demand Rising"
-    },
-    "topic": "industry",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "تظهر بيانات EIC أن طلب الفعاليات التجارية تجاوز مستويات ما قبل الجائحة، رغم تباطؤ إقامات الفنادق.",
-      "en": "EIC data shows business event demand surpassing pre‑pandemic levels, while hotel stays lag behind."
     },
     "priority": "P2"
   }
