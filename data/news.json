@@ -1,5 +1,23 @@
 [
   {
+    "id": 263,
+    "geo": "riyadh",
+    "url": "https://saudigazette.com.sa/article/666375/saudi-arabia/uk-signs-participation-contract-for-expo-2030-riyadh",
+    "date": "2026-11-19",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/19/2796802.webp",
+    "title": {
+      "ar": "المملكة المتحدة توقع عقد مشاركة في إكسبو 2030 الرياض",
+      "en": "UK signs Participation Contract for Expo 2030 Riyadh"
+    },
+    "topic": "exhibition",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "وقع وزير الخارجية البريطاني عقد مشاركة المملكة المتحدة في إكسبو 2030 بالرياض، مؤكدًا حضورها في أحد أكبر التجمعات العالمية. هذا يعزز فرص استقطاب الشركات السعودية لتصميم أجنحة ومعارض.",
+      "en": "The UK has signed its participation contract for Expo 2030 Riyadh, confirming its presence at the global event. Highlights opportunities for Saudi firms to provide exhibition stand design and construction."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 251,
     "geo": "riyadh",
     "url": "https://saudigazette.com.sa/article/666257/saudi-arabia/riyadh-begins-construction-of-70000-square-meter-expo-2030-metro-station",
@@ -468,6 +486,24 @@
     "priority": "P1"
   },
   {
+    "id": 265,
+    "geo": "global",
+    "url": "https://meetings.skift.com/2026/11/19/the-moscone-leak-closed-microsoft-ignites-expo-floor-for-a-day-who-pays/",
+    "date": "2026-11-20",
+    "image": "https://meetings.skift.com/wp-content/uploads/2026/11/Convention-Facilities-Department-_-SF.gov_-e1795135683335.jpg?w=1024",
+    "title": {
+      "ar": "إغلاق قاعة إكسبو في مايكروسوفت إغنيت بسبب تسرب معلومات: من يتحمل التكلفة؟",
+      "en": "The Moscone Leak Closed Microsoft Ignite’s Expo Floor for a Day. Who Pays?"
+    },
+    "topic": "conference",
+    "source": "Skift Meetings",
+    "summary": {
+      "ar": "تحليل لتداعيات إغلاق قاعة إكسبو في مؤتمر مايكروسوفت إغنيت نتيجة تسرب معلومات، مع التركيز على بنود العقود والمسؤوليات المالية للمنظمين.",
+      "en": "An analysis of the day-long closure of Microsoft Ignite’s expo floor due to a data leak, highlighting contract clauses and financial responsibilities for organizers."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 261,
     "geo": "global",
     "url": "https://www.tsnn.com/venues-destinations/san-francisco-is-back-on-the-map-as-a-thriving-trade-show-destination",
@@ -500,6 +536,24 @@
     "summary": {
       "ar": "UFI تكشف عن راي بلوم، رافيندر سيثي، وبول وودارد كحاصلين على ميدالية الشرف 2026 خلال المؤتمر العالمي في البحرين.",
       "en": "UFI names Ray Bloom, Ravinder Sethi and Paul Woodward as 2026 Medal of Honour winners at its Global Congress in Bahrain."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 264,
+    "geo": "global",
+    "url": "https://www.ufi.org/zoom-webinar-careers-in-an-evolving-exhibition-industry/",
+    "date": "2026-11-18",
+    "image": "https://www.ufi.org/app/uploads/2026/10/Speakers-NGLalumni-webinar.png",
+    "title": {
+      "ar": "ندوة مسجلة: مهن في صناعة المعارض المتطورة",
+      "en": "Webinar Replay: Careers in an Evolving Exhibition Industry"
+    },
+    "topic": "industry",
+    "source": "UFI",
+    "summary": {
+      "ar": "تستضيف UFI ندوة حول فرص العمل وتطورات مهنة تنظيم المعارض، مع مشاركة قادة الصناعة وخبراء الموارد البشرية. مفيدة للمهتمين بالعمل في قطاع الفعاليات.",
+      "en": "UFI’s webinar discusses career paths and industry trends in the evolving exhibition sector, featuring insights from senior leaders."
     },
     "priority": "P2"
   },
@@ -662,60 +716,6 @@
     "summary": {
       "ar": "تناقش جلسة UFI في مؤتمر إزمير 2026 التقدم نحو فعاليات صديقة للبيئة وتحدد خطوات الحفاظ على الزخم. يهم منظمي الفعاليات الباحثين عن استدامة.",
       "en": "UFI session at the Izmir 2026 conference reviews progress toward carbon‑neutral events and outlines next steps. Relevant for planners seeking sustainability."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 249,
-    "geo": "jeddah",
-    "url": "https://saudigazette.com.sa/article/666235/saudi-arabia/ministry-of-hajj-and-umrah-completes-signing-of-agreements-for-2027-hajj-season",
-    "date": "2026-11-14",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/14/2794129.webp",
-    "title": {
-      "ar": "إكمال توقيع اتفاقيات موسم حج 2027",
-      "en": "Hajj Ministry Finalizes 2027 Agreements"
-    },
-    "topic": "event",
-    "source": "Saudi Gazette — Saudi Arabia",
-    "summary": {
-      "ar": "أكملت وزارة الحج والعمرة توقيع اتفاقيات تنظيم موسم حج 2027 مع مكاتب الشؤون في جدة.",
-      "en": "Ministry of Hajj and Umrah completed signing of agreements for the 2027 Hajj season."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 248,
-    "geo": "global",
-    "url": "https://meetings.skift.com/2026/11/13/nationwide-faa-ground-stop-threatens-travel-for-major-meetings/",
-    "date": "2026-11-13",
-    "image": "https://meetings.skift.com/wp-content/uploads/2026/11/AmericanPlane.jpg?w=1024",
-    "title": {
-      "ar": "إيقاف طيران FAA يهدد مؤتمرات كبرى",
-      "en": "FAA Ground Stop Threatens Major Meetings"
-    },
-    "topic": "conference",
-    "source": "Skift Meetings",
-    "summary": {
-      "ar": "إيقاف الطيران من قبل FAA قد يؤثر على إعداد المعارض والمؤتمرات الكبيرة ويؤدي إلى خسائر تنظيمية.",
-      "en": "An FAA ground stop could disrupt setup and travel for major meetings, risking significant organizer losses."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 247,
-    "geo": "global",
-    "url": "https://www.tsnn.com/event-management/doug-emslie-and-david-larkin-team-up-to-launch-deep-focus-new-b2b-exhibition-for-production-industry-with-afm-in-2027",
-    "date": "2026-11-13",
-    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt15fcf491928dfe9f/6af739d0315369981d92a263/Panel_1_.jpeg?width=720&amp;quality=80&amp;disable=upscale",
-    "title": {
-      "ar": "إطلاق معرض B2B جديد Deep Focus في 2027",
-      "en": "Deep Focus B2B Exhibition Launch 2027"
-    },
-    "topic": "exhibition",
-    "source": "TSNN — Trade Show News",
-    "summary": {
-      "ar": "دوج إمسلي وديفيد لاركن يطلقان معرضًا تجاريًا جديدًا يُعقد في حرم سوق الأفلام الأمريكي عام 2027.",
-      "en": "Doug Emslie and David Larkin are launching a new B2B exhibition, Deep Focus, at the AFM campus in 2027."
     },
     "priority": "P2"
   }
