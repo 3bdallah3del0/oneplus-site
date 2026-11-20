@@ -1,5 +1,23 @@
 [
   {
+    "id": 266,
+    "geo": "riyadh",
+    "url": "https://saudigazette.com.sa/article/666401/saudi-arabia/riyadh-hosts-first-ethnosport-cultural-festival-outside-turkiye",
+    "date": "2026-11-20",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/20/2797193.webp",
+    "title": {
+      "ar": "مهرجان إيثنوسبورت الثقافي في الرياض",
+      "en": "Ethnosport Cultural Festival in Riyadh"
+    },
+    "topic": "festival",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "افتتح مهرجان إيثنوسبورت الثقافي في نيو مربيّة بالرياض، بمشاركة 18 دولة و38 رياضة تقليدية.",
+      "en": "The Ethnosport Cultural Festival opened at New Murabba, Riyadh, featuring 38 traditional sports from 18 countries."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 263,
     "geo": "riyadh",
     "url": "https://saudigazette.com.sa/article/666375/saudi-arabia/uk-signs-participation-contract-for-expo-2030-riyadh",
@@ -486,6 +504,24 @@
     "priority": "P1"
   },
   {
+    "id": 267,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/hong-kong-wine-fair-2026-trade-buyers/",
+    "date": "2026-11-20",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/1-hk-600x400.webp",
+    "title": {
+      "ar": "معرض هونغ كونغ للنبيذ والمشروبات الروحية",
+      "en": "Hong Kong Wine & Spirits Fair"
+    },
+    "topic": "exhibition",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "اجتذب المعرض الدولي في هونغ كونغ أكثر من 8,200 مشتري تجاري من 66 دولة خلال ثلاثة أيام.",
+      "en": "The 18th Hong Kong Wine & Spirits Fair attracted over 8,200 trade buyers from 66 countries in a three‑day run."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 265,
     "geo": "global",
     "url": "https://meetings.skift.com/2026/11/19/the-moscone-leak-closed-microsoft-ignites-expo-floor-for-a-day-who-pays/",
@@ -680,42 +716,6 @@
     "summary": {
       "ar": "نظمت جمعية خدمات ومعاقد المعارض حفل تكريم الفائزين بجوائز 2026 في ميلووكي، مع إعلان عن المنح الدراسية والقيادة 2027.",
       "en": "The Exhibition Services & Contractors Association held its 2026 Awards Celebration in Milwaukee, announcing scholarship recipients and the 2027 leadership."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 253,
-    "geo": "global",
-    "url": "https://www.tsnn.com/venues-destinations/hawaii-s-convention-comeback-what-planners-can-expect-in-2028",
-    "date": "2026-11-16",
-    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt03062e77b55c0d6b/6afaff6bea20de6f0224d449/lynn_whitehead_thumbnail.png?width=720&amp;quality=80&amp;disable=upscale",
-    "title": {
-      "ar": "عودة مراكز المؤتمرات في هاواي لعام 2028",
-      "en": "Hawaii Convention Center Reopening 2028"
-    },
-    "topic": "venue",
-    "source": "TSNN — Trade Show News",
-    "summary": {
-      "ar": "يستعرض الخبر خطط مركز مؤتمرات هاواي لإعادة الفتح في 2028 مع تجديدات فندقية وخدمات محسنة للمنظمين. يهم منظمي الفعاليات الباحثين عن وجهات جديدة.",
-      "en": "The article outlines Hawaii's Convention Center reopening plans for 2028, including hotel upgrades and enhanced services for planners. Useful for event organizers exploring new venues."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 252,
-    "geo": "global",
-    "url": "https://www.ufi.org/net-zero-carbon-events-where-are-we-now/",
-    "date": "2026-11-16",
-    "image": "https://www.ufi.org/app/uploads/2026/11/Programme_June-04_21-Bate-papo-Corner_2026-06-04_UFI_IZMIR_FOTOBUENO_PP_3104.jpg_1200x800.jpg",
-    "title": {
-      "ar": "صافي الصفر للفعاليات: أين نحن الآن؟",
-      "en": "Net Zero Carbon Events: Current Status"
-    },
-    "topic": "industry",
-    "source": "UFI",
-    "summary": {
-      "ar": "تناقش جلسة UFI في مؤتمر إزمير 2026 التقدم نحو فعاليات صديقة للبيئة وتحدد خطوات الحفاظ على الزخم. يهم منظمي الفعاليات الباحثين عن استدامة.",
-      "en": "UFI session at the Izmir 2026 conference reviews progress toward carbon‑neutral events and outlines next steps. Relevant for planners seeking sustainability."
     },
     "priority": "P2"
   }
