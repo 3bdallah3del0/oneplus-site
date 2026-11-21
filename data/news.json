@@ -504,6 +504,24 @@
     "priority": "P1"
   },
   {
+    "id": 268,
+    "geo": "global",
+    "url": "https://www.smartmeetings.com/event/185862/expo-expo-brews-up-future-strategies-in-milwaukee",
+    "date": "2026-11-20",
+    "image": "http://www.smartmeetings.com/wp-content/uploads/2026/11/expo-expo-attendees.jpg",
+    "title": {
+      "ar": "معرض Expo! Expo! في ميلووكي يطرح استراتيجيات مستقبلية",
+      "en": "Expo! Expo! Brews Up Future Strategies in Milwaukee"
+    },
+    "topic": "exhibition",
+    "source": "Smart Meetings",
+    "summary": {
+      "ar": "نُظم معرض Expo! Expo! في ميلووكي تحت شعار “Brew Something Better” وشمل أكثر من 60 جلسة تعليمية ومساحة عرض 33,200 قدم مربع. ركّز الحدث على الابتكار في قطاع المشروبات وربط الصناعة بالشبكات المهنية.",
+      "en": "Expo! Expo! took place in Milwaukee with the theme “Brew Something Better,” offering 60+ educational sessions and 33,200 sq ft of exhibition space, focusing on innovation in the beverage sector."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 267,
     "geo": "global",
     "url": "https://exhibitcitynews.com/hong-kong-wine-fair-2026-trade-buyers/",
@@ -698,24 +716,6 @@
     "summary": {
       "ar": "تصف المقالة روتين مدير الفعاليات في شركة كراوفورد قبل افتتاح صالة المعرض، مع التركيز على التحضير الدقيق للبوث.",
       "en": "The piece outlines a tradeshow manager’s early‑morning routine to ensure booth readiness before the exhibition floor opens."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 254,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/esca-awards-2026-winter-celebration-milwaukee/",
-    "date": "2026-11-16",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/esca-awards-1-600x400.webp",
-    "title": {
-      "ar": "ESCA تكريم الفائزين بجوائز 2026 في ميلووكي",
-      "en": "ESCA Honors 2026 Award Winners in Milwaukee"
-    },
-    "topic": "industry",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "نظمت جمعية خدمات ومعاقد المعارض حفل تكريم الفائزين بجوائز 2026 في ميلووكي، مع إعلان عن المنح الدراسية والقيادة 2027.",
-      "en": "The Exhibition Services & Contractors Association held its 2026 Awards Celebration in Milwaukee, announcing scholarship recipients and the 2027 leadership."
     },
     "priority": "P2"
   }
