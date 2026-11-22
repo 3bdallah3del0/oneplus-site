@@ -486,24 +486,6 @@
     "priority": "P1"
   },
   {
-    "id": 126,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/ai-is-already-walking-your-booth/?utm_source=rss&#038;utm_medium=rss&#038;utm_campaign=ai-is-already-walking-your-booth",
-    "date": "2026-10-07",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/ai-story-600x400.webp",
-    "title": {
-      "ar": "الذكاء الاصطناعي يزاحم أجنحة المعارض",
-      "en": "AI Is Already Walking Your Booth"
-    },
-    "topic": "technology",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "يستعرض المقال كيف يستخدم الزوار الذكاء الاصطناعي مثل ChatGPT لتخطيط زياراتهم داخل أجنحة المعارض، مما يغيّر تجربة الحضور.",
-      "en": "The piece discusses how attendees use AI tools like ChatGPT to navigate and plan visits within exhibition booths, reshaping the attendee experience."
-    },
-    "priority": "P1"
-  },
-  {
     "id": 268,
     "geo": "global",
     "url": "https://www.smartmeetings.com/event/185862/expo-expo-brews-up-future-strategies-in-milwaukee",
@@ -716,6 +698,24 @@
     "summary": {
       "ar": "تصف المقالة روتين مدير الفعاليات في شركة كراوفورد قبل افتتاح صالة المعرض، مع التركيز على التحضير الدقيق للبوث.",
       "en": "The piece outlines a tradeshow manager’s early‑morning routine to ensure booth readiness before the exhibition floor opens."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 254,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/esca-awards-2026-winter-celebration-milwaukee/",
+    "date": "2026-11-16",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/esca-awards-1-600x400.webp",
+    "title": {
+      "ar": "ESCA تكريم الفائزين بجوائز 2026 في ميلووكي",
+      "en": "ESCA Honors 2026 Award Winners in Milwaukee"
+    },
+    "topic": "industry",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "نظمت جمعية خدمات ومعاقد المعارض حفل تكريم الفائزين بجوائز 2026 في ميلووكي، مع إعلان عن المنح الدراسية والقيادة 2027.",
+      "en": "The Exhibition Services & Contractors Association held its 2026 Awards Celebration in Milwaukee, announcing scholarship recipients and the 2027 leadership."
     },
     "priority": "P2"
   }
