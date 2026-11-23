@@ -468,24 +468,6 @@
     "priority": "P1"
   },
   {
-    "id": 134,
-    "geo": "saudi",
-    "url": "https://saudigazette.com.sa/article/665224/saudi-arabia/king-salman-invites-uae-president-to-attend-2nd-gcc-eu-summit",
-    "date": "2026-10-08",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/08/2777492.webp",
-    "title": {
-      "ar": "دعوة الملك سلمان لرئيس الإمارات لحضور قمة الخليج‑EU الثانية",
-      "en": "King Salman Invites UAE President to 2nd GCC‑EU Summit"
-    },
-    "topic": "conference",
-    "source": "Saudi Gazette — Saudi Arabia",
-    "summary": {
-      "ar": "الملك سلمان يدعو رئيس الإمارات لحضور القمة التي ستعقد في السعودية هذا الشهر.",
-      "en": "King Salman invited the UAE president to attend the second GCC‑EU summit in Saudi Arabia."
-    },
-    "priority": "P1"
-  },
-  {
     "id": 268,
     "geo": "global",
     "url": "https://www.smartmeetings.com/event/185862/expo-expo-brews-up-future-strategies-in-milwaukee",
@@ -716,6 +698,24 @@
     "summary": {
       "ar": "نظمت جمعية خدمات ومعاقد المعارض حفل تكريم الفائزين بجوائز 2026 في ميلووكي، مع إعلان عن المنح الدراسية والقيادة 2027.",
       "en": "The Exhibition Services & Contractors Association held its 2026 Awards Celebration in Milwaukee, announcing scholarship recipients and the 2027 leadership."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 253,
+    "geo": "global",
+    "url": "https://www.tsnn.com/venues-destinations/hawaii-s-convention-comeback-what-planners-can-expect-in-2028",
+    "date": "2026-11-16",
+    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt03062e77b55c0d6b/6afaff6bea20de6f0224d449/lynn_whitehead_thumbnail.png?width=720&amp;quality=80&amp;disable=upscale",
+    "title": {
+      "ar": "عودة مراكز المؤتمرات في هاواي لعام 2028",
+      "en": "Hawaii Convention Center Reopening 2028"
+    },
+    "topic": "venue",
+    "source": "TSNN — Trade Show News",
+    "summary": {
+      "ar": "يستعرض الخبر خطط مركز مؤتمرات هاواي لإعادة الفتح في 2028 مع تجديدات فندقية وخدمات محسنة للمنظمين. يهم منظمي الفعاليات الباحثين عن وجهات جديدة.",
+      "en": "The article outlines Hawaii's Convention Center reopening plans for 2028, including hotel upgrades and enhanced services for planners. Useful for event organizers exploring new venues."
     },
     "priority": "P2"
   }
