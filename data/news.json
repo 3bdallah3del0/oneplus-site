@@ -1,5 +1,23 @@
 [
   {
+    "id": 269,
+    "geo": "riyadh",
+    "url": "https://saudigazette.com.sa/article/666465/saudi-arabia/indonesia-signs-participation-contract-for-expo-2030-riyadh",
+    "date": "2026-11-23",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/23/2798596.webp",
+    "title": {
+      "ar": "إندونيسيا توقع عقد المشاركة في إكسبو 2030 بالرياض",
+      "en": "Indonesia signs contract for Expo 2030 Riyadh"
+    },
+    "topic": "exhibition",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "وقع وزير إندونيسيا وعمدة إكسبو 2030 عقد المشاركة في إكسبو الرياض 2030، خطوة هامة لتأكيد حضورها.",
+      "en": "Indonesia’s minister signed the participation contract for Expo 2030 Riyadh, marking a key step toward its involvement."
+    },
+    "priority": "P1"
+  },
+  {
     "id": 266,
     "geo": "riyadh",
     "url": "https://saudigazette.com.sa/article/666401/saudi-arabia/riyadh-hosts-first-ethnosport-cultural-festival-outside-turkiye",
@@ -468,6 +486,24 @@
     "priority": "P1"
   },
   {
+    "id": 270,
+    "geo": "mena",
+    "url": "https://exhibitcitynews.com/dubai-exhibition-centre-expansion-conference-facilities/",
+    "date": "2026-11-23",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/5hp082wd1ka1pwnpn-534x400.jpg",
+    "title": {
+      "ar": "دبي توسّع سعة المعارض وتخطط لمرافق مؤتمرات جديدة",
+      "en": "Dubai expands exhibition capacity and plans new conference facilities"
+    },
+    "topic": "venue",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "يضيف مركز دبي التجاري العالمي مساحة معرضية جديدة ويخطط لإنشاء مرافق مؤتمرات ضمن مشروع توسعة مركز دبي للمعارض.",
+      "en": "DWTC is adding exhibition space and planning new conference facilities as part of its expansion project."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 268,
     "geo": "global",
     "url": "https://www.smartmeetings.com/event/185862/expo-expo-brews-up-future-strategies-in-milwaukee",
@@ -680,42 +716,6 @@
     "summary": {
       "ar": "تصف المقالة روتين مدير الفعاليات في شركة كراوفورد قبل افتتاح صالة المعرض، مع التركيز على التحضير الدقيق للبوث.",
       "en": "The piece outlines a tradeshow manager’s early‑morning routine to ensure booth readiness before the exhibition floor opens."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 254,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/esca-awards-2026-winter-celebration-milwaukee/",
-    "date": "2026-11-16",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/esca-awards-1-600x400.webp",
-    "title": {
-      "ar": "ESCA تكريم الفائزين بجوائز 2026 في ميلووكي",
-      "en": "ESCA Honors 2026 Award Winners in Milwaukee"
-    },
-    "topic": "industry",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "نظمت جمعية خدمات ومعاقد المعارض حفل تكريم الفائزين بجوائز 2026 في ميلووكي، مع إعلان عن المنح الدراسية والقيادة 2027.",
-      "en": "The Exhibition Services & Contractors Association held its 2026 Awards Celebration in Milwaukee, announcing scholarship recipients and the 2027 leadership."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 253,
-    "geo": "global",
-    "url": "https://www.tsnn.com/venues-destinations/hawaii-s-convention-comeback-what-planners-can-expect-in-2028",
-    "date": "2026-11-16",
-    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt03062e77b55c0d6b/6afaff6bea20de6f0224d449/lynn_whitehead_thumbnail.png?width=720&amp;quality=80&amp;disable=upscale",
-    "title": {
-      "ar": "عودة مراكز المؤتمرات في هاواي لعام 2028",
-      "en": "Hawaii Convention Center Reopening 2028"
-    },
-    "topic": "venue",
-    "source": "TSNN — Trade Show News",
-    "summary": {
-      "ar": "يستعرض الخبر خطط مركز مؤتمرات هاواي لإعادة الفتح في 2028 مع تجديدات فندقية وخدمات محسنة للمنظمين. يهم منظمي الفعاليات الباحثين عن وجهات جديدة.",
-      "en": "The article outlines Hawaii's Convention Center reopening plans for 2028, including hotel upgrades and enhanced services for planners. Useful for event organizers exploring new venues."
     },
     "priority": "P2"
   }
