@@ -486,6 +486,24 @@
     "priority": "P1"
   },
   {
+    "id": 273,
+    "geo": "global",
+    "url": "https://exhibitcitynews.com/exhibitus-acquires-gielissen-us-operations/",
+    "date": "2026-11-23",
+    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/11/exhibitus-acquires-gielissen-us-operations-600x400.webp",
+    "title": {
+      "ar": "اكتساب Exhibitus لعمليات Gielissen في الولايات المتحدة",
+      "en": "Exhibitus Acquires Gielissen US Operations"
+    },
+    "topic": "industry",
+    "source": "Exhibit City News",
+    "summary": {
+      "ar": "أعلنت شركة Exhibitus، Inc. عن استحواذها على عمليات شركة Gielissen الأمريكية، خطوة تعزز حضورها في سوق المعارض والفعاليات.",
+      "en": "Exhibitus, Inc. announced the acquisition of Gielissen’s U.S. operations, strengthening its position in the exhibition and event market."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 270,
     "geo": "mena",
     "url": "https://exhibitcitynews.com/dubai-exhibition-centre-expansion-conference-facilities/",
@@ -698,24 +716,6 @@
     "summary": {
       "ar": "تقرير عن معارض خريفية في هونغ كونغ في مجالات الإضاءة والتقنية البيئية والبصريات، مع إضافة أجنحة إقليمية وخدمات مطابقة إلكترونية.",
       "en": "Report on Hong Kong’s fall shows in lighting, environmental tech and optics, highlighting regional pavilions and online matchmaking services."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 255,
-    "geo": "global",
-    "url": "https://exhibitcitynews.com/dia-stokes-kelly-tradeshow-event-planning/",
-    "date": "2026-11-17",
-    "image": "https://exhibitcitynews.com/wp-content/uploads/2026/09/dil-1-600x400.webp",
-    "title": {
-      "ar": "ديّا ستوكس كيلي تنظم الفعاليات التجارية",
-      "en": "Dia Stokes Kelly Streamlines Trade Shows"
-    },
-    "topic": "exhibition",
-    "source": "Exhibit City News",
-    "summary": {
-      "ar": "تصف المقالة روتين مدير الفعاليات في شركة كراوفورد قبل افتتاح صالة المعرض، مع التركيز على التحضير الدقيق للبوث.",
-      "en": "The piece outlines a tradeshow manager’s early‑morning routine to ensure booth readiness before the exhibition floor opens."
     },
     "priority": "P2"
   }
