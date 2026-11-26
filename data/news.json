@@ -450,40 +450,22 @@
     "priority": "P1"
   },
   {
-    "id": 140,
-    "geo": "saudi",
-    "url": "https://saudigazette.com.sa/article/665320/saudi-arabia/king-invites-omans-sultan-to-attend-gcc-eu-summit",
-    "date": "2026-10-11",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/11/2778775.webp",
+    "id": 276,
+    "geo": "global",
+    "url": "https://www.pcma.org/bringing-global-community-together-quebec-city/",
+    "date": "2026-11-25",
+    "image": "https://www.pcma.org/wp-content/uploads/2026/11/case-study-nov-150x150.jpeg",
     "title": {
-      "ar": "الملك يدعو سلطان عُمان لحضور قمة الخليج‑أوروبا",
-      "en": "King invites Oman's Sultan to GCC‑EU Summit"
+      "ar": "PCMA يجمع المجتمع العالمي في مدينة كيبك",
+      "en": "Bringing a Global Community Together in Québec City"
     },
     "topic": "conference",
-    "source": "Saudi Gazette — Saudi Arabia",
+    "source": "PCMA (MICE industry)",
     "summary": {
-      "ar": "أرسل خادم الحرمين الملك سلمان دعوة للسلطان لحضور القمة التي ستعقد في السعودية في أكتوبر. الفعالية تجمع قادة دول الخليج والاتحاد الأوروبي.",
-      "en": "King Salman sent a written invitation to Oman's Sultan to attend the GCC‑EU Summit in Saudi Arabia this October. The event gathers Gulf and EU leaders."
+      "ar": "مركز مؤتمرات كيبك يحصل على مؤتمر باركنسون العالمي 2029 بفضل مساحاته المرنة والتزامه بالاندماج.",
+      "en": "Québec City Convention Centre secures the 2029 World Parkinson Congress thanks to flexible spaces and an inclusive approach."
     },
-    "priority": "P1"
-  },
-  {
-    "id": 139,
-    "geo": "riyadh",
-    "url": "https://www.argaam.com/en/article/articledetail/id/1942936",
-    "date": "2026-10-11",
-    "image": "https://argaamplus.s3.amazonaws.com/cef26bd5-c69e-4d93-993b-ea3b86b56622.png",
-    "title": {
-      "ar": "انطلاق مؤتمر البترول العالمي في الرياض",
-      "en": "World Petroleum Congress Launches in Riyadh"
-    },
-    "topic": "conference",
-    "source": "Argaam",
-    "summary": {
-      "ar": "أعلنت وزارة الطاقة السعودية عن بدء مؤتمر البترول العالمي اليوم في الرياض. يشارك فيه خبراء وتنفيذيون عالميون لعرض أحدث التقنيات في قطاع الطاقة.",
-      "en": "Saudi Ministry of Energy announced the World Petroleum Congress opening today in Riyadh. Leading global executives and experts will showcase the latest energy technologies."
-    },
-    "priority": "P1"
+    "priority": "P2"
   },
   {
     "id": 275,
@@ -716,6 +698,24 @@
     "summary": {
       "ar": "أبرزت النسخة 2026 من أكبر معرض للتعبئة والتغليف في أمريكا الشمالية أدوات رقمية وجولات اكتشافية لتسهيل مشاركة الشركات الصغيرة والمتوسطة.",
       "en": "The 2026 edition introduced digital tools and Discovery Tours to enhance attendee experience for SMEs."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 257,
+    "geo": "global",
+    "url": "https://www.tsnn.com/trade-shows-conferences/tsnn-reveals-2026-award-winners-at-industry-celebration-in-milwaukee",
+    "date": "2026-11-17",
+    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt28d6936b33df627c/6afc5bf1dda5819e77cbbd8a/group_with_no_TSNN_awards_backgroun.jpg?width=720&amp;quality=80&amp;disable=upscale",
+    "title": {
+      "ar": "تكشف TSNN عن الفائزين بجوائز 2026 في احتفال الصناعة في ميلووكي",
+      "en": "TSNN Reveals 2026 Award Winners at Industry Celebration in Milwaukee"
+    },
+    "topic": "industry",
+    "source": "TSNN — Trade Show News",
+    "summary": {
+      "ar": "أعلنت TSNN عن الفائزين بجوائز 2026 التي تكرم أفضل الفعاليات والشركات في قطاع المعارض التجارية.",
+      "en": "TSNN announced the 2026 award winners, honoring top events, companies, and professionals in the trade show sector."
     },
     "priority": "P2"
   }
