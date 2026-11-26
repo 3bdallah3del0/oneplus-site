@@ -450,6 +450,42 @@
     "priority": "P1"
   },
   {
+    "id": 278,
+    "geo": "saudi",
+    "url": "https://saudigazette.com.sa/article/666525/saudi-arabia/saudi-arabia-identifies-1-trillion-in-infrastructure-investment-opportunities-over-next-decade",
+    "date": "2026-11-25",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/25/2799635.webp",
+    "title": {
+      "ar": "السعودية تحدد فرص استثمارية بنية تحتية بقيمة تريليون دولار",
+      "en": "Saudi Arabia Identifies $1 Trillion Infrastructure Investment Opportunities"
+    },
+    "topic": "industry",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "وزارة الاقتصاد تخطط لاستثمارات بنية تحتية تصل إلى تريليون دولار خلال العقد القادم، ما قد يفتح فرصاً لتطوير أجنحة ومعارض جديدة.",
+      "en": "The Ministry outlines up to $1 trillion in infrastructure projects over the next decade, potentially enabling new exhibition venues."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 277,
+    "geo": "saudi",
+    "url": "https://saudigazette.com.sa/article/666526/saudi-arabia/saudi-arabia-targets-sr550-billion-in-tourist-spending-200000-additional-hotel-rooms-by-2030",
+    "date": "2026-11-25",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/25/2799645.webp",
+    "title": {
+      "ar": "السعودية تستهدف إنفاقاً سياحياً 550 مليار ريال و200,000 غرفة فندقية بحلول 2030",
+      "en": "Saudi Targets SR550B Tourist Spending & 200k New Hotel Rooms by 2030"
+    },
+    "topic": "event",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "وزارة السياحة تسعى لرفع الإنفاق السياحي إلى 550 مليار ريال وإضافة 200,000 غرفة فندقية، ما يعزز طلب الفعاليات والمؤتمرات.",
+      "en": "Tourism Ministry aims for SR550 billion spend and 200 k new hotel rooms, boosting demand for events and conferences."
+    },
+    "priority": "P2"
+  },
+  {
     "id": 276,
     "geo": "global",
     "url": "https://www.pcma.org/bringing-global-community-together-quebec-city/",
@@ -536,6 +572,24 @@
     "summary": {
       "ar": "يضيف مركز دبي التجاري العالمي مساحة معرضية جديدة ويخطط لإنشاء مرافق مؤتمرات ضمن مشروع توسعة مركز دبي للمعارض.",
       "en": "DWTC is adding exhibition space and planning new conference facilities as part of its expansion project."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 279,
+    "geo": "saudi",
+    "url": "https://saudigazette.com.sa/article/666447/saudi-arabia/saudi-arabias-digital-transformation-tops-90-delivers-sr26-billion-in-annual-savings",
+    "date": "2026-11-22",
+    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/11/22/2798278.webp",
+    "title": {
+      "ar": "التحول الرقمي السعودي يتجاوز 90% ويوفر 26 مليار ريال سنوياً",
+      "en": "Saudi Digital Transformation Exceeds 90%, Saves SR26B Annually"
+    },
+    "topic": "technology",
+    "source": "Saudi Gazette — Saudi Arabia",
+    "summary": {
+      "ar": "التحول الرقمي يحقق وفورات مالية كبيرة، ما قد يؤثر على تقنيات تنظيم الفعاليات وإدارتها.",
+      "en": "Digital transformation delivers over SR26 billion in annual savings, impacting event tech and management."
     },
     "priority": "P2"
   },
@@ -662,60 +716,6 @@
     "summary": {
       "ar": "المركز يعلن عن تجديد شامل للسطح مع تحسينات تقنية وخدمية تستهدف الفعاليات الدولية.",
       "en": "The Hawaii Convention Center previews a major rooftop transformation slated for 2028, enhancing tech and services for international events."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 259,
-    "geo": "global",
-    "url": "https://meetings.skift.com/2026/11/18/meetings-in-canada-2027-new-routes-openings-or-canada-conferences-2027-new-flights-hotels/",
-    "date": "2026-11-18",
-    "image": "https://meetings.skift.com/wp-content/uploads/2026/11/DakotaDunes_Spa_Quiet-Area-Rendering_2026-05.jpg?w=1024",
-    "title": {
-      "ar": "ما الجديد في مؤتمرات كندا 2027: رحلات، فنادق، وأماكن جديدة",
-      "en": "Canada 2027 Meetings: New Flights, Hotels & Venues"
-    },
-    "topic": "conference",
-    "source": "Skift Meetings",
-    "summary": {
-      "ar": "تستعرض المقالة التطورات في بنية السفر والفنادق القريبة من القاعات في كندا لعام 2027 لتلبية احتياجات منظمي الاجتماعات.",
-      "en": "The article highlights new nonstop routes, nearby hotels, and fresh venues supporting 2027 Canadian meetings."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 258,
-    "geo": "global",
-    "url": "https://www.tsnn.com/trade-shows-conferences/how-pack-expo-international-became-more-accessible-and-productive-for-attendees-this-year",
-    "date": "2026-11-18",
-    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt742271056c60e3e6/6af10010c974043e249c3b86/CB3_2122.JPG?width=720&amp;quality=80&amp;disable=upscale",
-    "title": {
-      "ar": "معرض Pack Expo International 2026 يركز على سهولة الوصول والإنتاجية",
-      "en": "Pack Expo International 2026 Boosts Accessibility & Productivity"
-    },
-    "topic": "exhibition",
-    "source": "TSNN — Trade Show News",
-    "summary": {
-      "ar": "أبرزت النسخة 2026 من أكبر معرض للتعبئة والتغليف في أمريكا الشمالية أدوات رقمية وجولات اكتشافية لتسهيل مشاركة الشركات الصغيرة والمتوسطة.",
-      "en": "The 2026 edition introduced digital tools and Discovery Tours to enhance attendee experience for SMEs."
-    },
-    "priority": "P2"
-  },
-  {
-    "id": 257,
-    "geo": "global",
-    "url": "https://www.tsnn.com/trade-shows-conferences/tsnn-reveals-2026-award-winners-at-industry-celebration-in-milwaukee",
-    "date": "2026-11-17",
-    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt28d6936b33df627c/6afc5bf1dda5819e77cbbd8a/group_with_no_TSNN_awards_backgroun.jpg?width=720&amp;quality=80&amp;disable=upscale",
-    "title": {
-      "ar": "تكشف TSNN عن الفائزين بجوائز 2026 في احتفال الصناعة في ميلووكي",
-      "en": "TSNN Reveals 2026 Award Winners at Industry Celebration in Milwaukee"
-    },
-    "topic": "industry",
-    "source": "TSNN — Trade Show News",
-    "summary": {
-      "ar": "أعلنت TSNN عن الفائزين بجوائز 2026 التي تكرم أفضل الفعاليات والشركات في قطاع المعارض التجارية.",
-      "en": "TSNN announced the 2026 award winners, honoring top events, companies, and professionals in the trade show sector."
     },
     "priority": "P2"
   }
