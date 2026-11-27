@@ -414,42 +414,6 @@
     "priority": "P1"
   },
   {
-    "id": 145,
-    "geo": "saudi",
-    "url": "https://saudigazette.com.sa/article/665350/saudi-arabia/misk-global-forum-2026-canceled-over-organizational-and-logistical-challenges",
-    "date": "2026-10-12",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/12/2779126.webp",
-    "title": {
-      "ar": "إلغاء منتدى مسك العالمي 2026 بسبب تحديات تنظيمية",
-      "en": "Misk Global Forum 2026 canceled over logistical challenges"
-    },
-    "topic": "conference",
-    "source": "Saudi Gazette — Saudi Arabia",
-    "summary": {
-      "ar": "مؤسسة مسك تعلن إلغاء المنتدى لعام 2026 بسبب صعوبات تنظيمية ولوجستية قد تؤثر على تجربة الحضور.",
-      "en": "Misk Foundation cancels 2026 Global Forum citing organizational and logistical challenges that could affect attendee experience."
-    },
-    "priority": "P1"
-  },
-  {
-    "id": 142,
-    "geo": "riyadh",
-    "url": "https://saudigazette.com.sa/article/665341/saudi-arabia/saudi-arabia-will-overcome-challenges-uphold-energy-commitments-prince-abdulaziz-says",
-    "date": "2026-10-12",
-    "image": "https://saudigazette.com.sa/saudigazette/uploads/images/2026/10/12/2779010.webp",
-    "title": {
-      "ar": "السعودية ستتغلب على التحديات وتلتزم بالالتزامات العالمية للطاقة",
-      "en": "Saudi Arabia will overcome challenges, uphold global energy commitments"
-    },
-    "topic": "conference",
-    "source": "Saudi Gazette — Saudi Arabia",
-    "summary": {
-      "ar": "أعلن وزير الطاقة الأمير عبدالعزيز بن سلمان خلال افتتاح المؤتمر العالمي للطاقة الـ25 في الرياض عن التزام المملكة بالتحديات والطاقة.\nيبرز ذلك دور السعودية في الفعاليات الدولية.",
-      "en": "Energy Minister Prince Abdulaziz bin Salman, speaking at the opening of the 25th World Energy Congress in Riyadh, reaffirmed Saudi commitment to global energy challenges.\nIt highlights the Kingdom’s role in major conferences."
-    },
-    "priority": "P1"
-  },
-  {
     "id": 278,
     "geo": "saudi",
     "url": "https://saudigazette.com.sa/article/666525/saudi-arabia/saudi-arabia-identifies-1-trillion-in-infrastructure-investment-opportunities-over-next-decade",
@@ -716,6 +680,42 @@
     "summary": {
       "ar": "المركز يعلن عن تجديد شامل للسطح مع تحسينات تقنية وخدمية تستهدف الفعاليات الدولية.",
       "en": "The Hawaii Convention Center previews a major rooftop transformation slated for 2028, enhancing tech and services for international events."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 259,
+    "geo": "global",
+    "url": "https://meetings.skift.com/2026/11/18/meetings-in-canada-2027-new-routes-openings-or-canada-conferences-2027-new-flights-hotels/",
+    "date": "2026-11-18",
+    "image": "https://meetings.skift.com/wp-content/uploads/2026/11/DakotaDunes_Spa_Quiet-Area-Rendering_2026-05.jpg?w=1024",
+    "title": {
+      "ar": "ما الجديد في مؤتمرات كندا 2027: رحلات، فنادق، وأماكن جديدة",
+      "en": "Canada 2027 Meetings: New Flights, Hotels & Venues"
+    },
+    "topic": "conference",
+    "source": "Skift Meetings",
+    "summary": {
+      "ar": "تستعرض المقالة التطورات في بنية السفر والفنادق القريبة من القاعات في كندا لعام 2027 لتلبية احتياجات منظمي الاجتماعات.",
+      "en": "The article highlights new nonstop routes, nearby hotels, and fresh venues supporting 2027 Canadian meetings."
+    },
+    "priority": "P2"
+  },
+  {
+    "id": 258,
+    "geo": "global",
+    "url": "https://www.tsnn.com/trade-shows-conferences/how-pack-expo-international-became-more-accessible-and-productive-for-attendees-this-year",
+    "date": "2026-11-18",
+    "image": "https://eu-images.contentstack.com/v3/assets/blt8634bd701c67871e/blt742271056c60e3e6/6af10010c974043e249c3b86/CB3_2122.JPG?width=720&amp;quality=80&amp;disable=upscale",
+    "title": {
+      "ar": "معرض Pack Expo International 2026 يركز على سهولة الوصول والإنتاجية",
+      "en": "Pack Expo International 2026 Boosts Accessibility & Productivity"
+    },
+    "topic": "exhibition",
+    "source": "TSNN — Trade Show News",
+    "summary": {
+      "ar": "أبرزت النسخة 2026 من أكبر معرض للتعبئة والتغليف في أمريكا الشمالية أدوات رقمية وجولات اكتشافية لتسهيل مشاركة الشركات الصغيرة والمتوسطة.",
+      "en": "The 2026 edition introduced digital tools and Discovery Tours to enhance attendee experience for SMEs."
     },
     "priority": "P2"
   }
